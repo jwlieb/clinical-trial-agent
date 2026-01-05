@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from rich.console import Console
@@ -19,11 +20,47 @@ from src.schemas import (
 console = Console()
 
 # Configuration
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-8b-instant")
-MAX_LLM_TOKENS = 800
-MAX_PARALLEL_LLM_CALLS = 5
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-70b-versatile")
+MAX_LLM_TOKENS = 1200  # Increased for 70B model
+MAX_PARALLEL_LLM_CALLS = 2  # Reduced to avoid rate limits
 LLM_TIMEOUT_SECONDS = 30.0
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
+
+# Retry configuration
+MAX_RETRIES = 3
+BASE_DELAY = 2.0  # seconds
+
+# Rate limiting configuration
+MIN_REQUEST_INTERVAL = 1.0  # Minimum seconds between LLM calls
+_last_request_time = 0.0
+_rate_limit_lock = __import__('threading').Lock()
+
+
+def _rate_limited_llm_call(client, **kwargs):
+    """Make an LLM call with rate limiting and retry logic."""
+    global _last_request_time
+
+    for attempt in range(MAX_RETRIES):
+        # Rate limiting
+        with _rate_limit_lock:
+            elapsed = time.time() - _last_request_time
+            if elapsed < MIN_REQUEST_INTERVAL:
+                time.sleep(MIN_REQUEST_INTERVAL - elapsed)
+            _last_request_time = time.time()
+
+        try:
+            return client.chat.completions.create(**kwargs)
+        except Exception as e:
+            error_str = str(e).lower()
+            if "429" in str(e) or "rate_limit" in error_str or "rate limit" in error_str:
+                if attempt < MAX_RETRIES - 1:
+                    delay = BASE_DELAY * (2 ** attempt)
+                    console.print(f"  [yellow]Rate limited, retrying in {delay:.1f}s...[/yellow]")
+                    time.sleep(delay)
+                else:
+                    raise
+            else:
+                raise
 
 # Recruiting statuses that indicate trial is open for enrollment
 RECRUITING_STATUSES = {
@@ -248,7 +285,8 @@ def score_eligibility_with_llm(
     
     try:
         client = LLM_CLIENT(api_key=api_key, timeout=LLM_TIMEOUT_SECONDS)
-        response = client.chat.completions.create(
+        response = _rate_limited_llm_call(
+            client,
             model=DEFAULT_LLM_MODEL,
             messages=[
                 {"role": "system", "content": "You are a clinical trial eligibility analyst. Respond only with valid JSON."},
