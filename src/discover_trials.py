@@ -1,6 +1,7 @@
 """Trial discovery: search ClinicalTrials.gov for relevant trials."""
 
 import time
+from typing import Any
 
 import requests
 from rich.console import Console
@@ -15,7 +16,7 @@ CLINICALTRIALS_API = "https://clinicaltrials.gov/api/v2/studies"
 def search_clinicaltrials(
     query: str,
     max_results: int = 50
-) -> list[str]:
+) -> list[dict[str, Any]]:
     """Search ClinicalTrials.gov for trials matching a query.
     
     Args:
@@ -23,16 +24,16 @@ def search_clinicaltrials(
         max_results: Maximum number of results to return
         
     Returns:
-        List of NCT IDs
+        List of full trial records
     """
-    nct_ids: list[str] = []
+    trials: list[dict[str, Any]] = []
     page_size = min(max_results, 100)  # API max is 100 per page
     
     params = {
         "query.term": query,
         "pageSize": page_size,
         "format": "json",
-        "fields": "NCTId",
+        # No fields restriction - get full records
     }
     
     try:
@@ -45,25 +46,30 @@ def search_clinicaltrials(
         data = response.json()
         
         studies = data.get("studies", [])
-        for study in studies:
-            protocol = study.get("protocolSection", {})
-            id_module = protocol.get("identificationModule", {})
-            nct_id = id_module.get("nctId")
-            if nct_id:
-                nct_ids.append(nct_id)
+        trials.extend(studies)
                 
     except requests.RequestException as e:
         console.print(f"  [yellow]ClinicalTrials.gov API error for '{query}': {e}[/yellow]")
     except (KeyError, TypeError) as e:
         console.print(f"  [yellow]Parsing error for '{query}': {e}[/yellow]")
     
-    return nct_ids
+    return trials
+
+
+def get_nct_id(trial: dict[str, Any]) -> str | None:
+    """Extract NCT ID from a trial record."""
+    try:
+        protocol = trial.get("protocolSection", {})
+        id_module = protocol.get("identificationModule", {})
+        return id_module.get("nctId")
+    except (KeyError, TypeError):
+        return None
 
 
 def discover_trials(
     search_terms: list[SearchTerm],
     max_results: int = 100
-) -> list[str]:
+) -> list[dict[str, Any]]:
     """Discover trials for all search terms.
     
     Args:
@@ -71,27 +77,38 @@ def discover_trials(
         max_results: Maximum total trials to return
         
     Returns:
-        Deduplicated list of NCT IDs
+        Deduplicated list of full trial records
     """
-    all_nct_ids: set[str] = set()
+    all_trials: dict[str, dict[str, Any]] = {}  # NCT ID -> trial record
     term_to_trials: dict[str, list[str]] = {}
     
     for term in search_terms:
         
-        nct_ids = search_clinicaltrials(term.term, max_results=50)
+        trials = search_clinicaltrials(term.term, max_results=50)
+        
+        # Track NCT IDs for this term
+        nct_ids = []
+        new_count = 0
+        
+        for trial in trials:
+            nct_id = get_nct_id(trial)
+            if nct_id:
+                nct_ids.append(nct_id)
+                if nct_id not in all_trials:
+                    all_trials[nct_id] = trial
+                    new_count += 1
+        
         term_to_trials[term.term] = nct_ids
         
-        new_ids = set(nct_ids) - all_nct_ids
-        if new_ids:
-            console.print(f"  [dim]'{term.term}' → {len(nct_ids)} results ({len(new_ids)} new)[/dim]")
-        
-        all_nct_ids.update(nct_ids)
+        if nct_ids:
+            console.print(f"  [dim]'{term.term}' → {len(nct_ids)} results ({new_count} new)[/dim]")
         
         # Early exit if we have enough
-        if len(all_nct_ids) >= max_results:
+        if len(all_trials) >= max_results:
             break
     
-    # Return as sorted list for reproducibility
-    result = sorted(list(all_nct_ids))[:max_results]
-    return result
+    # Return as list, sorted by NCT ID for reproducibility
+    result = list(all_trials.values())
+    result.sort(key=lambda t: get_nct_id(t) or "")
+    return result[:max_results]
 
