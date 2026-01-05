@@ -1,16 +1,46 @@
 """Normalize raw trial data into structured schema."""
 
+import os
 from datetime import date
-from typing import Any
+from typing import Any, NamedTuple
 
 from dateutil.parser import parse as parse_date
 from rich.console import Console
 
-from src.schemas import Trial, TrialPhase, TrialStatus, StudyType
+from src.schemas import Trial, TrialPhase, TrialStatus, StudyType, EligibilityInfo
 
-console = Console()
+# Constants
+DEFAULT_SPONSOR = "Unknown"
+DEFAULT_NCT_ID = "UNKNOWN"
+CLINICALTRIALS_BASE_URL = os.environ.get(
+    "CLINICALTRIALS_BASE_URL",
+    "https://clinicaltrials.gov/study/"
+)
 
-CLINICALTRIALS_BASE_URL = "https://clinicaltrials.gov/study/"
+# Default console for module-level use (can be overridden in function calls)
+_default_console = Console()
+
+
+class NormalizationError(NamedTuple):
+    """Structured error for trial normalization failures."""
+    nct_id: str
+    error: str
+
+
+def _parse_bool(value: Any) -> bool | None:
+    """Parse a boolean value that may be bool or string.
+    
+    Args:
+        value: Boolean value or string representation
+        
+    Returns:
+        Parsed boolean or None if not parseable
+    """
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.lower() == "true"
+    return None
 
 
 def parse_date_safe(date_str: str | None) -> date | None:
@@ -31,11 +61,15 @@ def parse_date_safe(date_str: str | None) -> date | None:
         return None
 
 
-def extract_phase(phases_list: list[str] | None) -> str | None:
+def extract_phase(
+    phases_list: list[str] | None,
+    console: Console | None = None
+) -> str | None:
     """Extract and normalize the trial phase.
     
     Args:
         phases_list: List of phase strings from API (e.g., ["PHASE1", "PHASE2"])
+        console: Optional console for logging (uses default if not provided)
         
     Returns:
         Normalized phase string or None
@@ -43,11 +77,11 @@ def extract_phase(phases_list: list[str] | None) -> str | None:
     if not phases_list:
         return None
     
-    # Map each phase to its canonical value
+    # Map each phase to its canonical value (with defensive str conversion)
     mapped_phases = [
         phase_enum.value
         for phase in phases_list
-        if (phase_enum := TrialPhase.from_api(phase)) is not None
+        if (phase_enum := TrialPhase.from_api(str(phase))) is not None
     ]
     
     if not mapped_phases:
@@ -63,7 +97,9 @@ def extract_phase(phases_list: list[str] | None) -> str | None:
     if phase_set == {TrialPhase.PHASE_2.value, TrialPhase.PHASE_3.value}:
         return TrialPhase.PHASE_2_3.value
     
-    # Fallback: join with slash
+    # Fallback: join with slash (log unusual combinations)
+    log = console or _default_console
+    log.print(f"  [dim]Unusual phase combination: {mapped_phases}[/dim]")
     return "/".join(mapped_phases)
 
 
@@ -187,9 +223,9 @@ def extract_sponsor(sponsor_module: dict | None) -> tuple[str, list[str]]:
         Tuple of (lead_sponsor, collaborators_list)
     """
     if not sponsor_module:
-        return ("Unknown", [])
+        return (DEFAULT_SPONSOR, [])
     
-    lead = sponsor_module.get("leadSponsor", {}).get("name", "Unknown")
+    lead = sponsor_module.get("leadSponsor", {}).get("name", DEFAULT_SPONSOR)
     collaborators = [
         collab.get("name", "")
         for collab in sponsor_module.get("collaborators", [])
@@ -197,6 +233,27 @@ def extract_sponsor(sponsor_module: dict | None) -> tuple[str, list[str]]:
     ]
     
     return (lead, collaborators)
+
+
+def extract_eligibility(eligibility_module: dict | None) -> EligibilityInfo:
+    """Extract eligibility information from the eligibility module.
+    
+    Args:
+        eligibility_module: EligibilityModule from API
+        
+    Returns:
+        EligibilityInfo object with raw text and structured fields
+    """
+    if not eligibility_module:
+        return EligibilityInfo()
+    
+    return EligibilityInfo(
+        raw_text=eligibility_module.get("eligibilityCriteria"),
+        minimum_age=eligibility_module.get("minimumAge"),
+        maximum_age=eligibility_module.get("maximumAge"),
+        sex=eligibility_module.get("sex"),
+        accepts_healthy_volunteers=_parse_bool(eligibility_module.get("healthyVolunteers"))
+    )
 
 
 def normalize_single_trial(raw_trial: dict[str, Any]) -> Trial:
@@ -219,9 +276,10 @@ def normalize_single_trial(raw_trial: dict[str, Any]) -> Trial:
     sponsor_module = protocol.get("sponsorCollaboratorsModule", {})
     contacts_module = protocol.get("contactsLocationsModule", {})
     desc_module = protocol.get("descriptionModule", {})
+    eligibility_module = protocol.get("eligibilityModule", {})
     
     # Extract NCT ID
-    nct_id = id_module.get("nctId", "UNKNOWN")
+    nct_id = id_module.get("nctId", DEFAULT_NCT_ID)
     
     # Extract sponsor info
     sponsor, collaborators = extract_sponsor(sponsor_module)
@@ -248,33 +306,39 @@ def normalize_single_trial(raw_trial: dict[str, Any]) -> Trial:
         locations=extract_locations(contacts_module),
         summary=desc_module.get("briefSummary", ""),
         source_url=f"{CLINICALTRIALS_BASE_URL}{nct_id}",
+        eligibility=extract_eligibility(eligibility_module),
     )
     
     return trial
 
 
-def normalize_trials(raw_trials: list[dict[str, Any]]) -> list[Trial]:
+def normalize_trials(
+    raw_trials: list[dict[str, Any]],
+    console: Console | None = None
+) -> list[Trial]:
     """Normalize all raw trial records.
     
     Args:
         raw_trials: List of raw trial data from API
+        console: Optional console for logging (uses default if not provided)
         
     Returns:
         List of normalized Trial objects
     """
+    log = console or _default_console
     trials = []
-    errors: list[tuple[str, str]] = []
+    errors: list[NormalizationError] = []
     
     for raw in raw_trials:
         try:
             trial = normalize_single_trial(raw)
             trials.append(trial)
         except Exception as e:
-            nct_id = raw.get("protocolSection", {}).get("identificationModule", {}).get("nctId", "UNKNOWN")
-            errors.append((nct_id, str(e)))
+            nct_id = raw.get("protocolSection", {}).get("identificationModule", {}).get("nctId", DEFAULT_NCT_ID)
+            errors.append(NormalizationError(nct_id=nct_id, error=str(e)))
     
     # Log errors at the end (batch reporting)
-    for nct_id, error in errors:
-        console.print(f"  [yellow]Failed to normalize {nct_id}: {error}[/yellow]")
+    for err in errors:
+        log.print(f"  [yellow]Failed to normalize {err.nct_id}: {err.error}[/yellow]")
     
     return trials
