@@ -86,6 +86,69 @@ class ConfidenceFlags(BaseModel):
     review_reasons: list[str] = Field(default_factory=list, description="Reasons for review flag")
 
 
+class MatchLikelihood(str, Enum):
+    """Match likelihood categories for patient-trial matching."""
+    HIGH = "HIGH"
+    MEDIUM = "MEDIUM"
+    LOW = "LOW"
+    EXCLUDED = "EXCLUDED"
+    UNKNOWN = "UNKNOWN"
+
+
+class EligibilityInfo(BaseModel):
+    """Structured eligibility information from trial."""
+    raw_text: str | None = Field(None, description="Raw eligibility criteria text")
+    minimum_age: str | None = Field(None, description="Minimum age requirement (e.g., '18 Years')")
+    maximum_age: str | None = Field(None, description="Maximum age requirement (e.g., '75 Years')")
+    sex: str | None = Field(None, description="Sex requirement: ALL, MALE, FEMALE")
+    accepts_healthy_volunteers: bool | None = Field(None, description="Whether trial accepts healthy volunteers")
+
+
+class PatientProfile(BaseModel):
+    """Patient information for trial matching."""
+    # Structured fields (optional but helpful for filtering)
+    age: int | None = Field(None, description="Patient age in years")
+    sex: str | None = Field(None, description="Patient sex: 'male' or 'female'")
+    cancer_type: str | None = Field(None, description="Primary cancer type (e.g., 'NSCLC')")
+    biomarkers: list[str] = Field(default_factory=list, description="Biomarkers/mutations (e.g., ['KRAS G12C'])")
+    
+    # Free-text description (required - the rich patient context)
+    description: str = Field(..., description="Free-text description of patient history, prior treatments, comorbidities, ECOG status, etc.")
+    
+    # Optional preferences
+    phase_preference: list[str] | None = Field(None, description="Preferred trial phases")
+    location_preference: list[str] | None = Field(None, description="Preferred trial locations/countries")
+
+
+class FilterResult(BaseModel):
+    """Result of Stage 1 deterministic filtering."""
+    passed: bool = Field(..., description="Whether trial passed the filter")
+    excluded_reason: str | None = Field(None, description="Reason for exclusion if not passed")
+
+
+class MatchResult(BaseModel):
+    """Result of patient-trial matching."""
+    nct_id: str = Field(..., description="Trial NCT ID")
+    title: str = Field(..., description="Trial title")
+    sponsor: str = Field(..., description="Trial sponsor")
+    phase: str | None = Field(None, description="Trial phase")
+    status: str = Field(..., description="Trial status")
+    
+    # Matching results
+    match_likelihood: MatchLikelihood = Field(..., description="Overall match likelihood")
+    filter_stage: str = Field(..., description="Stage where result was determined: 'fast_filter' or 'llm_scored'")
+    
+    # Explanation (populated by LLM for scored trials)
+    supporting_factors: list[str] = Field(default_factory=list, description="Reasons patient likely qualifies")
+    conflicts: list[str] = Field(default_factory=list, description="Reasons patient may not qualify")
+    uncertainties: list[str] = Field(default_factory=list, description="Criteria that need verification")
+    confidence: float = Field(0.0, description="Confidence score 0-1")
+    reasoning: str = Field("", description="Brief explanation of assessment")
+    
+    # For fast-filter exclusions
+    excluded_reason: str | None = Field(None, description="Reason for exclusion in fast filter")
+
+
 class Trial(BaseModel):
     """Normalized clinical trial record."""
     nct_id: str = Field(..., description="ClinicalTrials.gov identifier (NCT########)")
@@ -104,6 +167,7 @@ class Trial(BaseModel):
     locations: list[str] = Field(default_factory=list, description="Study site countries")
     summary: str = Field("", description="Brief description")
     source_url: str = Field(..., description="URL to trial on ClinicalTrials.gov")
+    eligibility: EligibilityInfo = Field(default_factory=EligibilityInfo, description="Eligibility criteria")
     confidence_flags: ConfidenceFlags = Field(default_factory=ConfidenceFlags)
 
     class Config:
