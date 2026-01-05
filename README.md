@@ -6,7 +6,7 @@ An AI-assisted system that automatically discovers, collects, and organizes deta
 
 This agent takes a molecular target (e.g., "KRAS G12C", "EGFR", "PD-1") and:
 
-1. **Expands** the seed into related search terms using OpenTargets drug-target associations
+1. **Expands** the seed into notation variants (e.g., "KRAS G12C" → "KRASG12C", "KRAS-G12C")
 2. **Discovers** relevant clinical trials from ClinicalTrials.gov
 3. **Normalizes** trial data into a structured, auditable schema
 4. **Reviews** coverage using an LLM to identify gaps and suggest additional search terms
@@ -23,14 +23,10 @@ This agent takes a molecular target (e.g., "KRAS G12C", "EGFR", "PD-1") and:
                                     ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           SEED EXPANSION                                     │
-│  ┌─────────────────────┐    ┌─────────────────────────────────────────┐    │
-│  │   Manual Aliases    │    │         OpenTargets API                  │    │
-│  │   (optional config) │    │   Query target → get associated drugs   │    │
-│  └──────────┬──────────┘    └──────────────────┬──────────────────────┘    │
-│             └──────────────────┬───────────────┘                            │
-│                                ▼                                             │
-│                    [Tagged Search Terms]                                     │
-│              sotorasib (opentargets), adagrasib (manual), ...               │
+│                                                                              │
+│              Generate notation variants programmatically                     │
+│           "KRAS G12C" → ["KRAS G12C", "KRASG12C", "KRAS-G12C"]              │
+│                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
@@ -139,9 +135,8 @@ clinical-trial-tool/
 ├── requirements.txt
 ├── run_agent.py                    # CLI entry point
 ├── src/
-│   ├── seed_expansion.py           # OpenTargets integration + manual aliases
-│   ├── discover_trials.py          # ClinicalTrials.gov search
-│   ├── fetch_trials.py             # Full trial retrieval
+│   ├── seed_expansion.py           # Notation variant generation
+│   ├── discover_trials.py          # ClinicalTrials.gov search & retrieval
 │   ├── normalize_trials.py         # Schema normalization
 │   ├── validate_trials.py          # Data validation rules
 │   ├── review_coverage.py          # LLM gap review
@@ -165,7 +160,6 @@ clinical-trial-tool/
 | Source | Purpose | Usage |
 |--------|---------|-------|
 | **ClinicalTrials.gov** | Trial discovery and structured data | Primary source for all trial information |
-| **OpenTargets** | Seed expansion | Provides validated drug-target relationships |
 
 ## Key Features
 

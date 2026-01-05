@@ -14,27 +14,41 @@
 | **Molecular target** ✓ | Forces multi-step reasoning (target → drugs → trials) | More complex, requires external data source |
 
 **Why molecular target:**
-- "KRAS G12C" doesn't appear verbatim in trials — system must know sotorasib and adagrasib are KRAS G12C inhibitors
-- Shows competitive landscape across multiple drugs
-- Validates OpenTargets integration
+- Shows competitive landscape across multiple drugs targeting the same pathway
+- Trials often specify molecular targets in eligibility criteria (e.g., "must have KRAS G12C mutation")
+- More interesting problem than simple drug/disease lookup
 
-**Tradeoffs:** More complex than disease search. Requires OpenTargets API. May miss trials that don't specify target.
+**Tradeoffs:** More complex than disease search. May miss trials that don't explicitly specify target.
 
 ---
 
 ## 2. Data Sources
 
-**Decision:** ClinicalTrials.gov (primary) + OpenTargets (expansion)
+**Decision:** ClinicalTrials.gov only
 
 | Source | Decision |
 |--------|----------|
 | ClinicalTrials.gov | ✓ Primary — canonical US trials, structured API, NCT IDs |
-| OpenTargets | ✓ Expansion — curated drug-target mappings, GraphQL API |
+| OpenTargets | ✗ Removed — see rationale below |
 | EU Clinical Trials Register | ✗ Different API, scoped out |
 | PubMed | ✗ Nice-to-have enrichment |
 | Company pipeline pages | ✗ Scraping complexity |
 
-**Tradeoffs:** Missing non-US trials. OpenTargets curation may lag newest drugs.
+**Tradeoffs:** Missing non-US trials.
+
+### Why I Removed OpenTargets Drug Expansion
+
+I initially used OpenTargets to expand molecular targets (e.g., "KRAS G12C") into associated drug names (sotorasib, adagrasib, etc.) as additional search terms. I removed this because:
+
+1. **Redundant coverage**: ClinicalTrials.gov trials for target-specific drugs already mention the target in their conditions and eligibility criteria. A trial for "sotorasib in KRAS G12C NSCLC" is findable by searching "KRAS G12C" — I don't need to also search "sotorasib".
+
+2. **Potential noise**: Searching for drug names alone might return trials for other indications (e.g., sotorasib combination studies not specific to KRAS G12C).
+
+3. **Complexity cost**: OpenTargets integration added network latency, an external dependency, and failure modes — all for marginal benefit.
+
+4. **Maintenance burden**: Hardcoded drug lists go stale; dynamic APIs can change.
+
+The simpler approach: search for the target and its notation variants. Let ClinicalTrials.gov's own indexing handle the drug-to-target relationship.
 
 ---
 
