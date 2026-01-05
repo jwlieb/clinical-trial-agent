@@ -2,186 +2,243 @@
 
 ---
 
-## 1. Seed Type Selection
+## 1. The Pivot: Target Discovery → Patient Matching
 
-**Decision:** Molecular target (parameterized) — accepts any target as input (e.g., "KRAS G12C", "EGFR", "PD-1").
+**Original approach:** Input a molecular target (e.g., "KRAS G12C"), output a landscape of all trials targeting it.
 
-| Seed Type | Pros | Cons |
-|-----------|------|------|
-| Disease/Indication | Intuitive, broad coverage | Simple keyword search, less reasoning required |
-| Drug name | Direct mapping to trials | Trivial lookup |
-| Company/Sponsor | Business-relevant | Just a filter |
-| **Molecular target** ✓ | Forces multi-step reasoning (target → drugs → trials) | More complex, requires external data source |
+**New approach:** Input a patient profile, output ranked trial recommendations with eligibility assessments.
 
-**Why molecular target:**
-- Shows competitive landscape across multiple drugs targeting the same pathway
-- Trials often specify molecular targets in eligibility criteria (e.g., "must have KRAS G12C mutation")
-- More interesting problem than simple drug/disease lookup
+### Why I pivoted
 
-**Tradeoffs:** More complex than disease search. May miss trials that don't explicitly specify target.
+The original system took ~3 hours to build and worked. It answered: "What trials exist for KRAS G12C?" But I realized this question isn't that useful in practice.
+
+The harder, more valuable question is: "Which of these trials might my patient actually qualify for?"
+
+| Aspect | Target Discovery | Patient Matching |
+|--------|------------------|------------------|
+| Input | Molecular target | Full patient profile |
+| Output | Trial landscape | Ranked recommendations |
+| Value | Research overview | Actionable for clinicians |
+| LLM use | Search term expansion | Eligibility interpretation |
+| Time to build | ~3 hours | ~6 hours additional |
+
+**Use cases for each:**
+- Target discovery: Competitive intelligence, research landscape reports, drug development planning
+- Patient matching: Clinical decision support, patient navigation, trial enrollment
+
+I chose patient matching because it's the harder problem and demonstrates more interesting LLM application — interpreting complex eligibility criteria against a patient's clinical history.
+
+**Tradeoffs:**
+- More complex system
+- Slower (LLM calls per candidate trial)
+- Dependent on LLM quality for eligibility interpretation
 
 ---
 
-## 2. Data Sources
+## 2. Two-Stage Matching
 
-**Decision:** ClinicalTrials.gov only
+**Stage 1: Fast Filter** — deterministic checks on structured fields:
+- Age range
+- Sex requirement
+- Location match
+- Phase preference
+- Relevance score (keyword overlap)
+- Recruiting status
+
+**Stage 2: LLM Scoring** — for trials that pass Stage 1:
+- Prior treatment analysis
+- Brain metastases policy
+- ECOG interpretation
+- Detailed eligibility parsing
+
+**Why two stages:**
+- Fast filter is instant and free — eliminates 60-80% of trials
+- LLM scoring is expensive — only run on viable candidates
+- Each stage has clear failure modes and is testable independently
+
+---
+
+## 3. LLM Choice
+
+Used Groq (Llama 3.3 70B) because it's free and fast. OpenAI is configurable via environment variable for comparison. This is a prototype — cost optimization wasn't the goal, but free API access made iteration faster.
+
+---
+
+## 4. Prompt Calibration
+
+**Problem:** Initial prompts produced overly conservative results. Age 65 was flagged as "above typical range." Prior platinum chemotherapy was marked as a conflict even when trials required it.
+
+**Fix:** Added explicit misconception corrections:
+
+```
+## Misconceptions to Avoid
+- Age 65 is NOT "above typical age range" - most oncology trials accept adults 18+
+- Prior standard-of-care treatments are typically REQUIRED for later-line trials
+- Do NOT assume facts not explicitly stated in the patient profile
+```
+
+Added confidence calibration guide to produce consistent scores across trials.
+
+---
+
+## 5. Traceability & Verified Data
+
+Every piece of data in the system is traceable to its source:
+
+| Data Type | Source | Verification |
+|-----------|--------|--------------|
+| Trial metadata | ClinicalTrials.gov API | NCT ID links directly to source |
+| Eligibility criteria | ClinicalTrials.gov raw text | Stored verbatim, no modification |
+| Search terms | Tracked as "manual" or "llm" | Provenance recorded with confidence |
+| Match assessments | LLM with full reasoning | Supporting factors, conflicts, uncertainties explicit |
+| Raw API responses | Saved to `data/raw/` | Full audit trail |
+
+**Why this matters:**
+- Clinical decisions require trust in data
+- LLM assessments can be wrong — explicit reasoning enables human review
+- Provenance enables debugging when results look wrong
+
+---
+
+## 6. Why I Removed OpenTargets
+
+Original system used OpenTargets to expand molecular targets into associated drug names.
+
+Removed because:
+1. Redundant — trials for target-specific drugs already mention the target in eligibility
+2. Noise — drug name searches return trials for other indications
+3. Complexity — extra API, extra failure modes, marginal benefit
+
+Simpler approach: search for target + variants, let ClinicalTrials.gov indexing handle drug-target relationships.
+
+---
+
+## 7. Recruiting-Only Filter
+
+For patient matching, only return trials with status:
+- Recruiting
+- Not yet recruiting
+- Enrolling by invitation
+
+Patients want trials they can enroll in. Completed/terminated trials are historical data.
+
+---
+
+## 8. Rate Limiting
+
+Groq has aggressive rate limits. Implemented:
+- 1 second minimum between requests
+- Exponential backoff on 429 errors
+- Thread-safe locking for parallel scoring
+- `--no-parallel` flag for debugging
+
+---
+
+## 9. Relevance Pre-Filter
+
+Before LLM scoring, calculate keyword-based relevance:
+- Biomarker in trial title/conditions: +0.5
+- Cancer type match: +0.3
+- Threshold: 0.2 minimum to proceed
+
+Saves LLM calls on clearly irrelevant trials (e.g., colorectal cancer trial for NSCLC patient).
+
+---
+
+## 10. Output Formats
+
+| Output | Purpose |
+|--------|---------|
+| patient_matches.md | Human review — readable, shareable |
+| patient_matches.json | Programmatic access — all fields, scores |
+| trials.json | Full trial data with eligibility text |
+| trials.csv | Spreadsheet analysis |
+| landscape.md | Target-level summary |
+
+---
+
+## 11. Data Source: ClinicalTrials.gov Only
 
 | Source | Decision |
 |--------|----------|
-| ClinicalTrials.gov | ✓ Primary — canonical US trials, structured API, NCT IDs |
-| OpenTargets | ✗ Removed — see rationale below |
-| EU Clinical Trials Register | ✗ Different API, scoped out |
-| PubMed | ✗ Nice-to-have enrichment |
-| Company pipeline pages | ✗ Scraping complexity |
+| ClinicalTrials.gov | ✓ Canonical US trials, structured API, eligibility text |
+| EU Clinical Trials Register | ✗ Different API/schema, time constraint |
+| Company pipelines | ✗ Scraping complexity |
 
-**Tradeoffs:** Missing non-US trials.
-
-### Why I Removed OpenTargets Drug Expansion
-
-I initially used OpenTargets to expand molecular targets (e.g., "KRAS G12C") into associated drug names (sotorasib, adagrasib, etc.) as additional search terms. I removed this because:
-
-1. **Redundant coverage**: ClinicalTrials.gov trials for target-specific drugs already mention the target in their conditions and eligibility criteria. A trial for "sotorasib in KRAS G12C NSCLC" is findable by searching "KRAS G12C" — I don't need to also search "sotorasib".
-
-2. **Potential noise**: Searching for drug names alone might return trials for other indications (e.g., sotorasib combination studies not specific to KRAS G12C).
-
-3. **Complexity cost**: OpenTargets integration added network latency, an external dependency, and failure modes — all for marginal benefit.
-
-4. **Maintenance burden**: Hardcoded drug lists go stale; dynamic APIs can change.
-
-The simpler approach: search for the target and its notation variants. Let ClinicalTrials.gov's own indexing handle the drug-to-target relationship.
+ClinicalTrials.gov has the best structured eligibility criteria. EU registry would be valuable but different enough to require significant additional work.
 
 ---
 
-## 3. LLM Usage: Single-Pass Gap Review
+## 12. Technology Stack
 
-**Decision:** LLM reviews results once after discovery, assessing coverage gaps.
-
-| Approach | Pros | Cons |
-|----------|------|------|
-| No LLM | Simpler, deterministic | No intelligence in gap detection |
-| **Single-pass review** ✓ | Demonstrates AI value, predictable | May miss some gaps |
-| Multi-pass agent | More thorough | Complex, time-consuming, harder to debug |
-| Full ReAct agent | Most impressive | Unpredictable, scope creep |
-
-**Prompt template:**
-```
-You are reviewing clinical trial search results for {target} inhibitors.
-
-Search terms used: {terms}
-Trials found: {count}
-Phase distribution: {phases}
-Drugs mentioned: {drugs}
-Sponsors: {sponsors}
-
-Based on your knowledge of this therapeutic area, are there obvious gaps?
-
-Respond with:
-1. Coverage assessment (Good/Gaps Detected)
-2. If gaps: suggested additional search terms (max 3)
-3. Brief reasoning
-```
-
-**Tradeoffs:** May miss subtle gaps. Relies on LLM training data currency. Not fully autonomous (by design).
+| Component | Choice | Why |
+|-----------|--------|-----|
+| Python 3.11+ | Best LLM/data ecosystem |
+| Pydantic | Type-safe schemas, JSON serialization |
+| requests | Simple HTTP, no async needed at prototype scale |
+| Click | Better CLI than argparse for complex options |
+| Rich | Progress bars, formatted terminal output |
 
 ---
 
-## 4. Accuracy vs. Coverage
+## 13. Non-Goals
 
-**Decision:** Prioritize accuracy. Target 50-100 trials with high accuracy over 500+ uncertain.
-
-- Every field links to source — quantity without provenance is useless
-- If field can't be extracted confidently: `null` with `needs_review: true`
-- Invalid data flagged, not silently accepted
-
-**Validation:**
-
-| Check | Implementation |
-|-------|----------------|
-| Phase enum | Must match known phases or null |
-| Status enum | Must match known statuses |
-| NCT ID format | Regex: `NCT\d{8}` |
-| Date ordering | start_date <= completion_date |
-| Empty critical fields | Flagged for review |
-
-**Tradeoffs:** Lower trial count. Some valid trials flagged unnecessarily.
-
----
-
-## 5. Schema Design
-
-**Decision:** Structured schema with provenance tracking.
-
-Every trial record includes:
-- Normalized fields (phase, status, etc.)
-- Source citations for each field
-- Confidence flags for uncertain data
-
-| Field | Decision | Rationale |
-|-------|----------|-----------|
-| `molecular_targets` | Nullable list | Not always extractable |
-| `sources` | Per-field provenance | Enables auditing |
-| `confidence_flags.needs_review` | Boolean | Explicit uncertainty signal |
-| `summary` | LLM-generated from structured fields | Grounded, not invented |
-
-**Tradeoffs:** More complex than flat CSV. More storage for provenance.
-
----
-
-## 6. Interface: CLI Only
-
-**Decision:** Command-line interface, no web UI.
-
-| Interface | Pros | Cons |
-|-----------|------|------|
-| **CLI only** ✓ | Fast to build, scriptable | Less impressive demo |
-| Jupyter notebook | Interactive | Harder to run as pipeline |
-| Streamlit | Impressive demo | 2-3 hours additional |
-
-Focus on core intelligence, not presentation. Outputs (JSON, CSV, Markdown) viewable anywhere.
-
----
-
-## 7. Non-Goals
-
-Scoped out to stay within time budget:
-
-| Feature | Reason |
-|---------|--------|
-| PubMed enrichment | Nice-to-have |
-| EU Clinical Trials Register | Different API |
-| Multi-seed-type support | Different expansion strategies per type |
+| Feature | Why scoped out |
+|---------|----------------|
+| EU Clinical Trials | Different API, time constraint |
+| Multi-pass agent loop | Unpredictable, harder to debug |
+| Web UI | CLI sufficient for prototype |
 | Real-time updates | Prototype, not production |
-| Fully autonomous agent loop | Unpredictable, debugging time |
-| Web UI | Time better spent on core logic |
+| Direct enrollment | Out of scope |
 
 ---
 
-## 8. Technology Stack
+## 14. What I Learned
 
-| Component | Choice | Rationale |
-|-----------|--------|-----------|
-| Language | Python 3.11+ | Best ecosystem for APIs, LLMs, data |
-| Schema validation | Pydantic | Type-safe, good errors |
-| HTTP client | requests | Simple, reliable |
-| LLM | OpenAI API (GPT-4) | Best reasoning |
-| CLI | argparse or click | Standard |
-| Output formatting | rich | Nice terminal output |
-
-**Why not:**
-- LangChain — overkill for single-pass LLM use
-- Async — not needed at prototype scale
-- SQLite — JSON files sufficient
-- TypeScript — Python has better data science ecosystem
+1. **Two-stage filtering works** — fast filter reduces LLM calls by 60-80%
+2. **LLM prompts need guardrails** — explicit misconception corrections improved results significantly
+3. **Provenance tracking is essential** — when results look wrong, you need to trace back to source
+4. **Patient-centric framing is more actionable** — ranked recommendations beat raw landscape data
 
 ---
 
-## 9. Future Extensions
+## Alignment with Project Requirements
 
-| Extension | Value | Effort |
-|-----------|-------|--------|
-| EU Clinical Trials Register | Non-US trial coverage | Medium |
-| Multi-pass LLM agent | Better gap detection | Medium |
-| Streamlit UI | Better demo | Low-Medium |
-| PubMed enrichment | Linked publications | Low |
-| Multiple seed types | Disease, drug, company inputs | High |
-| Incremental updates | Track status changes over time | High |
+Per the project brief:
+
+| Requirement | How addressed |
+|-------------|---------------|
+| **Discover trials from seed input** | ✓ Patient profile → search terms → ClinicalTrials.gov API |
+| **Collect/structure trial details** | ✓ NCT ID, indication, interventions, sponsor, status, eligibility |
+| **Molecular targets** | ✓ Biomarkers from patient profile drive search |
+| **AI tools used thoughtfully** | ✓ LLM for term extraction + eligibility scoring, not for data retrieval |
+| **Explain design choices** | ✓ This document |
+| **Working prototype** | ✓ End-to-end pipeline, tested on KRAS G12C NSCLC patient |
+| **Non-trivial examples** | ✓ 20+ trials evaluated, 12 medium/high matches |
+
+**Where AI adds value vs. where it doesn't:**
+- **Term extraction**: LLM helps with synonyms (NSCLC ↔ "non-small cell lung cancer"), but programmatic variant generation handles notation (KRAS G12C → KRASG12C)
+- **Eligibility scoring**: LLM interprets nuanced criteria that would be extremely hard to parse programmatically
+- **Data retrieval**: No LLM — ClinicalTrials.gov API is structured and reliable
+- **Validation**: No LLM — deterministic checks on schema, date ordering, NCT ID format
+
+**Scope choice:** Deep on one use case (KRAS G12C NSCLC patient matching) rather than broad/shallow coverage of many targets. This let me iterate on the matching logic and prompt calibration.
+
+---
+
+## 15. Iterative Fixes
+
+Initial testing revealed issues. Each was diagnosed, fixed, and verified:
+
+| Issue | Root Cause | Fix | Impact |
+|-------|------------|-----|--------|
+| 30% rate limit failures | Groq TPM limits, parallel calls | Retry with backoff, reduce workers to 2, add inter-request delay | 0% failures |
+| BRAF terms for KRAS patient | LLM hallucinating related biomarkers | Prompt: "ONLY include biomarkers EXPLICITLY listed" | Clean search terms |
+| Colorectal trials for NSCLC | No cancer type pre-filter | Relevance score filter (biomarker + cancer type in title/conditions) | Wrong-indication trials excluded |
+| All confidence scores = 0.60 | No calibration guidance | Added confidence calibration scale (0.0-1.0 with examples) | Range: 0.05-0.80 |
+| Age 65 "above typical range" | LLM misconception | Prompt: "Age 65 is NOT above typical" | Accurate age assessment |
+| Location assumption | LLM assumed "Canadian resident" | Prompt: "NEVER assume location; treat as uncertainty" | No hallucinated facts |
+| Arbitrary trial order | Only sorted by likelihood | Multi-factor sort: confidence → indication-match → phase | Clinically relevant order |
+| Missing info unclear | Uncertainties scattered | Aggregate uncertainties → "Information That Would Improve Matches" section | Actionable guidance |
+
+**Result:** 0 HIGH matches → 1 HIGH, 6 UNKNOWN → 0, colorectal/vascular trials correctly excluded.
