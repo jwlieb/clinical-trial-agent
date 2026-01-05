@@ -487,7 +487,77 @@ def generate_match_report(
         lines.append(f"| {term.term} | {term.provenance.value} | {term.confidence:.1f} |")
     lines.append("")
     
+    # Key Missing Information section
+    missing_info = _identify_missing_patient_info(patient, results)
+    if missing_info:
+        lines.append("## Information That Would Improve Matches")
+        lines.append("")
+        lines.append("The following patient data was not provided but would help refine eligibility assessment:")
+        lines.append("")
+        for item in missing_info:
+            lines.append(f"- {item}")
+        lines.append("")
+    
     return "\n".join(lines)
+
+
+def _identify_missing_patient_info(
+    patient: PatientProfile,
+    results: list[MatchResult]
+) -> list[str]:
+    """Identify key patient information that would improve matching.
+    
+    Analyzes uncertainties across all results to find commonly mentioned
+    missing data points.
+    
+    Args:
+        patient: The patient profile
+        results: List of match results
+        
+    Returns:
+        List of missing information descriptions
+    """
+    missing = []
+    
+    # Collect all uncertainties from scored trials
+    all_uncertainties = []
+    for r in results:
+        if r.filter_stage == "llm_scored":
+            all_uncertainties.extend(r.uncertainties)
+    
+    uncertainty_text = " ".join(all_uncertainties).lower()
+    
+    # Check what patient data is missing and frequently mentioned
+    if not patient.pd_l1_status:
+        # Check if PD-L1 is mentioned in uncertainties
+        if "pd-l1" in uncertainty_text or "pdl1" in uncertainty_text or "pd l1" in uncertainty_text:
+            missing.append("**PD-L1 expression status** - required by several trials for cohort assignment")
+    
+    if not patient.co_mutations:
+        if "stk11" in uncertainty_text or "keap1" in uncertainty_text or "co-mutation" in uncertainty_text:
+            missing.append("**Co-mutation status** (STK11, KEAP1) - affects eligibility for some KRAS G12C trials")
+    
+    if not patient.country:
+        if "resident" in uncertainty_text or "canadian" in uncertainty_text or "location" in uncertainty_text:
+            missing.append("**Patient country/location** - some trials have geographic requirements")
+    
+    if "organ function" in uncertainty_text or "hematologic" in uncertainty_text or "laboratory" in uncertainty_text:
+        missing.append("**Organ function labs** (hematology, liver, renal) - required by all interventional trials")
+    
+    if "measurable disease" in uncertainty_text or "recist" in uncertainty_text:
+        missing.append("**Measurable disease status** (per RECIST 1.1) - required for most therapeutic trials")
+    
+    if not patient.prior_therapies:
+        if "prior treatment" in uncertainty_text or "prior therapy" in uncertainty_text:
+            missing.append("**Detailed prior therapy list** - helps determine line of therapy eligibility")
+    
+    if "life expectancy" in uncertainty_text:
+        missing.append("**Life expectancy estimate** - many trials require ≥3 months")
+    
+    if "qtc" in uncertainty_text or "cardiac" in uncertainty_text or "ecg" in uncertainty_text:
+        missing.append("**Cardiac status/QTc interval** - relevant for trials with cardiotoxicity risk")
+    
+    return missing
 
 
 def export_match_report(
