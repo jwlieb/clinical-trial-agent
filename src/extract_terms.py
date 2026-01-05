@@ -38,26 +38,31 @@ TERM_EXTRACTION_PROMPT = """You are extracting clinical trial search terms from 
 ## Task
 Extract search terms that would find relevant clinical trials for this patient.
 
-Focus on:
-1. The specific cancer type and its common abbreviations
-2. Biomarkers/mutations (these are critical for targeted therapy trials)
-3. Any specific drugs or drug classes mentioned in prior treatments (to find trials that allow/exclude them)
+## Critical Rules
+- ONLY include biomarkers that are EXPLICITLY listed in the patient profile above
+- Do NOT suggest related or similar biomarkers (e.g., if patient has KRAS G12C, do NOT add BRAF V600E, EGFR, or other mutations)
+- Do NOT invent or assume biomarkers not explicitly stated in the profile
+- Primary terms should combine the exact biomarker with cancer type
+- Include common abbreviations for cancer type (e.g., NSCLC for non-small cell lung cancer)
 
 ## Response Format
 Return a JSON object:
 {{
-    "primary_terms": ["most important terms - usually biomarker + cancer type combinations"],
+    "primary_terms": ["biomarker + cancer type combinations from profile only"],
     "cancer_terms": ["cancer type and common synonyms/abbreviations"],
-    "biomarker_terms": ["biomarker/mutation variations"],
+    "biomarker_terms": ["exact biomarker variations from profile only"],
     "reasoning": "brief explanation of term choices"
 }}
 
-Rules:
-- Primary terms should be specific combinations like "KRAS G12C NSCLC"
-- Include common abbreviations (e.g., NSCLC for non-small cell lung cancer)
-- For biomarkers, include the exact notation (e.g., "KRAS G12C", "BRAF V600E")
-- Don't include overly generic terms like "cancer" or "clinical trial"
-- Maximum 3 primary terms, 3 cancer terms, 3 biomarker terms
+## Examples of CORRECT behavior:
+- Patient has "KRAS G12C" → biomarker_terms: ["KRAS G12C", "KRAS-G12C", "KRAS p.G12C"]
+- Patient has "NSCLC" → cancer_terms: ["NSCLC", "non-small cell lung cancer", "lung adenocarcinoma"]
+
+## Examples of INCORRECT behavior (DO NOT DO THIS):
+- Patient has "KRAS G12C" → DO NOT add "BRAF V600E", "EGFR", "ALK", or any other mutations
+- Patient has lung cancer → DO NOT add breast cancer, colorectal cancer, or other cancer types
+
+Maximum 3 primary terms, 3 cancer terms, 3 biomarker terms.
 """
 
 

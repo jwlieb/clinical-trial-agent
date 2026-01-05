@@ -39,7 +39,7 @@ _rate_limit_lock = __import__('threading').Lock()
 def _rate_limited_llm_call(client, **kwargs):
     """Make an LLM call with rate limiting and retry logic."""
     global _last_request_time
-
+    
     for attempt in range(MAX_RETRIES):
         # Rate limiting
         with _rate_limit_lock:
@@ -47,7 +47,7 @@ def _rate_limited_llm_call(client, **kwargs):
             if elapsed < MIN_REQUEST_INTERVAL:
                 time.sleep(MIN_REQUEST_INTERVAL - elapsed)
             _last_request_time = time.time()
-
+        
         try:
             return client.chat.completions.create(**kwargs)
         except Exception as e:
@@ -69,6 +69,9 @@ RECRUITING_STATUSES = {
     "Enrolling by invitation",
 }
 
+# Minimum relevance score to proceed to LLM scoring (skip irrelevant trials)
+MIN_RELEVANCE_SCORE = 0.2
+
 # Try to import LLM clients
 LLM_CLIENT = None
 try:
@@ -81,6 +84,48 @@ try:
     LLM_AVAILABLE = True
 except ImportError:
     LLM_AVAILABLE = False
+
+
+def calculate_relevance_score(patient: PatientProfile, trial: Trial) -> float:
+    """Calculate a quick relevance score based on keyword overlap.
+    
+    This is used to skip clearly irrelevant trials before expensive LLM scoring.
+    
+    Args:
+        patient: The patient profile
+        trial: The trial to score
+        
+    Returns:
+        Relevance score from 0.0 to 1.0
+    """
+    score = 0.0
+    text = (trial.title + " " + " ".join(trial.conditions)).lower()
+    
+    # Biomarker matches are highly relevant
+    for biomarker in patient.biomarkers:
+        biomarker_lower = biomarker.lower()
+        if biomarker_lower in text:
+            score += 0.5
+        # Also check for partial matches (e.g., "KRAS" in "KRAS G12C")
+        elif len(biomarker_lower) > 3:
+            parts = biomarker_lower.split()
+            for part in parts:
+                if len(part) > 2 and part in text:
+                    score += 0.25
+                    break
+    
+    # Cancer type match adds relevance
+    if patient.cancer_type:
+        cancer_lower = patient.cancer_type.lower()
+        if cancer_lower in text:
+            score += 0.3
+        # Also check for common abbreviations
+        elif cancer_lower == "nsclc" and ("lung" in text or "non-small cell" in text):
+            score += 0.3
+        elif cancer_lower == "non-small cell lung cancer" and "nsclc" in text:
+            score += 0.3
+    
+    return min(score, 1.0)
 
 
 ELIGIBILITY_SCORING_PROMPT = """You are evaluating whether a patient is likely eligible for a clinical trial.
@@ -210,6 +255,14 @@ def fast_filter(patient: PatientProfile, trial: Trial) -> FilterResult:
                 passed=False,
                 excluded_reason=f"Trial locations {trial.locations} don't match preference: {patient.location_preference}"
             )
+    
+    # 6. Relevance score filter - skip clearly irrelevant trials
+    relevance = calculate_relevance_score(patient, trial)
+    if relevance < MIN_RELEVANCE_SCORE:
+        return FilterResult(
+            passed=False,
+            excluded_reason=f"Low relevance score ({relevance:.2f}) - trial doesn't appear to target patient's condition/biomarkers"
+        )
     
     # Passed all filters
     return FilterResult(passed=True)
