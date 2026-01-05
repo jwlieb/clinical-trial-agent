@@ -6,3 +6,5 @@ python-dateutil>=2.8.2
 rich>=13.7.0
 click>=8.1.0
 
+# Testing
+pytest>=7.4.0
