@@ -10,7 +10,7 @@ from src.seed_expansion import generate_variant_notations
 
 console = Console()
 
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-70b-versatile")
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
 MAX_LLM_TOKENS = 800  # Increased for 70B model
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
 

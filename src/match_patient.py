@@ -20,7 +20,7 @@ from src.schemas import (
 console = Console()
 
 # Configuration
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-70b-versatile")
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
 MAX_LLM_TOKENS = 1200  # Increased for 70B model
 MAX_PARALLEL_LLM_CALLS = 2  # Reduced to avoid rate limits
 LLM_TIMEOUT_SECONDS = 30.0
