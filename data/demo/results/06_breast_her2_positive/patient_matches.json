@@ -1,0 +1,1777 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T06:57:39.678043",
+    "patient_profile": {
+      "age": 48,
+      "sex": "female",
+      "cancer_type": "breast cancer",
+      "biomarkers": [
+        "HER2 positive",
+        "ER positive",
+        "PR negative"
+      ],
+      "description": "48-year-old premenopausal female with HER2-positive (IHC 3+, FISH amplified), ER+/PR- metastatic breast cancer. Originally diagnosed as Stage IIA in 2021, received neoadjuvant TCHP with pCR. Developed bone-only metastatic recurrence 2 years later. First-line trastuzumab/pertuzumab + docetaxel achieved PR, then progression at 10 months. Second-line T-DM1 ongoing x6 cycles with mixed response - new liver lesions noted. Interested in ADC combinations or novel HER2 agents. Baseline cardiac function LVEF 58%. No CNS disease. Mild neuropathy from prior taxanes."
+    },
+    "total_trials": 100,
+    "high_likelihood": 4,
+    "medium_likelihood": 1
+  },
+  "results": [
+    {
+      "nct_id": "NCT03740256",
+      "title": "A First in Human Phase I Trial of Binary Oncolytic Adenovirus in Combination With HER2-Specific Autologous CAR T Cells in Patients With Advanced HER2 Positive Solid Tumors",
+      "sponsor": "Baylor College of Medicine",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2 positive breast cancer which matches the trial's indication for HER2 positive solid tumors.",
+        "Patient has progressed after standard first line therapy.",
+        "Patient is 48 years old, which meets the age requirement as patient must be \u2265 18 years.",
+        "ECOG status is 1, which is acceptable for the trial."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific organ function lab results (hematologic, hepatic, renal) are not provided.",
+        "Confirmation if the patient has a tumor site appropriate for intratumoral injection is not explicit."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, treatment history, age, and ECOG status align well with the trial's inclusion criteria. Although some organ function results and specific tumor site details are not provided, the evidence strongly suggests eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04704661",
+      "title": "Phase 1/1B Study of DS-8201a in Combination With ATR Inhibition (AZD6738) in Advanced Solid Tumors With HER2 Expression (DASH Trial)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2-positive metastatic breast cancer, which matches the trial's inclusion of HER2-positive breast carcinoma.",
+        "Patient has received at least one line of systemic chemotherapy for metastatic disease.",
+        "Patient has progressed on anti-HER2 therapy, specifically trastuzumab and pertuzumab.",
+        "ECOG status is 1.",
+        "LVEF is 58%, which meets the trial's requirement of LVEF >= 50%."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Patient's specific laboratory values for platelet count, hemoglobin, absolute neutrophil count, creatinine clearance, AST/ALT levels, total bilirubin, leukocytes, albumin, INR/PTT are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has an eligible cancer type matching the trial's focus on HER2-positive breast carcinoma and has a history of previous therapies, meeting the criteria for previously treated patients. The ECOG status and LVEF are also acceptable, though there are some uncertainties regarding organ function lab values.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05514717",
+      "title": "A Phase 1, First-in-Human, Dose Escalation and Expansion, Multicenter Study of XMT-2056 in Participants With Advanced/Recurrent Solid Tumors That Express HER2",
+      "sponsor": "Mersana Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2-positive breast cancer, matching the study conditions.",
+        "ECOG status is 1, which is acceptable for the trial.",
+        "Patient has measurable disease as indicated by the mixed response and new liver lesions.",
+        "No CNS disease, meeting the brain metastasis criteria.",
+        "Patient has HER2 positivity defined as IHC 3+."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Fresh or archival tumor biopsy availability is uncertain based on the profile provided.",
+        "No information on whether the patient is on immunosuppressive doses of systemic medications."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial focus on HER2-positive tumors, and they have progressed after previous therapies, aligning with the inclusion criteria for recurrent metastatic disease. There are no significant exclusions or mismatches based on the provided information, hence a high likelihood of eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06253871",
+      "title": "A Phase 1/1b Study of IAM1363 in Patients With Advanced Cancers Harboring HER2 Alterations",
+      "sponsor": "Iambic Therapeutics, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 48, which meets the age criterion of \u2265 18 years",
+        "ECOG status is 1, which meets the ECOG criterion of 0-1",
+        "Patient has HER2-positive metastatic breast cancer, aligning with the trial's studied conditions of HER2-positive Breast Cancer",
+        "Patient's cancer is relapsed/refractory after prior treatments, fitting the trial's inclusion of relapsed/refractory HER2-altered malignancy",
+        "LVEF is 58%, which meets the heart function criterion of \u2265 50%"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Baselines for hematologic, liver, and renal function are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's HER2-positive breast cancer matches the trial's target condition, and they have had prior systemic therapy, which aligns with the inclusion criteria for relapsed/refractory cases. No conflicts are identified, and although certain organ functions are not confirmed, they likely meet the requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06695845",
+      "title": "A Phase 2, Open-label, Multicenter Study to Evaluate Efficacy and Safety of Zanidatamab for the Treatment of Participants With Previously Treated HER2-expressing Solid Tumors (DiscovHER PAN-206)",
+      "sponsor": "Jazz Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2 positive breast cancer, which is included in the trial conditions.",
+        "Patient has an ECOG status of 1."
+      ],
+      "conflicts": [
+        "Patient has had prior systemic therapies including TCHP, trastuzumab, pertuzumab, docetaxel, and T-DM1, which may not align with the requirement of 'previously treated patients' depending on cohort eligibility."
+      ],
+      "uncertainties": [
+        "Patient's eligibility for Cohort 2 is unclear since it requires prior therapy with trastuzumab deruxtecan (T-DXd), which is not mentioned in the profile."
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's breast cancer type matches the trial, and their ECOG status is acceptable. However, their extensive prior treatment history presents a conflict related to treatment line eligibility. Additionally, uncertainty exists regarding the specific requirement for trastuzumab deruxtecan in their treatment history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06055881",
+      "title": "Primary Breast Oligoprogressive Sites Treated With Radiotherapy to Obviate the Need to Change Systemic Therapy (BOSS)",
+      "sponsor": "Mayo Clinic",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years",
+        "ECOG status of 1",
+        "No CNS disease"
+      ],
+      "conflicts": [
+        "Patient has metastatic breast cancer but does not have 12 months of clinical response to first-line therapy or 6 months of clinical response to second-line therapy.",
+        "Patient has more than 3 extracranial sites of oligoprogressive disease (as indicated by new liver lesions).",
+        "Patient has received multiple prior systemic therapies, which suggests that eligibility based on treatment line may not align."
+      ],
+      "uncertainties": [
+        "Details on prior response duration to systemic therapies are not stated clearly in the profile."
+      ],
+      "confidence": 0.3,
+      "reasoning": "The patient's cancer type matches the trial, but they have not met the required treatment response timelines nor can it be clearly established given prior therapies. Additionally, the presence of new liver lesions raises further concerns about the oligoprogressive criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06551116",
+      "title": "QuantifyHER: Quantitative Immunofluorescence and/or RT-qPCR for Measuring HER2 in HER2-low Metastatic Breast Cancer",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2-positive metastatic breast cancer",
+        "Patient's age is above 18",
+        "ECOG status is 1"
+      ],
+      "conflicts": [
+        "Patient has a history of prior systemic therapies, including T-DM1, which conflicts with the trial's requirement for untreated (treatment-naive) patients.",
+        "Patient has HER2 3+ by IHC, which is excluded as per the trial's exclusion criteria for Her2-overexpressing metastatic breast cancer."
+      ],
+      "uncertainties": [
+        "No archival tissue availability is noted in the profile, which is a requirement for the trial."
+      ],
+      "confidence": 0.25,
+      "reasoning": "The patient has HER2-positive breast cancer but has previously received multiple lines of therapy, conflicting with the trial's requirement for treatment-naive patients. Additionally, the HER2 3+ status results in exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04802759",
+      "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Treatment Combinations in Patients With Breast Cancer (MORPHEUS-BREAST CANCER)",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 1",
+        "Age of 48",
+        "HER2 positive and ER positive cancer"
+      ],
+      "conflicts": [
+        "Patient is HER2 positive, but Cohort 1 is for HER2-negative breast cancer",
+        "Patient is premenopausal; trial requires postmenopausal status"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's requirements for Cohort 1, which specifically studies HER2-negative breast cancer. Additionally, the patient is premenopausal, while the trial specifications indicate a need for postmenopausal status for eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04862663",
+      "title": "A Phase Ib/III, Open-label, Randomised Study of Capivasertib Plus CDK4/6 Inhibitors and Fulvestrant Versus CDK4/6 Inhibitors and Fulvestrant in Hormone Receptor-Positive and Human Epidermal Growth Factor Receptor 2-Negative Locally Advanced, Unresectable or Metastatic Breast Cancer (CAPItello-292)",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a 48-year-old female with breast cancer."
+      ],
+      "conflicts": [
+        "Trial focuses on HR+/HER2- breast cancer, while patient is HER2 positive.",
+        "Patient has been previously treated with multiple lines of therapy including trastuzumab and T-DM1, while the trial appears to target previously untreated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has HER2-positive breast cancer, but the trial is specifically for HR+/HER2- disease. Furthermore, the patient has received multiple prior therapies which disqualifies them from a trial that seems to require treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05894239",
+      "title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of Inavolisib in Combination With Phesgo Versus Placebo in Combination With Phesgo As Maintenance Therapy After First Line Induction Therapy in Participants With PIK3CA-Mutated HER2-Positive Locally Advanced or Metastatic Breast Cancer",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 1",
+        "HER2-positive breast cancer",
+        "PIK3CA mutation confirmed (H1047R)"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy for locally advanced or metastatic HER2-positive breast cancer",
+        "Trial requires treatment-naive (first-line) patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's condition, but she has already received prior systemic therapies for HER2-positive breast cancer, which conflicts with the trial's requirement for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06263543",
+      "title": "SERIES: SEquencing Sacituzumab Govitecan AfteR T-DXd In ER+/HER2 LOW/ULTRA LOW MetaStatic Breast Cancer",
+      "sponsor": "Reshma L. Mahtani, D.O.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is female with metastatic breast cancer",
+        "Patient has previously received treatment with T-DXd"
+      ],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, while the trial targets HER2 LOW/ULTRA LOW breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is HER2 positive, but the trial specifically requires HER2 LOW/ULTRA LOW, leading to exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06260033",
+      "title": "A Phase II Trial of Stereotactic Body Radiation Therapy and Fluoroestradiol Positron Emission Tomography in Patients With Oligoprogressive Estrogen Receptor Positive Metastatic Breast Cancer",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 48",
+        "Sex: female",
+        "Cancer type: breast cancer",
+        "Biomarkers: ER positive"
+      ],
+      "conflicts": [
+        "Patient has received multiple lines of systemic therapy for metastatic disease (TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1). The trial excludes patients who have received more than three lines of systemic therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a breast cancer diagnosis that aligns with the trial's indication for estrogen receptor-positive breast carcinoma; however, they have received more than three lines of systemic therapy, which directly conflicts with the trial's exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06671912",
+      "title": "LoTam: A Randomized, Phase III Clinical Trial of Low-Dose Tamoxifen for Selected Patients With Molecular Low-Risk Early-Stage Breast Cancer",
+      "sponsor": "Alliance for Clinical Trials in Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2-positive breast cancer, but the trial requires HER2-negative breast cancer.",
+        "Patient is premenopausal, whereas the trial requires postmenopausal status."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's inclusion criteria since HER2-positive breast cancer is explicitly excluded, and the patient is premenopausal, while the trial requires postmenopausal status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04074720",
+      "title": "Prospective Breast Cancer Biospecimen Collection",
+      "sponsor": "Thomas Jefferson University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial aims to study patients undergoing definitive surgical tumor resection or placement of a vascular access device, and the patient is currently undergoing systemic therapy (T-DM1 ongoing) without indication of a prior surgical intervention."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's condition does not match the treatment requirements of the trial, as the criteria specify procedures related to surgical resection or vascular access device placement, which the patient does not currently meet.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02945579",
+      "title": "Multicenter Trial for Eliminating Breast Cancer Surgery or Radiotherapy in Exceptional Responders to Neoadjuvant Systemic Therapy",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female sex",
+        "Age 48"
+      ],
+      "conflicts": [
+        "Patient has previously treated breast cancer with multiple lines of therapy, while the trial may focus on treatment-naive patients as it mentions neoadjuvant systemic therapy."
+      ],
+      "uncertainties": [
+        "Trial eligibility includes specific imaging and clinical staging criteria (T1 or T2) that need verification against patient's current status."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the general category being studied (HER2 positive breast cancer). However, the significant prior treatment history and potential focus on treatment-naive patients lead to exclusion from the trial. Additionally, specific imaging and clinical staging details are not clarified, creating further uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05396612",
+      "title": "Role of the Immune Environment in Response to Therapy in Breast Cancer",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic breast cancer which does not match trial's inclusion criteria for non-metastatic breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's profile indicates metastatic breast cancer, while the trial only includes patients with non-metastatic breast cancer, leading to a clear exclusion based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05488145",
+      "title": "A Feasibility Trial of a Web Based App Intervention in Hormone Positive Breast Cancer Patients to Improve Adherence to Endocrine Therapy",
+      "sponsor": "Emory University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2-positive breast cancer, but the trial excludes HER2-positive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has HER2-positive breast cancer, while the trial specifically excludes patients with HER2-positive status. This mismatch leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05659797",
+      "title": "Pilot Study Evaluating the Uptake of [18F]Fluoroestradiol (FES) BPET/DBT in Primary Breast Cancer to Measure the Localized Extent of Estrogen Receptor Positive Disease",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is at least 18 years old.",
+        "Patient has ER positive breast cancer."
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1), while the trial appears to target treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is breast cancer (which matches the trial), and she is ER positive. However, the patient has received multiple lines of prior therapy, whereas the trial targets treatment-naive patients. This leads to a clear exclusion based on treatment line criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05996107",
+      "title": "A Phase 1B Study of Ribociclib Administered Concurrently With Postoperative Radiation Therapy in Patients With High-Risk, Node Positive, HR+/HER2- Breast Cancer",
+      "sponsor": "University of Michigan Rogel Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2-positive breast cancer, while the trial is for ER+/HER2-negative breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's specified condition of HR+/HER2-negative breast cancer, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06401889",
+      "title": "Enhancing Skin Appearance and Quality of Life in Breast Cancer Survivors on Aromatase Inhibitor Therapy",
+      "sponsor": "Mayo Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female, age 48"
+      ],
+      "conflicts": [
+        "Patient has received prior chemotherapy (trastuzumab/pertuzumab + docetaxel) and is currently receiving T-DM1, while the trial excludes patients who have previously taken AIs or who have received any prior chemotherapy or endocrine therapy for their current breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's breast cancer type is HER2-positive, which may align with the trial's focus on breast adenocarcinoma. However, the trial specifically excludes patients with prior chemotherapy or endocrine therapy for their current cancer, and the patient has a treatment history that includes multiple therapies. Thus, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05256225",
+      "title": "A Phase II/III Study of Paclitaxel/Carboplatin Alone or Combined With Either Trastuzumab and Hyaluronidase-oysk (HERCEPTIN HYLECTA) or Pertuzumab, Trastuzumab, and Hyaluronidase-zzxf (PHESGO) in HER2 Positive, Stage I-IV Endometrial Serous Carcinoma or Carcinosarcoma",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer, but the trial is focused on endometrial cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, breast cancer, does not match the target indication of the trial, which is studying HER2 positive endometrial cancers.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04958239",
+      "title": "An Open Label, Phase I Dose-finding and Expansion Study of BI 765179 as Monotherapy and in Combination With Ezabenlimab (BI 754091) in Patients With Advanced Solid Cancers, and BI 765179 in Combination With Pembrolizumab in First-line PD-L1-positive Metastatic or Incurable, Recurrent Head and Neck Squamous Cell Carcinoma (HNSCC)",
+      "sponsor": "Boehringer Ingelheim",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer (HER2 positive) while the trial is focused on head and neck squamous cell carcinoma (HNSCC)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is breast cancer, which does not match the trial's focus on advanced head and neck cancers. As such, the patient is excluded based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06084481",
+      "title": "A Phase 1 Open-Label Study to Evaluate the Efficacy and Safety of ABBV-400 in Select Advanced Solid Tumor Indications",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer; trial excludes HER2 positive breast cancer as it specifically studies HR+/HER2- breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, HER2 positive breast cancer, does not match the specific conditions studied in the trial, which excludes HER2 positive breast cancer. Therefore, the patient is excluded due to a mismatch in disease indication.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06099769",
+      "title": "A RANDOMIZED, PHASE II STUDY OF ENZALUTAMIDE, ENZALUTAMIDE WITH MIFEPRISTONE, and TREATMENT OF PHYSICIAN'S CHOICE IN PATIENTS WITH AR+ METASTATIC TRIPLE-NEGATIVE OR ER-LOW BREAST CANCER",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2-positive breast cancer, while trial is for AR+ metastatic triple-negative or ER-low breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.09,
+      "reasoning": "The patient's cancer type does not match the trial indication, which is studying AR+ metastatic triple-negative or ER-low breast cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06361940",
+      "title": "Molecular Analyses to Predict Pathways of Endocrine Resistance Following Short Term Neoadjuvant Endocrine Treatment in Patients With Hormone Receptor-Positive HER2-negative Breast Cancer (MAPPER)",
+      "sponsor": "Medical College of Wisconsin",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is female",
+        "Patient is aged 48",
+        "Patient has ER positive cancer"
+      ],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, trial is for HER2 negative breast cancer"
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type does not match the trial's inclusion criteria, as the trial only includes patients with HER2-negative breast cancer. This leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06374459",
+      "title": "A Phase Ib/II Trial of Zunsemetinib in Combination With Capecitabine in Patients With Hormone Receptor-Positive and HER2-Negative Metastatic Breast Cancer With Bone Metastasis",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a 48-year-old female with breast cancer.",
+        "Patient has hormone receptor-positive cancer."
+      ],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, while the trial is specifically for HER2 negative metastatic breast cancer.",
+        "Trial requires hormone receptor-positive HER2-negative metastatic breast cancer, but patient is HER2 positive."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is HER2 positive, whereas the trial is focused on HER2 negative disease, making her ineligible. This is a clear and critical conflict.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06525766",
+      "title": "Single Arm Pilot Trial of Adaptive Therapy (AT) With Capecitabine for the Treatment of Metastatic Estrogen Receptor Positive, Hormone Refractory Breast Cancer",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age 48",
+        "ECOG status 1",
+        "ER positive",
+        "Biomarkers HER2 positive"
+      ],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer while the trial requires HER2 negative breast cancer.",
+        "Patient has received prior therapies including chemotherapy in the metastatic setting, while the trial excludes prior chemotherapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's breast cancer is HER2 positive, whereas the trial specifically studies estrogen receptor positive, HER2 negative breast cancer, leading to clear exclusion due to incorrect disease type. Additionally, the patient has a history of prior chemotherapy in the metastatic setting which is also an exclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05870579",
+      "title": "A Phase Ib Dose Finding Study Assessing Safety and Activity of [177Lu]Lu-NeoB in Combination With Ribociclib and Fulvestrant in Participants With Estrogen Receptor Positive, Human Epidermal Growth Factor Receptor-2 Negative and Gastrin Releasing Peptide Receptor Positive Advanced Breast Cancer Experiencing Early Relapse From (Neo)Adjuvant Endocrine Therapy or Who Have Progressed on Endocrine Therapy in Combination With a CDK4/6 Inhibitor for Advanced Disease",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2-positive breast cancer",
+        "Patient is female and >= 18 years old",
+        "Patient's ECOG status is 1"
+      ],
+      "conflicts": [
+        "Trial requires HER2 negative breast cancer, but patient is HER2 positive",
+        "Trial requires no more than one line of prior treatment in the advanced setting; patient has received multiple prior therapies"
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The trial is studying HER2 negative breast cancer, while the patient has HER2 positive breast cancer, resulting in a clear exclusion based on critical disease mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04585750",
+      "title": "A Phase 1/2 Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of PC14586 in Patients With Locally Advanced or Metastatic Solid Tumors Harboring a TP53 Y220C Mutation (PYNNACLE)",
+      "sponsor": "PMV Pharmaceuticals, Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient does not have TP53 Y220C mutation, which is required for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient has HER2-positive breast cancer, while the trial specifically requires a TP53 Y220C mutation, which the patient does not have. This mismatch leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02476786",
+      "title": "Endocrine Treatment Alone as Primary Treatment for Elderly Patients With Estrogen Receptor Positive Operable Breast Cancer and Low Recurrence Score",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is below minimum age 70"
+    },
+    {
+      "nct_id": "NCT04852887",
+      "title": "A Phase III Clinical Trial Evaluating De-Escalation of Breast Radiation for Conservative Treatment of Stage I, Hormone Sensitive, HER-2 Negative, Oncotype Recurrence Score Less Than or Equal to 18 Breast Cancer",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is below minimum age 50"
+    },
+    {
+      "nct_id": "NCT03971409",
+      "title": "Innovative Combination Immunotherapy for Metastatic Triple Negative Breast Cancer (TNBC): A Multicenter, Multi-Arm Translational Breast Cancer Research Consortium Study",
+      "sponsor": "Laura Huppert, MD, BA",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a female aged 48 years",
+        "ECOG status 1",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has breast cancer that is ER positive and PR negative, whereas trial eligibility requires ER/PR negative (<= 5%)",
+        "Trial is focused on triple negative breast cancer (TNBC), whereas patient has HER2 positive breast cancer"
+      ],
+      "uncertainties": [
+        "Biomarker status for PD-L1 is unknown",
+        "Metrics for organ function (e.g., liver enzymes, creatinine) are not provided"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's breast cancer type does not match the trial's focus on triple negative breast cancer, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05095207",
+      "title": "A Multicenter, Phase IB/II Study of Abemaciclib in Combination With Bicalutamide for Androgen Receptor-positive, HER2-negative Metastatic Breast Cancer",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, but trial is for HER2 negative breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's breast cancer is HER2 positive, while the trial specifically studies HER2 negative breast cancer, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05035836",
+      "title": "A Phase 2 Single-Arm Open-Label Pilot Trial Evaluating Zanidatamab (ZW25) in Patients With Early Stage HER2/Neu Positive (HER2+) Breast Cancer (BC)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 48 years",
+        "Sex: female",
+        "Cancer type: breast cancer",
+        "HER2 positive",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has previous systemic therapy (TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1) which is inconsistent with trial's focus on treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's prior history of systemic treatment for breast cancer makes them ineligible for this trial, which focuses on early-stage, treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05837455",
+      "title": "NeoTAILOR: A Phase II Biomarker-directed Approach to Guide Neoadjuvant Therapy for Patients With Stage II/III ER-positive, HER2-negative Breast Cancer",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial targets ER-positive, HER2-negative breast cancer; patient has HER2-positive breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is HER2-positive breast cancer, while the trial specifically studies ER-positive, HER2-negative breast cancer, which is a critical mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06028022",
+      "title": "Reishi Mushroom Extract for Fatigue and/or Arthralgias in Patients With Breast Cancer on Aromatase Inhibitors: A Randomized Phase II MNCCTN Trial",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial requires patients to be post-menopausal, but the patient is premenopausal."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's condition for estrogen receptor-positive breast carcinoma. However, the patient is premenopausal, while the trial specifies that participants must currently be post-menopausal, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05826964",
+      "title": "Levels of Circulating Tumor DNA as a Predictive Marker for Early Switch in Treatment for Patients With Metastatic (Stage IV) Breast Cancer: A Phase 2 Randomized, Open-Label Study",
+      "sponsor": "University of Miami",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 48",
+        "Sex: female",
+        "Cancer type: breast cancer",
+        "Biomarkers: HER2 positive, ER positive, PR negative",
+        "ECOG status: 1",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "The trial is for ER+, HER2- metastatic breast cancer but the patient is HER2 positive."
+      ],
+      "uncertainties": [
+        "Organ function lab values such as liver function, renal function are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial criteria as the trial specifically targets ER+/HER2- breast cancer, while the patient is HER2 positive.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06224673",
+      "title": "Phase II Open-label Study of ARX788 (Anti-HER2 Antibody Drug Conjugate (ADC)) for Patients With HER2-low Locally Advanced Unresectable or Metastatic Breast Cancer",
+      "sponsor": "Laura Huppert, MD, BA",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2 positive, ER positive, PR negative breast cancer.",
+        "Patient is 48 years old and has an ECOG status of 1.",
+        "Patient has received prior systemic therapy including TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1."
+      ],
+      "conflicts": [
+        "Trial focuses on HER2-low breast cancer; patient has HER2 positive disease which is not eligible.",
+        "Patient is not treatment-naive, trial may not accept previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's breast cancer is HER2 positive while the trial is studying HER2-low breast cancer, which does not match the eligibility requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06348134",
+      "title": "Assessing the Efficacy and Safety of Optimal Neoadjuvant to Adjuvant Anti-HER2- Based Therapy in Nigerian Women With HER2+ Breast Cancer",
+      "sponsor": "University of Chicago",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has HER2-positive breast cancer"
+      ],
+      "conflicts": [
+        "Patient is not chemotherapy-na\u00efve, having received multiple prior therapies including TCHP, trastuzumab, pertuzumab, docetaxel, and T-DM1"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has HER2-positive breast cancer, which is the correct disease type, but the trial specifically requires chemotherapy-na\u00efve patients, and this patient has received several lines of treatment. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06450873",
+      "title": "A Phase 2 Pilot Window of Opportunity Study Turkey Tail Mushrooms (TTM) (Trametes Versicolor) in Post-Menopausal Women With HER2 (-) ER (+) Breast Cancer Planning to Undergo Surgical Therapy",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is female and above 18 years old.",
+        "Patient has an ECOG status of 1."
+      ],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, but the trial is for HER2 negative breast cancer.",
+        "Patient has metastatic breast cancer, but the trial is excluded for metastatic cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's indication as her breast cancer is HER2 positive, while the trial is for HER2 negative patients. Additionally, the patient has metastatic disease which disqualifies her from enrollment in this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06439693",
+      "title": "A Single-Arm, Phase II Study of Sequential Therapy With Curative Intent in de Novo HER2+ Metastatic Breast Cancer: The SAPPHO Study",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient diagnosed with HER2-positive breast cancer",
+        "ECOG status of 1 meets trial criteria",
+        "LVEF of 58% meets trial criteria"
+      ],
+      "conflicts": [
+        "Patient has had prior systemic therapy (TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1) which is not allowed as per trial criteria requiring no prior systemic therapy aside from specific first-line therapy within 6 weeks."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has previously received systemic therapies, which directly conflicts with the trial's exclusion criteria requiring no prior systemic therapy for invasive breast cancer aside from first-line treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03723928",
+      "title": "Randomized Non-Inferiority Trial Comparing Overall Survival of Patients Monitored With Serum Tumor Marker Directed Disease Monitoring (STMDDM) Versus Usual Care in Patients With Metastatic Hormone Receptor Positive Breast Cancer",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, while the trial requires HER2 negative breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's eligibility criteria. The trial is for HER2 negative metastatic breast cancer, while the patient has HER2 positive breast cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05464810",
+      "title": "A Randomized Window of Opportunity Study of Preoperative Letrozole and Simvastatin Versus Letrozole Alone in Stage I-III Hormone Receptor Positive, HER2 Negative Breast Cancer",
+      "sponsor": "Emory University",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, but trial requires HER2 negative breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is HER2 positive breast cancer, which does not match the trial's requirement for HER2 negative breast cancer. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05959291",
+      "title": "Free-HER: Discontinuation of Maintenance HER-2 Directed Therapy in Long-Term Survivors of Metastatic HER-2 Positive Breast Cancer",
+      "sponsor": "University of Miami",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient diagnosed with HER2-positive metastatic breast cancer."
+      ],
+      "conflicts": [
+        "Patient is not in complete radiological remission (CRR) as noted by mixed response and new liver lesions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has metastatic breast cancer, but they do not meet the critical inclusion criterion of being in complete radiological remission (CRR). Therefore, they are excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05977036",
+      "title": "BettER: Biomarker Driven Early Therapeutic Selection in Patients With HR+ HER2- Metastatic or Unresectable Breast Cancer",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2-positive breast cancer, while the trial is for HER2-negative metastatic or unresectable breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer subtype does not match the trial's requirement for HER2-negative status, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06127979",
+      "title": "Differential Changes in Ki67 Between Carriers and Noncarriers of BRCA2 Mutations With Estrogen Receptor-Positive, Human Epidermal Growth Factor Receptor 2-negative Breast Cancer Treated With Preoperative Endocrine Therapy",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive breast cancer, trial only includes ER+/HER2- breast cancer.",
+        "Patient is currently receiving second-line therapy with T-DM1, trial requires upfront surgery and no prior endocrine therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's breast cancer type does not match the trial's requirements as the trial specifically targets ER+/HER2- breast cancer while the patient has HER2 positive breast cancer. Additionally, the patient is currently undergoing treatment, conflicting with the trial's requirement for upfront surgery without prior therapies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06691035",
+      "title": "Immunologic Targeting of Native and Mutated ESR1 Receptor for Treatment of Hormone Receptor Expressing Metastatic Breast Cancer",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has hormone positive HER2 positive metastatic breast cancer which does not match HER2 negative requirement of the trial."
+      ],
+      "conflicts": [
+        "Trial requires HER2-negative breast cancer, but patient has HER2-positive breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has HER2-positive breast cancer, while the trial specifically includes only HER2-negative breast cancer. Therefore, the patient is clearly excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00977977",
+      "title": "Rituximab Plus Cyclosporine in Idiopathic Membranous Nephropathy",
+      "sponsor": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT01356290",
+      "title": "A Phase II Study of Metronomic and Targeted Anti-angiogenesis Therapy for Children with Recurrent/progressive Medulloblastoma, Ependymoma and ATRT",
+      "sponsor": "Medical University of Vienna",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is above maximum age 19"
+    },
+    {
+      "nct_id": "NCT02332668",
+      "title": "A Phase I/II Study of Pembrolizumab (MK-3475) in Children With Advanced Melanoma or a PD-L1 Positive Advanced, Relapsed or Refractory Solid Tumor or Lymphoma (KEYNOTE-051)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is above maximum age 17"
+    },
+    {
+      "nct_id": "NCT04219254",
+      "title": "A Phase 1/2a Clinical Trial of BI-1206, a Monoclonal Antibody to CD32b (Fc\u03b3RIIB), in Combination With Pembrolizumab in Subjects With Advanced Solid Tumors Previously Treated With Anti-PD-1 or Anti-PD-L1 Antibodies (KEYNOTE-A04)",
+      "sponsor": "BioInvent International AB",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04253964",
+      "title": "Phase II Pilot Study of Performance Status 2 vs. Performance Status 0-1 Non-Small Cell Lung Cancer Patients Treated With Chemo/Immunotherapy",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04300556",
+      "title": "A Multicenter, Open-Label Phase 1/2 Trial Evaluating the Safety, Tolerability, and Efficacy of MORAb-202, a Folate Receptor Alpha (FR\u03b1)-Targeting Antibody-drug Conjugate (ADC) in Subjects With Selected Tumor Types",
+      "sponsor": "Eisai Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04486352",
+      "title": "A Phase IB/II Multi-Cohort Study of Targeted Agents and/or Immunotherapy With Atezolizumab for Patients With Recurrent or Persistent Endometrial Cancer",
+      "sponsor": "Alliance Foundation Trials, LLC.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04585477",
+      "title": "Adjuvant ctDNA-Adapted Personalized Treatment in Early Stage NSCLC (ADAPT-E)",
+      "sponsor": "Stanford University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04774718",
+      "title": "A Phase I/II, Open-Label, Multicenter, Study Evaluating the Safety, Pharmacokinetics, and Efficacy of Alectinib in Pediatric Participants With ALK Fusion-Positive Solid or CNS Tumors for Whom Prior Treatment Has Proven to be Ineffective or for Whom There is No Satisfactory Treatment Available",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is above maximum age 17"
+    },
+    {
+      "nct_id": "NCT05142592",
+      "title": "A Phase 1/2a, Multi-center, Non-randomized, Open-label, Dose-escalation, and Dose Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of IPG7236 Administered Orally as a Single Agent in Patients With Advanced Solid Tumors",
+      "sponsor": "Nanjing Immunophage Biotech Co., Ltd",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05239546",
+      "title": "Phase II, Single Arm Study of Neoadjuvant Dostarlimab (TSR-042) in Stage II and III Deficient Mismatch Repair Colon Cancers",
+      "sponsor": "University of Iowa",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05261399",
+      "title": "A Phase III, Randomised, Open-Label Study of Savolitinib in Combination With Osimertinib Versus Platinum-Based Doublet Chemotherapy in Participants With EGFR Mutated, MET-Overexpressed and/or Amplified, Locally Advanced or Metastatic Non-Small Cell Lung Cancer Who Have Progressed on Treatment With Osimertinib (SAFFRON).",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05281471",
+      "title": "A Randomized Phase 3 Study Assessing the Efficacy and Safety of Olvi-Vec Followed by Platinum-doublet Chemotherapy and Bevacizumab Compared With Physician's Choice of Chemotherapy and Bevacizumab in Women With Platinum-Resistant/Refractory Ovarian Cancer (PRROC) (OnPrime, GOG-3076)",
+      "sponsor": "Genelux Corporation",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05361720",
+      "title": "Optimal Treatment by Invoking Biologic Clusters in Renal Cell Carcinoma (OPTIC RCC)",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05797831",
+      "title": "A Phase 2/3 Study of Navtemadlin as Maintenance Therapy in Subjects With TP53WT Advanced or Recurrent Endometrial Cancer Who Responded to Chemotherapy",
+      "sponsor": "Kartos Therapeutics, Inc.",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05874193",
+      "title": "A Collaborative Community Effort Using Belantamab Mafodotin in Relapsed/Refractory Myeloma",
+      "sponsor": "Cristiana Costa Chase, DO",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05916196",
+      "title": "[18F]FLUOROESTRADIOL (FES) PET/CT IMAGING OF THE ESTROGEN RECEPTOR IN PATIENTS WITH METASTATIC OR RECURRENT UTERINE CANCER",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05925803",
+      "title": "A Multicenter, Randomized, Parallel-group, Double-blind,Two-arm Phase III Study to Evaluate the Safety and Efficacy of Anifrolumab Compared With Placebo in Male and Female Participants 18 to 70 Years of Age Inclusive With Systemic Sclerosis",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05928806",
+      "title": "Phase 2 Advanced Renal Cell Cancer Combination ImmunoThErapy Clinical Trial",
+      "sponsor": "Michael B. Atkins, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06087653",
+      "title": "A Protocol to Assess the Safety, Efficacy, and Pharmacokinetics of Continuous Subcutaneous Administration of Low-dose Lenalidomide (STAR-LLD) for the Treatment of Multiple Myeloma (MM)",
+      "sponsor": "Starton Therapeutics, Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06219941",
+      "title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06249048",
+      "title": "A Phase 1/2, Open-label, Multi-center, First-in-human Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Anti-tumor Activity of STX-001 Delivered by Intratumoral Injection in Patients With Advanced Solid Tumors as a Monotherapy or in Combination With Pembrolizumab",
+      "sponsor": "Strand Therapeutics Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06385262",
+      "title": "Safety, Efficacy, and Tumor Immune Microenvironment Changes With Neoadjuvant Chemotherapy and Cemiplimab With or Without Alirocumab in Stage 1B-3A Non-Small Cell Lung Cancer: TOP 2301",
+      "sponsor": "Duke University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06541847",
+      "title": "A Phase 2, Open-Label, Single Arm, Non-Controlled, Single-Stage Study to Evaluate the Safety and Effects of HLX-1502 in Patients With Plexiform Neurofibroma and Neurofibromatosis Type 1",
+      "sponsor": "Healx Limited",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06623110",
+      "title": "A Phase 2 Study of Intralesional RP2 as Immunoprevention for High-Risk Oral Precancerous Disease (INTERCEPT)",
+      "sponsor": "Glenn J. Hanna",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05253651",
+      "title": "An Open-label Randomized Phase 3 Study of Tucatinib in Combination With Trastuzumab and mFOLFOX6 Versus mFOLFOX6 Given With or Without Either Cetuximab or Bevacizumab as First-line Treatment for Subjects With HER2+ Metastatic Colorectal Cancer",
+      "sponsor": "Seagen, a wholly owned subsidiary of Pfizer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer while the trial is studying colorectal cancer.",
+        "Patient has previous anti-HER2 therapy which is excluded in this trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (breast cancer) does not match the trial's indication (colorectal cancer), leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05559164",
+      "title": "STACIE: Statins for Reduction of Cardiac Toxicity in Patients Receiving HER2 Targeted Therapy",
+      "sponsor": "Rutgers, The State University of New Jersey",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 48",
+        "Sex: female",
+        "Biomarkers: HER2 positive, ER positive, PR negative",
+        "ECOG status: 1",
+        "Brain metastases: none",
+        "Prior therapies: TCHP, trastuzumab, pertuzumab, docetaxel, T-DM1",
+        "Baseline cardiac function LVEF: 58%"
+      ],
+      "conflicts": [
+        "Patient has Stage IV breast cancer (bone-only metastatic recurrence) which does not meet the inclusion criteria for Stage I-III."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's breast cancer has progressed to Stage IV, which is explicitly excluded from participation in this trial that requires Stage I-III breast cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06126276",
+      "title": "A Randomized Trial of Neratinib, A Pan-ERBB Inhibitor, Alone or in Combination With Palbociclib, a CDK4/6 Inhibitor, in Patients With HER2+ Gynecologic Cancers and Other Solid Tumors: A ComboMATCH Treatment Trial",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer; trial does not allow breast cancer (required HER2 amplified solid tumor except breast cancer)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is breast cancer, which does not match the trial's requirement for HER2 amplified solid tumors that are not breast cancer. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06366347",
+      "title": "Phase 2, Randomized, Trial of Maintenance Letrozole/Abemaciclib vs Pembrolizumab After Systemic Therapy in Patients With Advanced or Recurrent Estrogen Receptor Positive, Mismatch Repair Proficient, TP53 Wild-type Endometrial Cancer",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer, but trial is for endometrial cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's diagnosis of breast cancer does not match the trial's focus on endometrial cancer, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05154487",
+      "title": "Phase 2 Study of Alpelisib and Fulvestrant for PIK3CA-mutated Estrogen Receptor (ER)-positive Endometrioid Endometrial Cancers",
+      "sponsor": "GOG Foundation",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer whereas trial studies endometrioid endometrial cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type, breast cancer, does not match the trial's indication which is focused on endometrioid endometrial cancer. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04815356",
+      "title": "Phase I Study of Anti-CD22 Chimeric Receptor T Cells in Patients With Relapsed/Refractory Hairy Cell Leukemia and Variant",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05036291",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, and Pharmacokinetics of NB004 Administered as Monotherapy or Combination Therapy in Subjects With Advanced Solid Tumors",
+      "sponsor": "Ningbo Newbay Technology Development Co., Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05059444",
+      "title": "ORACLE: Observation of ResiduAl Cancer With Liquid Biopsy Evaluation",
+      "sponsor": "Guardant Health, Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05187182",
+      "title": "Phase I Trial of CA-4948 in Combination With FOLFOX/PD-1 Inhibitor +/- Trastuzumab for Untreated Unresectable Gastric and Esophageal Cancer",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05378425",
+      "title": "A Phase 1, First-in-Human Study of NTX-1088, a Monoclonal Antibody Targeting the Poliovirus Receptor (PVR, CD155), as Monotherapy and Combined With Pembrolizumab, in Patients With Advanced Solid Malignancies",
+      "sponsor": "Nectin Therapeutics Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05458219",
+      "title": "A Phase 1a/b, Multicenter, Open-label, First-in-human Study of IBI343 in Subjects With Locally Advanced Unresectable or Metastatic Solid Tumors",
+      "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05720117",
+      "title": "A First-in-Human, Open-label, Multicenter, Phase 1 Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of PYX-201 in Participants With Advanced Solid Tumors",
+      "sponsor": "Pyxis Oncology, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05815173",
+      "title": "Phase I/II Study of Ladarixin and Sotorasib in Advanced KRAS G12C Mutant Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "NYU Langone Health",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05867017",
+      "title": "Long-Term Sequelae of SARS-COV-2 Infection: Diabetes Mellitus",
+      "sponsor": "The University of Texas Health Science Center at San Antonio",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05892302",
+      "title": "A Culturally Tailored Scalable Asthma Intervention for Hispanic Children",
+      "sponsor": "University of Texas at Austin",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 48 is above maximum age 12"
+    },
+    {
+      "nct_id": "NCT05892718",
+      "title": "A Phase 1, Open-label, Multi-center, Dose Escalation Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Anti-tumor Activity of HCB101 in Subjects With Advanced Solid Tumors or Relapsed and Refractory Non-Hodgkin Lymphoma",
+      "sponsor": "FBD Biologics Limited",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05953337",
+      "title": "Radioembolization Oncology Trial Utilizing Transarterial Eye90 (ROUTE 90) for the Treatment of Hepatocellular Carcinoma (HCC)",
+      "sponsor": "ABK Biomedical",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06078267",
+      "title": "Feasibility and Efficacy Study of the CardioPulmonary Management (CPM) System in Patients With Chronic Heart Failure",
+      "sponsor": "Analog Device, Inc.",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06185751",
+      "title": "Phase 1 Dose-Escalation and Dose-Expansion Study of the Safety and Efficacy of CS1 CAR-T (WS-CART-CS1) in Subjects With Multiple Myeloma",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06274567",
+      "title": "Targeting Emotion Regulation in Bipolar Disorder With Intermittent Theta Burst Stimulation: A Mechanistic Study",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06308094",
+      "title": "320-detector Computed Tomography to Assess Myocardial Extracellular Volume Fraction in Patients With Atrial Fibrillation Before AF Ablation.",
+      "sponsor": "Johns Hopkins University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06473597",
+      "title": "A Comparison of Rimegepant Orally Disintegrating Tablet (Nurtec ODT) to Rizatriptan Benzoate Orally Disintegrating Tablet (Maxalt MLT-ODT) in Adult Patients Presenting to the ED With Migraine Headache: Randomized, Double-Blind, Clinical Trial",
+      "sponsor": "Antonios Likourezos",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06555744",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of Ascending Doses of a Folate Receptor Alpha Antibody Drug Conjugate, ZW191, in Participants With Advanced Solid Tumors",
+      "sponsor": "Zymeworks BC Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06671613",
+      "title": "Evaluating the Impact of Intermittent Fasting in Combination With Checkpoint Inhibitors in Patients With Non-small Cell Lung Cancer",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05746897",
+      "title": "A Phase 1 Study to Investigate the Safety, Tolerability, Pharmacokinetics/Pharmacodynamics, and Antitumor Activity of NM1F as Monotherapy and in Combination With Pembrolizumab in Subjects With Locally Advanced/Metastatic Solid Tumors",
+      "sponsor": "Hefei TG ImmunoPharma Co., Ltd.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has breast cancer while the trial is focused on ovarian cancer, melanoma, triple negative breast cancer, and colorectal cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the conditions studied in the trial, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06257264",
+      "title": "A Phase 1a/1b Study of BG-68501, a Selective CDK2 Inhibitor, in Participants With Advanced Solid Tumors",
+      "sponsor": "BeiGene",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has HER2 positive (ER+/PR-) breast cancer whereas the trial specifically requires HR+/HER2- breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's eligibility criteria for breast cancer, which specifically requires HR+/HER2- status. This leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05879926",
+      "title": "A Phase III Adjuvant Trial Evaluating the Addition of Adjuvant Chemotherapy to Ovarian Function Suppression Plus Endocrine Therapy in Premenopausal Patients With pN0-1, ER-Positive/HER2-Negative Breast Cancer and an Oncotype Recurrence Score Less Than or Equal to 25 (OFSET)",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 199581, Requested 3306. Please try again in 866ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 199581, Requested 3306. Please try again in 866ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06062498",
+      "title": "Randomized Phase II Study of Elacestrant vs Elacestrant Plus a CDK4/6 Inhibitor (Palbociclib, Abemaciclib, or Ribociclib) in Patients With ER+/HER2- Advanced or Metastatic Breast Cancer With Prior Exposure to a CKD4/6 Inhibitor",
+      "sponsor": "Northwestern University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 197608, Requested 3616. Please try again in 367ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 197608, Requested 3616. Please try again in 367ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    }
+  ]
+}

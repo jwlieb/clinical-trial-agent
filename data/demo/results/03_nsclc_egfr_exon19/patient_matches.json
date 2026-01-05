@@ -1,0 +1,1699 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T06:55:49.379176",
+    "patient_profile": {
+      "age": 52,
+      "sex": "female",
+      "cancer_type": "NSCLC",
+      "biomarkers": [
+        "EGFR exon 19 deletion"
+      ],
+      "description": "52-year-old Asian female with EGFR-mutant (exon 19 deletion) metastatic NSCLC. Initially treated with osimertinib with excellent response lasting 18 months. Now progressed with new bone metastases and enlarging lung primary. Liquid biopsy shows acquired C797S resistance mutation. No CNS involvement. Interested in combination trials or next-generation EGFR inhibitors. Never smoker, excellent functional status. No significant comorbidities. Labs: all WNL including LFTs."
+    },
+    "total_trials": 88,
+    "high_likelihood": 10,
+    "medium_likelihood": 3
+  },
+  "results": [
+    {
+      "nct_id": "NCT04486833",
+      "title": "A Phase 1/2 Open-Label, Dose-Escalation and Clinical Response Study of Quaratusugene Ozeplasmid in Combination With Osimertinib in Patients With Advanced, Metastatic EGFR-Mutant, Metastatic Non-Small Cell Lung Cancer",
+      "sponsor": "Genprex, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC (non-small cell lung cancer) which matches the trial conditions.",
+        "Patient is 52 years old, above the minimum age of 18.",
+        "Patient has EGFR mutation positive (exon 19 deletion).",
+        "Patient has acceptable ECOG status (0).",
+        "Patient has documented progression on osimertinib and has measurable disease."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Labs for organ function (ANC, platelets, creatinine, bilirubin, AST, ALT, LVEF) are within normal limits but are not explicitly stated.",
+        "Duration since last treatment with osimertinib is not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's disease type matches the trial (NSCLC) and she has previously been treated with osimertinib, which is a required prior therapy. She meets key eligibility criteria such as age, ECOG status, and mutation type, with minor uncertainties related to organ function labs and treatment duration.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05261399",
+      "title": "A Phase III, Randomised, Open-Label Study of Savolitinib in Combination With Osimertinib Versus Platinum-Based Doublet Chemotherapy in Participants With EGFR Mutated, MET-Overexpressed and/or Amplified, Locally Advanced or Metastatic Non-Small Cell Lung Cancer Who Have Progressed on Treatment With Osimertinib (SAFFRON).",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed metastatic NSCLC.",
+        "Patient has documented sensitising EGFR mutation (exon 19 deletion).",
+        "Patient has documented radiologic progression on treatment with osimertinib.",
+        "Patient has ECOG performance status of 0.",
+        "Patient's labs are all within normal limits including LFTs."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Need to verify if MET overexpression/amplification has been documented in the patient's tumor specimen following progression."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's metastatic NSCLC diagnosis matches the trial criteria, and she has the required EGFR mutation and progression on osimertinib. Her ECOG status is acceptable, and her overall health appears good based on lab results. The only uncertainty is regarding the documentation of MET overexpression/amplification.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06706076",
+      "title": "A Phase 1/2 Open-Label, Multicenter, First-in-Human Study of the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of BH-30643 in Adult Subjects With Locally Advanced or Metastatic NSCLC Harboring EGFR and/or HER2 Mutations (SOLARA)",
+      "sponsor": "BlossomHill Therapeutics",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: EGFR exon 19 deletion",
+        "ECOG status: 0",
+        "Prior therapies: osimertinib",
+        "No brain metastases",
+        "Country: United States"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Measurable target extracranial lesion according to RECIST v1.1",
+        "Adequate hematologic, hepatic, and renal function is not explicitly confirmed"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial's focus on advanced NSCLC with EGFR mutations. The patient has received prior treatment, which aligns with the trial's inclusion of previously treated patients. However, there are uncertainties regarding the presence of measurable lesions and confirmation of organ function labs.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07155187",
+      "title": "Phase 2/3 Open Label Randomized Study of Telisotuzumab Adizutecan Compared to Standard of Care in Subjects With Locally Advanced or Metastatic EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer After Progression on a Third-Generation EGFR TKI",
+      "sponsor": "AbbVie",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed diagnosis of metastatic non-squamous non-small cell lung cancer (NSCLC)",
+        "Patient has documented EGFR exon 19 deletion",
+        "ECOG Performance Status is 0",
+        "Patient received osimertinib as the prior third-generation EGFR TKI and experienced disease progression"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Archived or recently obtained tumor tissue during Screening (not mentioned) ",
+        "At least 1 measurable lesion per RECIST version 1.1 (not specified in the patient's profile)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) and specific EGFR mutation (exon 19 deletion) align with the trial's investigation. The patient has previously received a third-generation EGFR TKI and has an ECOG status of 0, making the patient likely eligible for the study with only minor uncertainties regarding additional tumor tissue and measurable lesions.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04762199",
+      "title": "A Phase 1b Safety and Pharmacodynamic Study of MER Tyrosine Kinase Inhibitor, MRX-2843, in Combination With Osimertinib in Advanced EGFR Mutant Non-Small Cell Lung Cancer",
+      "sponsor": "Emory University",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed metastatic non-small cell lung cancer (NSCLC)",
+        "ECOG performance status of 0",
+        "PD-L1 TPS of 5%",
+        "Has acquired C797S resistance mutation",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific information on lab values (e.g., absolute neutrophil count, platelet count, hemoglobin, bilirubin, serum creatinine, ALT, AST)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial's indication, and the patient has prior treatment with osimertinib, making her eligible for the Dose Expansion Cohort B as a previously treated patient with progression on osimertinib. The ECOG status and absence of brain metastases further support eligibility, though some lab values are unknown.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06659458",
+      "title": "Utilizing Long-read Sequencing to Investigate the EGFR Landscape of EGFR Positive Lung Cancer Patients",
+      "sponsor": "Our Lady of the Lake Hospital",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Biologically born female",
+        "Diagnosed with EGFR positive lung cancer (NSCLC with EGFR exon 19 deletion)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "None"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's conditions as she has EGFR positive NSCLC. She is within the age range and biologically female, qualifying her for the cancer group. There are no conflicts or uncertainties affecting eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00068003",
+      "title": "Cell Harvest and Preparation for Surgery Branch Treatment Protocols",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC (Non-Small Cell Lung Cancer) which is one of the cancer types studied in the trial.",
+        "Patient is 52 years old, which meets the age criteria (greater than or equal to 18 years).",
+        "Patient's ECOG status is 0, meeting the performance status criteria."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Serology status for HIV, hepatitis B, and hepatitis C is not provided.",
+        "Presence of accessible lesions for harvesting is not mentioned."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC, and they meet the age and performance status criteria. There are some uncertainties regarding serology and tumor accessibility, but overall eligibility is likely.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06896162",
+      "title": "PROGRESS: Precision Oncology Using Genomic Reflexive Evaluations for Study Selection and Survival",
+      "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years at the time of consent",
+        "ECOG status of 0",
+        "Documented Stage IV solid tumor malignancy: NSCLC",
+        "Patient has undergone prior systemic therapy with osimertinib, which is acceptable for this study as it is not specified to be first-line only",
+        "Next Generation Sequencing (NGS) testing is deemed appropriate by treating provider and results will be considered in therapy"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "A genomic tumor test has not been ordered or has been ordered but not resulted"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial indication, and she meets the age and ECOG criteria. She has received prior therapy, which is acceptable as the trial does not explicitly state first-line only. However, there remains some uncertainty about the status of genomic testing.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05005403",
+      "title": "A Global First-in-Human Study in NSCLC, HNSCC and Solid Tumors With Azirkitug (ABBV-514) as a Single Agent and in Combination With Budigalimab or Bevacizumab",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "NSCLC cancer type matches the trial conditions",
+        "ECOG status of 0 is acceptable",
+        "Prior therapy with osimertinib aligns with eligibility for advanced NSCLC with actionable gene alterations",
+        "No brain metastases present"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Pre Treatment biopsy or archive tissue status within 6 months",
+        "Laboratory values meeting protocol criteria",
+        "Measurable disease status per RECIST"
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's NSCLC diagnosis aligns with the trial's focus on non-small cell lung cancer. The patient's treatment history indicates they have progressed after osimertinib, which meets the required prior treatment conditions. The ECOG status is acceptable, and there are no brain metastases. However, the uncertainty regarding recent biopsy availability and lab values available may need further verification.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06545331",
+      "title": "A Dose-Escalation and Expansion Study of XB010 as a Single Agent and Combination Therapy in Subjects With Locally Advanced or Metastatic Solid Tumors",
+      "sponsor": "Exelixis",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC, which matches the trial's conditions studied.",
+        "Patient is 52 years old, which meets the minimum age requirement of 18.",
+        "Patient has ECOG status 0, which is acceptable for the trial.",
+        "Patient has adequate organ function, as indicated by labs being WNL."
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (osimertinib), but the trial does not specify if it is only for treatment-naive patients, making it unclear if this would exclude them."
+      ],
+      "uncertainties": [
+        "The trial eligibility criteria do not specify if it is open to previously treated patients or only for treatment-naive patients."
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient has a cancer type that aligns with the trial's conditions studied and meets critical criteria such as age and ECOG status. However, there is uncertainty regarding the allowance for previously treated patients, as the trial does not explicitly define this.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05498428",
+      "title": "A Phase 2, Open-Label, Parallel Cohort Study of Subcutaneous Amivantamab in Multiple Regimens in Patients With Advanced or Metastatic Solid Tumors Including EGFR-mutated Non-Small Cell Lung Cancer",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed metastatic non-small cell lung cancer (NSCLC)",
+        "Patient has an EGFR exon 19 deletion mutation",
+        "Patient has ECOG status of 0"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (osimertinib) which is a requirement for Cohorts 3 and 3b but not for Cohorts 1, 2, 5, 6, and 7",
+        "Patient shows acquired resistance mutation (C797S) which may impact eligibility depending on specific cohort requirements"
+      ],
+      "uncertainties": [
+        "Specific cohort eligibility (Patient could qualify for Cohort 3 or 3b but needs confirmation about progression after osimertinib)"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type is appropriate as they have metastatic NSCLC that matches the trial. They also have the required biomarker mutation (EGFR exon 19 deletion) and an ECOG status of 0, but their prior treatment with osimertinib raises concerns about the treatment line eligibility, particularly for Cohorts 1, 2, 5, 6, and 7, while they may qualify for Cohorts 3 and 3b. The presence of acquired resistance mutation complicates the assessment further.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02178163",
+      "title": "A Study to Assess the Ability to Initiate Therapy in Advanced Non-small Cell Lung Cancer (NSCLC) Patients Based on Genomic Analyses of Tumor Specimens.",
+      "sponsor": "Barbara Ann Karmanos Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Stage IV Non-Small Cell Lung Cancer",
+        "ECOG status 0"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (osimertinib) but trial does not specify if previously treated patients are allowed."
+      ],
+      "uncertainties": [
+        "Specific laboratory test results within 30 days are not provided.",
+        "Biopsy requirements related to prior treatments and timing are unclear."
+      ],
+      "confidence": 0.65,
+      "reasoning": "The disease type matches as the patient has NSCLC and is in a Stage IV context, which aligns with the trial's focus on advanced NSCLC. However, the patient has a history of prior therapy (osimertinib), and it is unclear if previously treated patients are accepted in this trial, which introduces uncertainty in eligibility. More information on lab tests and biopsy criteria is needed.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06400472",
+      "title": "A First-in-Human, Phase 1a/1b Trial to Assess the Safety, Tolerability and Preliminary Efficacy of LY4170156, an Antibody-Drug Conjugate Targeting Folate Receptor \u03b1-Expressing Tumor Cells, in Participants With Selected Advanced Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is NSCLC, which is included in trial conditions",
+        "ECOG status is 0, which is acceptable for the trial",
+        "No brain metastases, meeting one of the standard eligibility criteria"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (osimertinib), but trial may require treatment-naive status",
+        "Patient's PD-L1 TPS is 5%, which does not meet any specified biomarker thresholds for eligibility"
+      ],
+      "uncertainties": [
+        "No details on treatment line or whether prior therapy disqualifies",
+        "No explicit requirements for the specific biomarker or treatment history mentioned in trial details"
+      ],
+      "confidence": 0.55,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial's target indication. However, the patient has prior therapy (osimertinib), creating uncertainty regarding the treatment line eligibility. Additionally, the patient's PD-L1 TPS at 5% does not appear to meet any threshold, further complicating eligibility assessment. The overall assessment reflects these uncertainties.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03948100",
+      "title": "Dyadic Behavioral Interventions to Manage Physical Performance, Symptoms and Quality of Life for Patient Undergoing Radiotherapy and Their Family Caregivers",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is NSCLC which is included in the trial conditions."
+      ],
+      "conflicts": [
+        "Patient has prior therapy with osimertinib, which indicates they are not treatment-naive and the trial may require untreated patients."
+      ],
+      "uncertainties": [
+        "Requirement for at least 3 weeks of thoracic radiotherapy is not discussed in the patient's profile."
+      ],
+      "confidence": 0.2,
+      "reasoning": "While the patient's cancer type matches the trial's focus on NSCLC, the patient has previously been treated with osimertinib, suggesting they may not meet potential eligibility which presumably favors treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03586453",
+      "title": "A Phase II Study of Osimertinib With On-study and Post-progression Biopsy in the First Line Treatment of EGFR Inhibitor na\u00efve Advanced EGFR Mutant Lung Cancer",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC with EGFR exon 19 deletion which matches the trial's requirement for an EGFR mutation."
+      ],
+      "conflicts": [
+        "Patient has received prior treatment with osimertinib, but the trial is for EGFR inhibitor-na\u00efve advanced NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial specifically requires treatment-naive patients, while the patient has previously been treated with osimertinib, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04155034",
+      "title": "MRI Brain Surveillance Alone Versus MRI Surveillance and Prophylactic Cranial Irradiation (PCI): A Randomized Phase III Trial in Small-Cell Lung Cancer (MAVERICK)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has non-small cell lung cancer (NSCLC) while the trial targets small cell lung cancer (SCLC)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), which does not match the trial's focus on small cell lung cancer (SCLC), resulting in an exclusion based on the disease indication.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04181060",
+      "title": "Randomized Phase III Study of Combination Osimertinib (AZD9291) and Bevacizumab Versus Osimertinib (AZD9291) Alone as First-Line Treatment for Patients With Metastatic EGFR-Mutant Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a pathologically-confirmed diagnosis of non-squamous, non-small cell lung cancer (NSCLC)",
+        "Patient has advanced disease with bone metastases"
+      ],
+      "conflicts": [
+        "Patient has prior treatment with osimertinib, but the trial requires patients that have not received any treatment with an anti-VEGF agent and specifies prior treatment with an EGFR TKI is not allowed."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication for NSCLC, and the disease is advanced, but the patient has previously been treated with an EGFR TKI (osimertinib), which is a critical conflict with the eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04317534",
+      "title": "A Randomized Phase II Trial of Adjuvant Pembrolizumab Versus Observation Following Curative Resection for Stage I Non-small Cell Lung Cancer (NSCLC) With Primary Tumors Between 1-4 cm: Big Ten Cancer Research Consortium BTCRC-LUN18-153",
+      "sponsor": "Greg Durm, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "ECOG status: 0"
+      ],
+      "conflicts": [
+        "Patient has stage IV NSCLC due to new bone metastases, which makes her ineligible for the trial targeting Stage I NSCLC.",
+        "Patient has a known actionable EGFR mutation, which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer is stage IV NSCLC due to progression with new bone metastases, making her ineligible for a trial focused exclusively on Stage I NSCLC. Additionally, the presence of the actionable EGFR mutation is also an exclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05578326",
+      "title": "Study of Trilaciclib and Lurbinectedin in Small Cell Lung Cancer",
+      "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC but the trial is for Small Cell Lung Cancer (SCLC)"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), while the trial is focused on small cell lung cancer (SCLC). This significant mismatch in disease type results in exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05642572",
+      "title": "A Randomized Phase II Study of INC280 (Capmatinib) Plus Osimertinib With or Without Ramucirumab in Participants With EGFR-Mutant, MET-Amplified Stage IV or Recurrent Non-Small Cell Lung Cancer (Lung-MAP Sub-Study)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: EGFR exon 19 deletion",
+        "ECOG status: 0",
+        "Brain metastases: none",
+        "Prior therapies: osimertinib"
+      ],
+      "conflicts": [
+        "Patient has EGFR C797S mutation, indicating acquired resistance, which may not meet the trial's requirement for a MET amplification as required by the eligibility criteria."
+      ],
+      "uncertainties": [
+        "MET amplification status is unknown as it requires testing results from a next-generation sequencing assay, which has not been provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The disease type (NSCLC with EGFR mutation) generally aligns with the trial; however, the primary conflict is the absence of documented MET amplification, which is crucial for eligibility. This conflict and the lack of confirmation on certain biomarkers lead to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06561386",
+      "title": "A Phase 3, Randomized, Open-label Study of Nivolumab + Relatlimab Fixed-dose Combination With Chemotherapy Versus Pembrolizumab With Chemotherapy as First-line Treatment for Participants With Non-squamous (NSQ), Stage IV or Recurrent Non-small Cell Lung Cancer and With Tumor Cell PD-L1 Expression \u2265 1%",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 0",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has prior treatment with osimertinib but the trial only accepts treatment-naive patients.",
+        "Patient has an EGFR mutation which is not allowed as per trial exclusion criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial indication; however, the trial specifically requires treatment-naive patients, and the patient has already received osimertinib. Additionally, the presence of an EGFR mutation that is sensitive to available targeted therapies excludes the patient from consideration. Thus, the patient is clearly excluded from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06593522",
+      "title": "A Phase 2 Study Evaluating the Efficacy, Safety, Tolerability, and Pharmacokinetics of AMG 193 in Subjects With Methylthioadenosine Phosphorylase (MTAP)-Deleted Previously Treated Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Amgen",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: EGFR exon 19 deletion",
+        "ECOG status: 0",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Patient has EGFR mutation (C797S) which is excluded by the trial criteria. The trial excludes tumors harboring mutations amenable to targeted therapies such as EGFR."
+      ],
+      "uncertainties": [
+        "No CNS involvement is confirmed, but potential relevance of C797S mutation complicates eligibility assessment."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC; however, she has an EGFR mutation (C797S) which is explicitly excluded by the trial's eligibility criteria, leading to a clear exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03774758",
+      "title": "Circulating Tumor DNA for Risk Stratification in Lung Cancer Screening",
+      "sponsor": "University of California, San Francisco",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 40 years",
+        "Ability to understand and provide written informed consent",
+        "Willingness to comply with study protocols and provide blood samples",
+        "Willingness to complete 3-year clinical follow up"
+      ],
+      "conflicts": [
+        "Patient has prior treatment with osimertinib, but the trial does not specify eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a cancer type (NSCLC) that is relevant to the trial, but due to the ambiguity regarding treatment line eligibility, combined with the known history of prior therapy (osimertinib), the patient is likely excluded from participating in this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04577599",
+      "title": "Lung B.A.S.E.S 4 Life Mobile Low-dose Computed Tomography (LDCT) Screening: Assessing Incidence and Stage of Lung Cancer Diagnosis in Subjects Ages 40-54 With a 30 Pack Year History or More Within North and South Carolina",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a known diagnosis of lung cancer (NSCLC) in the past 5 years which excludes them from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which does not match the trial's focus on screening high-risk individuals with a strong smoking history. Furthermore, the patient has a known cancer diagnosis within the past 5 years, which is an exclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05332925",
+      "title": "Using Ex Vivo Tumoroids To Predict Immunotherapy Response In NSCLC (TUMORIN)",
+      "sponsor": "Jun Zhang, MD, PhD",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG Performance Status 0"
+      ],
+      "conflicts": [
+        "Patient has prior therapy with osimertinib and trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has advanced metastatic NSCLC which matches the trial's indication. However, the patient has previously been treated with osimertinib, while the trial explicitly requires treatment-naive patients, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06124508",
+      "title": "GUIAR: PromotinG Lung Cancer screenIng Awareness and Implementation in Hispanics/Latinx Head and Neck canceR Survivors",
+      "sponsor": "University of Miami",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a diagnosis of lung cancer (NSCLC) which is an active malignancy, while the trial excludes individuals with any active malignancy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) is not compatible with the trial's focus on Head and Neck Cancer, and furthermore, the patient has an active malignancy which directly excludes them from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06124118",
+      "title": "A Feasibility Study to Evaluate the Addition of Tumor Treating Fields to Treatment of Locally Advanced Stage III NSCLC",
+      "sponsor": "University of Utah",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC, which is the indication studied."
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (osimertinib) while the trial is for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has NSCLC, which matches the trial's focus; however, the trial requires treatment-naive patients and the patient has previously been treated with osimertinib, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06712745",
+      "title": "Feasibility Study of Personalized Ultra-fractionated Stereotactic Ablative Radiotherapy (PULSAR) for Cancers of the Central Lung",
+      "sponsor": "University of Texas Southwestern Medical Center",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 52 years old",
+        "ECOG status is 0",
+        "Histologically proven diagnosis of NSCLC",
+        "Biomarker: EGFR exon 19 deletion",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has prior therapy with osimertinib, while the trial does not specify that it accepts previously treated patients."
+      ],
+      "uncertainties": [
+        "Tumor stage and size are not specified; no information about the tumor's maximum diameter or location relative to central zone or mediastinum."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does match the trial criteria, but the patient's prior treatment with osimertinib is a conflict as the line of treatment for eligibility is unclear. Therefore, the confidence is low and the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06265285",
+      "title": "Pilot Single-Arm, Pragmatic Trial of In-Home Versus In-Clinic Subcutaneous Nivolumab Administration Through Cancer CARE (Connected Access and Remote Expertise) Beyond Walls (CCBW) Program",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "ECOG status: 0",
+        "No brain metastases",
+        "Prior therapies: osimertinib"
+      ],
+      "conflicts": [
+        "Patient has undergone prior systemic therapy (osimertinib), which is not compatible with the eligibility for treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Biomarker requirements (no specified need for EGFR exon 19 deletion mutation in the trial)",
+        "Lab results for organ function (AST, ALT, bilirubin, ANC, platelet count, hemoglobin)"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) is compatible with the trial; however, the patient has received prior treatment with osimertinib which makes her ineligible as the trial appears to target previously untreated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07132918",
+      "title": "The cARdiac Radiation Therapy Sparing (HEARTS) for Thoracic Cancers",
+      "sponsor": "University of Wisconsin, Madison",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC and the trial only includes non-operable Stage III NSCLC.",
+        "Patient has prior treatment with osimertinib, while the trial does not specify eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial conditions and they have previously received treatment with osimertinib, leading to exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06814496",
+      "title": "RAdiation comBined With BIspecific T-Cell Engager in DLL3 Expressing Tumors (RABBIT) Study: A Phase I/II Study of AMG757 / Tarlatamab and Concurrent Radiation Therapy in Tumors With High Prevalence of DLL3",
+      "sponsor": "University of Arizona",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC while the trial primarily studies tumors expressing DLL3, with no mention of NSCLC as a required type based on incomplete histologies.",
+        "Patient has progressed after prior systemic therapy (osimertinib), whereas the trial specifically requires subjects to have progressed or recurred after at least one line of therapy, indicating a confusion in interpretation but does not fulfill the conditions required for enrollment."
+      ],
+      "uncertainties": [
+        "Patient's specific eligibility related to the lack of measurable lesions defined by RECIST 1.1 is not confirmed."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the types being targeted (DLL3-expressing tumors), which leads to exclusion. Additionally, the patient has already received and progressed after prior therapy, which does not align clearly with the eligibility criteria despite some confusion in interpretation about treatment lines.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06426628",
+      "title": "Clinical Utility of Management of Patients With CT and LDCT Identified Pulmonary Nodules Using the Percepta Nasal Swab Classifier",
+      "sponsor": "Veracyte, Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active cancer (NSCLC) but trial excludes active cancer (other than non-melanoma skin cancer)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which is considered active cancer and is excluded by the trial eligibility criteria that do not allow for active cancer participation. Hence, the patient is excluded from this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06312137",
+      "title": "A Phase 3 Randomized Open-Label Study of Adjuvant Pembrolizumab With or Without MK-2870 in Participants With Resectable Stage II to IIIB (N2) NSCLC Not Achieving pCR After Receiving Neoadjuvant Pembrolizumab With Platinum-based Doublet Chemotherapy Followed by Surgery",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status: 0",
+        "Age: 52",
+        "NSCLC type: squamous or nonsquamous (confirmed via included patient profile)"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (osimertinib) but the trial is designed for patients who have not received prior therapies"
+      ],
+      "uncertainties": [
+        "Confirmation of required biomarkers from surgical resection",
+        "Details about patient's condition or response to prior treatment beyond current metastases"
+      ],
+      "confidence": 0.09,
+      "reasoning": "The patient's cancer type matches the trial study; however, she has received prior systemic therapy, which excludes her from this trial that requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06566443",
+      "title": "Phase I Trial Evaluating the Safety of the Dietary Supplement Honokiol in Early-Stage Resectable Non-Small Cell Lung Cancer",
+      "sponsor": "The Methodist Hospital Research Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, but trial is for early-stage resectable NSCLC.",
+        "Patient has received prior osimertinib therapy, while trial may require treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.09,
+      "reasoning": "The patient's cancer diagnosis is metastatic NSCLC, while the trial specifically targets early-stage, resectable cases, leading to a clear exclusion based on disease type. Additionally, the patient has already received osimertinib, which conflicts with the treatment-naive criteria likely required by the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05845671",
+      "title": "A Phase 1 / 2, Open Label, Study of Amivantamab (JNJ-61186372) Among Participants With Advanced NSCLC Harboring ALK, ROS1, and RET Gene Fusions in Combination With Tyrosine Kinase Inhibitors",
+      "sponsor": "University of Colorado, Denver",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "ECOG status: 0",
+        "Country: United States"
+      ],
+      "conflicts": [
+        "Patient has NSCLC with EGFR mutation but the trial targets ALK, ROS1, or RET gene fusions.",
+        "Patient has previously received osimertinib, but trial requires no history of EGFR TKI administration."
+      ],
+      "uncertainties": [
+        "All organ function labs are within normal limits (WNL) but specifics are not provided."
+      ],
+      "confidence": 0.05,
+      "reasoning": "The patient has non-small cell lung cancer (NSCLC) with an EGFR mutation, while the trial is specifically for NSCLC patients with ALK, ROS1, or RET fusions. This mismatch in targeted mutations leads to an exclusion. Additionally, the patient has previously been treated with osimertinib, an EGFR TKI, which further excludes them from this trial that does not allow prior EGFR TKI treatment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07231159",
+      "title": "Building on Trust: Navigating Preventive Lung, Breast, and Prostate Cancer Screenings at Community Resource Spots",
+      "sponsor": "AdventHealth",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC while the trial is focused on screening for breast cancer, lung cancer diagnosis, and prostate cancer, without a focus on the specific treatment of metastatic NSCLC.",
+        "Patient's age (52) does not meet the lung cancer screening criterion of 50 years with a 20 pack-year smoking history."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is not aligned with the trial's indicated conditions of breast cancer, lung cancer diagnosis, or prostate cancer. Additionally, the patient does not qualify for lung cancer screening due to lack of a significant smoking history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06695845",
+      "title": "A Phase 2, Open-label, Multicenter Study to Evaluate Efficacy and Safety of Zanidatamab for the Treatment of Participants With Previously Treated HER2-expressing Solid Tumors (DiscovHER PAN-206)",
+      "sponsor": "Jazz Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "ECOG status: 0",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "The patient has an EGFR mutation (C797S), which is specifically excluded for NSCLC participants in the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial condition; however, the presence of the EGFR mutation (C797S) excludes her from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04093167",
+      "title": "A Biomarker-Directed, Multi-Centre Phase II/III Study of CTDNA Response Adaptive Immuno-Chemotherapy in Non-Small Cell Lung Cancer",
+      "sponsor": "Canadian Cancer Trials Group",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: EGFR exon 19 deletion",
+        "ECOG status: 0",
+        "PD-L1: TPS 5%",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none",
+        "Co-mutations: EGFR C797S"
+      ],
+      "conflicts": [
+        "PD-L1 test result indicates TPS < 50%, trial requires TPS \u2265 50%",
+        "Trial requires confirmed EGFR and ALK mutation-negative disease, patient has EGFR mutation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial indication, but fails the crucial criteria of PD-L1 TPS being less than the required threshold of 50%. Additionally, the presence of EGFR mutation conflicts with the trial requirement for mutation-negative disease.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04253964",
+      "title": "Phase II Pilot Study of Performance Status 2 vs. Performance Status 0-1 Non-Small Cell Lung Cancer Patients Treated With Chemo/Immunotherapy",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG performance status is 0",
+        "Patient is 52 years old",
+        "Normal organ function and no brain metastases"
+      ],
+      "conflicts": [
+        "Patient has a known targetable mutation (EGFR exon 19 deletion), which excludes them from the trial"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial indication; however, the presence of a known targetable mutation (EGFR exon 19 deletion) excludes them from eligibility based on the trial's exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04585477",
+      "title": "Adjuvant ctDNA-Adapted Personalized Treatment in Early Stage NSCLC (ADAPT-E)",
+      "sponsor": "Stanford University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient's cancer type is metastatic NSCLC with an EGFR exon 19 deletion, which does not qualify for this trial as adenocarcinoma patients must NOT be positive for EGFR Exon 19 deletion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the exclusion criteria for this trial based on the specified biomarkers, which clearly exclude patients with EGFR exon 19 deletions.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04991025",
+      "title": "Phase 2 Trial of Neoadjuvant Nivolumab + Platinum-based Chemotherapy + Certolizumab in Patients With Resectable Stages II-III Lung Cancers",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior treatment with osimertinib, while trial requires untreated stage II-III non-small cell lung cancers."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial, but the trial is for treatment-naive patients while the patient has previously received systemic therapy (osimertinib). Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05118854",
+      "title": "A Phase II Study of Neoadjuvant Sotorasib in Combination With Cisplatin or Carboplatin and Pemetrexed for Surgically Resectable Stage IIA-IIIB Non-Squamous Non-Small Cell Lung Cancer With a KRAS p.G12C Mutation",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with an EGFR exon 19 deletion, whereas the trial requires a KRAS p.G12C mutation.",
+        "Patient has previously received systemic therapy (osimertinib), while the trial specifies previously untreated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The trial is specifically looking for patients with a KRAS p.G12C mutation in non-squamous NSCLC, which the patient does not have. Additionally, the patient has previously been treated with osimertinib, making her ineligible as the trial requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05168566",
+      "title": "A Multicenter, Open-label, Phase IIb Study to Evaluate the Efficacy and Safety of Sutetinib Maleate Capsule in Locally Advanced or Metastatic NSCLC (Non-resistant Uncommon EGFR Mutations Only, Including L861Q, G719X, and/or S768I)",
+      "sponsor": "Teligene US",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "ECOG status: 0",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Prior therapies: patient has used osimertinib, which is an EGFR-TKI and therefore conflicts with exclusion criterion 1"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC, which matches. However, the trial is only for patients with non-resistant uncommon EGFR mutations and excludes any patients who have used EGFR-TKIs for anti-tumor therapy, which the patient has. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05500092",
+      "title": "An Open Label, Randomized Study of Neoadjuvant Nivolumab and Chemotherapy, With or Without Sub-ablative Stereotactic Body Radiation Therapy, for Resectable Stage IIA to IIIB Non-small Cell Lung Cancer",
+      "sponsor": "Montefiore Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapy (osimertinib) for lung cancer, whereas trial excludes any prior therapy for lung cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial, but the patient is not treatment-naive as they have previously received osimertinib, directly conflicting with the trial's exclusion criteria of no prior therapy for lung cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06117774",
+      "title": "A Phase 3, Randomized, Double-blind, Placebo-controlled, Multicenter Study of Tarlatamab Therapy in Subjects With Limited-Stage Small-Cell Lung Cancer (LS-SCLC) Who Have Not Progressed Following Concurrent Chemoradiation Therapy",
+      "sponsor": "Amgen",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has non-small cell lung cancer (NSCLC) but the trial is for limited-stage small cell lung cancer (LS-SCLC)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), whereas the trial is focused on limited-stage small cell lung cancer (LS-SCLC). This mismatch results in a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05715229",
+      "title": "A Multicenter Phase II Randomized Trial Of Immunotherapy Versus Chemotherapy Guided By Circulating Tumor DNA-Based Molecular Response On Patients With Metastatic NSCLC",
+      "sponsor": "Hackensack Meridian Health",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: EGFR exon 19 deletion",
+        "ECOG status: 0",
+        "PD-L1: TPS 5%",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "The trial requires newly diagnosed, previously untreated Stage IV NSCLC patients, but the patient has previously received systemic therapy (osimertinib)."
+      ],
+      "uncertainties": [
+        "None"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches, but the trial excludes previously treated patients and the patient has received prior systemic therapy (osimertinib), leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05669846",
+      "title": "Phase II Feasibility Study of Healthy Donor FMT (hdFMT) and Pembrolizumab in Relapsed/Refractory (R/R) PD-L1 Positive NSCLC",
+      "sponsor": "Diwakar Davar",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 0",
+        "No brain metastases",
+        "Patient from the United States"
+      ],
+      "conflicts": [
+        "Trial requires histologically or cytologically confirmed diagnosis of PD-L1+ NSCLC, but patient has EGFR mutation and PD-L1 status is 5%, which is below the required 1% threshold.",
+        "Patient has not received prior treatment with an anti-PD(L)1 ICI, which the trial requires."
+      ],
+      "uncertainties": [
+        "None"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's requirement for PD-L1+ NSCLC, and she has not received prior treatment with an anti-PD(L)1 ICI, resulting in clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06385262",
+      "title": "Safety, Efficacy, and Tumor Immune Microenvironment Changes With Neoadjuvant Chemotherapy and Cemiplimab With or Without Alirocumab in Stage 1B-3A Non-Small Cell Lung Cancer: TOP 2301",
+      "sponsor": "Duke University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 0",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has known EGFR mutation (C797S), which is an exclusion criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC. However, the patient has a known EGFR mutation, which explicitly excludes them from eligibility in the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06422143",
+      "title": "Phase 3 Study of Pembrolizumab in Combination With Carboplatin/Taxane (Paclitaxel or Nab-paclitaxel) Followed by Pembrolizumab With or Without Maintenance MK-2870 in the First-line Treatment of Metastatic Squamous Non-small Cell Lung Cancer",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with EGFR alterations which does not match the trial's focus on squamous NSCLC specifically."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-squamous NSCLC (EGFR mutation), which does not match the trial\u2019s target indication of squamous non-small cell lung cancer, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02596490",
+      "title": "Couple-Based Meditation for Metastatic Lung Cancer Patients and Their Partners",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is not currently receiving treatment at MD Anderson Cancer Center."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The trial requires patients to be currently receiving treatment at MD Anderson Cancer Center. Since the patient's treatment location is not specified as MD Anderson, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06225804",
+      "title": "A Phase 1, Open-Label Study of ABSK112 to Assess Safety, Tolerability, and Pharmacokinetics in Patients With Non-Small Cell Lung Cancer",
+      "sponsor": "Abbisko Therapeutics Co, Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has EGFR C797S mutation which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type and prior treatments match, but the presence of the EGFR C797S mutation is a clear exclusion criterion, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05815173",
+      "title": "Phase I/II Study of Ladarixin and Sotorasib in Advanced KRAS G12C Mutant Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "NYU Langone Health",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "ECOG status: 0",
+        "Prior therapies: osimertinib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Patient has an EGFR mutation (exon 19 deletion) which is excluded by the trial criteria",
+        "Patient's cancer does not have KRAS G12C mutation which is required for eligibility"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has non-small cell lung cancer (NSCLC) with an EGFR mutation, whereas the trial is specifically for KRAS G12C mutant NSCLC. This discrepancy leads to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06252129",
+      "title": "Maximizing Lymph Node Dissection on Fresh and Fixed Lung Cancer Resection Specimens",
+      "sponsor": "Brigham and Women's Hospital",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, but trial excludes patients with any metastasis present."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC but the trial is focused on lung cancer patients without any metastasis. Since the patient has metastatic disease, they do not meet the eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06671613",
+      "title": "Evaluating the Impact of Intermittent Fasting in Combination With Checkpoint Inhibitors in Patients With Non-small Cell Lung Cancer",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is previously treated with osimertinib, while trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC, which is relevant to the trial; however, the trial is specifically designed for treatment-naive patients, and the patient has prior therapy with osimertinib, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07064395",
+      "title": "Bright Light Therapy to Reduce Sleep Disturbance and Biological Aging in Lung Cancer Patients",
+      "sponsor": "Henry Ford Health System",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic cancer, whereas trial excludes patients with metastatic cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has metastatic NSCLC, which directly conflicts with the trial's exclusion criteria that prohibits participation for patients with metastatic cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06716580",
+      "title": "EQUAL: EGFR ctDNA QUantative Assessment for Lung Cancer Screening in Asian and Latinx Populations",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "Sex: female",
+        "ECOG status: 0",
+        "Non-tobacco user",
+        "Self-identifies as Asian"
+      ],
+      "conflicts": [
+        "Patient has a current cancer diagnosis of NSCLC and a history of prior therapies, which doesn't align with trial's exclusion of individuals with current cancer or history of cancer within the last 5 years."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer diagnosis of NSCLC and treatment history of osimertinib conflict with the trial's exclusion criteria regarding current cancer diagnoses.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04083183",
+      "title": "Targeted Astatine-211-Labeled BC8-B10 Monoclonal Antibody as Reduced Intensity Conditioning for Nonmalignant Diseases",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 52 is above maximum age 49"
+    },
+    {
+      "nct_id": "NCT04130516",
+      "title": "A Multicenter Phase 1-2A Study to Assess the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of LNS8801 in Patients With Advanced Cancer With and Without Pembrolizumab",
+      "sponsor": "Linnaeus Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04300556",
+      "title": "A Multicenter, Open-Label Phase 1/2 Trial Evaluating the Safety, Tolerability, and Efficacy of MORAb-202, a Folate Receptor Alpha (FR\u03b1)-Targeting Antibody-drug Conjugate (ADC) in Subjects With Selected Tumor Types",
+      "sponsor": "Eisai Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04316546",
+      "title": "A Multi-Cohort Phase 2 Dose-Escalation Study of MK-7075 (Miransertib) in Proteus Syndrome",
+      "sponsor": "National Human Genome Research Institute (NHGRI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05419375",
+      "title": "Master Screening Study to Determine Biomarker Status and Potential Trial Eligibility for Patients With Malignant Tumors",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05702034",
+      "title": "A Phase 3, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Study to Demonstrate the Efficacy and Safety of Milvexian, an Oral Factor XIa Inhibitor, for Stroke Prevention After an Acute Ischemic Stroke or High-Risk Transient Ischemic Attack",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05785741",
+      "title": "A Phase 1/2a, Multicenter, Open-Label, First in Human Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Antitumor Activity of DB-1310 in Subjects With Advanced/Metastatic Solid Tumors",
+      "sponsor": "DualityBio Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05892068",
+      "title": "Window of Opportunity Analysis of Pre-Operative Tucatinib for Surgically Resected HER2+ Brain Metastases: Understanding Mechanisms of Resistance",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05925803",
+      "title": "A Multicenter, Randomized, Parallel-group, Double-blind,Two-arm Phase III Study to Evaluate the Safety and Efficacy of Anifrolumab Compared With Placebo in Male and Female Participants 18 to 70 Years of Age Inclusive With Systemic Sclerosis",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06401330",
+      "title": "Risk Adapted Treatment of Unilateral Favorable Histology Wilms Tumors (FHWT)",
+      "sponsor": "Children's Oncology Group",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 52 is above maximum age 30"
+    },
+    {
+      "nct_id": "NCT06973564",
+      "title": "A Phase 1/2a, Multicenter, Open-label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of JAB-23E73 in Adult Patients With Advanced Solid Tumors With KRAS Alteration",
+      "sponsor": "Jacobio Pharmaceuticals Co., Ltd.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07125183",
+      "title": "A Phase II Study on Efficacy and Tolerability of Weekly Doxorubicin in Elderly Patients With Advanced or Metastatic Leiomyosarcoma of Soft Tissue",
+      "sponsor": "University of Colorado, Denver",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 52 is below minimum age 65"
+    },
+    {
+      "nct_id": "NCT00033137",
+      "title": "Birt-Hogg-Dub(SqrRoot)(Copyright) Syndrome: Characterization of the FLCN Disease Gene and Predisposition to Renal Cancer, Cutaneous Fibrofolliculoma and Pulmonary Cysts",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT01970696",
+      "title": "International Ovarian & Testicular Stromal Tumor Registry",
+      "sponsor": "Children's Hospitals and Clinics of Minnesota",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03465774",
+      "title": "A Prospective Observational Cohort Study of Indwelling Pleural Catheters Versus Indwelling Pleural Catheters Plus Doxycycline Pleurodesis for Treatment of Malignant Pleural Effusions",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04458532",
+      "title": "A Randomized Trial to Minimize Non-Response to Aerobic Training in Post-Menopausal Women With Early Stage Breast Cancer",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04551378",
+      "title": "Impacts of Coronavirus Disease 2019 (COVID-19) Pandemic on Adolescent and Young Adult (AYA) Cancer Patients and Survivors",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 52 is above maximum age 39"
+    },
+    {
+      "nct_id": "NCT04815356",
+      "title": "Phase I Study of Anti-CD22 Chimeric Receptor T Cells in Patients With Relapsed/Refractory Hairy Cell Leukemia and Variant",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04985032",
+      "title": "Accelerated Partial Breast Irradiation (APBI) Using Stereotactic Body Radiation Therapy (SBRT): a Multicenter, Observational Clinical Trial",
+      "sponsor": "RPCR, Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05598879",
+      "title": "Global Cardio Oncology Registry",
+      "sponsor": "The Cleveland Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05720117",
+      "title": "A First-in-Human, Open-label, Multicenter, Phase 1 Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of PYX-201 in Participants With Advanced Solid Tumors",
+      "sponsor": "Pyxis Oncology, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05761782",
+      "title": "Engaging Diverse and Underserved Communities in Cancer Awareness Training and Education (EDUCATE)",
+      "sponsor": "University of California, Davis",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05876923",
+      "title": "The Effects of Acute and Chronic Exercise on the Immune Phenotype of Indolent Non-Hodgkin Lymphoma and Chronic Lymphocytic Leukemia Patients",
+      "sponsor": "Mayo Clinic",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06462365",
+      "title": "Phase I, First in Human, Open Label Study to Evaluate Safety and Tolerability of TRX103 Cells in Subjects With Hematological Malignancies Undergoing HLA-mismatched Related or Unrelated Hematopoietic Stem Cell Transplantation (HSCT)",
+      "sponsor": "Tr1X, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06494488",
+      "title": "Differential Thrombogenesis Effects of Eicosapentaenoic Acid (EPA) and Docosahexaenoic Acid (DHA) Mediated by High-Density Lipoprotein (HDL)",
+      "sponsor": "The Miriam Hospital",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06555744",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of Ascending Doses of a Folate Receptor Alpha Antibody Drug Conjugate, ZW191, in Participants With Advanced Solid Tumors",
+      "sponsor": "Zymeworks BC Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07158749",
+      "title": "Generalized and Domain-Specific Episodic Thinking for Smoking Cessation: An 8-Week Pilot and Feasibility Trial",
+      "sponsor": "Virginia Polytechnic Institute and State University",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07192900",
+      "title": "Fast TILs to Treat Metastatic Cancer Patients With Pleural Disease: A Phase I Trial",
+      "sponsor": "David Bartlett, MD",
+      "phase": "Phase 1",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT00001465",
+      "title": "Characterization of the Pathogenesis of Lymphangioleiomyomatosis (LAM)",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, but trial is studying LAM, which is a different disease.",
+        "Patient is being evaluated for a trial concerning lung disease not related to NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the conditions studied in this trial (LAM), resulting in a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05076760",
+      "title": "Phase I Study Evaluating MEM-288 Oncolytic Virus Alone and in Combination With Standard of Care Therapy in Advanced Solid Tumors",
+      "sponsor": "Memgen, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient progressed after osimertinib treatment, but the trial requires prior treatment with anti-PD-1 or PD-L1 checkpoint inhibitors (Criteria 6)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient does not qualify due to treatment line mismatch. The trial is designed for patients who have progressed after first-line anti-PD-1 or PD-L1 therapy, whereas the patient has not received such treatment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05514717",
+      "title": "A Phase 1, First-in-Human, Dose Escalation and Expansion, Multicenter Study of XMT-2056 in Participants With Advanced/Recurrent Solid Tumors That Express HER2",
+      "sponsor": "Mersana Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC but the trial is for HER2-positive cancers; does not match the trial's indication."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), while the trial is specifically for HER2-positive cancers. Thus, there is a clear exclusion based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06253871",
+      "title": "A Phase 1/1b Study of IAM1363 in Patients With Advanced Cancers Harboring HER2 Alterations",
+      "sponsor": "Iambic Therapeutics, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 52",
+        "ECOG status: 0"
+      ],
+      "conflicts": [
+        "Patient has NSCLC but trial criteria require HER2 alteration and patient has EGFR alteration.",
+        "Patient has previously treated cancer with osimertinib while trial requires relapsed/refractory HER2-altered malignancy"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC with EGFR alteration) does not match the trial's focus on HER2 alterations. Furthermore, the patient is not relapsed/refractory for HER2, as the profile revolves around EGFR alterations, leading to clear exclusion.",
+      "excluded_reason": null
+    }
+  ]
+}

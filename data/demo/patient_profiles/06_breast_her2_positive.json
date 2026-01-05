@@ -1,0 +1,15 @@
+{
+  "age": 48,
+  "sex": "female",
+  "cancer_type": "breast cancer",
+  "biomarkers": ["HER2 positive", "ER positive", "PR negative"],
+  "description": "48-year-old premenopausal female with HER2-positive (IHC 3+, FISH amplified), ER+/PR- metastatic breast cancer. Originally diagnosed as Stage IIA in 2021, received neoadjuvant TCHP with pCR. Developed bone-only metastatic recurrence 2 years later. First-line trastuzumab/pertuzumab + docetaxel achieved PR, then progression at 10 months. Second-line T-DM1 ongoing x6 cycles with mixed response - new liver lesions noted. Interested in ADC combinations or novel HER2 agents. Baseline cardiac function LVEF 58%. No CNS disease. Mild neuropathy from prior taxanes.",
+  "ecog_status": 1,
+  "pd_l1_status": null,
+  "prior_therapies": ["TCHP", "trastuzumab", "pertuzumab", "docetaxel", "T-DM1"],
+  "brain_mets_status": "none",
+  "co_mutations": ["PIK3CA H1047R"],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

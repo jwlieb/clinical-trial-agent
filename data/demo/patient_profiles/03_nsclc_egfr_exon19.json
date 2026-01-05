@@ -1,0 +1,15 @@
+{
+  "age": 52,
+  "sex": "female",
+  "cancer_type": "NSCLC",
+  "biomarkers": ["EGFR exon 19 deletion"],
+  "description": "52-year-old Asian female with EGFR-mutant (exon 19 deletion) metastatic NSCLC. Initially treated with osimertinib with excellent response lasting 18 months. Now progressed with new bone metastases and enlarging lung primary. Liquid biopsy shows acquired C797S resistance mutation. No CNS involvement. Interested in combination trials or next-generation EGFR inhibitors. Never smoker, excellent functional status. No significant comorbidities. Labs: all WNL including LFTs.",
+  "ecog_status": 0,
+  "pd_l1_status": "TPS 5%",
+  "prior_therapies": ["osimertinib"],
+  "brain_mets_status": "none",
+  "co_mutations": ["EGFR C797S"],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

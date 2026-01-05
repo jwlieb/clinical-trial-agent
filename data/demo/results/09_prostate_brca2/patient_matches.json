@@ -1,0 +1,2026 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T06:59:11.025683",
+    "patient_profile": {
+      "age": 72,
+      "sex": "male",
+      "cancer_type": "prostate cancer",
+      "biomarkers": [
+        "BRCA2 germline mutation"
+      ],
+      "description": "72-year-old male with metastatic castration-resistant prostate cancer (mCRPC), germline BRCA2 mutation confirmed. Disease progression on enzalutamide and subsequent docetaxel. Olaparib initiated with good PSA response (decline from 145 to 32) lasting 11 months, now PSA rising (72). Bone-predominant disease with multiple skeletal metastases, currently on denosumab. No visceral involvement. Seeking combination approaches with PARP inhibitors or novel agents for DNA repair deficient tumors. Good functional status despite bone disease. No bone pain requiring opioids."
+    },
+    "total_trials": 100,
+    "high_likelihood": 28,
+    "medium_likelihood": 2
+  },
+  "results": [
+    {
+      "nct_id": "NCT02861573",
+      "title": "Phase Ib/II Trial of Pembrolizumab (MK-3475) Combination Therapies in Metastatic Castration-Resistant Prostate Cancer (mCRPC) (KEYNOTE-365)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed adenocarcinoma of the prostate",
+        "ECOG status of 1",
+        "Age 72"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication for metastatic castration-resistant prostate cancer. Treatment line matches as the trial is for previously treated patients, and the patient has undergone appropriate treatments. The patient's ECOG status is acceptable for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03972657",
+      "title": "A Phase 1/2 Study of REGN5678 (Anti-PSMAxCD28) With or Without Cemiplimab (Anti-PD-1) in Patients With Metastatic Castration-Resistant Prostate Cancer and Other Tumors Associated With PSMA Expression",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Metastatic castration-resistant prostate cancer (mCRPC) confirmed by clinical details",
+        "Prior therapies include enzalutamide, which is a required second-generation anti-androgen therapy",
+        "PSA value increase after previous treatments meets eligibility criteria"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication (mCRPC). The patient has prior systemic therapies, including a second-generation anti-androgen therapy, and meets the minimum PSA requirement. There are no conflicts or uncertainties based on the provided data.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04038502",
+      "title": "An Open-label, Multicenter Phase II Study to Compare the Efficacy of Carboplatin as First-line Followed by Second-line Olaparib Versus Olaparib as First-line Followed by Second-line Carboplatin in the Treatment of Patients With Castration Resistant Prostate Cancer Containing Homologous Recombination Deficiency",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of prostate cancer",
+        "mCRPC as evidenced by PSA level of 72 after prior therapy",
+        "Prior therapy includes enzalutamide",
+        "ECOG Performance Status of 1",
+        "Germline BRCA2 mutation confirmed"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Normal organ and bone marrow function labs (e.g., hemoglobin, ANC, platelet count, liver function tests, creatinine clearance) are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer (mCRPC) which matches the trial's indication. The patient's age and treatment history fit within the inclusion criteria, and they are on ongoing gonadal androgen deprivation therapy. There are some uncertainties related to the necessary organ function tests, but overall, the patient is likely to meet the eligibility requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04071236",
+      "title": "A Phase I and Randomized Phase II Trial of Radium-223 Dichloride, M3814, &Amp; Avelumab in Advanced Metastatic Castrate-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 1",
+        "Progressive castration-resistant prostate cancer with multiple skeletal metastases",
+        "Prior treatments include enzalutamide and docetaxel",
+        "Patient has a baseline PSA level of 72 ng/mL with evidence of progressively increasing PSA values",
+        "Patient is in the age range of 18+",
+        "Patient is currently on denosumab, which is a bone health agent"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Albumin level",
+        "Hemoglobin level",
+        "Leukocyte count",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Total bilirubin level",
+        "AST/ALT levels",
+        "Creatinine level or GFR"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, prostate cancer, aligns with the trial's focus on metastatic castration-resistant prostate cancer (mCRPC). The patient has received prior treatments as required by the trial. While there are some uncertainties regarding organ function lab values, the critical criteria have been met, suggesting high likelihood of eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04337580",
+      "title": "A Phase II Trial of FASN Inhibition by Omeprazole in Combination With Cabazitaxel in Patients With Docetaxel- and Castration-Resistant Prostate Cancer",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "The patient has metastatic castration-resistant prostate cancer (mCRPC), which matches the trial condition of castration-resistant prostate cancer.",
+        "The patient has a history of prior taxane treatment (docetaxel) in the castration-refractory setting.",
+        "The patient is 72 years old, fitting the age criterion of 18 or older.",
+        "The patient's ECOG status is 1, which is acceptable per trial criteria."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function lab values are not provided to confirm absolute neutrophil count, platelets, total bilirubin, AST/ALT, and creatinine levels."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (mCRPC) directly matches the trial's focus on castration-resistant prostate cancer. The patient has received prior treatment with docetaxel, which aligns with the inclusion criteria for prior taxane treatment. The patient's age and ECOG status meet the trial requirements. However, there is an uncertainty regarding organ function, which slightly lowers confidence.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05125016",
+      "title": "Phase 1/2 Study of REGN4336 (a PSMAxCD3 Bispecific Antibody) Administered Alone or in Combination With Cemiplimab or REGN5678 (a PSMAxCD28 Bispecific Antibody) in Patients With Metastatic Castration-Resistant Prostate Cancer",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed metastatic castration-resistant prostate cancer (mCRPC)",
+        "Prior treatment with enzalutamide (a second-generation anti-androgen therapy)",
+        "PSA value is rising (currently PSA = 72, which is above the eligibility threshold of \u22654 ng/mL)",
+        "ECOG status is 1, indicating good functional status"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication of metastatic castration-resistant prostate cancer. The patient has undergone multiple lines of prior therapy, satisfying the treatment line criteria. There are no conflicts or uncertainties making the patient ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05766371",
+      "title": "A Phase 2 Study of Pembrolizumab Plus 177Lu-PSMA-617 in Patients With Metastatic Castration Resistant Prostate Cancer",
+      "sponsor": "University of California, San Francisco",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), which matches the trial conditions.",
+        "Patient is male, 72 years old, meeting the age requirement.",
+        "Patient has a confirmed progression on enzalutamide, which is a second generation androgen signaling inhibitor.",
+        "Patient has an ECOG status of 1, meeting the performance status requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function labs (e.g., renal and hepatic function markers) are not provided in the patient profile."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer and has previously progressed on enzalutamide, making him eligible based on disease and treatment line criteria. There are no critical conflicts identified, and while organ function details are missing, they do not inherently disqualify the patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06457919",
+      "title": "A Phase 1b/2 Study Evaluating the Activity of Tinengotinib (TT-00420) in Combination With Androgen Receptor Signaling Inhibitors (ARSIs) in Patients With Metastatic Castration Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "Cancer type: prostate cancer",
+        "Biomarkers: BRCA2 germline mutation",
+        "ECOG status: 1",
+        "Progressive disease on enzalutamide: PSA progression with rising PSA levels",
+        "Bone-predominant metastatic disease with no visceral involvement",
+        "Currently on enzalutamide",
+        "Good functional status despite bone disease, no bone pain requiring opioids"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function lab values (not provided)",
+        "Current serum PSA level (not confirmed whether it meets the threshold of 2.0 ng/mL or above)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer, which aligns with the trial focus. The treatment history shows progression on enzalutamide, fulfilling the eligibility conditions. There are no significant conflicts, merely uncertainties regarding organ function and specific PSA level.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06470243",
+      "title": "A Phase III Study of Cabazitaxel With or Without Carboplatin in Patients With Metastatic Castrate-Resistant Prostate Cancer (mCRPC), Stratified by Aggressive Variant Signature",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed diagnosis of prostate cancer",
+        "Castrate-resistant prostate cancer",
+        "Metastatic disease by bone scan",
+        "Prior treatment included docetaxel",
+        "Age is 72 years",
+        "ECOG status is 1",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Requirement for biopsy tissue submission for alteration assessment",
+        "Testing for AVPC-Molecular Pathologic Signature",
+        "Availability of biopsy tissue that meets the specified criteria",
+        "Need for blood test results related to organ function"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the indication being studied in the trial, as they have metastatic castrate-resistant prostate cancer. The patient has received appropriate prior treatments, including docetaxel, confirming their eligibility as a previously treated patient. The supporting factors indicate alignment with the trial's criteria, although there are uncertainties regarding tissue submission and lab results that could affect final eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06533644",
+      "title": "A Phase 2a Multicenter, Dose-Escalation and Dose Optimization Study of SYNC-T Therapy SV-102 for Patients With Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Syncromune, Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC)",
+        "ECOG status is 1",
+        "Patient has progressed after receiving multiple prior therapies including enzalutamide and docetaxel",
+        "Patient has not received more than three prior lines of therapy",
+        "Patient has no brain metastases",
+        "Patient is male and over 18 years old",
+        "Patient can provide informed consent"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Serum testosterone levels before screening not provided",
+        "Bone marrow, renal, and hepatic function not explicitly confirmed",
+        "Need confirmation that patient can undergo anesthesia or sedation",
+        "Need confirmation that patient agrees to provide tumor tissue and undergo on-treatment tumor biopsy"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's condition is confirmed to match the study's focus on metastatic castration-resistant prostate cancer. The treatment line is appropriate, as the patient has received prior treatments qualifying them for this study, and meets the necessary criteria such as age and ECOG status. However, there are several uncertainties regarding specific organ function checks and procedural agreements that need verification.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06764485",
+      "title": "A Phase 3, Two-part, Randomized, Open-label, Adaptive Study Comparing BMS-986365 Versus Investigator's Choice of Therapy Comprising Either Docetaxel or Second Androgen Receptor Pathway Inhibitor (ARPI), in Participants With Metastatic Castration-resistant Prostate Cancer (mCRPC) - rechARge",
+      "sponsor": "Celgene",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed metastatic castration-resistant prostate cancer (mCRPC) diagnosis",
+        "Prior treatment with enzalutamide (an androgen receptor pathway inhibitor)",
+        "ECOG status 1 indicating good functional status",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's prostate cancer diagnosis matches the study's focus on mCRPC. The patient has received prior treatment with an androgen receptor pathway inhibitor (enzalutamide) and does not have any brain metastases, satisfying critical eligibility criteria. The patient is also symptomatic but has an acceptable ECOG status. Therefore, the patient likely qualifies for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06609005",
+      "title": "A Phase 1 and Phase 2, Multi-Center, Open-Label Study to Evaluate the Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Evidence of Antitumor Activity of INV-9956 in Adult Patients With Advanced Metastatic Castration Resistant Prostate Cancer",
+      "sponsor": "Shenzhen Ionova Life Sciences Co., Ltd.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male aged 72 years",
+        "Histologically confirmed adenocarcinoma of the prostate (prostate cancer)",
+        "Castration resistant prostate cancer (mCRPC)",
+        "Metastatic disease with multiple skeletal metastases",
+        "Received at least one prior line of taxane-based chemotherapy (docetaxel)",
+        "Received at least one line of hormonal AR targeted therapy (enzalutamide)",
+        "ECOG performance status 1",
+        "No brain metastases",
+        "Currently on androgen deprivation therapy (denosumab) for bone disease",
+        "Life expectancy greater than 3 months"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate marrow, liver, and kidney function (not specified in the profile)",
+        "INR \u22641.5 (not specified in the profile)",
+        "Ability to swallow study treatment (not specified in the profile)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of metastatic castration-resistant prostate cancer and prior treatments align with the trial's focus. He meets most inclusion criteria and has no evidence of exclusion criteria based on the provided information. Minor uncertainties regarding organ function and some specifics remain.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06691984",
+      "title": "A Phase 3, Open-label, Multicenter, Randomized Study of Xaluritamig vs Cabazitaxel or Second Androgen Receptor-Directed Therapy in Subjects With Metastatic Castration-Resistant Prostate Cancer Previously Treated With Chemotherapy",
+      "sponsor": "Amgen",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC).",
+        "Patient is male, 72 years old, meeting age criteria.",
+        "ECOG status of 1 is acceptable.",
+        "Patient has had prior treatment with enzalutamide and docetaxel.",
+        "Prior treatment with PARP inhibitor (olaparib) is allowed.",
+        "No central nervous system metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function is not explicitly confirmed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer diagnosis matches the trial's indication for metastatic castration-resistant prostate cancer. The patient has received prior treatments required for eligibility and has a suitable ECOG status, leading to a high likelihood of eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06785636",
+      "title": "A Phase 1b/2a, MultiCenter, Open- Label Study of Pocenbrodib as Monotherapy or in Combination With Abiraterone Acetate, Olaparib, or 177Lu-PSMA-617 in Participants With Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Pathos AI, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is male with documented prostate adenocarcinoma (prostate cancer)",
+        "Patient is 72 years old (\u226518 years of age)",
+        "Patient has metastatic disease (metastatic castration-resistant prostate cancer)",
+        "ECOG status is 1",
+        "No brain metastases reported",
+        "Patient has previously received olaparib, which is listed in trial for combination therapy"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Most recent prostate biopsy results are not explicitly confirmed (no evidence of small cell or neuroendocrine histology)",
+        "Prior intervention details (timing and type) beyond olaparib and denosumab are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic prostate cancer matching the trial's indication. They are above 18 years old, have an acceptable ECOG status, and do not have brain metastases. While the patient has prior therapies, the trial allows for previously treated patients. The only uncertainties lie in confirming the histology and timing of prior treatments, but these do not fundamentally exclude the patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06800313",
+      "title": "Phase 1/2 Study of HLD-0915 in Patients With Metastatic Castration Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Halda Therapeutics OpCo, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 72, which meets the age requirement.",
+        "ECOG status is 1, which is within the acceptable range (0-1).",
+        "Has confirmed metastatic castration-resistant prostate cancer (mCRPC) with prior progression on systemic therapies.",
+        "No brain metastases.",
+        "Currently on a stable bisphosphonate (denosumab) regimen.",
+        "Has prior treatment history consistent with the trial's requirement for previously treated patients."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate hematological, renal, and hepatic function is not provided.",
+        "No details provided regarding the patient's ability to swallow oral medication."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's prostate cancer type matches the trial's indication, he has previously been treated which aligns with the trial's requirement. There are a couple of uncertainties regarding organ function and the ability to swallow medications, but overall, he meets the critical eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04995198",
+      "title": "PROMISE Registry: A Prostate Cancer Registry of Outcomes and Germline Mutations for Improved Survival and Treatment Effectiveness",
+      "sponsor": "Prostate Cancer Clinical Trials Consortium",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has prostate cancer.",
+        "Patient lives in the United States.",
+        "Patient has a BRCA2 germline mutation."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's condition, and the patient resides in the United States. The inclusion criteria are satisfied with the confirmed prostate cancer diagnosis and necessary biomarker. There are no specified exclusions that apply to the patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04898634",
+      "title": "A Phase 1 Study of JNJ-78278343, a T-Cell-Redirecting Agent Targeting Human Kallikrein 2 (KLK2), for Advanced Prostate Cancer",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed adenocarcinoma of the prostate which has spread to other body parts",
+        "Prior treatment with at least 1 prior novel androgen receptor (AR)-targeted therapy (enzalutamide)",
+        "ECOG performance status of 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Concurrent use of any other anticancer treatment must be discontinued for at least 2 weeks before the first dose of study drug (patient is currently on denosumab)",
+        "Organ function status is not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's prostate cancer matches the trial's focus on advanced prostate cancer. He has previously been treated with enzalutamide, fulfilling the treatment line requirement. His ECOG status is acceptable. The main uncertainty relates to the need for discontinuation of current therapies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05519449",
+      "title": "A Phase 1, Open-Label, Multicenter Study of JANX007 in Subjects With Metastatic Castration-Resistant Prostate Cancer",
+      "sponsor": "Janux Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male, aged 72",
+        "Histologically confirmed metastatic castration-resistant prostate cancer (mCRPC)",
+        "Progressed on enzalutamide and docetaxel",
+        "Received olaparib as PARP inhibitor",
+        "ECOG status of 1",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function status is not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication for metastatic castration-resistant prostate cancer. He has had the required prior therapies and meets the age and ECOG criteria. The main uncertainty lies in the organ function status, but since he has a good functional status otherwise, this is not a significant barrier to eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06193486",
+      "title": "A Phase I Clinical Trial of an Infusion of Autologous Gamma Delta T Cells Genetically Engineered With a Chimeric Receptor to Target the Prostate Stem Cell Antigen in Patients With Metastatic Castration Resistant Prostate Cancer",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), matching the trial conditions studied.",
+        "Patient has progressed through standard of care treatments, including prior therapies of enzalutamide and docetaxel.",
+        "Patient is eligible based on ECOG status of 1.",
+        "Patient has adequate organ function as confirmed by good functional status.",
+        "Patient's life expectancy is at least 6 months."
+      ],
+      "conflicts": [
+        "Patient is currently on denosumab instead of zoledronic acid, which requires changing to zoledronic acid before lymphodepletion chemotherapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on mCRPC, and the patient has undergone the necessary prior treatments, indicating alignment with trial requirements. The main conflict is related to the use of denosumab instead of zoledronic acid, which is needed per the eligibility criteria. However, all other criteria appear to be met, leading to a high confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06801236",
+      "title": "A Phase 1 Study to Assess the Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of ACE-232 in Patients With Metastatic Castration-Resistant Prostate Cancer (CRPC)",
+      "sponsor": "Acerand Therapeutics (Hong Kong) Limited",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Metastatic Castration-resistant Prostate Cancer (mCRPC)",
+        "ECOG status of 1",
+        "Good functional status despite bone disease",
+        "No brain metastases",
+        "Prior treatments include enzalutamide and docetaxel"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function status is not explicitly provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication for metastatic castration-resistant prostate cancer (mCRPC). The patient is previously treated, which aligns with the trial requirements as it is intended for patients who are difficult to treat or intolerant to standard treatment. ECOG status is acceptable, and there are no contraindicating factors such as brain metastases. Minor uncertainty exists regarding organ function, but overall confidence is high.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06826768",
+      "title": "A Phase Ib Clinical Trial to Optimize Risk Benefit of REGN5678 (PSMAxCD28 Bispecific Antibody) Plus Cemiplimab (Anti-PD-1 Monoclonal Antibody) in Patients With Metastatic Castration-resistant Prostate Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "Cancer type: metastatic castration-resistant prostate cancer (mCRPC)",
+        "ECOG performance status: 1",
+        "Prior therapies: enzalutamide, docetaxel, olaparib (more than two lines of systemic therapy including anti-androgen treatment)",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Eligibility for urinary or blood tests to confirm organ function (e.g., hemoglobin, absolute neutrophil count, platelet count, liver function tests, etc.)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer, matching the trial's focus. He has been previously treated with multiple therapies, which aligns with the treatment line requirement of having disease progression after at least two lines of systemic therapy. The ECOG status is acceptable, and there are no issues regarding brain metastases. Some organ function criteria need confirmation through testing, but overall the patient likely qualifies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06236139",
+      "title": "Phase 1/2 Dose-Escalation and Cohort Study of STEAP1 CART With Enzalutamide in Participants With mCRPC",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC)",
+        "Patient has a BRCA2 germline mutation",
+        "Patient is 72 years old",
+        "Patient has an ECOG status of 1",
+        "Patient has progressed on at least two prior therapies, including enzalutamide and docetaxel"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Serum creatinine level",
+        "Total bilirubin level",
+        "AST and ALT levels",
+        "ANC, hemoglobin, and platelet counts"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of mCRPC aligns with the trial's conditions studied. The patient has received multiple prior treatments and has a BRCA2 mutation, which supports potential eligibility for the trial targeting DNA repair deficient tumors. All key eligibility criteria regarding disease type and treatment history are met. Some organ function values are not available, which introduces some uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04890613",
+      "title": "Phase Ib Expansion Study of CX-5461 in Patients With Solid Tumours and BRCA2 and/or PALB2 Mutation",
+      "sponsor": "Senhwa Biosciences, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC) which matches the trial's cancer type.",
+        "Patient has documented evidence of germline BRCA2 mutation.",
+        "Patient's ECOG status is 1, which is within the acceptable range."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific laboratory results for organ function were provided; thus, eligibility based on bone marrow, hepatic, and renal function cannot be fully confirmed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's prostate cancer type aligns with the trial's inclusion criteria, they have a confirmed BRCA2 mutation, and their ECOG status is acceptable. Although organ function lab results are not available, there are no explicit conflicts with the primary eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06177171",
+      "title": "A Phase I/Ib Study of Olaparib and ASTX727 in BRCA1/2- and HRD-mutated Tumors",
+      "sponsor": "Pamela Munster",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), which aligns with the advanced solid tumor criteria.",
+        "Patient presents with a germline BRCA2 mutation, which is required for eligibility.",
+        "ECOG status is 1, which is acceptable for the trial.",
+        "Patient's age is 72, which meets the age requirement of 18+.",
+        "No brain metastases, aligning with eligibility criteria.",
+        "Patient has received prior therapies, including a PARP inhibitor (olaparib), which is permissible as per criteria."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific lab values provided to assess adequate organ function (bone marrow, hepatic function, and kidney function)."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, treatment history, and biomarkers align well with the trial's eligibility criteria. The main uncertainty lies in the assessment of organ function due to missing lab values.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06492122",
+      "title": "A Phase 1, First-in-Human, Open-label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of [225Ac]Ac-FL-020 in Participants With mCRPC.",
+      "sponsor": "Full-Life Technologies GmbH",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years",
+        "ECOG performance status of 1",
+        "Histologically or cytologically confirmed metastatic CRPC",
+        "Documented progression of the disease based on investigator's judgment",
+        "Have previously been treated with an androgen receptor signaling inhibitor (enzalutamide)",
+        "Have previously been treated with a taxane regimen (docetaxel)",
+        "Bone-predominant disease without visceral involvement",
+        "Patient has continued primary androgen deprivation with denosumab",
+        "Life expectancy > 3 months",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Castrate serum testosterone level is unknown",
+        "Organ function values are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer, which matches the trial's indication. They are previously treated with required therapies such as enzalutamide and docetaxel. All major inclusion criteria are met, although some organ function and testosterone levels are not specified.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06582017",
+      "title": "A First-in-human Phase 1a/1b Study to Evaluate Safety and Tolerability of QXL138AM in Patients With Locally Advanced Un-resectable and/or Metastatic Solid Tumors and Multiple Myeloma",
+      "sponsor": "Nammi Therapeutics Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), an included condition.",
+        "Patient has an ECOG performance status of 1.",
+        "Patient is 72 years old, which is above the minimum age requirement of 18.",
+        "Patient has a history of disease progression despite prior therapies, including enzalutamide and docetaxel."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, metastatic castration-resistant prostate cancer, matches the trial's inclusion of prostate cancer. The patient has progressed on standard therapies, aligning with the trial's criteria for previously treated patients. ECOG status and age are acceptable, confirming a high likelihood of eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06659614",
+      "title": "Prostate Tissue Biobank for People at Genetic Risk for Aggressive Disease",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed pathogenic variant: BRCA2 germline mutation",
+        "Age: 72",
+        "ECOG status: 1",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is metastatic prostate cancer, which matches the trial's focus on prostate cancer and genetic predisposition. The patient is confirmed to have a BRCA2 mutation, meeting the biomarker requirement. Furthermore, the patient is not treatment-naive, but the trial eligibility does not exclude previously treated patients, leading to a determination of matching criteria overall.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04662580",
+      "title": "A Phase 1, Multicenter, Open-Label, Dose-Escalation, and Dose-Expansion Study to Evaluate the Safety, Pharmacokinetics, and Anti-Tumor Activity of ARX517 as Monotherapy and in Combination With Androgen Receptor Pathway Inhibitors in Subjects With Metastatic Prostate Cancer",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is male and 72 years old, which meets age criteria (\u226518 years)",
+        "Patient has histologically confirmed prostate adenocarcinoma (prostate cancer)",
+        "Patient has documented evidence of disease progression on prior therapies (enzalutamide, docetaxel, olaparib)",
+        "Patient's ECOG status is 1, which is acceptable",
+        "No brain metastases noted",
+        "Patient has a BRCA2 germline mutation, indicating a DNA repair deficiency, aligning with the interest in combination approaches for such tumors"
+      ],
+      "conflicts": [
+        "Patient has received enzalutamide, which is excluded for combination cohorts"
+      ],
+      "uncertainties": [
+        "Adequate blood counts not provided in patient profile",
+        "PSMA positivity not explicitly confirmed in patient profile"
+      ],
+      "confidence": 0.7,
+      "reasoning": "The patient's cancer type matches the trial's target as they have metastatic prostate cancer. They also meet the age and ECOG status criteria. However, they have previously received enzalutamide, which is a significant conflict with the eligibility criteria for this trial. While there are uncertainties regarding blood counts and PSMA positivity, the overall likelihood of match reflects that they meet mostly relevant criteria despite the conflict.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04706663",
+      "title": "A Multi-Center Natural History Study of Precision-Based Genomics in Prostate Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed prostate cancer",
+        "Germline BRCA2 mutation",
+        "ECOG status is 1 (acceptable for trials)",
+        "Age is 72 (above 18)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Lack of specific information on the presence of required gene mutations (PIK3, AKT, etc.) in addition to BRCA2",
+        "Unclear if the patient qualifies as an exceptional responder based solely on past therapy outcomes"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type matches the trial's indication, and he meets the age and ECOG status criteria. However, there are uncertainties related to the required biomarker specifications and whether his past response qualifies him as an exceptional responder.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT01441089",
+      "title": "Collection of Blood From Therapeutic Trial Participants for Analysis of Genetic Differences in Drug Disposition and Pharmacokinetics of Probe Medications",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age >= 3 years old",
+        "ECOG status of 1"
+      ],
+      "conflicts": [
+        "Patient has previously been treated with systemic therapies, while trial information does not specify whether previously treated patients are eligible."
+      ],
+      "uncertainties": [
+        "Trial requires participants to be enrolled in an NIH intramural research program which is not confirmed in the patient profile.",
+        "Unclear if the patient\u2019s treatment classifies as 'current treatment' as specified in trial."
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type of prostate cancer matches the trial's conditions studied. The patient is also above the minimum age requirement and has a manageable ECOG status. However, the trial does not clarify if it accepts previously treated patients, raising doubts about eligibility. The requirement for NIH intramural program enrollment also introduces uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03574571",
+      "title": "Phase III Trial of Docetaxel vs. Docetaxel and Radium-223 for Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "AGE: 72 years old, male",
+        "DIAGNOSIS: Metastatic castration-resistant prostate cancer (mCRPC) with confirmed BRCA2 mutation"
+      ],
+      "conflicts": [
+        "The patient has received systemic therapy (enzalutamide, docetaxel, olaparib) which does not align with the trial's previous treatment requirement."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication; however, the patient is previously treated with multiple therapies, which excludes them from this trial that seems to require treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04104893",
+      "title": "A Phase 2 Study of a Checkpoint Inhibitor in Men With Progressive Metastatic Castrate Resistant Prostate Cancer Characterized by a Mismatch Repair Deficiency or Biallelic CDK12 Inactivation",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "Cancer type: prostate cancer",
+        "Biomarkers: BRCA2 germline mutation",
+        "ECOG status: 1",
+        "Prior therapies: enzalutamide, docetaxel, olaparib",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Patient is not eligible based on required biomarkers; the trial requires dMMR or CDK12-/- but does not specify acceptance of BRCA2 mutation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial is focused on patients with dMMR or biallelic CDK12 inactivation, while the patient profile only confirms a BRCA2 germline mutation. Thus, the patient is likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05168618",
+      "title": "AtezoCab: A Phase II Study of Cabozantinib in Combination With Atezolizumab in Patients With Metastatic Castration-Resistant Prostate Cancer (mCRPC) With Non-Measurable Disease",
+      "sponsor": "University of Utah",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer.",
+        "Patient has disease progression on enzalutamide and docetaxel."
+      ],
+      "conflicts": [
+        "Trial requires non-measurable disease outside the pelvis, patient has bone-predominant disease which may not fit as non-measurable under RECIST 1.1.",
+        "Trial excludes patients with prior chemotherapy in the metastatic castration refractory prostate cancer setting; patient has received docetaxel."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus, however, the patient's prior use of chemotherapy (docetaxel) makes him ineligible, as the trial excludes patients with prior chemotherapy in the metastatic castration refractory context.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05422911",
+      "title": "A Phase 2 Randomized Study of YONSA\u00ae (Abiraterone Acetate), Enzalutamide or Apalutamide as First Line Therapy in Veterans With Castrate-sensitive Prostate Cancer",
+      "sponsor": "James J. Peters Veterans Affairs Medical Center",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "ECOG status: 1",
+        "Cancer type: prostate cancer"
+      ],
+      "conflicts": [
+        "Patient has prior treatment with enzalutamide and docetaxel, while trial requires patients who have not received abiraterone acetate, enzalutamide, or apalutamide."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches, but they have previously received enzalutamide, which is an exclusion criterion for the trial. Therefore, they are excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05820724",
+      "title": "Prostate Specific Membrane Antigen (PSMA) Scan and Multiparametric MRI for Prostate Biopsy Detection of Clinically Significant Prostate Cancer",
+      "sponsor": "VA Greater Los Angeles Healthcare System",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial focuses on prostate cancer diagnosis via imaging, whereas the patient has metastatic castration-resistant prostate cancer (mCRPC) which requires treatment, not diagnostic evaluation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (mCRPC) does not match the trial's focus on diagnosing clinically significant prostate cancer, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05873192",
+      "title": "Presurgical Phase II Study of Talazoparib in Combination With Enzalutamide in de Novo Metastatic to Lymph Nodes Prostate Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male patient with metastatic castration-resistant prostate cancer (mCRPC) meets the condition of prostate cancer"
+      ],
+      "conflicts": [
+        "Patient has prior chemotherapy (docetaxel and olaparib) which conflicts with Exclusion Criteria 3: Patients who have had prior chemotherapy are excluded."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial is geared towards treatment-naive patients, while the patient has multiple prior therapies, including docetaxel which is considered chemotherapy, resulting in exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05849298",
+      "title": "An International Prospective Open-label, Multi-center, Randomized, Non-comparative Phase II Study of Lutetium [177Lu] Vipivotide Tetraxetan (AAA617) Alone and Lutetium [177Lu] Vipivotide Tetraxetan (AAA617) in Combination With Androgen Receptor Pathway Inhibitors in Patients With PSMA PET Scan Positive Castration-Resistant Prostate Cancer",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic castration-resistant prostate cancer.",
+        "Patient has a confirmed BRCA2 germline mutation."
+      ],
+      "conflicts": [
+        "Patient has prior therapy with enzalutamide and docetaxel, which disqualifies them from the trial that excludes prior therapy with second generation anti-androgens."
+      ],
+      "uncertainties": [
+        "Adequate organ functions (bone marrow, hepatic & renal) are not confirmed.",
+        " PSMA positivity status not provided through AAA517 or piflufolastat F 18 PET/CT scan."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus; however, the patient has prior therapies with medications that are specifically excluded in the trial's eligibility criteria, resulting in clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06100705",
+      "title": "A Single Arm Open-label, Phase II Study of Sipuleucel-T With Bipolar Androgen Therapy in Men With Metastatic Castration-resistant Prostate Cancer",
+      "sponsor": "Yale University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "72-year-old male with metastatic castration-resistant prostate cancer (mCRPC)",
+        "ECOG status of 1",
+        "BRCA2 germline mutation confirmed",
+        "Currently on denosumab for bone-predominant disease"
+      ],
+      "conflicts": [
+        "Prior treatment with three FDA-approved androgen/AR signaling inhibitors (enzalutamide, docetaxel, olaparib)",
+        "PSA rising (72), indicating disease progression which does not align with the trial's requirement for patients with asymptomatic or minimally symptomatic mCRPC"
+      ],
+      "uncertainties": [
+        "Liver function and renal function lab results",
+        "Specific details on patient's functional status beyond ECOG"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (mCRPC) is correct; however, they are excluded due to prior treatment with three androgen receptor signaling inhibitors, which does not meet the trial's eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06136650",
+      "title": "MK-5684-004: A Phase 3, Randomized, Open-label Study of Opevesostat Versus Alternative Abiraterone Acetate or Enzalutamide in Participants With Metastatic Castration-resistant Prostate Cancer (mCRPC) That Progressed On or After Prior Treatment With One Next-generation Hormonal Agent (NHA) (OMAHA-004)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 1 is acceptable",
+        "Currently on denosumab confirms ongoing therapy",
+        "Confirmed BRCA2 germline mutation aligns with DNA repair deficient tumor background"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (enzalutamide, docetaxel, olaparib) while trial requires that participants must have progressed on or after treatment with one next-generation hormonal agent (NHA)."
+      ],
+      "uncertainties": [
+        "Organ function is not explicitly detailed in the patient profile."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is metastatic castration-resistant prostate cancer (mCRPC), which matches the trial's indication. However, the patient has received multiple prior therapies including enzalutamide, which is inconsistent with the trial's criteria of progressing after one next-generation hormonal agent. This leads to a clear exclusion due to the prior treatment status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06145633",
+      "title": "Vorinostat to Augment Response to 177Lutetium-PSMA-617 in the Treatment of Patients With PSMA-Low Metastatic Castration-Resistant Prostate Cancer",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Documented histologically confirmed adenocarcinoma of the prostate.",
+        "ECOG status of 1."
+      ],
+      "conflicts": [
+        "PSMA SUVmean requirement is not met; specific PSMA level for eligibility not provided."
+      ],
+      "uncertainties": [
+        "Recent lab values for hemoglobin, ANC, platelet count, total bilirubin, AST/ALT levels, and creatinine clearance are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient has a histologically confirmed adenocarcinoma of the prostate, but the PSMA SUVmean requirement for the trial is not confirmed; therefore, they are likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06004661",
+      "title": "An Open-label Dosimetry, Biodistribution, Tolerability and Safety Study of Lutetium (177Lu) Vipivotide Tetraxetan in Participants With Progressive PSMA-Positive Metastatic Castration-Resistant Prostate Cancer (mCRPC) With Moderately and Severely Impaired and With Normal Renal Function.",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has mCRPC, which is the condition studied in the trial."
+      ],
+      "conflicts": [
+        "Patient is past treatment - has progressed on enzalutamide and docetaxel, which indicates he's previously treated, while the trial might be targeting treatment-naive patients."
+      ],
+      "uncertainties": [
+        "No information provided on whether 68Ga-PSMA-11 PET/CT scan was performed or its results.",
+        "Kidney function is not provided, so it is unclear if they fall into the specified eGFR categories."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's disease type matches the trial indication, however, the patient is previously treated, which likely excludes him from the trial as it may be designed for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06574880",
+      "title": "STARLiT: STereotActic Body Radiotherapy and 177Lutetium PSMA in Locally Advanced Prostate Cancer: A Phase I/II Trial",
+      "sponsor": "Angela Y. Jia, MD PhD",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status: 1",
+        "Age: 72",
+        "No brain metastases",
+        "Cancer type: prostate cancer"
+      ],
+      "conflicts": [
+        "Trial studies locally advanced prostate cancer, patient has metastatic castration-resistant prostate cancer (mCRPC)",
+        "Trial requires treatment-naive patients, patient has received prior systemic therapies"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's condition of metastatic castration-resistant prostate cancer does not match the trial's focus on locally advanced prostate cancer. Additionally, the patient has received prior therapies, while the trial seems to target treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06568562",
+      "title": "PRO-XL: A Phase II Study of XL092 in Patients With Metastatic Castration-Resistant Prostate Cancer After Progression on Lutetium-177 (177Lu)-PSMA-617",
+      "sponsor": "University of Utah",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has advanced metastatic castration-resistant prostate cancer (mCRPC), while the trial specifies progression after treatment with 177Lu-PSMA-617, which the patient has not received."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's prostate cancer type matches the trial's condition, but the required treatment history conflicts with the patient's profile, as they have not undergone treatment with 177Lu-PSMA-617. This leads to an exclusion based on incorrect treatment line.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06629779",
+      "title": "A PHASE 3, RANDOMIZED, DOUBLE BLIND, PLACEBO CONTROLLED STUDY OF PF-06821497 (MEVROMETOSTAT) WITH ENZALUTAMIDE IN METASTATIC CASTRATION RESISTANT PROSTATE CANCER (MEVPRO-2)",
+      "sponsor": "Pfizer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 1",
+        "Metastatic disease documented",
+        "Confirmed BRCA2 germline mutation",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has previously been treated with enzalutamide, violating the treatment-naive requirement."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication; however, the patient has received enzalutamide, which disqualifies him as the trial requires treatment-naive participants.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06632977",
+      "title": "PREcision DIagnostics in Prostate Cancer Treatment (PREDICT)",
+      "sponsor": "Alliance for Clinical Trials in Oncology",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "ECOG status: 1",
+        "Cancer type: prostate cancer",
+        "Biomarkers: BRCA2 germline mutation"
+      ],
+      "conflicts": [
+        "Prior treatment with enzalutamide, docetaxel, and olaparib indicates patient is not treatment-naive, while the trial requires progressive mCRPC but does not state it is for previously treated patients specifically."
+      ],
+      "uncertainties": [
+        "Patient's exact progression details in relation to the trial's eligibility criteria"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication for prostate cancer, and he meets several other inclusion criteria. However, due to prior treatments, he may be excluded if the trial is aimed primarily at treatment-naive patients, resulting in a lack of clarity about eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03492424",
+      "title": "Ablative Therapy in the Management of Prostate Cancer",
+      "sponsor": "Weill Medical College of Cornell University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has clinically-evident metastatic disease, which is excluded by trial criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is prostate cancer, which matches the trial, but he has clinically evident metastatic disease, which excludes him from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04254133",
+      "title": "Genetic Information to Inform Treatment and Screening (GIFTS) Study for Prostate Cancer",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male aged 72",
+        "Diagnosis of prostate cancer",
+        "Germline BRCA2 mutation confirmed"
+      ],
+      "conflicts": [
+        "Patient is a resident of the United States but not Washington state, which is required for this trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient matches the diagnosis of prostate cancer and has the required germline mutation. However, the patient does not reside in Washington state, which is a critical exclusion criterion for this trial, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04729114",
+      "title": "Phase 1, Open-Label, Multicenter Study of Intramuscular PRL-02 Depot in Patients With Advanced Prostate Cancer",
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "The patient has metastatic castration-resistant prostate cancer (mCRPC) which matches the trial indication."
+      ],
+      "conflicts": [
+        "The patient has received prior ARPI treatment with enzalutamide (not ARPI-na\u00efve as required by the trial for certain cohorts)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial is specifically for treatment-naive patients or patients in specific treatment cohorts, and since the patient has previously received enzalutamide (an ARPI), he does not meet the eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05129605",
+      "title": "Prostate Cancer Genetic Risk Evaluation and Screening Study (PROGRESS)",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a prior diagnosis of prostate cancer and has been treated, whereas the trial excludes individuals with prior diagnosis or treatment of prostate cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's prostate cancer diagnosis and previous treatments clearly conflict with the trial's exclusion criteria, which leads to a decisive exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05411354",
+      "title": "Analyzing Clinical Trial Experiences of Prostate Cancer Patients To Determine How Trial Attributes Affect Completion Rates For Specific Demographic Groups",
+      "sponsor": "Power Life Sciences Inc.",
+      "phase": null,
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a prior therapy history which may exclude them if the trial is for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication; however, the patient has prior therapies which conflict with the potential requirement for treatment-naive individuals. This brings significant doubt about eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05608694",
+      "title": "MRI Screening in Men at High Risk of Developing Prostate Cancer",
+      "sponsor": "University of Chicago",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), trial is for individuals with no known history of prostate cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's requirements, as the trial is designed for individuals with no previous history of prostate cancer, while the patient has metastatic castration-resistant prostate cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05515978",
+      "title": "A Randomized, Pragmatic, Adaptive Trial of Metformin for Glucose Intolerance or Increased Body Mass Index in Prostate Cancer Patients",
+      "sponsor": "University of Colorado, Denver",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is male aged 72, which meets the age requirement of \u226518 years.",
+        "Diagnosis of prostate cancer."
+      ],
+      "conflicts": [
+        "Patient has prior therapies (enzalutamide, docetaxel, olaparib) which indicates treatment history, whereas the trial's inclusion criteria suggest that it may target treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Need for HbA1c or BMI data to confirm eligibility related to impaired glucose tolerance or overweight.",
+        "Patient's clinical relationship with a participating provider at a UCHealth facility is unspecified."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer and a history of prior therapies, which likely excludes them based on the trial's possible focus on treatment-naive patients. Despite having prostate cancer, the treatment history conflict is significant enough to classify the patient as excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05919329",
+      "title": "Modulation of PSMA Expression in Castration Sensitive and Castration Resistant Prostate Cancer in Response to Hormonal Therapy",
+      "sponsor": "OHSU Knight Cancer Institute",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed prostate adenocarcinoma",
+        "Age >= 18 years",
+        "Male sex"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies (enzalutamide, docetaxel, olaparib) which disqualifies him from treatment-naive requirements."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer (mCRPC) and has received multiple prior therapies, which conflicts with the eligibility criteria for treatment-naive patients in the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06062745",
+      "title": "A Pilot Study for Detection of PSMA-Low Castration Resistant and Neuroendocrine Prostate Cancer With 18F-fluciclovine PET/CT Imaging",
+      "sponsor": "Brigham and Women's Hospital",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC) which does not align with the trial's focus on PSMA-low disease defined by specific PET scan metrics.",
+        "Trial requires patients with CRPC with PSMA-low disease defined by whole-body SUVmean \u2264 10, which cannot be confirmed from the patient profile."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not align with the trial's criteria for CRPC with PSMA-low disease, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06305598",
+      "title": "Bipolar Androgen Therapy in Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Roswell Park Cancer Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), but the trial is studying bipolar androgen therapy which does not directly match the progression criteria which requires continuous androgen ablative therapy and documented castrate level of testosterone (< 50 ng/dL).",
+        "Patient is currently on denosumab and has not documented castrate level of blood testosterone (< 50 ng/dL)."
+      ],
+      "uncertainties": [
+        "Absolute neutrophil count, platelets, total bilirubin, AST/ALT levels, and creatinine clearance are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches in terms of being prostate cancer; however, the trial's requirements for documented castrate levels of testosterone and continuous androgen therapy do not align with the patient's current treatment status, leading to exclusion...",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06674863",
+      "title": "Addressing Health Literacy With a Tailored Survivorship Care Plan to Improve Access in Underserved African American Prostate Cancer Patients",
+      "sponsor": "Emory University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while trial is focused on localized and oligometastatic prostate cancer, clearly excluding mCRPC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's focus on localized or oligometastatic prostate cancer. Thus, the patient is clearly excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06824818",
+      "title": "A Feasibility Trial of LHRH Agonist Discontinuation in Elderly Prostate Cancer Patients",
+      "sponsor": "University of Chicago",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has not received LHRH agonist therapy for 3 years as required by the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient does not meet the specific inclusion criteria of having prostate cancer with >3 years of LHRH agonist therapy, leading to clear exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05155046",
+      "title": "Phase II Trial of 18F-DCFPyL Imaging as a Method to Assess Treatment Response to Stereotactic Body Radiation Therapy",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while the trial is for localized prostate cancer. This is a critical mismatch."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type of metastatic castration-resistant prostate cancer does not match the trial's focus on localized prostate cancer, leading to an exclusion confidence of 0.1.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06138067",
+      "title": "A Pilot Study of Low Versus High Intensity Patient Navigation Program to Improve the Enrollment on Clinical Trials Among Cancer Patients",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapies which may exclude him from this trial if it is for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial (prostate cancer), but given the lack of information about the treatment line and the potential focus on treatment-naive patients, he is at risk of exclusion due to previous therapies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06555588",
+      "title": "Engage: A Randomized Controlled Trial Testing the Efficacy of a Telehealth-Delivered Psychosocial Intervention to Decrease Symptom Interference in Patients With Advanced Cancer",
+      "sponsor": "Duke University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient does not meet the inclusion criteria for a Duke Cancer Network clinic.",
+        "Patient has prior therapies (enzalutamide, docetaxel, olaparib) disqualifying him for a treatment-naive trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic castration-resistant prostate cancer, which matches the trial's indication for advanced prostate cancer. However, the trial requires either treatment-naive patients or those not previously treated, and the patient is previously treated. Additionally, the patient must receive care at a Duke Cancer Network clinic, which is not indicated in the profile.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06551324",
+      "title": "A PHASE 3, RANDOMIZED, OPEN-LABEL STUDY OF PF-06821497 (MEVROMETOSTAT) IN COMBINATION WITH ENZALUTAMIDE COMPARED WITH ENZALUTAMIDE OR DOCETAXEL IN PARTICIPANTS WITH METASTATIC CASTRATION RESISTANT PROSTATE CANCER PREVIOUSLY TREATED WITH ABIRATERONE ACETATE (MEVPRO-1)",
+      "sponsor": "Pfizer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1",
+        "73-year-old male with metastatic castration-resistant prostate cancer",
+        "BRCA2 germline mutation confirmed",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has received prior treatment with enzalutamide, which is an exclusion criterion for the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient has a diagnosis of metastatic castration-resistant prostate cancer, which is a match for the trial; however, the patient has previously been treated with enzalutamide, which is explicitly stated as an exclusion criterion for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03474913",
+      "title": "Feasibility and Efficacy of Upright MP - MRI for Prostate Cancer Screening",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while the trial is for men at risk of prostate cancer requiring MRI, which implies a non-metastatic context.",
+        "Patient has a history of prostate cancer treatment (previously treated with enzalutamide, docetaxel, and olaparib), while the trial seems to focus on treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is metastatic castration-resistant prostate cancer, which does not match the trial's indication for men at risk of prostate cancer. Additionally, the patient has extensive prior therapies, contradicting the likely eligibility for a trial targeting treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04221542",
+      "title": "A Phase 1 Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of AMG 509 in Subjects With Metastatic Castration-Resistant Prostate Cancer",
+      "sponsor": "Amgen",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior enzalutamide and docetaxel, which exceeds the limit of 1 prior novel antiandrogen therapy and 2 taxane regimens required for eligibility. This means the patient does not fit within the 'previously treated' requirements as outlined for Parts 1, 2, 5, and 7.",
+        "Patient is currently receiving denosumab and has received olaparib, which may further exclude eligibility based on the required number of prior treatments."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is prostate cancer, which matches the trial's indication. However, the patient exceeds the limit of prior therapies, thus making them ineligible for this trial. Overall eligibility is markedly reduced, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04808427",
+      "title": "Magnetic Resonance Image (MRI) Guided High Energy Ultrasound for Focal Prostate Cancer Ablation",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while trial requires localized prostate cancer.",
+        "Patient's PSA level is above the threshold (72 ng/ml > 20 ng/ml) for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is metastatic, while the trial focuses on localized prostate cancer. Additionally, the patient's PSA level exceeds the required limit for eligibility. Therefore, the patient is excluded from this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06906471",
+      "title": "A Single-Arm, Blinded, Fluorescent PSMA Histopathology Trial of AS1986NS",
+      "sponsor": "Antelope Surgical Solutions, Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial requires suspected prostate cancer warranting biopsy; patient is not seeking a biopsy but treatment for mCRPC",
+        "Patient has received prior therapies which does not align with likely requirements for treatment-naive patients in a trial"
+      ],
+      "uncertainties": [
+        "No information provided about the patient's current hepatic, renal, or cardiac function, which could affect eligibility"
+      ],
+      "confidence": 0.05,
+      "reasoning": "The patient's disease type is prostate cancer, which matches the trial. However, the patient is not seeking a biopsy, and has received prior therapies, indicating he may not be treatment-naive. These issues lead to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT01913106",
+      "title": "Phase I-II Study HSV-tk + Valacyclovir Therapy in Combination With Brachytherapy for Recurrent Prostate Cancer With or Without Metastatic Disease",
+      "sponsor": "The Methodist Hospital Research Institute",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1"
+      ],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC) while trial is for local recurrence without metastatic disease",
+        "Patient has previously been treated with systemic therapy which does not align with the trial's requirements for treatment-naive patients",
+        "Patient's PSA level is over 10 ng/ml, but since he has metastatic disease, he is ineligible"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not align with the study's focus on patients with local recurrence and no metastatic disease. Additionally, the study appears to require treatment-naive patients, while the patient has received prior therapies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05498272",
+      "title": "A Phase 2 Study of Neoadjuvant PARP Inhibition Followed by Radical Prostatectomy in Patients With Unfavorable Intermediate-Risk or High-Risk Prostate Cancer With Select HRR Gene Alterations (NePtune)",
+      "sponsor": "Rana McKay, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while the trial is for localized unfavorable intermediate-risk or high-risk prostate cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial indication as he has metastatic disease, whereas the trial is limited to localized prostate cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05806515",
+      "title": "S2210 A Phase II Study of Neoadjuvant Carboplatin for Localized, High Risk Prostate Cancer With Germline BRCA1/2 Mutations",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a documented BRCA2 germline mutation"
+      ],
+      "conflicts": [
+        "Patient has distant metastatic disease (mCRPC), which falls outside the trial's requirement of no evidence of distant metastatic disease"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is prostate adenocarcinoma which matches the trial, and they have a BRCA2 mutation which is required. However, the patient has metastatic disease which directly conflicts with trial eligibility that prohibits evidence of distant metastatic disease.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06378866",
+      "title": "MC230502 Dynamic Investigator Initiated Enterprise (DIVINE) in Prostate Cancer",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has progressed on enzalutamide and docetaxel, while trial specifically targets treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Serum testosterone level",
+        "Hemoglobin level",
+        "Absolute neutrophil count",
+        "Platelet count",
+        "Alanine aminotransferase (ALT) and aspartate transaminase (AST) levels",
+        "Calculated creatinine clearance"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial, but they have received prior therapies including enzalutamide, which disqualifies them based on the trial's treatment line criteria that require treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06288113",
+      "title": "Re-Treatment With 177Lu-PSMA-617 Molecular Radiotherapy for Metastatic Castration Resistant Prostate Cancer: A Prospective Phase 2 Trial (RE-LuPSMA STUDY)",
+      "sponsor": "Jonsson Comprehensive Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has not received any regimen of 177Lu-PSMA-617 therapy, which is a requirement for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does match the trial's focus on metastatic castration-resistant prostate cancer; however, the patient has never received 177Lu-PSMA-617 therapy, which is a critical requirement for inclusion in the trial. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06398639",
+      "title": "Polygenic Risk Stratification Combined With mpMRI to Identify Clinically Relevant Prostate Cancer",
+      "sponsor": "Adam S. Kibel, MD",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 72 is above maximum age 69"
+    },
+    {
+      "nct_id": "NCT03802851",
+      "title": "HoLEP Prior to Radiation Therapy for Patients With LUTS/Retention and Concurrent Prostate Cancer",
+      "sponsor": "University of Kansas Medical Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a diagnosis of metastatic castration-resistant prostate cancer (mCRPC), while trial excludes patients with known metastatic prostate cancer.",
+        "Patient has undergone prior systemic therapy with enzalutamide, docetaxel, and olaparib, while trial excludes patients with prior treatment for prostate cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's diagnosis of metastatic castration-resistant prostate cancer excludes him from eligibility as the trial specifically excludes patients with known metastatic prostate cancer. Additionally, the patient's history of prior treatments for prostate cancer further disqualifies him from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05806814",
+      "title": "Pilot Trial to Investigate Immune Response to an Extended Course of Sipuleucel-T Immunotherapy in Patients With Metastatic Castration-resistant Prostate Cancer (OU-SCC-EXCITE)",
+      "sponsor": "University of Oklahoma",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "Cancer type: metastatic castration-resistant prostate cancer",
+        "ECOG status: 1",
+        "Life expectancy: \u2265 6 months"
+      ],
+      "conflicts": [
+        "Previously received Sipuleucel-T (Provenge\u00ae) - conflict with exclusion criteria"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's profile indicates a prior treatment with Sipuleucel-T, which directly conflicts with the exclusion criteria of the trial, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05743621",
+      "title": "A Phase I, Open-Label, Dose-Finding Study of TVB-2640 Administered in Combination With Enzalutamide (Xtandi) in Men With Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "sponsor": "Weill Medical College of Cornell University",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior treatment with enzalutamide, yet the trial requires that participants must be planning to receive Enzalutamide as their first line of therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has received enzalutamide, and the trial is only for patients who are either treatment-naive or have only received one prior line of treatment with abiraterone or an androgen receptor antagonist. This places the patient in a conflicting treatment line, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05938270",
+      "title": "An Open-label, Randomised, Phase-I, Multi-Centre Study to Investigate the Biological Effects of Saruparib (AZD5305) Alone, Darolutamide Alone, and in Combination Given Prior to Radical Prostatectomy in Men With Newly Diagnosed Prostate Cancer (ASCERTAIN)",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic castration-resistant prostate cancer (mCRPC), while the trial is focused on men with newly diagnosed localized prostate cancer.",
+        "Patient is not suitable for radical prostatectomy due to advanced disease status."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the study indication, which is focused on newly diagnosed localized prostate cancer. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04090567",
+      "title": "Overcoming PARP Inhibitor Resistance in BRCA Germline Mutation Positive Advanced Breast Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Trial requires female patients"
+    },
+    {
+      "nct_id": "NCT04315324",
+      "title": "A Phase I/II Study of AKR1C3-Activated Prodrug OBI-3424 (OBI-3424) In Patients With Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL)/T-Cell Lymphoblastic Lymphoma (T-LBL)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05434234",
+      "title": "A Phase 1A/1B, Multicenter, Nonrandomized, Open-Label, First-in-Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of YL201 as a Single Agent and in Combination With Other Anti-Cancer Therapies in Patients With Advanced Solid Tumors",
+      "sponsor": "MediLink Therapeutics (Suzhou) Co., Ltd.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05929768",
+      "title": "Shorter Anthracycline-Free Chemo Immunotherapy Adapted to Pathological Response in Early Triple Negative Breast Cancer (SCARLET), A Randomized Phase III Study",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06545955",
+      "title": "A Phase 3, Randomised, Multi-center, Open Label Trial to Evaluate the Safety and Efficacy of Intravesical Nadofaragene Firadenovec Alone or in Combination With Chemotherapy or Immunotherapy in Participants With High-grade Bacillus Calmette-Guerin Therapy (BCG) Unresponsive Non-muscle Invasive Bladder Cancer (NMIBC)",
+      "sponsor": "Ferring Pharmaceuticals",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06907043",
+      "title": "A Phase 1/2, Open-label, Multicenter, Dose-escalation, and Dose-Optimization Study to Evaluate the Safety, Tolerability, and Activity of EIK1004 (IMP1707) as Monotherapy in Participants With Advanced Solid Tumors",
+      "sponsor": "Eikon Therapeutics",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02000089",
+      "title": "The Cancer of the Pancreas Screening-5 CAPS5)Study",
+      "sponsor": "Johns Hopkins University",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed germline BRCA2 mutation"
+      ],
+      "conflicts": [
+        "Patient has prostate cancer, but the trial studies pancreas cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (prostate cancer) does not match any of the conditions studied in the trial (pancreas cancer, among others). Therefore, the patient is excluded based on disease/indication mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04858334",
+      "title": "APOLLO: A Randomized Phase II Double-Blind Study of Olaparib Versus Placebo Following Curative Intent Therapy in Patients With Resected Pancreatic Cancer and a Pathogenic BRCA1, BRCA2 or PALB2 Mutation",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "The patient has a BRCA2 germline mutation."
+      ],
+      "conflicts": [
+        "The trial is studying pancreatic cancer, while the patient has prostate cancer, which does not match the trial's focus."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (prostate cancer) does not match the conditions studied in the trial (pancreatic cancer), resulting in an exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02333604",
+      "title": "Cancer Experience Registry: An Online Survey Research Study to Understand the Experiences of Cancer Patients and Caregivers",
+      "sponsor": "Cancer Support Community, Research and Training Institute, Philadelphia",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03568630",
+      "title": "A Longitudinal Cohort Study to Identify Clinical and Blood Markers of Early Pancreas Cancer",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04373564",
+      "title": "Prospective Evaluation of Potential Effects of Repeated Gadolinium-based Contrast Agent (GBCA) Administrations of the Same GBCA on Motor and Cognitive Functions in Neurologically Normal Adults in Comparison to a Non-GBCA Exposed Control Group",
+      "sponsor": "Guerbet",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 72 is above maximum age 64"
+    },
+    {
+      "nct_id": "NCT04970056",
+      "title": "Pancreatic Cancer Early Detection Consortium",
+      "sponsor": "Arbor Research Collaborative for Health",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05587439",
+      "title": "Investigating Hereditary Risk In Thoracic Cancers (INHERIT)",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05625529",
+      "title": "Exoluminate Study: Observational Registry Study to Assess Exo-PDAC Assay Performance for Detection of Pancreatic Adenocarcinoma (PDAC) in High-Risk or Clinically Suspicious Patients",
+      "sponsor": "Biological Dynamics",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05761782",
+      "title": "Engaging Diverse and Underserved Communities in Cancer Awareness Training and Education (EDUCATE)",
+      "sponsor": "University of California, Davis",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06151223",
+      "title": "A Prospective Registry for Patients at High-Risk for Pancreatic Cancer",
+      "sponsor": "Mayo Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06242470",
+      "title": "A Phase 1/1b First-in-Human, Open Label, Dose Escalation and Cohort Expansion Study of MGC026 in Participants With Advanced Solid Tumors",
+      "sponsor": "MacroGenics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06710379",
+      "title": "A Phase 1a/b Study of ADRX-0405 in Subjects With Select Advanced Solid Tumors",
+      "sponsor": "Adcentrx Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03620786",
+      "title": "High-Intensity Focused Ultrasound for Focal Ablation of Prostate Tissue: An Observational Study of Multiparametric MRI and Ultrasound Fusion Imaging for Guidance",
+      "sponsor": "University of California, Los Angeles",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior treatments which exceed the allowed criteria of treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's prostate cancer has been previously treated with multiple systemic therapies, which exceeds the eligibility requirement for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02775461",
+      "title": "Pancreas Disease and High Risk Registry",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prostate cancer which does not match the conditions studied in the trial (Pancreatic Cancer and related conditions)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is prostate cancer, which does not align with the conditions studied in this trial, such as pancreatic cancer. This leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02302742",
+      "title": "PROspective Evaluation of GErmline Mutations, Cancer Outcome and Tissue Biomarkers: A Registry for Patients With Triple Negative Breast Cancer and Germline Mutations",
+      "sponsor": "University of Kansas Medical Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prostate cancer, while trial is for Triple Negative Breast Cancer or germline mutation carriers related to HBOC conditions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's target indication, as the patient has prostate cancer while the trial is focused on triple negative breast cancer and germline mutations specifically related to breast and ovarian cancers.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05694715",
+      "title": "Combination Therapy of Niraparib and Irinotecan in Cancers With Mutations in DNA Repair Genes",
+      "sponsor": "University of California, San Francisco",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a BRCA2 germline mutation"
+      ],
+      "conflicts": [
+        "Trial does not include prostate cancer as an eligible cancer type"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is prostate cancer, which is explicitly excluded from the trial that focuses on other solid tumors, despite the patient's germline BRCA2 mutation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05647564",
+      "title": "PET/CT Characterization of Treatment Resistance of AR-targeted Therapies in mCRPC",
+      "sponsor": "University of Wisconsin, Madison",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 72",
+        "Sex: male",
+        "Cancer type: prostate cancer",
+        "ECOG status: 1",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has prior treatment with enzalutamide, which is a second-generation AR inhibitor, disqualifying him from the INTRINSIC RESISTANCE COHORT.",
+        "Patient's disease is categorized as advanced prostate cancer but he does not meet the requirement of being a candidate for a second-generation AR inhibitor for the specific cohort."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's prior treatment with a second-generation AR inhibitor (enzalutamide) disqualifies him from the trial, as he does not fit the criteria for either the INTRINSIC or ACQUIRED RESISTANCE COHORT due to this prior treatment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06257264",
+      "title": "A Phase 1a/1b Study of BG-68501, a Selective CDK2 Inhibitor, in Participants With Advanced Solid Tumors",
+      "sponsor": "BeiGene",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial is for HR+/HER2- breast cancer patients but the patient has metastatic castration-resistant prostate cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the types studied in the trial. The trial focuses on breast cancer and specific ovarian cancers, while the patient has prostate cancer, leading to an exclusion based on disease indication.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06520345",
+      "title": "A Multinational, Multicenter, Prospective, Randomized, Controlled, Open-Label, Phase 3 Study of Lutetium (177Lu) Rosopatamab Tetraxetan in Combination With Standard of Care Versus Standard of Care Alone in Patients With PSMA Positive Metastatic Castration-Resistant Prostate Cancer Previously After Androgen Receptor Pathway Inhibitor Treatment",
+      "sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198583, Requested 3159. Please try again in 522ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198583, Requested 3159. Please try again in 522ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    }
+  ]
+}

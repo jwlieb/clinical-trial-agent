@@ -1,0 +1,15 @@
+{
+  "age": 61,
+  "sex": "male",
+  "cancer_type": "colorectal cancer",
+  "biomarkers": ["KRAS G12C"],
+  "description": "61-year-old male with metastatic colorectal adenocarcinoma (sigmoid primary), KRAS G12C mutated, microsatellite stable (MSS). Initial FOLFOX + bevacizumab x12 cycles achieved stable disease. Second-line FOLFIRI + bevacizumab with progression after 4 cycles. Now seeking third-line options. Liver-dominant metastatic disease (6 lesions, largest 3.2cm). No peritoneal carcinomatosis. Good appetite, mild fatigue. CEA trending up (45 -> 82 over 2 months). Labs: mild transaminase elevation (AST 52, ALT 48), otherwise normal.",
+  "ecog_status": 1,
+  "pd_l1_status": null,
+  "prior_therapies": ["FOLFOX", "bevacizumab", "FOLFIRI"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

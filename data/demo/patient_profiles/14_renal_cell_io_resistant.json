@@ -1,0 +1,15 @@
+{
+  "age": 59,
+  "sex": "female",
+  "cancer_type": "renal cell carcinoma",
+  "biomarkers": [],
+  "description": "59-year-old female with metastatic clear cell renal cell carcinoma, status post nephrectomy (2022). First-line ipilimumab/nivolumab x4 induction then nivolumab maintenance - initial PR but progressed at 14 months. Second-line cabozantinib with mixed response, discontinued for grade 3 hand-foot syndrome and fatigue. Switched to lenvatinib/everolimus - progression at 6 months with new pulmonary and hepatic metastases. IMDC intermediate risk. Seeking novel approaches beyond standard IO/TKI combinations. HIF-2α inhibitors of interest. Labs show mild hyperbilirubinemia (1.4), otherwise WNL.",
+  "ecog_status": 1,
+  "pd_l1_status": null,
+  "prior_therapies": ["ipilimumab", "nivolumab", "cabozantinib", "lenvatinib", "everolimus"],
+  "brain_mets_status": "none",
+  "co_mutations": ["VHL loss"],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

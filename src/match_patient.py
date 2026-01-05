@@ -22,16 +22,18 @@ console = Console()
 # Configuration
 DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
 MAX_LLM_TOKENS = 1200  # Increased for 70B model
-MAX_PARALLEL_LLM_CALLS = 2  # Reduced to avoid rate limits
 LLM_TIMEOUT_SECONDS = 30.0
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
 
+# Parallelism - OpenAI can handle much more than Groq
+MAX_PARALLEL_LLM_CALLS = 10 if LLM_PROVIDER == "openai" else 2
+
 # Retry configuration
 MAX_RETRIES = 3
-BASE_DELAY = 2.0  # seconds
+BASE_DELAY = 1.0  # seconds
 
-# Rate limiting configuration
-MIN_REQUEST_INTERVAL = 1.0  # Minimum seconds between LLM calls
+# Rate limiting - OpenAI has high limits, Groq needs throttling
+MIN_REQUEST_INTERVAL = 0.1 if LLM_PROVIDER == "openai" else 1.0  # seconds between calls
 _last_request_time = 0.0
 _rate_limit_lock = __import__('threading').Lock()
 
@@ -133,53 +135,70 @@ ELIGIBILITY_SCORING_PROMPT = """You are evaluating whether a patient is likely e
 ## Patient Profile
 {patient_description}
 
+## Trial Information
+**Title:** {trial_title}
+**Conditions Studied:** {trial_conditions}
+**Summary:** {trial_summary}
+
 ## Trial Eligibility Criteria
 {eligibility_text}
 
 ## Task
-Evaluate each key criterion and determine overall match likelihood.
+Evaluate eligibility using a STRUCTURED APPROACH:
 
-## Critical Rules About Assumptions
+### Step 1: DISEASE/INDICATION CHECK (Critical - do this FIRST)
+- Does the patient's cancer type/histology match what this trial is studying?
+- Cancer subtypes with similar names can be biologically distinct diseases (different histology = different disease)
+- Check the trial title, conditions, and summary for the target indication
+- If disease type doesn't match → EXCLUDED (confidence < 0.10)
+
+### Step 2: TREATMENT LINE CHECK
+- Is this trial for treatment-naive/first-line patients OR previously treated patients?
+- Look for keywords: "untreated", "first-line", "treatment-naive" vs "previously treated", "relapsed", "refractory"
+- If patient has prior systemic therapy but trial requires treatment-naive → EXCLUDED
+- If patient is treatment-naive but trial requires prior therapy → EXCLUDED
+
+### Step 3: BIOMARKER/MOLECULAR CHECK
+- Does patient have the required biomarker (mutation, expression level, etc.)?
+- Check specific thresholds (e.g., PD-L1 TPS ≥50% means 40% does NOT qualify)
+
+### Step 4: STANDARD ELIGIBILITY CRITERIA
+- Age, ECOG status, organ function, brain metastases, etc.
+
+## Critical Rules
 - NEVER assume facts not explicitly stated in the patient profile
-- If patient location/country is NOT provided, treat geographic requirements (e.g., "Canadian resident", "US citizen") as UNCERTAINTIES, not supporting factors
+- If patient location/country is NOT provided, treat geographic requirements as UNCERTAINTIES
 - If organ function labs are not provided, list them as uncertainties
 - Only list criteria as "supporting factors" if the patient profile explicitly confirms them
 
 ## Misconceptions to Avoid
-- Age 65 is NOT "above typical age range" - most oncology trials accept adults 18+ with no upper limit
-- ECOG 0-1 is acceptable for most trials; many trials allow ECOG 0-2
-- Prior standard-of-care treatments (platinum chemotherapy, immunotherapy) are typically REQUIRED for later-line trials, not exclusionary
+- Age 65 is NOT "above typical age range" - most oncology trials accept adults 18+
+- ECOG 0-1 is acceptable for most trials
+- Prior treatments may be REQUIRED (later-line) or EXCLUDED (first-line) - check carefully
 
-## Confidence Calibration Guide
-- 0.85-1.0: Patient clearly meets all stated criteria with documentation
-- 0.70-0.84: Patient likely qualifies, only 1-2 minor uncertainties
-- 0.50-0.69: Several uncertainties or missing information that needs verification
-- 0.30-0.49: Significant doubts exist but patient is not definitely excluded
-- 0.10-0.29: Likely excluded but technical edge cases may apply
-- 0.0-0.09: Clear exclusion based on stated criteria
+## Confidence Calibration
+- 0.85-1.0: Patient clearly meets ALL criteria including disease type and treatment line
+- 0.70-0.84: Patient likely qualifies, only 1-2 minor uncertainties (not disease/line)
+- 0.50-0.69: Several uncertainties or missing information needing verification
+- 0.30-0.49: Significant doubts but not definitely excluded
+- 0.10-0.29: Likely excluded but edge cases may apply
+- 0.0-0.09: Clear exclusion (wrong disease, wrong treatment line, missing required biomarker)
 
 ## Response Format
 {{
     "match_likelihood": "HIGH" | "MEDIUM" | "LOW" | "EXCLUDED",
     "supporting_factors": ["specific criteria patient meets - ONLY from explicit patient data"],
-    "conflicts": ["specific criteria patient fails - must be based on stated facts only"],
+    "conflicts": ["specific criteria patient fails - must cite the specific mismatch"],
     "uncertainties": ["criteria where patient information is missing or unclear"],
     "confidence": 0.0 to 1.0,
-    "reasoning": "brief explanation"
+    "reasoning": "brief explanation starting with disease/indication match assessment"
 }}
 
 ## Scoring Guidelines
-- HIGH (confidence >= 0.70): Patient clearly meets criteria
-- MEDIUM (confidence 0.50-0.69): Patient likely qualifies but needs verification
-- LOW (confidence 0.30-0.49): Significant uncertainties
-- EXCLUDED (confidence < 0.30): Patient fails hard exclusion criteria
-
-## Rules
-- Be conservative — flag uncertainties rather than assuming
-- If a criterion isn't mentioned in the patient profile, mark it as uncertain, not a conflict
-- Prior treatments: Check if patient's prior treatments are allowed or excluded
-- Brain metastases: Pay close attention to brain met policies (often nuanced)
-- ECOG status: Match patient's ECOG against trial requirements
+- HIGH (confidence >= 0.70): Disease matches, treatment line matches, patient meets criteria
+- MEDIUM (confidence 0.50-0.69): Disease matches but needs verification on other criteria
+- LOW (confidence 0.30-0.49): Significant uncertainties about eligibility
+- EXCLUDED (confidence < 0.30): Wrong disease, wrong treatment line, or fails hard criteria
 """
 
 
@@ -362,23 +381,40 @@ def score_eligibility_with_llm(
     
     patient_description = "\n".join(patient_parts)
     
+    # Build trial context - crucial for disease/indication matching
+    trial_conditions = ", ".join(trial.conditions) if trial.conditions else "Not specified"
+    trial_summary = trial.summary[:500] + "..." if trial.summary and len(trial.summary) > 500 else (trial.summary or "Not available")
+    
     prompt = ELIGIBILITY_SCORING_PROMPT.format(
         patient_description=patient_description,
+        trial_title=trial.title,
+        trial_conditions=trial_conditions,
+        trial_summary=trial_summary,
         eligibility_text=eligibility_text
     )
     
     try:
         client = LLM_CLIENT(api_key=api_key, timeout=LLM_TIMEOUT_SECONDS)
-        response = _rate_limited_llm_call(
-            client,
-            model=DEFAULT_LLM_MODEL,
-            messages=[
-                {"role": "system", "content": "You are a clinical trial eligibility analyst. Respond only with valid JSON."},
+        
+        # OpenAI uses max_completion_tokens, Groq uses max_tokens
+        token_param = "max_completion_tokens" if LLM_PROVIDER == "openai" else "max_tokens"
+        
+        # Build params - some models don't support temperature
+        params = {
+            "model": DEFAULT_LLM_MODEL,
+            "messages": [
+                {"role": "system", "content": "You are a clinical trial eligibility analyst. Always respond with valid JSON."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0,
-            max_tokens=MAX_LLM_TOKENS,
-        )
+            token_param: MAX_LLM_TOKENS,
+        }
+        # OpenAI-specific settings
+        if LLM_PROVIDER == "openai":
+            params["response_format"] = {"type": "json_object"}
+        else:
+            params["temperature"] = 0
+        
+        response = _rate_limited_llm_call(client, **params)
         
         content = response.choices[0].message.content
         # Handle potential markdown code blocks

@@ -1,0 +1,15 @@
+{
+  "age": 72,
+  "sex": "male",
+  "cancer_type": "prostate cancer",
+  "biomarkers": ["BRCA2 germline mutation"],
+  "description": "72-year-old male with metastatic castration-resistant prostate cancer (mCRPC), germline BRCA2 mutation confirmed. Disease progression on enzalutamide and subsequent docetaxel. Olaparib initiated with good PSA response (decline from 145 to 32) lasting 11 months, now PSA rising (72). Bone-predominant disease with multiple skeletal metastases, currently on denosumab. No visceral involvement. Seeking combination approaches with PARP inhibitors or novel agents for DNA repair deficient tumors. Good functional status despite bone disease. No bone pain requiring opioids.",
+  "ecog_status": 1,
+  "pd_l1_status": null,
+  "prior_therapies": ["enzalutamide", "docetaxel", "olaparib"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

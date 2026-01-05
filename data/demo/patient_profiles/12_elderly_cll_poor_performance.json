@@ -1,0 +1,15 @@
+{
+  "age": 82,
+  "sex": "male",
+  "cancer_type": "chronic lymphocytic leukemia",
+  "biomarkers": ["TP53 deletion", "IGHV unmutated"],
+  "description": "82-year-old male with relapsed/refractory CLL, high-risk features including del(17p)/TP53 and unmutated IGHV. Previously treated with BR (bendamustine/rituximab) x6 cycles, then ibrutinib x3 years with eventual progression. Venetoclax initiated but discontinued after 4 months due to tumor lysis syndrome requiring hospitalization. Now with progressive lymphadenopathy and cytopenias (ANC 0.8, Hgb 8.9, Plt 67k). Limited by fatigue and reduced mobility - uses walker, needs assistance with ADLs. Multiple comorbidities: CHF (EF 35%), afib on anticoagulation, T2DM, CKD stage 3b.",
+  "ecog_status": 3,
+  "pd_l1_status": null,
+  "prior_therapies": ["bendamustine", "rituximab", "ibrutinib", "venetoclax"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

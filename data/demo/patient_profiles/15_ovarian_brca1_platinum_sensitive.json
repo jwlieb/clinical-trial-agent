@@ -1,0 +1,15 @@
+{
+  "age": 54,
+  "sex": "female",
+  "cancer_type": "ovarian cancer",
+  "biomarkers": ["BRCA1 germline mutation"],
+  "description": "54-year-old female with high-grade serous ovarian cancer, germline BRCA1 pathogenic variant. Initial diagnosis Stage IIIC, underwent optimal debulking followed by carboplatin/paclitaxel x6 + niraparib maintenance. First recurrence at 18 months (platinum-sensitive), re-challenged with carboplatin/gemcitabine with PR, continued niraparib. Second recurrence now at 14 months - again platinum-sensitive interval. CA-125 rising (85 -> 340). Considering platinum rechallenge vs clinical trial. No significant residual neuropathy. Interested in novel PARP combinations or antibody-drug conjugates. Excellent performance status.",
+  "ecog_status": 0,
+  "pd_l1_status": null,
+  "prior_therapies": ["carboplatin", "paclitaxel", "niraparib", "gemcitabine"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States", "Canada"]
+}
+

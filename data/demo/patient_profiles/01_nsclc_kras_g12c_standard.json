@@ -1,0 +1,15 @@
+{
+  "age": 65,
+  "sex": "male",
+  "cancer_type": "NSCLC",
+  "biomarkers": ["KRAS G12C"],
+  "description": "65-year-old male diagnosed with Stage IV non-small cell lung cancer (adenocarcinoma) in March 2024. KRAS G12C mutation confirmed by NGS (FoundationOne CDx). Initial treatment with carboplatin/pemetrexed + pembrolizumab x6 cycles achieved partial response. Progressive disease noted on surveillance CT in November 2025 with new hepatic metastases. Currently asymptomatic with mild dyspnea on exertion. No history of autoimmune disease. Former smoker (30 pack-years, quit 2019). Creatinine 1.1, LFTs normal, ANC 3.2, platelets 245k.",
+  "ecog_status": 1,
+  "pd_l1_status": "TPS 40%",
+  "prior_therapies": ["carboplatin/pemetrexed", "pembrolizumab"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

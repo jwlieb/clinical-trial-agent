@@ -1,0 +1,15 @@
+{
+  "age": 45,
+  "sex": "female",
+  "cancer_type": "melanoma",
+  "biomarkers": ["BRAF V600E"],
+  "description": "45-year-old female with metastatic cutaneous melanoma, BRAF V600E mutated. Primary on left lower extremity (Breslow 2.8mm) resected 2023. Developed lung and subcutaneous metastases 8 months later. First-line dabrafenib/trametinib achieved partial response but progressed at 14 months. Second-line nivolumab/ipilimumab combination - mixed response, eventually progressed with new splenic lesions. Currently well-appearing with good functional status. LDH elevated (312). Looking for novel combinations or emerging targets. No brain mets on most recent MRI.",
+  "ecog_status": 0,
+  "pd_l1_status": "60%",
+  "prior_therapies": ["dabrafenib", "trametinib", "nivolumab", "ipilimumab"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

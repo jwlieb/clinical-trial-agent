@@ -228,7 +228,6 @@ clinical-trial-tool/
 │   ├── normalize_trials.py         # Schema normalization
 │   ├── validate_trials.py          # Data validation rules
 │   ├── match_patient.py            # Two-stage patient-trial matching
-│   ├── review_coverage.py          # LLM gap review (legacy)
 │   └── export_results.py           # Output generation
 ├── data/
 │   ├── raw/                        # Raw API responses

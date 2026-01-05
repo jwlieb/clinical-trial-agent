@@ -1,0 +1,1886 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T06:58:11.802511",
+    "patient_profile": {
+      "age": 67,
+      "sex": "male",
+      "cancer_type": "pancreatic cancer",
+      "biomarkers": [
+        "KRAS G12D"
+      ],
+      "description": "67-year-old male with locally advanced pancreatic ductal adenocarcinoma (head of pancreas), KRAS G12D mutated. Not surgical candidate due to SMV encasement. Completed FOLFIRINOX x8 cycles with stable disease, then switched to gemcitabine/nab-paclitaxel due to neuropathy. Now with radiographic progression and rising CA19-9 (2400 -> 8500). Moderate abdominal discomfort, using long-acting opioids. Nutrition supported with pancreatic enzyme replacement. Weight stable past 4 weeks. Seeking novel KRAS-targeted approaches including G12D-specific inhibitors."
+    },
+    "total_trials": 100,
+    "high_likelihood": 33,
+    "medium_likelihood": 2
+  },
+  "results": [
+    {
+      "nct_id": "NCT06385925",
+      "title": "Phase 1/2 Study of TSN1611 in Subjects With Advanced Solid Tumors Harboring KRAS G12D Mutation",
+      "sponsor": "Tyligand Pharmaceuticals (Suzhou) Limited",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 67, which is within the acceptable range for the trial (\u2264 75 years)",
+        "ECOG status is 1, which meets the trial requirements",
+        "Patient has histologically confirmed locally advanced pancreatic cancer (PDAC) harboring KRAS G12D mutation",
+        "Prior therapies included standard treatments (FOLFIRINOX and gemcitabine/nab-paclitaxel) making the patient eligible for the trial which accepts previously treated patients"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.9,
+      "reasoning": "The patient's cancer type (pancreatic cancer) matches the study focus on KRAS G12D mutations, and he has previously received standard treatments making him suitable for the previously treated cohort. The patient meets other critical eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04820179",
+      "title": "Phase II Trial Evaluating the Safety and Efficacy of Atezolizumab in Combination With Cabozantinib for the Treatment of Metastatic, Refractory Pancreatic Cancer",
+      "sponsor": "University of Arizona",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has stage IV pancreatic adenocarcinoma confirmed by histology",
+        "Patient has progressed on prior treatments (FOLFIRINOX and gemcitabine/nab-paclitaxel)",
+        "ECOG status is 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial conditions for metastatic pancreatic cancer. The patient has previously been treated and is not treatment-naive, which aligns with the inclusion criteria requiring patients with refractory metastatic pancreatic cancer. No conflicts were identified, and supporting factors were explicitly confirmed in the patient profile.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06843551",
+      "title": "A Phase 2 Single Arm Trial of Stereotactic Body Radiation Therapy Followed by Dual Immune Checkpoint Inhibition for Patients With Metastatic Pancreatic Ductal Adenocarcinoma - The Miami \"EMPIRE\" Trial - Eradication of Metastatic Pancreatic Cancer With Immuno-Radiation",
+      "sponsor": "Benjamin Spieler",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histologically confirmed diagnosis of pancreatic ductal adenocarcinoma.",
+        "Patient has measurable disease as defined by RECIST 1.1.",
+        "Patient has progressed on \u22651 line of systemic therapy.",
+        "ECOG performance status is 1.",
+        "Life expectancy is \u22653 months.",
+        "Patient has no known brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Lab values such as absolute neutrophil count (ANC), white blood count (WBC), platelets, hemoglobin, creatinine clearance, serum total bilirubin, AST and ALT levels, international normalized ratio or prothrombin time, activated partial thromboplastin time, absolute lymphocyte count (ALC) are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic pancreatic ductal adenocarcinoma, and he has a history of prior therapies, which fits the criteria for previously treated patients. All other critical eligibility criteria are supported by the patient's profile, with uncertainties mainly related to specific lab values.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06984562",
+      "title": "Adaptive Radiation for Locally Advanced Unresectable Pancreatic Cancer: Phase I Dose Escalation Study",
+      "sponsor": "Fox Chase Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "67 years old (age >= 18)",
+        "ECOG status of 1",
+        "no brain metastases",
+        "diagnosed with locally advanced pancreatic ductal adenocarcinoma",
+        "completed prior chemotherapy treatments which may not conflict with trial"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "adequate bone marrow, hepatic, renal function verification needed (e.g., ANC, PLT levels, bilirubin, AST, ALT, serum creatinine)",
+        "specifics on recent chemotherapy completion (exact timing in relation to study initiation)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has locally advanced pancreatic ductal adenocarcinoma, which is the specific cancer type being studied in the trial. The patient is also previously treated, which is acceptable based on the trial inclusion criteria, and is over the minimum age requirement. While some laboratory results are needed to fully assess organ function, the main eligibility criteria align with the patient's profile.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03608631",
+      "title": "Phase I Study of Mesenchymal Stromal Cells-Derived Exosomes With KrasG12D siRNA for Metastatic Pancreas Cancer Patients Harboring KrasG12D Mutation",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed metastatic pancreatic ductal adenocarcinoma with KRAS G12D mutation",
+        "ECOG status of 1",
+        "Documented progression on prior therapies including at least 4 months of chemotherapy",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Absolute neutrophil count (ANC)",
+        "Platelet count",
+        "Hemoglobin level",
+        "Total bilirubin level",
+        "AST and ALT levels",
+        "Alkaline phosphatase level",
+        "Creatinine level"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's target indication. The patient is previously treated, which aligns with the trial's inclusion criteria for documented progression. All other criteria are likely satisfied, but certain organ function levels need verification.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04421820",
+      "title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours",
+      "sponsor": "Bold Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is pancreatic cancer which is one of the conditions studied in the trial.",
+        "Patient has received prior therapy (FOLFIRINOX, gemcitabine, nab-paclitaxel) as required for pancreatic cancer eligibility.",
+        "Patient has an ECOG status of 1, which is acceptable.",
+        "Patient has no brain metastases, satisfying a common eligibility requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Lack of specific information on organ function (blood counts, liver function tests, renal function) to assess eligibility criteria."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has pancreatic cancer, a diagnosis that matches the trial's targeted conditions. Additionally, the patient has received prior systemic therapies as required and presents with an acceptable ECOG status. However, organ function criteria were not explicitly provided, adding some uncertainty, but overall the patient is likely to meet the trial's eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05053971",
+      "title": "Phase Ib/II Study of ZEN003694 and Entinostat in Advanced and Refractory Solid Tumors",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "Sex: male",
+        "Cancer type: pancreatic cancer",
+        "Biomarkers: KRAS G12D",
+        "ECOG status: 1",
+        "Prior therapies: FOLFIRINOX, gemcitabine, nab-paclitaxel",
+        "Brain metastases: none"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Hemoglobin level (not provided)",
+        "Absolute neutrophil count (ANC) (not provided)",
+        "Platelet count (not provided)",
+        "Total bilirubin level (not provided)",
+        "AST/ALT levels (not provided)",
+        "GFR (not provided)",
+        "PT/INR and PTT (not provided)",
+        "Albumin level (not provided)",
+        "Recent therapy status within 30 days (not provided)",
+        "Recent radiation therapy within 21 days (not provided)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (pancreatic cancer) aligns with the conditions studied in the trial, and he has a documented KRAS G12D mutation which is relevant to the trial's focus on advanced solid tumors. He is not treatment-naive as he has received multiple prior therapies, but the trial specifically includes patients who are refractory to standard therapy which applies to this patient. All critical eligibility factors align, although there are uncertainties regarding organ function metrics.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05786924",
+      "title": "A Phase 1/2, Open-label Study of Oral S241656 (BDTX-4933) as Monotherapy and in Combination With Other Anti-Cancer Therapies in Patients With KRAS, BRAF and Other Selected RAS/MAPK Mutation-Positive Malignancies",
+      "sponsor": "Institut de Recherches Internationales Servier",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "Sex: male",
+        "Cancer type: pancreatic cancer (PDAC)",
+        "Biomarkers: KRAS G12D",
+        "ECOG status: 1",
+        "Prior therapies: FOLFIRINOX, gemcitabine, nab-paclitaxel (patient is previously treated)",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate bone marrow and organ function (not provided in patient profile)",
+        "Life expectancy of \u2265 12 weeks (not explicitly provided in patient profile)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (pancreatic cancer with KRAS G12D mutation) matches the trial's indications. The patient is previously treated, which is consistent with the trial's eligibility criteria for advanced metastatic PDAC with RAS mutations. While there are some uncertainties about organ function and life expectancy, the available information strongly supports eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07023731",
+      "title": "A Phase 1/2 Clinical Trial to Evaluate the Safety, Tolerability, and Pharmacokinetics of ARV-806 in Participants With KRAS G12D Mutated Advanced Solid Tumors",
+      "sponsor": "Arvinas Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histological diagnosis of unresectable pancreatic ductal adenocarcinoma.",
+        "Patient has confirmed KRAS G12D mutation.",
+        "Patient has received prior standard of care systemic therapy for PDAC (FOLFIRINOX, gemcitabine/nab-paclitaxel).",
+        "Patient has an ECOG status of 1.",
+        "Patient has no active brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient matches the required cancer type, has the specified biomarker mutation, has received prior therapies, and meets the ECOG performance status requirement. There are no conflicts or uncertainties regarding the inclusion criteria for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07020221",
+      "title": "A Phase 1/2a, Open-label Study of VS-7375, a KRAS G12D (ON/OFF) Inhibitor, as Monotherapy and in Combination, in Patients With Advanced KRAS G12D-Mutated Solid Tumors",
+      "sponsor": "Verastem, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67 (\u226518 years)",
+        "ECOG status: 1",
+        "Histologic evidence of locally advanced unresectable pancreatic ductal adenocarcinoma with KRAS G12D mutation",
+        "Prior therapies: Completed FOLFIRINOX and switched to gemcitabine/nab-paclitaxel due to progressing disease, which satisfies the requirement for having received \u22651 prior line of therapy",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function (not explicitly confirmed)",
+        "Adequate cardiac function (not explicitly confirmed)",
+        "Agreement to use highly effective contraception (not explicitly stated)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indications (advanced KRAS G12D pancreatic cancer). The patient has received prior therapies qualifying him for the trial and meets the ECOG performance status requirement. A few uncertainties exist regarding organ function and contraception, but they do not preclude eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04484909",
+      "title": "Phase I Study of NBTXR3 Activated by Radiotherapy for Locally Advanced or Borderline Resectable Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years (67 years old)",
+        "Biopsy proven ductal adenocarcinoma of the pancreas (pancreatic cancer)",
+        "Locally advanced pancreatic adenocarcinoma (due to SMV encasement)",
+        "Has had prior chemotherapy (FOLFIRINOX, gemcitabine/nab-paclitaxel) without evidence of distant metastatic disease",
+        "ECOG performance status 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific laboratory values at screening (e.g., hemoglobin, ANC, platelet count, creatinine, total bilirubin, AST/ALT, serum albumin) are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has locally advanced pancreatic adenocarcinoma, which matches the trial's focus. The age and ECOG status are acceptable. The patient has previously received allowed chemotherapy regimens and has no evidence of distant metastasis. The main uncertainty lies in the laboratory values, but overall, the patient qualifies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04005690",
+      "title": "A Window of Opportunity Strategy for Targeted Pathway Inhibition in Patients With Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "OHSU Knight Cancer Institute",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a clinically-confirmed diagnosis of locally advanced pancreatic ductal adenocarcinoma.",
+        "Patient is 67 years old (>=18 years requirement).",
+        "Patient has an ECOG performance status of 1 (0-2 requirement).",
+        "Patient has no brain metastases.",
+        "Patient has undergone prior therapies, which is allowed as the trial accepts previously treated patients."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Laboratory values for hemoglobin, WBC, ANC, platelet count, creatinine, bilirubin, AST, and ALT are not provided.",
+        "Eligibility regarding specific treatment interventions prior to study drug initiation is uncertain as dates of prior therapies are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial objective, and he meets the criteria for age and ECOG status. The trial allows for previously treated patients, and the patient also expresses interest in novel KRAS-targeted therapies, aligning with the trial's focus.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05076760",
+      "title": "Phase I Study Evaluating MEM-288 Oncolytic Virus Alone and in Combination With Standard of Care Therapy in Advanced Solid Tumors",
+      "sponsor": "Memgen, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is pancreatic cancer, which is included in the trial conditions studied.",
+        "ECOG status is 1, which meets the trial inclusion criteria.",
+        "Patient has progressed after systemic chemotherapy which included gemcitabine."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient has pancreatic cancer, which matches the trial's disease indication. Additionally, the patient has an ECOG status of 1, and has received previous treatments leading to progression as required by the trial's eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05225428",
+      "title": "Video Education With Result Dependent dIsclosure",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67 (\u2265 18 years)",
+        "Cancer type: pancreatic cancer (included in the conditions studied)",
+        "ECOG status: 1",
+        "Location: United States (eligible country)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Ability to understand spoken or written English or Spanish in a healthcare context (not explicitly confirmed)",
+        "Willingness to sign a written informed consent document (not explicitly confirmed)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (pancreatic cancer) matches the trial conditions. The patient is previously treated, but the trial does not specify treatment-naive requirements. Age and ECOG status are acceptable. Minor uncertainties exist but do not exclude the patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05382559",
+      "title": "A Phase 1 Study of ASP3082 in Participants With Locally Advanced or Metastatic Solid Tumor Malignancies With KRAS G12D Mutation",
+      "sponsor": "Astellas Pharma Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced pancreatic cancer with KRAS G12D mutation.",
+        "ECOG status is 1.",
+        "Patient has received prior standard therapy (FOLFIRINOX and gemcitabine/nab-paclitaxel) and is not responding.",
+        "Patient has no brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Patient's last dose of prior antineoplastic therapy timing is unclear (if it was more than 21 days ago).",
+        "Organ function labs are not provided.",
+        "Whether the patient can provide a tumor specimen post last treatment is not confirmed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (locally advanced pancreatic cancer) matches the trial's focus on solid tumors with KRAS G12D mutation. The patient has received prior therapies and presents with radiographic progression, aligning with the trial's inclusion criteria for previously treated patients. However, there are some uncertainties regarding the timing of the last therapy and organ function that could impact eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05989724",
+      "title": "A First-in-Human (FIH), Open-Label, Phase Ia/Ib Dose Escalation and Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of SON-DP in Participants With Relapsed/Metastatic Solid Tumors",
+      "sponsor": "Qurgen Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic cancer, which is one of the eligible tumor types for the trial.",
+        "Patient's ECOG status is 1, which is acceptable for the trial.",
+        "Patient's age is over 18, meeting the age requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Hematological function, hepatic/renal function, and coagulation function are not explicitly stated.",
+        "Patient's recovery status from prior treatment adverse effects is not explicitly provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (pancreatic cancer) matches the trial's inclusion criteria. The patient is previously treated, which aligns with the trial's focus on relapsed or refractory patients. Other criteria like age and ECOG status are met, thus suggesting high eligibility despite some uncertainties regarding organ function and recovery from prior treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06040541",
+      "title": "Phase 1/1b, Multicenter, Open-Label, Study of RMC 9805 in Participants With Advanced KRASG 12D-Mutant Solid Tumors",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced pancreatic ductal adenocarcinoma (PDAC) which is part of the study",
+        "Patient has a KRAS G12D mutation",
+        "Patient has an ECOG performance status of 1",
+        "Patient has received prior therapies and progressed (FOLFIRINOX and gemcitabine/nab-paclitaxel)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function is not explicitly stated"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial indication as they have pancreatic ductal adenocarcinoma and a KRAS G12D mutation. The patient is also previously treated, which is consistent with the trial requirements for inclusion. The only uncertainty is around the adequacy of organ function, but otherwise, the patient meets all key criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06179160",
+      "title": "A Phase 1, Open-Label, Multicenter Study of INCB161734 in Participants With Advanced or Metastatic Solid Tumors With KRAS G12D Mutation",
+      "sponsor": "Incyte Corporation",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67 years old",
+        "Cancer type: locally advanced pancreatic cancer (matches study condition for solid tumors)",
+        "Biomarker: KRAS G12D mutation",
+        "ECOG status: 1",
+        "Prior therapies: Disease progression on prior standard treatment (FOLFIRINOX and gemcitabine/nab-paclitaxel)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No information provided regarding any prior treatment with a KRAS G12D inhibitor",
+        "No specifics on organ function or presence of significant uncontrolled medical conditions"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the study focus, and they have the required KRAS G12D mutation. The patient is previously treated and has stable ECOG status. The only uncertainties revolve around potential prior exposure to a KRAS G12D inhibitor and organ function status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06227377",
+      "title": "A Phase 1 Trial Evaluating the Safety, Tolerability, PK, and Efficacy of QTX3034 in Patients With Solid Tumors With KRASG12D Mutation",
+      "sponsor": "Quanta Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic cancer, which is a solid tumor.",
+        "Patient has KRAS G12D mutation documented.",
+        "Patient has received FOLFIRINOX and gemcitabine/nab-paclitaxel, meeting criteria for prior systemic therapy.",
+        "ECOG status is 1, which is acceptable."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function details are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type aligns with the trial's criteria for solid tumors, and they have the required KRAS G12D mutation. The patient has received prior systemic therapy, which matches the trial's inclusion criteria for previously treated patients. The only uncertainty is regarding organ function, which is typically required but not explicitly stated in the profile.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06447662",
+      "title": "A Phase 1 Open-Label Study of PF-07934040 as a Single Agent and in Combination With Other Targeted Agents in Participants With Advanced Solid Tumors Harboring Mutations in the KRAS Gene",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histological diagnosis of advanced, unresectable pancreatic ductal adenocarcinoma.",
+        "ECOG status is 1.",
+        "Patient has a documented KRAS mutation (G12D).",
+        "Patient has progressed on standard treatments for pancreatic cancer."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is pancreatic ductal adenocarcinoma, which matches the trial's indication. The patient has previously received FOLFIRINOX and gemcitabine/nab-paclitaxel and has documented progression, meeting the treatment line criteria as well. All key eligibility criteria are satisfied.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06586515",
+      "title": "A Phase 1a/1b Trial of LY3962673 in Participants With KRAS G12D-Mutant Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histological diagnosis of locally advanced pancreatic ductal adenocarcinoma",
+        "Confirmed KRAS G12D mutation",
+        "ECOG performance status of 1",
+        "Prior therapies include FOLFIRINOX and gemcitabine/nab-paclitaxel"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (pancreatic ductal adenocarcinoma) matches the conditions studied in the trial. The patient has the required KRAS G12D mutation, an appropriate ECOG status, and has received prior therapies, fulfilling the inclusion criteria for previously treated patients. There are no conflicts or uncertainties evident from the provided patient data.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06619587",
+      "title": "A Phase I/II Dose-Escalation and Expansion Study Evaluating the Safety, Pharmacokinetics, and Activity of GDC-7035 as a Single Agent and in Combination With Other Anti-Cancer Therapies in Patients With Advanced Solid Tumors With a KRAS G12D Mutation",
+      "sponsor": "Genentech, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically documented advanced pancreatic ductal adenocarcinoma",
+        "Patient has KRAS G12D mutation",
+        "Patient has ECOG status of 1",
+        "Patient has no active brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on advanced solid tumors with a KRAS G12D mutation. The patient is previously treated but aligns with the trial's structure as it does not specify an exclusion for prior therapies. All critical criteria are addressed without conflicts.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06607185",
+      "title": "A Phase 1a/1b Study of the Pan-KRAS Inhibitor LY4066434 in Participants With KRAS Mutant Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced pancreatic ductal adenocarcinoma confirmed by histological diagnosis.",
+        "Patient has KRAS G12D mutation in tumor tissue.",
+        "Patient has ECOG performance status of 1."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on pancreatic ductal adenocarcinoma, and he has the required KRAS G12D mutation along with an acceptable ECOG status. There are no conflicts with inclusion criteria, and the patient's prior therapies align with the treatment line indicated in the trial for previously treated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06797336",
+      "title": "A Phase 1, Open-Label Dose Escalation and Expansion Study of PT0253 in Participants With KRAS G12D Mutated Advanced Solid Tumors",
+      "sponsor": "PAQ Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed pancreatic cancer",
+        "KRAS G12D mutation identified",
+        "ECOG status 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type and biomarker match the trial's requirements. The patient has previously been treated, which is acceptable since the trial is for previously treated patients. All other eligibility criteria are met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06917079",
+      "title": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-11818 in Subjects With Advanced KRAS Mutant Cancers",
+      "sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic ductal adenocarcinoma (PDAC) which is included in the conditions studied.",
+        "Patient has the KRAS G12D mutation which is required for the trial.",
+        "ECOG status of 1 is acceptable for participation."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (PDAC) and biomarker (KRAS G12D) match exactly with the trial's requirements. Additionally, the patient's ECOG performance status is within the acceptable range. There are no conflicts or uncertainties present in the information provided, leading to a high confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07207707",
+      "title": "A Phase 1a, Open-label, Multicenter, Study Evaluating the Safety, Tolerability, Pharmacokinetics and Efficacy of KQB548 in Participants With Advanced Solid Malignancies With a KRAS G12D Mutation",
+      "sponsor": "Kumquat Biosciences Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Locally advanced pancreatic ductal adenocarcinoma (PDAC) with KRAS G12D mutation",
+        "Progressed on multiple lines of systemic standard of care therapy"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Measurable disease according to RECIST v1.1",
+        "Adequate organ function (labs not provided)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is a match for the trial's focus on locally advanced PDAC with a KRAS G12D mutation. The patient has progressed on multiple prior therapies, which aligns with the trial's inclusion criteria for previously treated patients. While some eligibility criteria such as measurable disease and organ function are uncertain due to lack of specific lab data, the overall assessment is positive.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07094204",
+      "title": "A Phase 1 Study of ASP5834 in Participants With Locally Advanced (Unresectable) or Metastatic Solid Tumor Malignancies With KRAS Mutations or KRAS Amplifications",
+      "sponsor": "Astellas Pharma Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced (unresectable) pancreatic ductal adenocarcinoma.",
+        "Patient has a documented KRAS G12D mutation.",
+        "Patient has received prior standard therapy in the advanced setting with FOLFIRINOX and gemcitabine/nab-paclitaxel.",
+        "Patient's ECOG status is 1."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is pancreatic ductal adenocarcinoma, which is included in the trial. The patient has a KRAS G12D mutation and has undergone prior treatments, which aligns with the trial's criteria for previously treated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06218914",
+      "title": "Open-label, Phase 1, Multi-Center Master Protocol to Evaluate the Safety and Preliminary Anti-Tumor Activity of TCR-engineered T Cells Recognizing KRAS Mutations in Adult Subjects With Unresectable, Advanced, and/or Metastatic Solid Tumors",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic adenocarcinoma, which is included in the conditions studied",
+        "Patient has a KRAS G12D mutation, which is required",
+        "Patient has ECOG status of 1, which meets the requirement",
+        "Patient's disease is advanced and unresectable, meeting the trial's definition",
+        "Patient has received prior systemic therapies which aligns with trial criteria for previously treated patients"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "HLA status (HLA-C*08:02 positive or HLA-A*11:01 or HLA-A*11:02 positive) is not provided",
+        "Presence of at least 1 measurable lesion per RECIST v1.1 is not confirmed"
+      ],
+      "confidence": 0.8,
+      "reasoning": "The patient's cancer type matches the trial's criteria for pancreatic adenocarcinoma with the specific KRAS G12D mutation. The patient has an ECOG status of 1 and meets the requirement for advanced disease after prior treatments. There are minor uncertainties regarding HLA status and measurable lesions, but overall, the eligibility criteria are likely met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06364696",
+      "title": "An Open-label Phase 1 Study of ASP4396 in Participants With Locally Advanced (Unresectable) or Metastatic Solid Tumor Malignancies With KRAS G12D Mutation",
+      "sponsor": "Astellas Pharma Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced (unresectable) pancreatic cancer with documented KRAS G12D mutation and has received prior standard therapy.",
+        "Patient has ECOG performance status of 1."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function has not been explicitly confirmed.",
+        "Measurable lesions per RECIST v1.1 have not been explicitly confirmed."
+      ],
+      "confidence": 0.76,
+      "reasoning": "The patient's pancreatic cancer type aligns with the trial studying KRAS G12D mutation. The patient is previously treated, which is suitable for this trial. ECOG status is acceptable, but some information on organ function and measurable lesions is missing.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06937996",
+      "title": "Outcomes of Ablation of Unresectable Pancreatic Cancer Using the NanoKnife Irreversible Electroporation (IRE) System",
+      "sponsor": "Englewood Hospital and Medical Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "Sex: male",
+        "Cancer type: pancreatic cancer",
+        "ECOG status: 1",
+        "Brain metastases: none",
+        "Prior therapies: completed FOLFIRINOX x8 cycles and switched to gemcitabine/nab-paclitaxel due to neuropathy, currently with radiographic progression",
+        "Current status: seeking novel KRAS-targeted approaches including G12D-specific inhibitors"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "INR value not provided",
+        "Organ function labs not provided (e.g., creatinine level)",
+        "Trial requires no chemotherapy/radiotherapy within 5 weeks of treatment with the NanoKnife IRE System, patient details about last chemotherapy not specified"
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type, treatment history, and ECOG status align well with the trial's requirements for locally advanced unresectable pancreatic cancer. However, further verification is needed for INR and renal function parameters, as well as treatment timeline related to chemotherapy.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05005403",
+      "title": "A Global First-in-Human Study in NSCLC, HNSCC and Solid Tumors With Azirkitug (ABBV-514) as a Single Agent and in Combination With Budigalimab or Bevacizumab",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic cancer, which is one of the conditions studied in the trial.",
+        "Patient's ECOG status is 1, which meets the trial inclusion criteria."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST) is not explicitly stated.",
+        "Laboratory values meeting criteria are not provided."
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type matches the trial conditions, and the ECOG status falls within the acceptable range. However, there are uncertainties regarding measurable disease and laboratory values.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06411691",
+      "title": "Pooled Mutant KRAS-Targeted Long Peptide Vaccine Combined With Balstilimab and Botensilimab for Patients With Stage IV MMR-p Colorectal Cancer and Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic cancer, which is a condition studied in the trial.",
+        "Patient has received prior therapies which are in line with the trial criteria for prior treatment.",
+        "Patient has a KRAS mutation (G12D), which is part of the eligibility criteria."
+      ],
+      "conflicts": [
+        "Patient has an ECOG status of 1, but the trial specifies ECOG performance status of 0."
+      ],
+      "uncertainties": [
+        "Adequate organ and marrow function is not explicitly confirmed in the patient profile."
+      ],
+      "confidence": 0.7,
+      "reasoning": "The patient has a suitable cancer type and the required KRAS mutation. They meet the treatment line criteria, but their ECOG status conflicts with the trial's requirement, leading to a medium likelihood of eligibility. Verification of organ function is uncertain.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06015659",
+      "title": "Phase 2 Single Arm Trial Testing the ZN-c3 WEE1 Inhibitor in Combination with Gemcitabine in Second-Line Advanced Pancreatic Adenocarcinoma",
+      "sponsor": "Brandon Huffman, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced pancreatic adenocarcinoma, matching the trial condition.",
+        "Patient is ECOG 1, which meets the trial criteria.",
+        "Patient is 67 years old, meeting the age requirement (\u2265 18 years).",
+        "Patient has no brain metastases, which meets the criteria."
+      ],
+      "conflicts": [
+        "Patient has previously received gemcitabine, which is excluded for progressing within 6 months of treatment."
+      ],
+      "uncertainties": [
+        "Laboratory values for organ function (e.g., ANC, platelets, hemoglobin, bilirubin, ALT, and creatinine clearance) are not provided."
+      ],
+      "confidence": 0.3,
+      "reasoning": "The patient has advanced pancreatic adenocarcinoma that matches the trial's focus. While the ECOG status and age are acceptable, the patient's history of receiving gemcitabine prior to progression creates a conflict with the trial's exclusion criteria. This leads to significant doubts about eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06233877",
+      "title": "An Open Label Phase 2 Trial to Evaluate the Safety, Tolerability, and Efficacy of Low Dose G-FLIP in Combination With Mitomycin C in Patients With Stage IV Pancreatic Cancer Who Have Failed First-Line Treatment",
+      "sponsor": "Hirschfeld Oncology",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed metastatic (Stage IV) pancreatic adenocarcinoma",
+        "Failed first-line chemotherapy",
+        "ECOG performance status of 1",
+        "Age is 67 (above the minimum age of 18)"
+      ],
+      "conflicts": [
+        "Trial requires Stage IV; patient has locally advanced disease (not clearly metastatic or Stage IV)",
+        "Unknown organ function; trial requires adequate organ function"
+      ],
+      "uncertainties": [
+        "Patient's organ function lab values are not provided",
+        "Patient's expected survival is not explicitly stated"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient has a confirmed diagnosis of pancreatic adenocarcinoma and has failed first-line therapy, which aligns with the trial's criteria. However, there are uncertainties regarding the patient's metastatic status and organ function, which may affect eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05053555",
+      "title": "High Dose-Rate Brachytherapy for the Treatment of Both Primary and Secondary Unresectable Liver Malignancies",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is over the age of 18",
+        "Patient has pancreatic cancer, which is listed as a condition studied",
+        "ECOG status is 1"
+      ],
+      "conflicts": [
+        "Patient has previously been treated with multiple therapies (FOLFIRINOX, gemcitabine, nab-paclitaxel) which may conflict with treatment line requirements"
+      ],
+      "uncertainties": [
+        "Specific eligibility requirements regarding liver lesions and whether patient has unresectable liver tumors are unclear",
+        "Details on organ function and lab values (e.g., bilirubin levels, platelet count, INR) are missing"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type matches the trial's conditions, but significant uncertainty exists regarding prior treatment lines and specific eligibility regarding liver lesions. Additional organ function specifications are needed to fully assess eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07214298",
+      "title": "A Phase I/II Study of Complement Inhibition in Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Roswell Park Cancer Institute",
+      "phase": "Phase 1/Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 1",
+        "Age 67 years"
+      ],
+      "conflicts": [
+        "Patient has previously received chemotherapy for PDAC (FOLFIRINOX, gemcitabine, nab-paclitaxel) whereas trial excludes previous chemotherapy for PDAC."
+      ],
+      "uncertainties": [
+        "Absolute neutrophil count, platelets, bilirubin levels, AST/ALT levels, creatinine clearance, and albumin levels are not provided."
+      ],
+      "confidence": 0.25,
+      "reasoning": "The disease type matches as the trial is studying metastatic pancreatic ductal adenocarcinoma. However, the patient has previously received chemotherapy which is explicitly excluded under the trial's criteria. This conflict leads to a likely exclusion despite other factors being met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06141031",
+      "title": "Phase I/IB Trial of Radiotherapy in Combination With TTI-101 in Borderline Resectable and Locally Advanced Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "University of Colorado, Denver",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of pancreatic cancer",
+        "Age is 67 which meets the age criteria"
+      ],
+      "conflicts": [
+        "Patient has previously received multiple lines of treatment (FOLFIRINOX, gemcitabine, nab-paclitaxel) which conflicts with the requirement for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.2,
+      "reasoning": "The patient's cancer type matches the trial indication, but the patient has received prior systemic therapies which likely excludes them based on the trial's requirements for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06168812",
+      "title": "Sulfonylurea Safety and Effectiveness (SUSS) for Patients With Hyperglycemia and Pancreatic Ductal Adenocarcinoma: A Pragmatic Clinical Trial and Accompanying Retrospective Revie",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapies (FOLFIRINOX and gemcitabine/nab-paclitaxel), while the trial does not specify eligibility for previously treated patients, but other studies often favor treatment-naive.",
+        "Cohort 1 requires HbA1c > 7%, and no glucose metrics provided to confirm hyperglycemia."
+      ],
+      "uncertainties": [
+        "Could not confirm HbA1c, fructosamine, or glucose levels.",
+        "No details on BMI or organ function provided."
+      ],
+      "confidence": 0.2,
+      "reasoning": "The patient's pancreatic cancer type matches the trial's focus but their history of prior treatments likely disqualifies them based on standard eligibility patterns for similar trials. However, without definitive metrics on glucose levels, eligibility remains uncertain.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02843945",
+      "title": "Initial Feasibility Study to Evaluate the Safety and Efficacy of the Permanently Implantable LDR CivaSheet\u00ae in Combination With External Beam Radiation in the Treatment of Pancreatic Cancer",
+      "sponsor": "CivaTech Oncology",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient is not a surgical candidate, while the trial requires patients selected to undergo Whipple procedure or distal pancreatectomy.",
+        "The patient has previously received treatment (FOLFIRINOX, gemcitabine, nab-paclitaxel), while the trial inclusion criteria broadly indicate requirements for neoadjuvant chemoradiation and possibly for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has locally advanced pancreatic cancer; however, they are not surgical candidates, which is a critical exclusion in the trial. Additionally, the patient has already received systemic therapy, conflicting with the potential requirement for treatment-naive status. Therefore, the patient is likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06850623",
+      "title": "A Phase 2 Study to Investigate the Efficacy and Safety of Acoustic Cluster Therapy With Modified FOLFIRINOX in Patients With Locally Advanced Pancreatic Cancer",
+      "sponsor": "EXACT Therapeutics AS",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has locally advanced pancreatic cancer."
+      ],
+      "conflicts": [
+        "Patient has received prior chemotherapy for pancreatic cancer (FOLFIRINOX, gemcitabine, nab-paclitaxel) which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (locally advanced pancreatic cancer) matches the trial indication; however, the patient is excluded due to having received prior systemic therapy, which the trial's exclusion criteria does not permit.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04588025",
+      "title": "Disposable Perfusion Phantom for Accurate DCE (Dynamic Contrast Enhanced)-MRI Measurement of Pancreatic Cancer Therapy Response",
+      "sponsor": "University of Alabama at Birmingham",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has locally advanced pancreatic cancer while the trial appears to be designed primarily for assessment of treatment response without therapeutic intervention since no treatment regimen is outlined in the trial description."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial (pancreatic cancer); however, the trial does not provide any therapeutic treatments, indicating it is likely not suitable for previously treated patients like the one in this scenario.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06600906",
+      "title": "Translating Hyperpolarized 13C MRI as a Novel Tool to Predict Treatment Response in Pancreatic Cancer",
+      "sponsor": "University of California, San Francisco",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed pancreatic ductal adenocarcinoma (PDA)",
+        "Patient has locally advanced disease",
+        "Patient has an ECOG status of 1"
+      ],
+      "conflicts": [
+        "Patient has prior treatments (FOLFIRINOX, gemcitabine, nab-paclitaxel) while the trial does not specify if it is open to previously treated patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does match the trial focus on locally advanced pancreatic ductal adenocarcinoma, but the patient's prior treatments conflict with the trial's requirements for treatment-naive patients, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03745326",
+      "title": "A Phase I/II Study Administering Peripheral Blood Lymphocytes Transduced With a Murine T-Cell Receptor Recognizing the G12D Variant of Mutated RAS in HLA-A*11:01 Patients",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67 (within the required age range of 18-72)",
+        "ECOG status: 1 (acceptable performance status)",
+        "Cancer type: pancreatic cancer (matches trial conditions)",
+        "Biomarker: KRAS G12D (matches trial requirements)"
+      ],
+      "conflicts": [
+        "HLA-A*11:01 status is unknown (required for eligibility; must be confirmed positive)",
+        "Patient has previously received standard systemic therapy (FOLFIRINOX, gemcitabine, nab-paclitaxel), which was acceptable, but the patient is not specified as being a non-responder or at recurrence beyond standard therapy criteria.",
+        "Patient has not undergone the pathology confirmation required by the NCI Laboratory of Pathology."
+      ],
+      "uncertainties": [
+        "Serology and organ function details (e.g., liver function tests, complete blood count) are not provided, hence uncertain if they meet specific eligibility criteria.",
+        "HLA-A*11:01 result is not verified."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer matches the study focus, and the treatment history aligns with criteria, but critical details like HLA-A*11:01 positivity are unspecified, leading to exclusion confidence.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06162221",
+      "title": "A Platform Study of RAS(ON) Inhibitors in Patients With RAS-Mutated Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "Sex: male",
+        "ECOG status: 1",
+        "Prior therapies: FOLFIRINOX, gemcitabine, nab-paclitaxel"
+      ],
+      "conflicts": [
+        "Patient has KRAS G12D mutation; trial requires KRAS G12C mutation or RAS G12D-mutated NSCLC."
+      ],
+      "uncertainties": [
+        "Adequate organ function, which is not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (pancreatic cancer) does not match the trial's focus on NSCLC subtypes, leading to exclusion despite other criteria being met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05254184",
+      "title": "Pooled Mutant KRAS-Targeted Long Peptide Vaccine Combined With Nivolumab and Ipilimumab for Patients With Advanced KRAS Mutated Non-Small Cell Lung Cancer",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has pancreatic cancer; trial is for advanced KRAS mutated non-small cell lung cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is pancreatic cancer, while the trial is exclusively for patients with advanced non-small cell lung cancer, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05687188",
+      "title": "Evaluating Obesity-Mediated Mechanisms of Pancreatic Carcinogenesis in Minority Populations",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient does not self-report as African American or Non-Hispanic White, which is required by the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The primary conflict preventing eligibility is that the patient does not meet the self-reported race/ethnicity inclusion criteria required for the trial, making them clearly excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05685602",
+      "title": "A Phase I Clinical Trial of CA-4948 in Combination With Gemcitabine and Nab-Paclitaxel in Metastatic or Unresectable Pancreatic Ductal Carcinoma",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has pancreatic cancer, which is the type studied in the trial."
+      ],
+      "conflicts": [
+        "Patient has received gemcitabine/nab-paclitaxel for treatment; trial excludes prior use of this regimen for metastatic or unresectable disease."
+      ],
+      "uncertainties": [
+        "Specific lab values for organ function tests (absolute neutrophil count, platelets, bilirubin, AST/ALT, GFR, and CPK) are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the indication of the trial; however, they are excluded due to having had prior treatment with gemcitabine/nab-paclitaxel, which the trial does not permit.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07033689",
+      "title": "Open-label, Non-randomized, Single-center Study Investigating the Feasibility, Safety, Tolerability and Efficacy of Suizenji in Unresectable Pancreatic Ductal Adenocarcinoma Patients",
+      "sponsor": "SONIRE Therapeutics Inc.",
+      "phase": "Early Phase 1",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "Sex: male",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has prior therapies (FOLFIRINOX, gemcitabine, nab-paclitaxel) which contradicts eligibility criterion for newly diagnosed unresectable disease and prior treatment exclusion."
+      ],
+      "uncertainties": [
+        "Specific organ function lab results are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on pancreatic cancer (PDAC); however, the patient has a history of prior therapies, which excludes him from eligibility for this trial focused on treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06695845",
+      "title": "A Phase 2, Open-label, Multicenter Study to Evaluate Efficacy and Safety of Zanidatamab for the Treatment of Participants With Previously Treated HER2-expressing Solid Tumors (DiscovHER PAN-206)",
+      "sponsor": "Jazz Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient does not meet inclusion criteria for HER2 overexpression (IHC 3+) required for the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's pancreatic cancer does not align with the requirement for HER2 overexpression in this trial, which is critical for participation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03977233",
+      "title": "Impact of Tumor and Stromal Subtypes on Efficacy of Neoadjuvant FOLFIRINOX in Subjects With Non-Metastatic Pancreatic Cancer",
+      "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (FOLFIRINOX and gemcitabine/nab-paclitaxel) and the trial specifies that subjects must have received no prior chemotherapy for pancreatic cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's prior treatments with FOLFIRINOX and gemcitabine/nab-paclitaxel conflict with the trial's requirement for treatment-naive patients, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06941857",
+      "title": "A Phase 2 Study of NC410 and FOLFIRINOX in Combination With Nivolumab With or Without Ipilimumab in Patients With Treatment-na\u00efve, Metastatic Pancreatic Cancer",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior systemic treatment for pancreatic cancer (FOLFIRINOX and gemcitabine/nab-paclitaxel) but trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's prior treatments for pancreatic cancer (FOLFIRINOX and gemcitabine/nab-paclitaxel) disqualify them from the trial, which specifically requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04970056",
+      "title": "Pancreatic Cancer Early Detection Consortium",
+      "sponsor": "Arbor Research Collaborative for Health",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a personal history of PDAC, whereas the trial primarily focuses on early detection and individuals without a history of PDAC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (pancreatic cancer) does not match the trial's focus on early detection and prevention in individuals without a history of PDAC, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05984602",
+      "title": "A Phase IB Study to Determine the Safety and Tolerability of Canakinumab and Tislelizumab in Combination With Nab-Paclitaxel and Gemcitabine in the Neo-adjuvant Treatment of Patients With Pancreatic Cancer",
+      "sponsor": "NYU Langone Health",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has locally advanced pancreatic cancer which is considered advanced disease, whereas the trial requires patients with resectable or borderline resectable disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's pancreatic cancer is classified as locally advanced, which is not eligible for this trial that specifically seeks patients with localized or resectable disease.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03080974",
+      "title": "Immunotherapy and Irreversible Electroporation in the Treatment of Advanced Pancreatic Adenocarcinoma",
+      "sponsor": "University of Louisville",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04130516",
+      "title": "A Multicenter Phase 1-2A Study to Assess the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of LNS8801 in Patients With Advanced Cancer With and Without Pembrolizumab",
+      "sponsor": "Linnaeus Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05379985",
+      "title": "A Multicenter Open-Label Study of RMC-6236 in Patients With Advanced Solid Tumors Harboring Specific Mutations in RAS",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05477576",
+      "title": "Phase 1b/3 Global, Randomized, Controlled, Open-label Trial Comparing Treatment With RYZ101 to Standard of Care Therapy in Subjects With Inoperable, Advanced, SSTR+, Well-differentiated GEP-NETs That Have Progressed Following Prior 177Lu-SSA Therapy",
+      "sponsor": "RayzeBio, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05732831",
+      "title": "A Phase 1/2, Multi-Center, Open-Label Study to Evaluate the Safety, Tolerability, and Preliminary Anti-tumor Activity of TNG462 as a Single Agent and in Combination in Patients With MTAP-deleted Advanced or Metastatic Solid Tumors",
+      "sponsor": "Tango Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05851924",
+      "title": "Total Neoadjuvant NALIRIFOX Plus Ablative Dose Radiation Therapy for Borderline Resectable and Locally Advanced Pancreatic Adenocarcinoma",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05968326",
+      "title": "A Phase II, Open-Label, Multicenter, Randomized Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Patients With Resected Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Genentech, Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06219941",
+      "title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06445062",
+      "title": "A Platform Study of RAS(ON) Inhibitors in Patients With Gastrointestinal Solid Tumors",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06503146",
+      "title": "18F-Fibroblast Activation Protein Inhibitor ([18F]FAPI-74) PET Imaging for Cancer Detection",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06593431",
+      "title": "Extending Outcomes for Pancreas Cancer Patients With Nominal Oligometastatic Disease (EXPAND): A Randomized Phase III Trial",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06598007",
+      "title": "A Phase 1/2a First-In-Human, Open-Label, Multicenter, Dose Escalation and Dose Expansion Study to Determine the Safety, Tolerability, Pharmacokinetics, and Preliminary Efficacy of CT3001 in Patients with Advanced Solid Tumors",
+      "sponsor": "Crossignal Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06710756",
+      "title": "A Phase I/IIa Image-Guided, Alpha-Particle Therapy Study of [203Pb]Pb-PSV359 and [212Pb]Pb-PSV359 in Patients With Solid Tumors That Are Known to be Fibroblast Activation Protein (FAP)-Positive",
+      "sponsor": "Perspective Therapeutics",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06790602",
+      "title": "A Single-arm, Open-label, Phase II Trial of Cemiplimab Plus Gemcitabine as Second-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma Harboring SWItch/Sucrose Non-Fermentable (SWI/SNF) Alterations.",
+      "sponsor": "University of California, San Diego",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06807437",
+      "title": "A Randomized Phase III Blinded Trial of Lanreotide for the Prevention of Postoperative Pancreatic Fistula",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06821997",
+      "title": "A Phase 2 Clinical Trial of Nalirifox as Neoadjuvant Treatment for Patients With Borderline Resectable Pancreatic Ductal Adenocarcinoma (Nectar Study)",
+      "sponsor": "Roswell Park Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07043270",
+      "title": "24BRO681 : Neoadjuvant Therapy With Alternating Gemcitabine Plus Nab-Paclitaxel and mFOLFIRINOX for Borderline Resectable Pancreatic Adenocarcinoma: A Phase 2 Clinical Trial",
+      "sponsor": "Dartmouth-Hitchcock Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07186842",
+      "title": "First-in-human, Open-label, Multi-site, Phase I/IIa, Dose Escalation Trial With Expansion Cohorts to Evaluate Safety and Preliminary Efficacy of BNT329 in Participants With Advanced Solid Tumors Known to Express CA19-9",
+      "sponsor": "BioNTech SE",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07217717",
+      "title": "A Phase 3, Multicenter, Prospective Open-Label Study of the Diagnostic Performance of [\u00b9\u2078F]FAPI-74 PET/CT for the Detection of Metastatic Disease in Adults With Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "SOFIE",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07223047",
+      "title": "A Phase 1/2a, Open-Label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of BMS-986523 As Monotherapy and in Combination With Anti-Cancer Agents in Participants With Advanced Solid Malignancies",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05254171",
+      "title": "A Randomized, Double-Blind, Placebo-Controlled Study of Nab-Paclitaxel and Gemcitabine With or Without SBP-101 in Subjects Previously Untreated for Metastatic Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Panbela Therapeutics, Inc.",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 67",
+        "ECOG status: 1",
+        "Cancer type: pancreatic cancer",
+        "Biomarkers: KRAS G12D"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (FOLFIRINOX and gemcitabine/nab-paclitaxel), but trial requires treatment-naive participants."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has previously received systemic therapy for metastatic pancreatic ductal adenocarcinoma, whereas the trial is exclusively for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT01365169",
+      "title": "\"CYCORE: Cyberinfrastructure for Comparative Effectiveness Research - Feasibility Trial\"",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02471170",
+      "title": "Protocol to Permit the Acquisition of Circulating Tumor Material in Pancreatic Diseases",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02775461",
+      "title": "Pancreas Disease and High Risk Registry",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03568630",
+      "title": "A Longitudinal Cohort Study to Identify Clinical and Blood Markers of Early Pancreas Cancer",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03740256",
+      "title": "A First in Human Phase I Trial of Binary Oncolytic Adenovirus in Combination With HER2-Specific Autologous CAR T Cells in Patients With Advanced HER2 Positive Solid Tumors",
+      "sponsor": "Baylor College of Medicine",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04119024",
+      "title": "Phase I Dose Escalation Study of Systemically Administered IL13Ra2 Chimeric Antigen Receptor (CAR) T Cells After a Nonmyeloablative Conditioning Regimen in Patients With Metastatic Melanoma and Other Solid Tumors",
+      "sponsor": "Anusha Kalbasi",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04373564",
+      "title": "Prospective Evaluation of Potential Effects of Repeated Gadolinium-based Contrast Agent (GBCA) Administrations of the Same GBCA on Motor and Cognitive Functions in Neurologically Normal Adults in Comparison to a Non-GBCA Exposed Control Group",
+      "sponsor": "Guerbet",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 67 is above maximum age 64"
+    },
+    {
+      "nct_id": "NCT04609592",
+      "title": "Pilot Phase 1 Study of Perioperative Peptide Receptor Radionuclide Therapy (PRRT) in Metastatic, WHO Grade 1 or 2, SSTR Positive, Gastroenteropancreatic Neuroendocrine Tumors Who Are Candidates for Cytoreductive Surgery",
+      "sponsor": "Stanford University",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04989959",
+      "title": "An Exploratory Study of [18F]PT2385 PET/CT in Patients With Renal Cell Carcinoma",
+      "sponsor": "Orhan Kemal Oz",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05018663",
+      "title": "Artificial Intelligence for Rapid On-site Evaluation (AI-ROSE) for Endoscopic Ultrasound-guided Fine-needle Aspiration (EUS-FNA) Biopsy of Pancreatic Solid Lesions: A Prospective Double Blinded Study",
+      "sponsor": "The University of Texas Health Science Center, Houston",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05463796",
+      "title": "InAdvance: Surveillance, Prevention, and Interception in a Population at Risk For Cancer",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05919238",
+      "title": "A Multicenter Open-label Phase 1 Trial to Evaluate Safety and Preliminary Efficacy of Endovascularly Applied Vascular Targeted Photodynamic Therapy (VTP) for Patients With Locally Advanced Unresectable Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Impact Biotech Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06084481",
+      "title": "A Phase 1 Open-Label Study to Evaluate the Efficacy and Safety of ABBV-400 in Select Advanced Solid Tumor Indications",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06157671",
+      "title": "The LINFU\u00ae (A Noninvasive Method for Increasing Exfoliation of Pancreatic Ductal Cells Into Pancreatic Fluid) U.S. Registry for the Detection of Low and High- Grade Atypia and Early, Asymptomatic Pancreatic Ductal Adenocarcinoma (PDAC)",
+      "sponsor": "Adenocyte, LLC",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06400472",
+      "title": "A First-in-Human, Phase 1a/1b Trial to Assess the Safety, Tolerability and Preliminary Efficacy of LY4170156, an Antibody-Drug Conjugate Targeting Folate Receptor \u03b1-Expressing Tumor Cells, in Participants With Selected Advanced Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06539169",
+      "title": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+      "sponsor": "xCures",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06582017",
+      "title": "A First-in-human Phase 1a/1b Study to Evaluate Safety and Tolerability of QXL138AM in Patients With Locally Advanced Un-resectable and/or Metastatic Solid Tumors and Multiple Myeloma",
+      "sponsor": "Nammi Therapeutics Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06651580",
+      "title": "Pediatric Longitudinal Cohort Study of Chronic Pancreatitis (INSPPIRE 2)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 67 is above maximum age 17"
+    },
+    {
+      "nct_id": "NCT06712797",
+      "title": "Physical Activity and Nutrition to Halt Elevated Risk in the Pancreas Interception Center (PANTHER-PIC)",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07021066",
+      "title": "A Phase 1 Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Efficacy of BL-M05D1 in Subjects With Advanced or Metastatic Solid Tumors",
+      "sponsor": "SystImmune Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07118176",
+      "title": "PET Imaging Study of 68Ga-FAPI-46 Biodistribution in Cancer Patients",
+      "sponsor": "Jonsson Comprehensive Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07174609",
+      "title": "A Pilot Study of Scrambler Therapy for Painful Chronic Pancreatitis",
+      "sponsor": "Johns Hopkins University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07213791",
+      "title": "A Dose Escalation and Dose Optimization Phase 1a/1b Study to Evaluate Safety, Tolerability and Dosimetry of Radioligand Therapy With LY4337713 in Adults With FAP-Positive Solid Tumors (FiREBOLT)",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07224750",
+      "title": "A Noninvasive and Screening miRNA Signature for Gastrointestinal Cancer",
+      "sponsor": "City of Hope Medical Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04291651",
+      "title": "Population-Based Analysis of Neoplastic Changes in Cystic Lesions of the Pancreas.",
+      "sponsor": "University of California, San Francisco",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a history of pancreatic cancer, which contradicts the trial's exclusion criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type, pancreatic cancer, clearly conflicts with the trial's exclusion criteria, which states that eligible patients must have no history of pancreatic cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06648434",
+      "title": "Phase I Trial of MK2 Inhibitor in Combination With mFOLFIRINOX for Untreated Metastatic Pancreatic Ductal Adenocarcinoma",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG performance status \u2264 1",
+        "Age \u2265 18"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy; trial requires untreated patients."
+      ],
+      "uncertainties": [
+        "Organ function lab results (e.g., ANC, platelets, hemoglobin, liver function tests, creatinine clearance)"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient has previously received systemic therapy (FOLFIRINOX and gemcitabine/nab-paclitaxel), while the trial specifically requires treatment-naive patients. Therefore, the patient is excluded based on the treatment line criteria.",
+      "excluded_reason": null
+    }
+  ]
+}

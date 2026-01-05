@@ -1,0 +1,15 @@
+{
+  "age": 55,
+  "sex": "male",
+  "cancer_type": "gastric cancer",
+  "biomarkers": ["HER2 positive", "MSI-High"],
+  "description": "55-year-old male with metastatic gastric adenocarcinoma, HER2-positive (IHC 3+) and MSI-High/dMMR. First-line FOLFOX + trastuzumab + pembrolizumab achieved complete response lasting 16 months. Now recurred with peritoneal carcinomatosis and malignant ascites requiring paracentesis q2 weeks. Declining appetite and early satiety. Lost 8kg over past 2 months. Seeking next-line options that leverage both HER2 targeting and immunotherapy. Mild hypoalbuminemia (3.1). Family history notable for Lynch syndrome (MLH1 mutation in family, patient confirmed carrier).",
+  "ecog_status": 2,
+  "pd_l1_status": "CPS 45",
+  "prior_therapies": ["FOLFOX", "trastuzumab", "pembrolizumab"],
+  "brain_mets_status": "none",
+  "co_mutations": ["MLH1 germline"],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

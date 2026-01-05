@@ -1,0 +1,15 @@
+{
+  "age": 67,
+  "sex": "male",
+  "cancer_type": "pancreatic cancer",
+  "biomarkers": ["KRAS G12D"],
+  "description": "67-year-old male with locally advanced pancreatic ductal adenocarcinoma (head of pancreas), KRAS G12D mutated. Not surgical candidate due to SMV encasement. Completed FOLFIRINOX x8 cycles with stable disease, then switched to gemcitabine/nab-paclitaxel due to neuropathy. Now with radiographic progression and rising CA19-9 (2400 -> 8500). Moderate abdominal discomfort, using long-acting opioids. Nutrition supported with pancreatic enzyme replacement. Weight stable past 4 weeks. Seeking novel KRAS-targeted approaches including G12D-specific inhibitors.",
+  "ecog_status": 1,
+  "pd_l1_status": null,
+  "prior_therapies": ["FOLFIRINOX", "gemcitabine", "nab-paclitaxel"],
+  "brain_mets_status": "none",
+  "co_mutations": ["TP53", "CDKN2A"],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

@@ -93,23 +93,41 @@ def extract_terms_with_llm(patient: PatientProfile) -> dict:
     )
     
     try:
-        response = client.chat.completions.create(
-            model=DEFAULT_LLM_MODEL,
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant. Respond only with valid JSON."},
+        # OpenAI uses max_completion_tokens, Groq uses max_tokens
+        token_param = "max_completion_tokens" if LLM_PROVIDER == "openai" else "max_tokens"
+        
+        # Build params - some models don't support temperature
+        params = {
+            "model": DEFAULT_LLM_MODEL,
+            "messages": [
+                {"role": "system", "content": "You are a helpful assistant that extracts clinical trial search terms. Always respond with valid JSON."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0,
-            max_tokens=MAX_LLM_TOKENS,
-        )
+            token_param: MAX_LLM_TOKENS,
+        }
+        # OpenAI-specific settings
+        if LLM_PROVIDER == "openai":
+            params["response_format"] = {"type": "json_object"}
+        else:
+            params["temperature"] = 0
+        
+        response = client.chat.completions.create(**params)
         
         content = response.choices[0].message.content
+        if not content:
+            raise ValueError("LLM returned empty response")
+        
         # Handle potential markdown code blocks
         if "```json" in content:
             content = content.split("```json")[1].split("```")[0]
         elif "```" in content:
             content = content.split("```")[1].split("```")[0]
-        result = json.loads(content.strip())
+        
+        content = content.strip()
+        if not content:
+            raise ValueError("LLM returned empty content after parsing")
+        
+        result = json.loads(content)
         # Validate expected keys exist with defaults
         return {
             "primary_terms": result.get("primary_terms", []),

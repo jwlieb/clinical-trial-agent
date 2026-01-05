@@ -1,0 +1,1256 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T07:01:23.598508",
+    "patient_profile": {
+      "age": 59,
+      "sex": "female",
+      "cancer_type": "renal cell carcinoma",
+      "biomarkers": [],
+      "description": "59-year-old female with metastatic clear cell renal cell carcinoma, status post nephrectomy (2022). First-line ipilimumab/nivolumab x4 induction then nivolumab maintenance - initial PR but progressed at 14 months. Second-line cabozantinib with mixed response, discontinued for grade 3 hand-foot syndrome and fatigue. Switched to lenvatinib/everolimus - progression at 6 months with new pulmonary and hepatic metastases. IMDC intermediate risk. Seeking novel approaches beyond standard IO/TKI combinations. HIF-2\u03b1 inhibitors of interest. Labs show mild hyperbilirubinemia (1.4), otherwise WNL."
+    },
+    "total_trials": 70,
+    "high_likelihood": 7,
+    "medium_likelihood": 2
+  },
+  "results": [
+    {
+      "nct_id": "NCT04974671",
+      "title": "Phase II Trial Of Stereotactic Body Radiation Therapy (SBRT) for Oligoprogression on Immune Checkpoint Inhibitors (ICI) in Metastatic Renal Cell Carcinoma",
+      "sponsor": "Yale University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed renal cell carcinoma with metastatic disease.",
+        "Patient has an ECOG status of 1, which is acceptable.",
+        "Patient has received prior systemic therapy with an ICI regimen (ipilimumab/nivolumab) within the required timeframe.",
+        "Patient has no brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Lab values for organ function (absolute neutrophil count, serum creatinine, total bilirubin) are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic renal cell carcinoma. She has prior treatment with immune checkpoint inhibitors and has an acceptable ECOG performance status. The main uncertainty lies in the missing lab values for organ function, although they are crucial for final eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05327686",
+      "title": "Randomized Phase II Stereotactic Ablative Radiation Therapy (SABR) for Metastatic Unresected Renal Cell Carcinoma (RCC) Receiving Immunotherapy (SAMURAI)",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Pathologically proven diagnosis of renal cell carcinoma prior to registration",
+        "IMDC intermediate risk",
+        "ECOG status of 1",
+        "No brain metastases",
+        "Age 59"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        " Hemoglobin level within 45 days prior to registration",
+        "Platelet count within 45 days prior to registration",
+        "Absolute neutrophil count (ANC) within 45 days prior to registration",
+        "Calculated creatinine clearance within 45 days prior to registration",
+        "Aspartate aminotransferase and alanine aminotransferase (AST and ALT) levels within 45 days prior to registration"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic renal cell carcinoma. The patient has been treated previously, which aligns with the trial's acceptance of previously treated patients. There are some uncertainties regarding specific lab values and counts, but overall, the other eligibility criteria appear to be met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05665361",
+      "title": "A Phase I/II Study of Palbociclib and Sasanlimab for the Treatment of Advanced Clear Cell Renal Cell Carcinoma (ccRCC) or Papillary Renal Cell Carcinoma (pRCC)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced clear cell renal cell carcinoma (ccRCC)",
+        "Patient is aged 59, which is >= 18 years",
+        "Patient's ECOG performance status is 1",
+        "Patient has received checkpoint inhibitor therapy (ipilimumab, nivolumab)",
+        "Patient has received or been ineligible for a VEGF pathway antagonist (cabozantinib, lenvatinib)",
+        "Patient has at least one measurable lesion as she has progressive disease"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific lab values for hematologic function and hepatic function are provided to verify eligibility criteria."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has a matching disease type (advanced clear cell renal cell carcinoma). She meets the age and ECOG performance status criteria. She has received the required prior therapies (checkpoint inhibitors and VEGF pathway antagonists) and presents with measurable disease. However, the lack of specific lab values for hematologic and hepatic function creates a minor uncertainty, but overall this aligns with the trial eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04989959",
+      "title": "An Exploratory Study of [18F]PT2385 PET/CT in Patients With Renal Cell Carcinoma",
+      "sponsor": "Orhan Kemal Oz",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 59",
+        "Sex: female",
+        "Cancer type: renal cell carcinoma (metastatic clear cell renal cell carcinoma)",
+        "ECOG status: 1",
+        "Co-mutations: VHL loss",
+        "Country: United States"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Labs show mild hyperbilirubinemia (1.4), otherwise WNL - need clarification on liver function criteria"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on clear cell renal cell carcinoma. The patient has prior therapies but the trial includes previously treated patients with metastatic disease. The key eligibility criteria related to liver dysfunction is uncertain due to lab values, but she is otherwise a strong candidate.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05433142",
+      "title": "A Phase 1 Multiple Dose Study to Evaluate the Safety and Tolerability of XmAb819 in Subjects With Relapsed or Refractory Clear Cell Renal Cell Carcinoma",
+      "sponsor": "Xencor, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Measurable disease based on RECIST criteria",
+        "ECOG performance status of 1",
+        "Relapsed and refractory ccRCC with evidence of disease progression on standard-of-care therapies"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate tumor sample availability",
+        "Labs showing mild hyperbilirubinemia may need verification on organ function"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, renal cell carcinoma, aligns with the trial's focus on clear cell renal cell carcinoma. She is also classified as relapsed and refractory, meeting the treatment line criteria. The ECOG status is acceptable. However, there are uncertainties around the availability of adequate tumor samples and organ function due to mild hyperbilirubinemia.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06265285",
+      "title": "Pilot Single-Arm, Pragmatic Trial of In-Home Versus In-Clinic Subcutaneous Nivolumab Administration Through Cancer CARE (Connected Access and Remote Expertise) Beyond Walls (CCBW) Program",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 59 (\u2265 18 years)",
+        "ECOG status: 1",
+        "Cancer type: renal cell carcinoma matches trial conditions",
+        "Prior therapies include anti-angiogenic therapy; patient received cabozantinib",
+        "Mild hyperbilirubinemia (1.4) is acceptable (< 1.5 x ULN)",
+        "IMDC intermediate risk is aligned with eligibility for treatment",
+        "Patient is located in the United States and meets geographic residency requirement (\u2264 35 miles)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function labs (AST, ALT, ANC, platelet count, hemoglobin, serum creatinine) were not explicitly provided",
+        "Residence has Wi-Fi availability is not verified",
+        "Some inclusion criteria regarding willingness to comply with study protocol and completion of questionnaires are not explicitly confirmed"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial, and she has a relevant treatment history that meets eligibility for previously treated patients. ECOG status and age requirements are fulfilled. There are some uncertainties regarding lab results, but overall, the patient is a likely participant.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06582017",
+      "title": "A First-in-human Phase 1a/1b Study to Evaluate Safety and Tolerability of QXL138AM in Patients With Locally Advanced Un-resectable and/or Metastatic Solid Tumors and Multiple Myeloma",
+      "sponsor": "Nammi Therapeutics Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histopathologically confirmed advanced metastatic renal cell carcinoma.",
+        "Patient has an ECOG status of 1.",
+        "Patient is 59 years old, which meets the age requirement of being at least 18 years old.",
+        "Patient has progressed on standard therapies, which aligns with the trial requirement for patients who have progressed despite treatment."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Patient's organ function is not explicitly detailed in terms of laboratory results (other than mild hyperbilirubinemia)."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's disease type is renal cell carcinoma, which matches the trial conditions. Additionally, the patient has progressed through multiple therapies, meeting trial inclusion criteria for previously treated patients. The ECOG status is acceptable, and the age requirement is met. However, there is a mild uncertainty regarding the comprehensive organ function status since detailed lab results are not provided.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00001238",
+      "title": "Von Hippel-Lindau (VHL): Clinical Manifestations, Diagnosis, Management and Molecular Bases of Inherited Renal and Other Urologic Malignant Disorders",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has renal cell carcinoma, which is being studied in the trial.",
+        "Patient is over 2 years of age.",
+        "Patient has VHL loss, which could indicate a genetic basis for her disease."
+      ],
+      "conflicts": [
+        "Patient has previously been treated with multiple therapies, including ipilimumab, nivolumab, cabozantinib, lenvatinib, and everolimus. It is unclear if the trial excludes prior treatments or is for previously treated patients."
+      ],
+      "uncertainties": [
+        "The trial eligibility criteria do not specify exclusions based on prior treatments, but a lack of clear inclusion of previously treated patients leaves some uncertainty."
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's diagnosis of renal cell carcinoma aligns with the trial focus, and they have a relevant genetic mutation (VHL loss). However, the lack of clarity regarding the treatment line requirements leads to some uncertainty in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05059444",
+      "title": "ORACLE: Observation of ResiduAl Cancer With Liquid Biopsy Evaluation",
+      "sponsor": "Guardant Health, Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 59 is above 18 years old",
+        "Cancer type: renal cell carcinoma is included in the conditions studied",
+        "ECOG status: 1 is acceptable",
+        "No brain metastases reported"
+      ],
+      "conflicts": [
+        "Patient does not meet the requirement for initial treatment given with curative intent as the patient has a metastatic disease and has progressed through multiple lines of therapy."
+      ],
+      "uncertainties": [
+        "Need more information on whether the patient is willing to undergo regular follow-up and monitoring as per standard of care",
+        "Need clarification on patient's willingness to provide blood samples as outlined in the study protocol"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's renal cell carcinoma diagnosis matches the trial condition. However, the patient has not had initial treatment with curative intent and has significant prior therapies, which raises doubts about eligibility. This leads to a medium confidence rating.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05830058",
+      "title": "Phase II Randomized Controlled Trial of Biologically Guided Stereotactic Body Radiation Therapy in Oligoprogressive Non-Small Cell Lung Cancer, Melanoma, and Renal Cell Carcinoma",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has renal cell carcinoma, which is studied in the trial",
+        "Patient has ECOG status of 1, which is acceptable for the trial"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies beyond the 3 months requirement with checkpoint inhibitors, while the trial likely targets patients with oligoprogressive disease after systemic therapy",
+        "Patient has documented disease progression at various treatment lines but the trial specifically looks for 1-5 sites of oligoprogression; historical treatments may classify the patient's situation as unsuitable"
+      ],
+      "uncertainties": [],
+      "confidence": 0.25,
+      "reasoning": "The patient's cancer type aligns with the trial's focus, but the substantial history of systemic therapies, specifically beyond the established treatment pathways for oligoprogression, raises significant concerns regarding eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05487859",
+      "title": "A Pilot Study of the Immunomodulatory Agent Acarbose in Combination with Standard Therapy in Metastatic Renal Cell Carcinoma (RCC)",
+      "sponsor": "University of Alabama at Birmingham",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histologically confirmed diagnosis of clear cell renal cell carcinoma.",
+        "Patient has locally advanced or unresectable metastatic disease.",
+        "Patient has measurable disease as assessed by RECIST 1.1."
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy for advanced RCC within the past 3 weeks, conflicting with the trial requirement of no prior systemic therapy in the past 3 weeks."
+      ],
+      "uncertainties": [],
+      "confidence": 0.2,
+      "reasoning": "The patient has a histologically confirmed diagnosis of the correct cancer type and meets the disease indication. However, the patient has received prior therapies that fall within the exclusion criteria, specifically related to required treatment-naive status, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05048212",
+      "title": "A Phase II Study of Nivolumab With Ipilimumab and Cabozantinib in Patients With Untreated Renal Cell Carcinoma Brain Metastases",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has renal cell carcinoma but trial specifically studies patients with untreated brain metastases. The patient has no brain metastases.",
+        "Patient has received prior therapies including cabozantinib, which is excluded based on the trial criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient does not meet the trial criteria for having untreated brain metastases, and has previously been treated with cabozantinib, which makes them ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05361720",
+      "title": "Optimal Treatment by Invoking Biologic Clusters in Renal Cell Carcinoma (OPTIC RCC)",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced (metastatic) clear cell renal cell carcinoma."
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies for RCC (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus), while trial excludes prior systemic therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on advanced clear cell renal cell carcinoma. However, the patient has multiple prior systemic therapies which significantly conflicts with the trial's eligibility requirements, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05931393",
+      "title": "Phase 2, Open-label, Single Cohort, Multicenter Trial for Sequential Treatment of High Dose Cabozantinib on/After Progression on Cabozantinib Monotherapy in Advanced Renal Cell Carcinoma (Seq-Cabo)",
+      "sponsor": "University of Texas Southwestern Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has progressed on cabozantinib, but the trial requires cabozantinib sensitive disease of at least 6 months treatment. Patient only received cabozantinib for a mixed response and had to discontinue due to toxicity."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (renal cell carcinoma) matches the trial, but they do not qualify as they did not have sustained cabozantinib treatment for the required duration and have progressed.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06004336",
+      "title": "A Randomized Trial of Maintenance Systemic Therapy After Radiation for Oligometastatic Renal Cell Carcinoma (ASTROs)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a pathologically confirmed diagnosis of clear cell RCC."
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy, which includes ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus, and trial is studying oligometastatic RCC without requirements for prior treatment."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial focus on clear cell renal cell carcinoma, but she has had multiple prior systemic therapies, which conflicts with the trial's requirements for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06222593",
+      "title": "A Phase I/II Study to Evaluate the Safety and Efficacy of Bicalutamide in Combination with Sunitinib in Patients with Receptor Tyrosine Kinase Inhibitor Resistant Renal Cell Carcinoma",
+      "sponsor": "State University of New York at Buffalo",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has been previously treated with multiple therapies including cabozantinib, while the trial is for patients who have experienced disease progression after RTK inhibitors."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial focus on renal cell carcinoma, but she is not treatment-naive as she has progressed after receiving multiple prior therapies. This does not meet the criteria for previously treated patients as stated in the trial information, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06432036",
+      "title": "RENEGADE: Radioembolization for Early Stage Renal Cell Carcinoma: An Open-Label, Prospective, Multi-Center, Phase 1/2 Safety Trial",
+      "sponsor": "Jonsson Comprehensive Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic renal cell carcinoma (RCC) which is not early stage (T1 or T2a, N0M0) as required by the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's renal cell carcinoma is metastatic, while the trial only includes patients with early-stage renal cell carcinoma. Therefore, the patient is excluded based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06447103",
+      "title": "89Zr-DFO-GmAb PET/CT vs Contrast-Enhanced CT for Detection of Recurrent Clear Cell Renal Cell Carcinoma After Surgery",
+      "sponsor": "Jonsson Comprehensive Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has clear cell renal cell carcinoma (ccRCC), meeting the disease indication."
+      ],
+      "conflicts": [
+        "Patient has undergone prior systemic therapy for kidney cancer (multiple treatments including ipilimumab, nivolumab, cabozantinib, lenvatinib, and everolimus), while the trial does not specify any allowance for previously treated patients."
+      ],
+      "uncertainties": [
+        "No information provided about the urgency of the imaging procedure timing relative to surgery or any specific requirements regarding surgery dates."
+      ],
+      "confidence": 0.1,
+      "reasoning": "While the patient's cancer type matches the study, the patient is not treatment-naive and has had multiple prior therapies, which likely excludes her from eligibility for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07223541",
+      "title": "A Randomized Phase II Trial of Cemiplimab or Cemiplimab and Fianlimab After Stereotactic Body Radiotherapy in Oligo-Metastatic Clear Cell Renal Cell Carcinoma",
+      "sponsor": "University of Oklahoma",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapies which conflicts with the trial inclusion of previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's type of cancer matches the trial criteria, but the patient has received multiple prior systemic therapies, which excludes her from the trial that is intended for previously untreated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06699602",
+      "title": "A Pilot Phase II Study of Neoadjuvant Cemiplimab + Fianlimab in Patients With Locally Advanced Clear Cell Renal Cell Carcinoma Undergoing Nephrectomy",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 1"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy for renal cell carcinoma, which is excluded by trial criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial but they have received prior systemic therapy for renal cell carcinoma, which is an exclusion criterion for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07077083",
+      "title": "A Pilot Study of 89Zr-girentuximab for PET Imaging in Residual or Recurrent Post Ablative Tumors in Patients With Renal Cell Carcinoma.",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has renal cell carcinoma, but does not have suspicious findings for post-ablation residual or recurrent ccRCC documented within 90 days prior to PET scan, which is required for inclusion.",
+        "Patient has multiple prior systemic therapies, which indicates they are not treatment-naive, while the trial requires either first-line patients or previously treated patients with specific eligibility.",
+        "Patient exhibits renal insufficiency with mild hyperbilirubinemia which may conflict with eligibility criterion for renal insufficiency requiring eGFR > 40 mL/min/1.73 m\u00b2."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is renal cell carcinoma as studied in the trial; however, they do not meet critical inclusion criteria related to the need for documented findings of post-ablation ccRCC and their treatment history as they are not treatment-naive. Additionally, their renal function may also question eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07043608",
+      "title": "A Phase II Study of Zanzalintinib for Metastatic Clear Cell Renal Cell Carcinoma With Bone Metastases in Patients Previously Treated With Immune Checkpoint Inhibitors",
+      "sponsor": "Kelly Fitzgerald, MD",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has renal cell carcinoma, but the trial specifies that participants must have bone metastases, which the patient profile does not confirm."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has renal cell carcinoma, but without confirmation of bone metastases, they do not meet the critical disease requirement for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03291028",
+      "title": "Defining the Genomic and Histologic Landscape of Primary and Metastatic Tumors With Divergent Kinetics in Patients With Renal Cell Carcinoma (RCC) and Urothelial Carcinoma (UC) Treated With Immune Checkpoint Blockade (ICB)",
+      "sponsor": "Fox Chase Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has progressed from prior systemic therapy, while the trial calls for patients who achieved clinical benefit from ICB and developed new/progressive lesions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is a match as it is renal cell carcinoma, but the treatment line is a conflict as the trial specifically calls for patients who have achieved clinical benefit before progressing, whereas this patient has shown progression after multiple treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05700461",
+      "title": "Pilot Study of an Implantable Microdevice for in Situ Evaluation of Drug Response in Renal Cell Carcinoma",
+      "sponsor": "Wenxin Xu",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received multiple prior therapies, contradicting potential eligibility if the trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, renal cell carcinoma, matches the trial criteria; however, the patient has previously been treated with multiple therapies, which likely excludes her from trials that require treatment-naive participants.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06093568",
+      "title": "Exploring Engagement Dynamics Among Individuals Impacted by Renal Cell Carcinoma",
+      "sponsor": "Power Life Sciences Inc.",
+      "phase": null,
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has been diagnosed with renal cell carcinoma",
+        "Patient is a minimum of 18 years or older"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies which do not match the requirement for treatment-naive patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on renal cell carcinoma. However, the patient has received multiple prior therapies, which excludes her from eligibility as the trial requires treatment-naive or first-line patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07049926",
+      "title": "A Phase 1b/2 Study of Immune and Targeted Combination Therapies in Participants With RCC (KEYMAKER-U03): Substudy 03C in Participants With Recurrent Disease During or After Anti-PD-(L)1 Adjuvant Therapy",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received multiple prior systemic therapies (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus) but trial requires no other prior systemic therapy except adjuvant PD-(L)1 therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on renal cell carcinoma. However, the patient has received prior systemic therapies, which is a critical exclusion criterion for this trial, as it aims for previously untreated patients post-adjuvant therapy. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07226544",
+      "title": "A Phase II Study of Neoadjuvant Ivonescimab in Patients With High-Risk, Localized RCC",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1",
+        "Age 59"
+      ],
+      "conflicts": [
+        "Patient has prior systemic anti-tumor treatment for RCC which excludes eligibility for this trial that requires treatment-naive patients"
+      ],
+      "uncertainties": [
+        "No information provided on baseline organ function lab values such as ANC, platelet count, hemoglobin, creatinine clearance, urine protein, and liver function tests"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The trial is focused on treatment-naive patients with localized clear cell renal cell carcinoma, while the patient has metastatic clear cell renal cell carcinoma and has received multiple prior treatments, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04693377",
+      "title": "Cryoablation Combined With Stereotactic Body Radiation Therapy for the Treatment of Painful Bone Metastases",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic renal cell carcinoma"
+      ],
+      "conflicts": [
+        "This trial is studying patients with painful bone metastases, and there is no mention of the patient suffering from pain at an intensity of at least 4/10 from the target lesion."
+      ],
+      "uncertainties": [
+        "Details about the target bone lesion's size, pain intensity, and correlation with imaging are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's eligibility criteria; however, the lack of explicit evidence of pain from the target lesion leads to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06453642",
+      "title": "Evaluation of a Simple-Prep Controlled Embolic (GPX Trial)",
+      "sponsor": "Fluidx Medical Technology, Inc.",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 59",
+        "Sex: female",
+        "ECOG status: 1",
+        "Cancer type: renal cell carcinoma"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus) while trial does not specify treatment for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has renal cell carcinoma, which matches the trial's studied conditions. However, the patient's extensive prior systemic therapies indicate that they are not treatment-naive, leading to exclusion based on the trial's requirement for either treatment-naive patients or a lack of specifics on the treatment line eligibility for previously treated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07293351",
+      "title": "ROSETTA RCC-208: A Phase 1/2 Open-label, Multi-center, Randomized Study of Pumitamig Alone or in Combination With Ipilimumab or Cabozantinib in Participants With Advanced Renal Cell Carcinoma (RCC)",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1/Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Clear cell renal cell carcinoma (ccRCC) diagnosis"
+      ],
+      "conflicts": [
+        "Patient has received prior therapies including ipilimumab and cabozantinib, which conflicts with the inclusion criteria stipulating no prior systemic therapy targeting CTLA-4 (ipilimumab) or cabozantinib."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type matches; however, the patient is excluded due to prior treatment with ipilimumab, which disqualifies her from the trial based on the inclusion criteria for previously treated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06376669",
+      "title": "Prospective Phase II Study of Stereotactic Body Proton Therapy for Treatment of PrimAry Renal Cell Carcinoma (SPARE)",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic renal cell carcinoma which contradicts the exclusion criterion of clinical or radiographic evidence of metastatic disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the study's focus on renal cell carcinoma; however, the patient has metastatic disease which is a clear exclusion criterion for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05410509",
+      "title": "\"Embolization Before Ablation of Renal Cell Carcinoma (EMBARC)\"",
+      "sponsor": "University of Alabama at Birmingham",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient has metastatic clear cell renal cell carcinoma (T1bN0M1), while the trial specifically requires patients with T1bN0M0 disease without distant metastatic disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type and stage do not match the trial's eligibility criteria, as the trial excludes patients with distant metastatic disease.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05733715",
+      "title": "Randomized Pilot Clinical Trial of Neoadjuvant Pembrolizumab +/- Lenvatinib for High Risk Renal Cell Carcinoma",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior systemic therapy (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus) which disqualifies her from the trial as it does not accept previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial, but she has received multiple prior therapies, whereas the trial is for previously untreated patients. This results in a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06399419",
+      "title": "An Open-Label, Phase I, Dose-Finding Study of CBM588 in Combination With Nivolumab/Ipilimumab for Patients With Advanced Stage Renal Cell Carcinoma",
+      "sponsor": "Osel, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Prior treatment with ipilimumab and nivolumab, which are part of the study's treatment regimen"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's focus on advanced renal cell carcinoma, but the patient has previously been treated with ipilimumab and nivolumab, making her ineligible for this trial that excludes prior treatment with these agents.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04723810",
+      "title": "A Study to Evaluate the Safety and Efficacy of Indocyanine Green for Intraoperative Molecular Imaging of Solid Tumors (TumorGlow\u2122)",
+      "sponsor": "University of Pennsylvania",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05267626",
+      "title": "A Phase 1/2, First-in-Human, Open Label, Dose Escalation and Expansion Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2R\u03b1 Binding, in Patients With Unresectable Locally Advanced or Metastatic Cancer",
+      "sponsor": "Aulos Bioscience, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05584670",
+      "title": "A Phase 1/2, Open Label, First-in-human, Dose Escalation and Expansion Study for the Evaluation of Safety, Pharmacokinetics, Pharmacodynamics, and Anti-tumor Activity of SAR445877 Administered as Monotherapy or in Combination With Other Anticancer Therapies in Adults With Advanced Solid Tumors",
+      "sponsor": "Sanofi",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06161532",
+      "title": "A Phase II Study of Sacituzumab Govitecan With or Without Atezolizumab Immunotherapy in Rare Genitourinary Tumors (SMART) Such as High Grade Neuroendocrine Carcinomas, Adenocarcinoma, and Squamous Cell Bladder/Urinary Tract Cancer, Renal Medullary Carcinoma and Penile Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06401330",
+      "title": "Risk Adapted Treatment of Unilateral Favorable Histology Wilms Tumors (FHWT)",
+      "sponsor": "Children's Oncology Group",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 59 is above maximum age 30"
+    },
+    {
+      "nct_id": "NCT06571708",
+      "title": "A Phase 2, Randomized, Open-label Study of Gemcitabine/Cisplatin Plus Cemiplimab (REGN2810, Anti-PD-1) With or Without Fianlimab (REGN3767, Anti-LAG-3) for Organ Preservation in Patients With Localized Muscle-invasive Bladder Cancer (NeoSTOP-IT)",
+      "sponsor": "Columbia University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06660654",
+      "title": "REJOICE-PanTumor01: A Phase 2, Multicenter, Open-Label, Pan-Tumor Trial to Evaluate Efficacy and Safety of Raludotatug Deruxtecan (R-DXd) in Participants With Advanced/Metastatic Solid Tumors",
+      "sponsor": "Daiichi Sankyo",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04322955",
+      "title": "Cyto-KIK; TRIAL (CYTO Reductive Surgery in Kidney Cancer Plus Immunotherapy (Nivolumab) and Targeted Kinase Inhibition (Cabozantinib)",
+      "sponsor": "Mark Stein",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapies which contradicts the trial's exclusion of prior therapy for metastatic renal cell carcinoma.",
+        "Patient has a history of nephrectomy which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type, renal cell carcinoma, is aligned with the trial; however, the patient has previously received systemic therapies, including immunotherapy and targeted therapy, and has also undergone nephrectomy for renal cancer. Both conditions fall under the trial's exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04903873",
+      "title": "An Open-Label, Phase 1/2 Study to Evaluate Safety, Efficacy, and Pharmacokinetics of EU101, an Agonistic Anti-CD137 (4-1BB) Monoclonal Antibody in Patients With Advanced Solid Tumors",
+      "sponsor": "Eutilex",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient has renal cell carcinoma, but the trial primarily focuses on solid tumors such as colorectal cancer and non-small cell lung cancer, with specific eligibility for treatment lines.",
+        "Patient has undergone multiple previous therapies (5 in total), exceeding the maximum number of prior treatments for eligible patients in NSCLC cohort (3 prior therapies allowed)."
+      ],
+      "uncertainties": [
+        "No specific biomarker requirements listed in the trial that the patient would need to be assessed against."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's specific focus on colorectal and non-small cell lung cancers, and the patient has exceeded allowable prior treatment lines for eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05928806",
+      "title": "Phase 2 Advanced Renal Cell Cancer Combination ImmunoThErapy Clinical Trial",
+      "sponsor": "Michael B. Atkins, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus) while the trial is for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has renal cell carcinoma, which matches the trial's disease indication. However, the trial specifically targets treatment-naive patients, and the patient has a history of multiple prior therapies. Therefore, the patient is excluded based on treatment line criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05863351",
+      "title": "Phase III Randomized Trial of Stereotactic Ablative Radiotherapy (SAbR) for Oligometastatic Advanced Renal Carcinoma (SOAR)",
+      "sponsor": "ECOG-ACRIN Cancer Research Group",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior systemic therapy (ipilimumab, nivolumab, cabozantinib, lenvatinib, everolimus) which disqualifies her from the trial as it does not allow prior systemic therapy for metastatic RCC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's renal cell carcinoma does match the trial's indication; however, the trial explicitly excludes patients who have received any prior systemic therapy for metastatic RCC, and the patient has extensive prior treatments, leading to her exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06863311",
+      "title": "EXACT: Randomized Phase II Trial of Zanzalintinib (XL092) in Combination With Immunotherapy in Patients Who Progress on Adjuvant Therapy in Clear Cell RCC",
+      "sponsor": "Karie Runcie",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy including anti-PD-1 (nivolumab), but the trial explicitly requires progression on adjuvant anti-PD-1 therapy."
+      ],
+      "uncertainties": [
+        "Specific lab values for organ function are needed to assess eligibility accurately."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's indication, but the trial requires patients to have progressed on adjuvant anti-PD-1 therapy, and the patient has already received nivolumab and other systemic therapies, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00026884",
+      "title": "Collection of Serum and Tissue Samples From Patients With Biopsy-Proved or Suspected Malignant Diseases",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT00033137",
+      "title": "Birt-Hogg-Dub(SqrRoot)(Copyright) Syndrome: Characterization of the FLCN Disease Gene and Predisposition to Renal Cancer, Cutaneous Fibrofolliculoma and Pulmonary Cysts",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT00050752",
+      "title": "Hereditary Leiomyomatosis Renal Cell Cancer (HLRCC): Identification of the Disease Gene, and Characterization of the Predisposition to Renal Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT00646022",
+      "title": "Natural History of Familial Carcinoid Tumor",
+      "sponsor": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02012699",
+      "title": "Integrated Cancer Repository for Cancer Research",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02402244",
+      "title": "The Project: EveryChild Protocol: A Registry, Eligibility Screening, Biology and Outcome Study",
+      "sponsor": "Children's Oncology Group",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 59 is above maximum age 25"
+    },
+    {
+      "nct_id": "NCT04606446",
+      "title": "A PHASE 1/2A DOSE ESCALATION AND EXPANSION STUDY TO EVALUATE SAFETY, TOLERABILITY, PHARMACOKINETIC, PHARMACODYNAMIC, AND ANTI-TUMOR ACTIVITY OF PF-07248144 IN PARTICIPANTS WITH ADVANCED OR METASTATIC SOLID TUMORS",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04777994",
+      "title": "A Phase 1 Study With ABBV-CLS-484 Alone and in Combination in Subjects With Locally Advanced or Metastatic Tumors",
+      "sponsor": "Calico Life Sciences LLC",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04969835",
+      "title": "A Phase 1, Open Label, Dose-Escalation and Expansion Study to Evaluate the Safety, Pharmacokinetics and Initial Therapeutic Activity of AVA6000, a Novel FAP-activated Doxorubicin Administered Intravenously in Patients With Locally Advanced or Metastatic Selected Solid Tumours",
+      "sponsor": "Avacta Life Sciences Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05225428",
+      "title": "Video Education With Result Dependent dIsclosure",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05277051",
+      "title": "A Phase 1 First-Time-in-Human, Open-Label Study of GSK4381562 Administered as Monotherapy and in Combination With Anticancer Agents in Participants With Selected Advanced Solid Tumors",
+      "sponsor": "GlaxoSmithKline",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05297734",
+      "title": "Comparative Effectiveness Trial of Two Supportive Cancer Care Delivery Models for Adults With Cancer",
+      "sponsor": "Stanford University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05520099",
+      "title": "Observational Basket Trial to Collect Tissue to Develop and Train a Live Tumor Diagnostic Platform (ELEPHAS-02)",
+      "sponsor": "Elephas",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05839119",
+      "title": "Targeting Androgen Signaling in Urothelial Cell Carcinoma - Neoadjuvant (TASUC-Neo): A Pilot Study of Degarelix in Combination With Neoadjuvant Gemcitabine and Cisplatin in Muscle-Invasive Urothelial Cell Carcinoma of the Bladder",
+      "sponsor": "Brown University",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05856981",
+      "title": "An Open-Label, Multicenter, Multi-arm Phase 1 Study Evaluating the Safety and Pharmacokinetics of ADU-1805 in Adults With Advanced Solid Tumors",
+      "sponsor": "Sairopa B.V.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06040762",
+      "title": "The \"Get Moving Trial\": A Phase I/II RCT of Home-Based (P)Rehabilitation With ExerciseRx in Bladder Cancer and Upper Tract Urothelial Cancer",
+      "sponsor": "University of Washington",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06108479",
+      "title": "A Phase I/Ib, First-In-Human, Multi-Part, Open-Label Study to Investigate the Safety, Tolerability, Pharmacokinetics, Biological and Clinical Activity of DF6215 Monotherapy and in Combination Therapy in Patients with Advanced (Unresectable, Recurrent, or Metastatic) Solid Tumors",
+      "sponsor": "Dragonfly Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06138067",
+      "title": "A Pilot Study of Low Versus High Intensity Patient Navigation Program to Improve the Enrollment on Clinical Trials Among Cancer Patients",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06706765",
+      "title": "Group Telehealth Behavioral Cough Suppression Therapy Pilot Study",
+      "sponsor": "University of Montana",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07010978",
+      "title": "R34 Study 2 - Pilot RCT Testing the Effectiveness of RCCs",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07046832",
+      "title": "Clinical Evaluation of an Intra-procedural 3D Needle Guidance Platform for Soft Tissue Tumors or Organs Requiring Percutaneous Biopsy as an Adjunct to Standard Image Guidance",
+      "sponsor": "MediView XR, Inc.",
+      "phase": "Not Applicable",
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07148050",
+      "title": "Immunotherapy for Solid Tumor Malignancies in Pediatrics Using Interleukin-15 and -21 Armored Glypican-3-specific Chimeric Antigen Receptor T Cells",
+      "sponsor": "Seattle Children's Hospital",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 59 is above maximum age 26"
+    },
+    {
+      "nct_id": "NCT07297160",
+      "title": "Chimeric Antigen Receptor Treatment Targeting Lymphoma, Myeloma and Solid Tumors That Express CD70 (SEventY) CALySSEY",
+      "sponsor": "Baylor College of Medicine",
+      "phase": "Phase 1",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07124000",
+      "title": "Effectiveness of T-DXd Across HER2-positive Solid Tumors in Patients Who Have Received Prior Systemic Treatment and Have no Satisfactory Alternative Treatment Options: A Hybrid Observational Study",
+      "sponsor": "AstraZeneca",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has renal cell carcinoma, but trial is focused on HER2-positive solid tumors."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (renal cell carcinoma) does not match the diseases studied in the trial, which primarily involves HER2-positive tumors. Therefore, the patient is excluded from eligibility.",
+      "excluded_reason": null
+    }
+  ]
+}

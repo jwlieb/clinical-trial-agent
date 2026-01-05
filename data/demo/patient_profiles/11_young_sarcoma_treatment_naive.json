@@ -1,0 +1,15 @@
+{
+  "age": 28,
+  "sex": "female",
+  "cancer_type": "synovial sarcoma",
+  "biomarkers": ["SS18-SSX fusion"],
+  "description": "28-year-old female with newly diagnosed metastatic synovial sarcoma. Primary tumor in right thigh (12cm) with pulmonary metastases identified on staging workup. Biopsy confirmed synovial sarcoma with SS18-SSX1 fusion by FISH. No prior systemic therapy - seeking first-line clinical trial options vs standard doxorubicin/ifosfamide. Young, athletic, highly motivated patient. Recently married, no children, interested in fertility preservation options. Comprehensive molecular profiling pending. No significant medical history. All labs normal.",
+  "ecog_status": 0,
+  "pd_l1_status": null,
+  "prior_therapies": [],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

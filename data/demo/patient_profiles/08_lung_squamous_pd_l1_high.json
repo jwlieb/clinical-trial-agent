@@ -1,0 +1,15 @@
+{
+  "age": 71,
+  "sex": "male",
+  "cancer_type": "squamous cell lung cancer",
+  "biomarkers": [],
+  "description": "71-year-old male with metastatic squamous cell lung cancer, no actionable driver mutations identified (EGFR/ALK/ROS1/BRAF wild-type, KRAS wild-type). PD-L1 TPS ≥90%. First-line pembrolizumab monotherapy achieved durable response for 22 months, now progressed with new contralateral lung nodules and mediastinal lymphadenopathy. Seeking second-line immunotherapy combinations or novel checkpoint approaches. Former heavy smoker (50 pack-years). COPD on inhalers, no supplemental O2. Mild CKD (eGFR 52). Motivated patient willing to travel for trials.",
+  "ecog_status": 1,
+  "pd_l1_status": "TPS ≥90%",
+  "prior_therapies": ["pembrolizumab"],
+  "brain_mets_status": "none",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+

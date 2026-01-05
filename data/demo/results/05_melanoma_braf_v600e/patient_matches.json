@@ -1,0 +1,1930 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T06:56:57.066066",
+    "patient_profile": {
+      "age": 45,
+      "sex": "female",
+      "cancer_type": "melanoma",
+      "biomarkers": [
+        "BRAF V600E"
+      ],
+      "description": "45-year-old female with metastatic cutaneous melanoma, BRAF V600E mutated. Primary on left lower extremity (Breslow 2.8mm) resected 2023. Developed lung and subcutaneous metastases 8 months later. First-line dabrafenib/trametinib achieved partial response but progressed at 14 months. Second-line nivolumab/ipilimumab combination - mixed response, eventually progressed with new splenic lesions. Currently well-appearing with good functional status. LDH elevated (312). Looking for novel combinations or emerging targets. No brain mets on most recent MRI."
+    },
+    "total_trials": 100,
+    "high_likelihood": 22,
+    "medium_likelihood": 3
+  },
+  "results": [
+    {
+      "nct_id": "NCT05136196",
+      "title": "Biomarker Stratified CaboZantinib (NSC#761968) and NivOlumab (NSC#748726) (BiCaZO) - A Phase II Study of Combining Cabozantinib and Nivolumab in Participants With Advanced Solid Tumors (IO Refractory Melanoma or HNSCC) Stratified by Tumor Biomarkers - an immunoMATCH Pilot Study",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: metastatic cutaneous melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial focus on advanced melanoma, and she is a previously treated patient which aligns with the trial's acceptance of relapsed or refractory cases.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05779423",
+      "title": "A Phase II Study of Core Needle Biopsy and Cryoablation of an Enlarging Tumor in Patients With Advanced Melanoma Receiving Post-progression Dual Immune Checkpoint Inhibitor Therapy",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic melanoma, which matches the trial conditions studied (metastatic melanoma, skin cancer).",
+        "Patient has progressed on nivolumab, which is listed as a previous therapy and meets the criteria for progression on immune checkpoint inhibitors.",
+        "Patient has an ECOG performance status of 0, which is eligible for dual checkpoint inhibition.",
+        "Patient has a tumor amenable to cryoablation based on the description of metastases.",
+        "Patient has measurable disease (lung and subcutaneous metastases).",
+        "Patient's age is 45, which is above the minimum age requirement of 18."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function lab results (leukocytes, ANC, platelets, bilirubin, AST/ALT, CrCL) are not provided.",
+        "Unknown if the tumor has had previous radiation therapy, which could impact eligibility for cryoablation."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (metastatic melanoma) matches the targeted condition of the trial and they have a history of progression after previous immune checkpoint inhibitor therapies. Their ECOG status and age also meet the trial criteria. There are minor uncertainties regarding organ function lab results and any prior radiation effects, but overall, the patient likely qualifies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06771544",
+      "title": "Metronomic Cyclophosphamide With Pembrolizumab in Checkpoint Inhibitor Refractory Melanoma",
+      "sponsor": "University of California, Irvine",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic cutaneous melanoma, which matches the trial's condition studied.",
+        "ECOG status is 0, meeting the performance status requirement.",
+        "Patient has measurable disease with lung and subcutaneous metastases.",
+        "PD-L1 expression is 60%, exceeding the trial's requirement of having progressed on prior PD-1 treatment."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific lab results provided to confirm organ function such as hemoglobin levels, platelets, ANC, creatinine clearance, AST, ALT, and bilirubin levels."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type aligns with the trial's focus on melanoma and the treatment line requirements match as the patient is refractory to prior therapies. The ECOG performance status meets the specified inclusion criteria. However, the lack of detailed organ function lab results leads to some uncertainties.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06708455",
+      "title": "Phase 2 Trial of Autologous Rapamycin-Resistant Th1/Tc1 (RAPA-201) Cell Therapy of PD-(L)1 Resistant Malignant Melanoma",
+      "sponsor": "Rapa Therapeutics LLC",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45 (Eligible as age is \u2265 18)",
+        "ECOG status: 0 (Eligible)",
+        "Cancer type: melanoma (matches the trial focus)",
+        "Biomarker: BRAF V600E (matches eligibility for prior BRAF therapy)",
+        "Prior therapies: Received anti-PD-(L)1 therapy (nivolumab/ipilimumab) which demonstrates refractory status",
+        "No brain metastases (eligible as there are none)",
+        "PD-L1: 60% (meets the condition for PD-L1 positive melanoma)",
+        "Currently well-appearing with good functional status"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Elevated LDH (312) - unsure how it affects eligibility, but it could represent clinical concern",
+        "Absolute lymphocyte count (ALC) is unknown - needed to evaluate eligibility for cell manufacturing",
+        "Hematologic parameters (ANC, Platelet count, Hemoglobin) are unknown and need verification",
+        "Creatinine clearance (calculated creatinine clearance is unknown)",
+        "Ejection fraction (EF) status is unknown"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is melanoma, which is the focus of the trial. She has previously received anti-PD-1 therapy and has a BRAF mutation, making her a candidate for this treatment. Minor uncertainties exist mostly related to lab results that are not provided but do not critically affect the assessment of her eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04119024",
+      "title": "Phase I Dose Escalation Study of Systemically Administered IL13Ra2 Chimeric Antigen Receptor (CAR) T Cells After a Nonmyeloablative Conditioning Regimen in Patients With Metastatic Melanoma and Other Solid Tumors",
+      "sponsor": "Anusha Kalbasi",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45 (between 18-75 years old)",
+        "ECOG status: 0 (acceptable performance status)",
+        "Cancer type: metastatic melanoma (matches trial indication)",
+        "Prior therapies: progressive after required systemic therapy including immune checkpoint and BRAF inhibitors"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Confirmed IL13Ralpha2 tumor expression status",
+        "Absolute neutrophil count (ANC) status",
+        "Platelet count status",
+        "Hemoglobin level status",
+        "AST and ALT levels status",
+        "Total bilirubin level status",
+        "Creatinine level status",
+        "LDH level significance in relation to eligibility"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic melanoma which aligns perfectly with the trial indication. The patient is within the age limit, has an acceptable ECOG performance status, and has progressed through the required systemic treatments including immune checkpoint inhibitors and BRAF/MEK inhibitors. However, the specific laboratory values required for eligibility are not provided, which introduces some uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06608511",
+      "title": "Liquid Biomarker Study in Melanoma and Non-Melanoma Skin Cancers",
+      "sponsor": "University of Wisconsin, Madison",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed diagnosis of melanoma",
+        "ECOG status 0",
+        "Age 45"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial conditions as she has a confirmed diagnosis of melanoma. The trial is observational, allowing for previously treated patients, and her age and ECOG status are within acceptable ranges.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06946225",
+      "title": "A First-in-human, Open-label Trial to Evaluate the Combination of ACTengine\u00ae IMA203 With mRNA-4203 in Previously Treated, Unresectable or Metastatic Cutaneous Melanoma or Synovial Sarcoma Patients (ACTengine\u00ae IMA203-102)",
+      "sponsor": "Immatics US, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Pathologically confirmed and documented cutaneous melanoma",
+        "ECOG status 0",
+        "PD-L1 60% (greater than 50%)",
+        "Prior therapies included a PD-1 inhibitor (nivolumab)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "HLA-A*02:01 status (unknown)",
+        "Adequate organ function (not provided)",
+        "LDH threshold (elevated LDH of 312 without threshold context)"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type of metastatic cutaneous melanoma aligns with the trial's indication. The patient has a history of prior systemic therapy, which meets the requirement for previously treated patients. The ECOG status is acceptable and PD-L1 is sufficient. However, uncertainties regarding HLA-A*02:01 status and specific organ function criteria slightly lower confidence.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04291105",
+      "title": "Phase 2 Trial of Voyager V1 in Combination With Cemiplimab in Patients With Select Solid Tumors",
+      "sponsor": "Vyriad, Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed diagnosis of advanced metastatic cutaneous melanoma.",
+        "PD-L1 status is 60%, which is greater than the required 1%.",
+        "ECOG status is 0, which meets the performance criteria.",
+        "The patient has shown PD on anti-PD-1 therapy (nivolumab) after prior treatment."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function lab values are not provided to confirm adequacy.",
+        "No details on availability of alternative curative therapeutic options."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has a confirmed diagnosis of melanoma, meets the treatment requirements having progressed on anti-PD-1 therapy, and has an acceptable ECOG performance status. There are minor uncertainties related to organ function and alternative options, but these do not affect the overall eligibility assessment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05503797",
+      "title": "A Phase 2 Master Protocol to Assess the Efficacy and Safety of FORE8394, an Inhibitor of BRAF Class 1 and Class 2 Alterations, in Participants With Cancer Harboring BRAF Alterations",
+      "sponsor": "Fore Biotherapeutics",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histologic diagnosis of melanoma, which is a solid tumor studied in the trial.",
+        "Patient has a documented BRAF V600E mutation.",
+        "Patient is 45 years old, which falls within the acceptable age range (\u226510 years).",
+        "ECOG status is 0, indicating good functional status.",
+        "Patient has metastatic disease and has received all available standard therapy."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "LDH level is elevated; it is unclear if this affects eligibility.",
+        "No details on organ function labs are provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's melanoma diagnosis aligns with the trial's focus on cancers harboring BRAF alterations. The patient meets the age and ECOG status criteria, has a BRAF V600E mutation, and has received prior standard therapies, indicating she may qualify for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06090266",
+      "title": "A Phase 1/2 Study of OR502 Alone and in Combination With Other Anti-cancer Agents in Subjects With Advanced Malignancies",
+      "sponsor": "OncoResponse, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histological diagnosis of cutaneous melanoma with progressive metastatic disease.",
+        "Patient has an ECOG status of 0.",
+        "Patient has no brain metastases.",
+        "Patient has measurable disease.",
+        "Patient is 45 years old and signed the informed consent."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function labs are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (melanoma) aligns with the trial's indication, and she is previously treated, which fits the trial's criteria for prior therapies. The ECOG status and absence of brain metastases further support eligibility, but specifics about organ function are unclear.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06265285",
+      "title": "Pilot Single-Arm, Pragmatic Trial of In-Home Versus In-Clinic Subcutaneous Nivolumab Administration Through Cancer CARE (Connected Access and Remote Expertise) Beyond Walls (CCBW) Program",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: metastatic cutaneous melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific organ function lab results provided (e.g., liver enzymes, bilirubin, renal function)",
+        "Location specified as United States but nearby clinic distance not verified"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is applicable to the trial as it includes metastatic cutaneous melanoma. The patient has been treated previously but is currently in need of a new treatment regimen, which aligns with the trial's focus on advanced or metastatic malignancies (unresectable or metastatic cutaneous melanoma is explicitly included). The patient meets other supportive factors, but missing lab results and proximity to clinic introduce minor uncertainties.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06975293",
+      "title": "Open-label, Non-randomized, Multi-cohort, Phase 1b/2 Trial Investigating the Safety, Tolerability, and Antitumor Activity of STC-15 (a METTL3 Inhibitor) as a Part of Combination Therapy With Toripalimab in Participants With Selected Advanced Cancers",
+      "sponsor": "STORM Therapeutics LTD",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type: melanoma matches the trial's condition studied.",
+        "ECOG status is 0, which is acceptable for the trial.",
+        "The patient has a prior anti-PD-1 treatment (nivolumab), fulfilling melanoma inclusion criteria."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Radiological assessment of progression on the prior therapy documentation is not explicitly stated."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (melanoma) matches the trial's focus, and she has the required treatment history including anti-PD-1 therapy. Although there is an uncertainty regarding the documented radiologic assessment, overall the eligibility criteria are met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02012699",
+      "title": "Integrated Cancer Repository for Cancer Research",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis/history of cancer: melanoma",
+        "Age: 45",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (melanoma) matches the trial conditions studied. The patient is previously treated, which is acceptable, and meets the age and ECOG criteria. There are no exclusionary factors present.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05538130",
+      "title": "A PHASE 1A/B OPEN-LABEL MASTER STUDY OF PF-07799544 AS A SINGLE-AGENT AND IN COMBINATION WITH OTHER TARGETED AGENTS IN PARTICIPANTS WITH ADVANCED SOLID TUMORS",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of advanced/metastatic melanoma",
+        "Patient has BRAF V600E mutation",
+        "Measurable disease by RECIST version 1.1",
+        "ECOG status of 0",
+        "Patient has progressive disease after prior treatments"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "LDH level could be an uncertainty for organ function eligibility"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's eligibility criteria for melanoma, and the patient has the required BRAF V600E mutation, along with measurable disease and an ECOG status of 0. The treatment line is appropriate as the patient has previously treated melanoma. The only uncertainty is the LDH level, which could affect organ function eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05225428",
+      "title": "Video Education With Result Dependent dIsclosure",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years",
+        "Current diagnosis of melanoma",
+        "Ability to understand spoken or written English",
+        "ECOG status 0"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No information on prior cancer genetic testing",
+        "No information on prior germline genetic testing",
+        "No information regarding pregnancy or incarceration status",
+        "LDH levels not explicitly stated if it affects eligibility"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of metastatic cutaneous melanoma matches the trial's studied conditions. The patient is over 18 years old and has an ECOG status of 0, which supports their eligibility. There are some uncertainties regarding prior cancer genetic testing and potential active conditions, but these do not significantly affect the overall eligibility assessment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05746897",
+      "title": "A Phase 1 Study to Investigate the Safety, Tolerability, Pharmacokinetics/Pharmacodynamics, and Antitumor Activity of NM1F as Monotherapy and in Combination With Pembrolizumab in Subjects With Locally Advanced/Metastatic Solid Tumors",
+      "sponsor": "Hefei TG ImmunoPharma Co., Ltd.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is melanoma which is listed in the conditions studied",
+        "ECOG status is 0",
+        "Patient has at least 1 evaluable lesion",
+        "Patient has a life expectancy \u2265 3 months",
+        "Patient has sufficient baseline organ function and laboratory data (inferred from 'well-appearing')"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific organ function and laboratory values not provided but are needed for confirming eligibility",
+        "Confirmation of negative serum pregnancy test within 7 days before treatment is required since the patient is female and of childbearing potential"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial conditions, and she is a previously treated patient which aligns with the trial's focus on subjects who have progressed despite standard therapies. The ECOG status indicates good functional status, which further supports eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05076760",
+      "title": "Phase I Study Evaluating MEM-288 Oncolytic Virus Alone and in Combination With Standard of Care Therapy in Advanced Solid Tumors",
+      "sponsor": "Memgen, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is melanoma, which is included in the trial conditions studied.",
+        "Patient has previously received a BRAF inhibitor (dabrafenib) for BRAF V600E mutated melanoma.",
+        "ECOG status is 0, which meets the trial's inclusion criteria of ECOG performance status of 0 or 1.",
+        "Patient is 45 years old, which meets the adult requirement (age \u2265 18 years).",
+        "Patient has measurable disease as indicated by active lung and subcutaneous metastases."
+      ],
+      "conflicts": [
+        "Patient has received multiple prior treatments including dabrafenib, trametinib, nivolumab, and ipilimumab, which meets the requirement of having received more than one line of therapy."
+      ],
+      "uncertainties": [
+        "Organ function labs are not provided, so clarity on adequacy of organ function cannot be confirmed.",
+        "No specific details on the tumor lesion's accessibility for injection are provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type of melanoma matches the trial's indication, and they have received the required prior therapies, fulfilling trial criteria. Minor uncertainties remain regarding organ function and tumor accessibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05520099",
+      "title": "Observational Basket Trial to Collect Tissue to Develop and Train a Live Tumor Diagnostic Platform (ELEPHAS-02)",
+      "sponsor": "Elephas",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has cutaneous melanoma, which matches the trial's condition of studying skin cancer and cutaneous melanoma.",
+        "Patient is 45 years old, meeting the age requirement (\u2265 18 years).",
+        "ECOG status is 0, indicating good performance status, which is acceptable for trials.",
+        "Patient has PD-L1 of 60%, which may align with eligibility for immunotherapy considerations."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "LDH elevated (312) - not specified whether this is within acceptable limits for eligibility.",
+        "Details of the biopsy procedure and patient's ability to undergo it are not explicitly confirmed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's targeted conditions, and they meet age and ECOG criteria. There are minor uncertainties regarding organ function and biopsy eligibility, but no disqualifying factors are present.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05859074",
+      "title": "A First-In-Human Phase I, Open Label, Safety and Tolerability Study of Escalating Multiple Doses of Intratumoral MQ710, a Multi-Transgene Expressing Modified Vaccinia Virus Ankara-Based Virotherapy, Alone and in Combination With the Systemic Checkpoint Inhibitor Pembrolizumab in Solid Tumors",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "No brain metastases",
+        "PD-L1: 60%",
+        "Prior therapies: dabrafenib, trametinib, nivolumab, ipilimumab - meets prior therapy criteria for melanoma",
+        "Patient resides in the United States which is the country of the trial."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate renal function details (Cr level not provided)",
+        "Adequate hepatic function details (AST/ALT/bilirubin levels not provided)",
+        "Adequate bone marrow and hematologic function details (platelets, ANC levels not provided)",
+        "Measurable disease status not stated, requires confirmation",
+        "No information on recent infections or bleeding history."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (melanoma) matches the trial's indication for advanced melanoma. The patient has received prior therapies as required for enrollment. The ECOG status is acceptable, and there are no brain metastases. However, some organ function details and measurable disease status are uncertain, which leaves some room for interpretation but does not alter eligibility significantly.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT01776905",
+      "title": "In Vivo Real-time Detection of Circulating Melanoma Cells",
+      "sponsor": "University of Arkansas",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "Biomarkers: PD-L1: 60%",
+        "ECOG status: 0",
+        "No brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No information about active infection or current medical/surgical conditions",
+        "No information provided about whether the patient has signed an informed consent form",
+        "No information provided on the ability to sit still for 90 minutes"
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type matches the trial's focus on melanoma. She is 45 years old and has an ECOG status of 0, meeting the age and performance status criteria. Although she has prior therapies, the trial has no specific restrictions on treatment history, which aligns with her status as a previously treated patient. There are minor uncertainties regarding specific medical conditions and logistical aspects of participation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06418204",
+      "title": "Complementary Options for Symptom Management In Cancer (COSMIC): Assessing Benefits and Harms of Cannabis and Cannabinoid Use Among a Cohort of Cancer Patients Treated in Community Oncology Clinics",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is melanoma, which is being studied in the trial.",
+        "Patient has PD-L1 expression of 60%, which qualifies for immune checkpoint inhibitor therapy.",
+        "Patient resides in the United States."
+      ],
+      "conflicts": [
+        "Patient has received multiple prior therapies, which may indicate she is not treatment-naive, but trial does not explicitly state treatment-naive requirement."
+      ],
+      "uncertainties": [
+        "Potential threshold for what constitutes 'newly diagnosed' is unclear since the patient's status may depend on timing of treatment response post-progression."
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type matches the trial indication for melanoma. Although the patient has had prior therapies, there is ambiguity regarding whether these disqualify her from the trial, as the trial description does not clearly state that it seeks treatment-naive patients. Hence, while there are uncertainties, the overall profile supports potential eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04572451",
+      "title": "Phase I Study Investigating the Safety of Stereotactic Body Radiotherapy (SBRT) With Anti-PD1 and Anti-IL-8 for the Treatment of Multiple Metastases in Advanced Solid Tumors and Melanoma",
+      "sponsor": "Yana Najjar",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type: melanoma matches the trial conditions",
+        "ECOG status: 0 is acceptable",
+        "PD-L1: 60% meets the threshold for anti-PD1 therapy",
+        "No brain metastases documented",
+        "Age: 45 is above 18 years"
+      ],
+      "conflicts": [
+        "Patient has previously received anti-PD1 therapy (nivolumab) which may conflict with the trial's focus on anti-PD1 refractory cases"
+      ],
+      "uncertainties": [
+        "Organ function lab results not provided to confirm normal organ function"
+      ],
+      "confidence": 0.7,
+      "reasoning": "The patient's melanoma diagnosis aligns with the trial's focus. The patient has already been treated with PD-1, which creates a conflict with eligibility for anti-PD1 refractory cases; however, other eligibility criteria are met. Organ function details are missing, leaving some uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05786924",
+      "title": "A Phase 1/2, Open-label Study of Oral S241656 (BDTX-4933) as Monotherapy and in Combination With Other Anti-Cancer Therapies in Patients With KRAS, BRAF and Other Selected RAS/MAPK Mutation-Positive Malignancies",
+      "sponsor": "Institut de Recherches Internationales Servier",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has melanoma which is a solid tumor.",
+        "Patient has BRAF V600E mutation."
+      ],
+      "conflicts": [
+        "Trial primarily targets NSCLC and not melanoma; thus does not fully match the disease indication.",
+        "Patient has prior systemic therapies and the trial includes treatment-naive or previously treated indication ambiguity."
+      ],
+      "uncertainties": [
+        "No information on specific organ function parameters.",
+        "It is unclear if the trial explicitly accepts melanoma as an eligible solid tumor in the absence of NSCLC."
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type partially aligns with the trial conditions as BRAF V600E mutation is specified, but melanoma is not the primary focus of the trial, which is for NSCLC and other specific malignancies. There are also uncertainties regarding treatment line and organ function, which affect overall eligibility assessment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02279004",
+      "title": "A Prospective Study of Plasma Genotyping as a Noninvasive Biomarker for Genotype-directed Cancer Care",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced melanoma with BRAF V600E mutation.",
+        "ECOG status is 0."
+      ],
+      "conflicts": [
+        "Patient has previously received multiple systemic therapies, whereas the trial offers specific cohorts for treatment-naive or patients with acquired resistance."
+      ],
+      "uncertainties": [
+        "Whether patient has a plan for re-biopsy for resistance genotyping."
+      ],
+      "confidence": 0.6,
+      "reasoning": "The patient's disease type (melanoma) matches the trial's focus, particularly with the BRAF V600E mutation. However, the patient has had multiple prior therapies, which puts her into a different treatment line than what the trial specifies, which potentially limits eligibility. The presence of a plan for potential re-biopsy for resistance genotyping is also unclear.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04370587",
+      "title": "A Phase 1/2a, Open-Label, Dose Escalation and Expansion Study of the Safety and Tolerability of T3011 Administered Via Intratumoral Injection as a Single Agent and in Combination With Intravenous Pembrolizumab in Patients With Advanced or Metastatic Solid Tumors",
+      "sponsor": "ImmVira Pharma Co. Ltd",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is melanoma, which is included in the trial conditions.",
+        "ECOG status is 0, meeting the trial requirement.",
+        "PD-L1 expression is 60%, which is above the threshold for some trials."
+      ],
+      "conflicts": [
+        "Patient has received 4 prior therapies (dabrafenib, trametinib, nivolumab, ipilimumab) while the trial specifies no more than 3 prior regimens for advanced or metastatic disease.",
+        "Requires confirmation if the patient has at least 1 tumor lesion accessible for IT injection of T3011."
+      ],
+      "uncertainties": [
+        "Patient's current organ function tests are not provided, making eligibility uncertain.",
+        "No information on the requirement for adequate contraception prior to study entry, while on study treatment, and for six months after the last dose."
+      ],
+      "confidence": 0.5,
+      "reasoning": "The patient's cancer type matches the trial's focus on melanoma; however, the patient has more than the allowed number of prior therapies, leading to a potential conflict. There are also several uncertainties regarding organ function and other requirements, putting the overall confidence at a medium level.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03743298",
+      "title": "Phase 1B Trial of AV-MEL-1 (Autologous Dendritic Cells Loaded With Autologous Tumor Antigens) With Anti-PD-1 Checkpoint Inhibitors in Metastatic Melanoma",
+      "sponsor": "Aivita Biomedical, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age > 18",
+        "ECOG status 0",
+        "PD-L1 60%",
+        "Metastatic melanoma diagnosis"
+      ],
+      "conflicts": [
+        "Patient has received multiple prior therapies (not treatment-naive)",
+        "Karnofsky Performance Status (KPS) has not been explicitly provided"
+      ],
+      "uncertainties": [
+        "Presence of at least one metastatic lesion that is to be surgically removed is unclear",
+        "Patient's KPS is unspecified (could be < 70)"
+      ],
+      "confidence": 0.3,
+      "reasoning": "The patient's cancer type matches the trial's indication; however, the patient has received prior systemic therapies, making her ineligible if the trial is for treatment-naive patients. There are uncertainties due to lack of clarity on KPS and the resection of a metastatic lesion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05053555",
+      "title": "High Dose-Rate Brachytherapy for the Treatment of Both Primary and Secondary Unresectable Liver Malignancies",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 45, which is above the required minimum of 18",
+        "ECOG status is 0"
+      ],
+      "conflicts": [
+        "Patient has melanoma, but trial focuses on liver malignancies. This may conflict with their eligibility depending on the specific criteria defined for the inclusion of melanoma patients."
+      ],
+      "uncertainties": [
+        "Specific details about liver lesions or metastases are not provided, making it unclear if the patient has up to five unresectable tumors that meet the size and proximity criteria.",
+        "Missing lab results for total serum bilirubin, platelet count, and INR, which are crucial for determining eligibility."
+      ],
+      "confidence": 0.25,
+      "reasoning": "The patient has melanoma, but the trial is targeting liver malignancies, which raises significant eligibility concerns. The absence of specific details about liver lesions and lab results further adds to uncertainties. Overall, the mismatch in cancer type and missing critical information leads to a low confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02339571",
+      "title": "Randomized Phase II/III Study of Nivolumab Plus Ipilimumab Plus Sargramostim Versus Nivolumab Plus Ipilimumab in Patients With Unresectable Stage III or Stage IV Melanoma",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has received nivolumab and ipilimumab in prior therapies, trial excludes patients who have had anti-PD-1/PD-L1 or ipilimumab in the metastatic setting."
+      ],
+      "uncertainties": [
+        "Location does not affect eligibility as the patient is from the United States, which is within the trial region.",
+        "Blood work results for white blood count, ANC, platelet count, hemoglobin, serum creatinine, AST, ALT, alkaline phosphatase, total bilirubin, and LDH are not provided."
+      ],
+      "confidence": 0.2,
+      "reasoning": "Patient's cancer type matches the trial, but she has previously received anti-PD-1 and anti-CTLA-4 agents in the metastatic setting, which leads to exclusion from the trial. Other aspects of eligibility could not be verified without more information.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06194929",
+      "title": "Phase 1b/2 Trial of Defactinib and Avutometinib, With or Without Encorafenib, for the Treatment of Patients With Brain Metastases From Cutaneous Melanoma",
+      "sponsor": "University of Utah",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma but this trial exclusively studies brain metastases from cutaneous melanoma. The patient has no brain metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma; however, the trial specifically focuses on patients with brain metastases, which the patient does not have. Therefore, this trial does not match the patient's current condition, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06697301",
+      "title": "A Multicenter, Randomized, Double-Blind, Active Comparator-Controlled, Adaptive Phase 2/3 Study to Evaluate the Safety and Efficacy of EIK1001 and Pembrolizumab Versus Placebo and Pembrolizumab as First-Line Therapy in Participants With Advanced Melanoma (TeLuRide-006)",
+      "sponsor": "Eikon Therapeutics",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female, 45 years old.",
+        "ECOG status: 0.",
+        "Biomarker: BRAF V600E positive.",
+        "PD-L1 expression: 60%.",
+        "No brain metastases."
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy for advanced melanoma (dabrafenib, trametinib, nivolumab, ipilimumab), but the trial is designed for treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Adequate organ and marrow function is not confirmed as lab results are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, which matches the trial indication. However, the patient is not treatment-naive due to history of multiple prior therapies, which directly conflicts with the eligibility criteria for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04930783",
+      "title": "A Phase Ib Study of NeoVax in Combination With CDX-301 and Nivolumab or Pembrolizumab and in Patients With Melanoma",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status: 0",
+        "PD-L1: 60%"
+      ],
+      "conflicts": [
+        "Prior treatments include nivolumab and ipilimumab, which are forms of immunotherapy. The trial excludes prior immunotherapy for metastatic melanoma except for anti-CTLA-4."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic melanoma, and she has an acceptable ECOG status and PD-L1 expression. However, she has received nivolumab, which is excluded due to prior immunotherapy use in this study. Therefore, the patient is excluded based on treatment history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04697576",
+      "title": "Intralesional Influenza Vaccine for Patients With Melanoma",
+      "sponsor": "Carlo Contreras",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has cutaneous melanoma",
+        "Patient is female",
+        "Patient's ECOG status is 0",
+        "Patient has no brain metastases",
+        "Patient is located in the United States"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies (dabrafenib, trametinib, nivolumab, ipilimumab) which contradicts trial requirements for treatment-naive patients",
+        "Patient's prior therapies disqualify her for trials requiring treatment-naive patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, which matches the trial's target indication. However, the trial excludes previously treated patients, and the patient has received multiple prior therapies, thus making her ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06216938",
+      "title": "Phase I Pilot Study of RP1 in Primary Melanoma to Reduce the Risk of Sentinel Lymph Node Metastasis",
+      "sponsor": "Yana Najjar",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial requires patients with grossly visible residual tumor, or a positive deep or lateral margin on initial biopsy. The patient has a resected primary melanoma without mention of grossly visible residual tumor."
+      ],
+      "uncertainties": [
+        "Organ function tests not provided, so it's unclear if the patient meets criteria for adequate organ function."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's melanoma is not meeting the eligibility criteria regarding the required tumor characteristics as outlined in the trial's inclusion criteria. With a resected primary melanoma and no documentation of residual tumor, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06599619",
+      "title": "A Study of the Effects of Anti-PD1 Adjuvant Checkpoint Blockade Immunotherapy on Features of Atypical/Dysplastic Nevi in Patients With Stage IIB-IIIC Melanoma",
+      "sponsor": "John Kirkwood",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a current documented history of melanoma but does not meet the inclusion criterion for having at least two atypical nevi of \u2265 4 mm diameter."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic melanoma which aligns with the trial's focus on melanoma, but she does not meet the requirement of having at least two atypical nevi of \u2265 4 mm diameter, which is a critical inclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06488365",
+      "title": "In Vivo Liquid Biopsy for Early Detection of Metastatic Melanoma",
+      "sponsor": "Cytoastra",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histological documented diagnosis of melanoma"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (dabrafenib, trametinib, nivolumab, ipilimumab) but the study does not specify if it allows previously treated patients."
+      ],
+      "uncertainties": [
+        "Study does not specify if it is only for treatment-naive or if it includes previously treated patients."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The disease type matches as the patient has metastatic melanoma. However, there are significant doubts regarding the treatment line since the trial's specifications on treatment-naive or previously treated patients are unclear, leading to a likely exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04752826",
+      "title": "Phase 1/2a Open-Label, Dose-Escalation, Multicenter, FIH, Consecutive-Cohort, Clinical Trial of BI-1808, a Monoclonal Antibody to TNFR 2 As a Single Agent and in Combination with Pembrolizumab (MK-3475-D20) in Subjects with Advanced Malignancies",
+      "sponsor": "BioInvent International AB",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histologically confirmed diagnosis of advanced malignancy (melanoma).",
+        "Patient has received prior anti-PD-1 therapy (nivolumab and ipilimumab).",
+        "Patient has a known BRAF V600E mutation."
+      ],
+      "conflicts": [
+        "Patient has received multiple prior therapies, including anti-PD-1 therapy, which is not eligible for Part B of the trial where subjects with prior lines of treatment are not eligible."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's melanoma diagnosis aligns with the trial's indication, and she has a BRAF mutation, but she does not qualify due to having received prior treatments, including anti-PD-1 therapy, which excludes her from participating.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05576896",
+      "title": "A Single-Arm, Phase II Study of Autophagy Modulation Using Hydroxychloroquine in Combination With Encorafenib and Cetuximab or Panitumumab in Metastatic BRAF-mutated Colorectal Cancer Refractory to Standard Therapies",
+      "sponsor": "Northwestern University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma, but the trial is focused on colorectal cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, while the trial is specifically for metastatic BRAF-mutated colorectal cancer. This mismatch results in a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06440850",
+      "title": "A Pilot Clinical Trial of Vemurafenib and Cobimetinib as a Redifferentiation Strategy in High-Risk, Radioactive Iodine (RAI) Na\u00efve, BRAFV600E Mutated Differentiated Thyroid Carcinoma Patients Undergoing Initial RAI Therapy",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a documented BRAF V600E mutation"
+      ],
+      "conflicts": [
+        "Patient has previously received prior anti-BRAF treatment (dabrafenib)"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, while the trial is focused on differentiated thyroid carcinoma. This fundamental mismatch in disease type leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06814496",
+      "title": "RAdiation comBined With BIspecific T-Cell Engager in DLL3 Expressing Tumors (RABBIT) Study: A Phase I/II Study of AMG757 / Tarlatamab and Concurrent Radiation Therapy in Tumors With High Prevalence of DLL3",
+      "sponsor": "University of Arizona",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma which is listed among the conditions studied, but the trial specifically targets DLL3 expressing tumors. There is no indication that the patient's melanoma is DLL3+.",
+        "Patient has had multiple prior therapies and the trial is designed for previously treated or refractory patients, but the specifics of treatment lines may not align with the trial's intent due to the requirement for DLL3 expression."
+      ],
+      "uncertainties": [
+        "Specific eligibility on DLL3 expression and organ function lab values (e.g., hematological, renal, hepatic) is not provided in the patient's profile."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's melanoma type matches one of the conditions studied in the trial; however, there are specific biomarker requirements (DLL3 expression) that need to be confirmed. Given the provided information, the patient does not demonstrate evidence of being DLL3+ and thus is likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03042221",
+      "title": "Early Rebiopsy to Identify Mechanisms and Biomarkers of Tumor Cell Survival Following Systemic Therapy for Lung Cancer",
+      "sponsor": "University of Colorado, Denver",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy for metastatic disease (dabrafenib, trametinib, nivolumab, ipilimumab) while the trial requires no prior systemic therapy for locally advanced or metastatic disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, which does not match the trial's focus on non-small cell lung cancer (NSCLC). Additionally, the patient has prior systemic therapies, while the trial excludes those who have previously been treated for metastatic lung cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00068003",
+      "title": "Cell Harvest and Preparation for Surgery Branch Treatment Protocols",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Prior therapies: patient has undergone prior treatments (dabrafenib, trametinib, nivolumab, ipilimumab) whereas the trial may require treatment-naive or first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the study's focus on melanoma; however, the patient has previously received systemic treatment, which likely excludes her from eligibility if the trial requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05868629",
+      "title": "Clinical Study To Further Evaluate The Efficacy Of Dabrafenib Plus Trametinib In Patients With Rare BRAF V600E Mutation-Positive Unresectable or Metastatic Solid Tumors",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has BRAF V600E mutation-positive melanoma."
+      ],
+      "conflicts": [
+        "Trial excludes participants with melanoma."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, melanoma, is explicitly excluded in the trial's eligibility criteria, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06102902",
+      "title": "A Phase 1 Study of ZEN003694 (ZEN-3694) in Combination With Cetuximab and Encorafenib in Patients With Refractory BRAF V600E Metastatic Colorectal Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma (not colorectal adenocarcinoma) which does not match the trial indication."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is melanoma, while the trial is specifically for colorectal cancer. Therefore, the patient is excluded based on disease mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06666790",
+      "title": "DermaSensor Postmarket Surveillance Study",
+      "sponsor": "DermaSensor, Inc.",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a 45-year-old female",
+        "Patient has melanoma (cancer type matches trial conditions)"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapies (dabrafenib, trametinib, nivolumab, ipilimumab) which conflict with potential eligibility as the trial does not specify acceptance of previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has melanoma, which matches the trial condition. However, due to previously receiving systemic therapies, the patient is likely excluded since there is insufficient information stating the trial accepts previously treated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06919809",
+      "title": "Efficacy and Safety of X A-DERM\u2122 Microsurfaced Acellular Dermal Matrix (mADM) for Enhancing Wound Healing Following Mohs Micrographic Surgery (MMS)",
+      "sponsor": "McGuire Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic cutaneous melanoma but the trial is studying wound healing after Mohs surgery for BCC, SCC, or melanoma in situ (MIS), which typically does not include metastatic conditions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is metastatic melanoma, while the trial specifically focuses on BCC, SCC, or melanoma in situ for wound healing after Mohs micrographic surgery. This significant mismatch in disease type leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06190951",
+      "title": "A Phase 2 Peri-operative Trial of Fianlimab and Cemiplimab Compared With Anti-PD1 Alone in Patients With Resectable Stage III and IV Melanoma",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 0",
+        "PD-L1 is 60%",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (dabrafenib, trametinib, nivolumab, ipilimumab) while trial requires no prior systemic therapy for melanoma"
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient has metastatic melanoma which matches the trial's indication, but is excluded due to the requirement for treatment-naive patients, as the patient has received multiple prior systemic therapies for melanoma.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02332668",
+      "title": "A Phase I/II Study of Pembrolizumab (MK-3475) in Children With Advanced Melanoma or a PD-L1 Positive Advanced, Relapsed or Refractory Solid Tumor or Lymphoma (KEYNOTE-051)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 17"
+    },
+    {
+      "nct_id": "NCT07068074",
+      "title": "A Randomized Phase III Study of Management of Treatment Naive Primary Melanoma in Elderly Patients",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "phase": "Phase 3",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is below minimum age 75"
+    },
+    {
+      "nct_id": "NCT01638676",
+      "title": "A Phase I/II Trial of Vemurafenib and Metformin to Unresectable Stage IIIC and Stage IV BRAF.V600E+ Melanoma Patients",
+      "sponsor": "University of Louisville",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Prior treatment with Vemurafenib - the trial excludes prior Vemurafenib treatment"
+      ],
+      "uncertainties": [
+        "Organ function laboratory values were not provided and are unclear"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial, but the patient has a history of prior treatment with Vemurafenib, which is a critical exclusion criterion for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04598009",
+      "title": "A Phase II Study of Binimetinib in Combination With Imatinib in Patients With Advanced KIT-Mutant Melanoma",
+      "sponsor": "University of California, San Francisco",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status = 0",
+        "Histologically confirmed melanoma",
+        "No brain metastases"
+      ],
+      "conflicts": [
+        "Patient has BRAF V600E mutation, but the trial is for patients with advanced KIT-mutant melanoma.",
+        "Patient has received multiple prior systemic therapies that do not match the requirements of treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Details of organ function labs (LDH, neutrophil count, platelets, bilirubin, AST, ALT, creatinine) are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is not eligible as the trial specifically targets KIT-mutant melanoma, while the patient has BRAF V600E mutated melanoma. Additionally, the patient is not treatment-naive and has received prior therapies that conflict with the trial criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05907954",
+      "title": "(Neo)Adjuvant IDE196 (Darovasertib) in Patients With Localized Ocular Melanoma",
+      "sponsor": "IDEAYA Biosciences",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma, while the trial is studying uveal melanoma, which is a different disease type."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is melanoma, which does not match the trial's focus on localized uveal melanoma. Therefore, the patient is excluded based on disease type mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07040280",
+      "title": "A Phase II Double-Blind Trial of Sulforaphane for Therapeutic Prevention of Melanoma in Patients With Multiple Atypical Nevi and a Prior History of Melanoma",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (dabrafenib, trametinib, nivolumab, ipilimumab) which disqualifies her from this trial since it excludes patients currently on treatment for melanoma."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has melanoma, which matches the trial condition. However, she does not meet the treatment line criteria as she has prior systemic therapy, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04741997",
+      "title": "A Randomized Pilot Trial of Adjuvant Therapy Based on Pathologic Response After Neoadjuvant Encorafenib and Binimetinib in Advanced Melanoma",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 45",
+        "Sex: female",
+        "Cancer type: melanoma",
+        "Biomarkers: BRAF V600E",
+        "ECOG status: 0",
+        "PD-L1: 60%",
+        "Brain metastases: none",
+        "Country: United States"
+      ],
+      "conflicts": [
+        "Prior therapies: Patient has received prior therapy with BRAF (dabrafenib) and MEK inhibitors (trametinib) and had disease progression while on therapy, which is not eligible for this trial."
+      ],
+      "uncertainties": [
+        "None"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's history of prior treatment with BRAF and MEK inhibitors with disease progression while on the treatment disqualifies her from participating in the trial, which excludes patients with prior progression on these therapies.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06673095",
+      "title": "ICEMAN (Intelligent Choice of Excision Margin): A Randomized Controlled Trial of Narrow Excision Versus Wide Excision for Adults With Primary Invasive Cutaneous Melanomas",
+      "sponsor": "OHSU Knight Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic melanoma, while the trial is for Clinical Stage IA and IB cutaneous melanoma, excluding those with regional or distant metastasis."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer is classified as metastatic melanoma, which does not fit the trial's inclusion criteria that specify only early-stage disease (Clinical Stage IA or IB) without evidence of regional or distant metastasis.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02670707",
+      "title": "Randomization of Cytarabine Monotherapy Versus Standard-of-Care Vinblastine/Prednisone for Frontline Treatment of Langerhans Cell Histiocytosis (TXCH LCH0115)",
+      "sponsor": "Baylor College of Medicine",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 21"
+    },
+    {
+      "nct_id": "NCT02693535",
+      "title": "Targeted Agent and Profiling Utilization Registry (TAPUR) Study",
+      "sponsor": "American Society of Clinical Oncology",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03138161",
+      "title": "SAINT: A Phase 1/2 Study of Safe Amounts of IPLIMUMAB, NIVOLUMAB and TRABECTEDIN for Previously Treated Advanced Soft Tissue Sarcoma (STS)",
+      "sponsor": "Sarcoma Oncology Research Center, LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03803553",
+      "title": "Early Identification and Treatment of Occult Metastatic Disease in Stage III Colon Cancer",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03899155",
+      "title": "Pan-Tumor Study for Long-term Treatment of Cancer Patients Who Have Participated in BMS Sponsored Trials Investigating Nivolumab and Other Cancer Therapies",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03997786",
+      "title": "A Multicenter, Randomized, Placebo and Active Comparator-controlled Clinical Trial to Study the Efficacy, Safety and Pharmacokinetics (PK) of Tildrakizumab in Pediatric Subjects From 6 to <18 Years of Age With Moderate to Severe Chronic Plaque Psoriasis",
+      "sponsor": "Sun Pharmaceutical Industries Limited",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04079179",
+      "title": "A Phase 2 Study to Assess the Safety and Efficacy of Cobimetinib in Refractory Langerhans Cell Histiocytosis, LCH-Associated Neurodegenerative Disease, and Other Histiocytic Disorders.",
+      "sponsor": "Carl Allen",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04130516",
+      "title": "A Multicenter Phase 1-2A Study to Assess the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of LNS8801 in Patients With Advanced Cancer With and Without Pembrolizumab",
+      "sponsor": "Linnaeus Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04166409",
+      "title": "A Phase 3 Randomized Non-Inferiority Study of Carboplatin and Vincristine Versus Selumetinib (NSC# 748727) in Newly Diagnosed or Previously Untreated Low-Grade Glioma (LGG) Not Associated With BRAFV600E Mutations or Systemic Neurofibromatosis Type 1 (NF1)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 21"
+    },
+    {
+      "nct_id": "NCT04262466",
+      "title": "Phase 1/2 Study of IMC-F106C in Advance PRAME-Positive Cancers",
+      "sponsor": "Immunocore Ltd",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04852887",
+      "title": "A Phase III Clinical Trial Evaluating De-Escalation of Breast Radiation for Conservative Treatment of Stage I, Hormone Sensitive, HER-2 Negative, Oncotype Recurrence Score Less Than or Equal to 18 Breast Cancer",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is below minimum age 50"
+    },
+    {
+      "nct_id": "NCT05009992",
+      "title": "A Combination Therapy Trial Using an Adaptive Platform Design for Children and Young Adults With Diffuse Midline Gliomas (DMGs) Including Diffuse Intrinsic Pontine Gliomas (DIPGs) at Initial Diagnosis, Post-Radiation Therapy and at Time of Progression",
+      "sponsor": "University of California, San Francisco",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 39"
+    },
+    {
+      "nct_id": "NCT05040360",
+      "title": "Randomized Phase II Trial of Postoperative Adjuvant Capecitabine and Temozolomide Versus Observation in High-Risk Pancreatic Neuroendocrine Tumors",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05379985",
+      "title": "A Multicenter Open-Label Study of RMC-6236 in Patients With Advanced Solid Tumors Harboring Specific Mutations in RAS",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05584670",
+      "title": "A Phase 1/2, Open Label, First-in-human, Dose Escalation and Expansion Study for the Evaluation of Safety, Pharmacokinetics, Pharmacodynamics, and Anti-tumor Activity of SAR445877 Administered as Monotherapy or in Combination With Other Anticancer Therapies in Adults With Advanced Solid Tumors",
+      "sponsor": "Sanofi",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05677490",
+      "title": "Randomized Phase III Trial of mFOLFIRINOX vs. FOLFOX With Nivolumab for First-Line Treatment of Metastatic HER2- Gastroesophageal Adenocarcinoma",
+      "sponsor": "Alliance for Clinical Trials in Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05828069",
+      "title": "Phase 2 Study of Tovorafenib (DAY101) in Relapsed and Refractory Langerhans Cell Histiocytosis",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is below minimum age 180"
+    },
+    {
+      "nct_id": "NCT05844982",
+      "title": "A Trial Evaluating Intravitreal Faricimab (6.0 mg) Injections or Fluocinolone Acetonide (0.19 mg Intravitreal Implants vs Observation for Prevention of Visual Acuity Loss Due to Radiation Retinopathy",
+      "sponsor": "Jaeb Center for Health Research",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05929768",
+      "title": "Shorter Anthracycline-Free Chemo Immunotherapy Adapted to Pathological Response in Early Triple Negative Breast Cancer (SCARLET), A Randomized Phase III Study",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06074588",
+      "title": "A Randomized, Open-label, Phase 3 Study of MK-2870 vs Chemotherapy (Docetaxel or Pemetrexed) in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06249048",
+      "title": "A Phase 1/2, Open-label, Multi-center, First-in-human Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Anti-tumor Activity of STX-001 Delivered by Intratumoral Injection in Patients With Advanced Solid Tumors as a Monotherapy or in Combination With Pembrolizumab",
+      "sponsor": "Strand Therapeutics Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06582745",
+      "title": "Targeted Approach to Langerhans Cell Histiocytosis (LCH) Using MEK Inhibitor, Trametinib",
+      "sponsor": "Cook Children's Health Care System",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 30"
+    },
+    {
+      "nct_id": "NCT06712875",
+      "title": "A Pilot Study Evaluating the Toxicity and Clinical Benefit of Mitogen-activated Protein Kinase (MAPK) Pathway Inhibition Combined With Programmed Cell Death-1 Checkpoint Blockade (Anti-PD1) for the Treatment of BRAF-altered Pediatric Gliomas",
+      "sponsor": "Ann & Robert H Lurie Children's Hospital of Chicago",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 26"
+    },
+    {
+      "nct_id": "NCT06745024",
+      "title": "Radiation Therapy for High-Risk Asymptomatic Bone Metastases: A Pragmatic Multicenter Randomized Phase 3 Clinical Trial (PREEMPT)",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07070232",
+      "title": "A Phase I/II, Open-label, Adaptive Two-part Trial to Evaluate the Safety, Efficacy, Optimal Dose and Pharmacokinetics of BNT326 as Monotherapy and in Combination With Cancer Immunotherapies in Participants With Advanced Solid Tumors",
+      "sponsor": "BioNTech SE",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06475989",
+      "title": "A Randomized Phase III Study of BRAF-Targeted Therapy vs Cabozantinib in RAI-Refractory Differentiated Thyroid Cancer With BRAF V600Em",
+      "sponsor": "ECOG-ACRIN Cancer Research Group",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma, but the trial is for patients with differentiated thyroid carcinoma (DTC)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is melanoma, which does not match the trial's indication for differentiated thyroid carcinoma. Therefore, the patient is clearly excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02333604",
+      "title": "Cancer Experience Registry: An Online Survey Research Study to Understand the Experiences of Cancer Patients and Caregivers",
+      "sponsor": "Cancer Support Community, Research and Training Institute, Philadelphia",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02402244",
+      "title": "The Project: EveryChild Protocol: A Registry, Eligibility Screening, Biology and Outcome Study",
+      "sponsor": "Children's Oncology Group",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 25"
+    },
+    {
+      "nct_id": "NCT02775461",
+      "title": "Pancreas Disease and High Risk Registry",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03723928",
+      "title": "Randomized Non-Inferiority Trial Comparing Overall Survival of Patients Monitored With Serum Tumor Marker Directed Disease Monitoring (STMDDM) Versus Usual Care in Patients With Metastatic Hormone Receptor Positive Breast Cancer",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04541108",
+      "title": "A Phase 0 Master Protocol Using the CIVO\u00ae Platform to Evaluate Intratumoral Microdoses of Anti-Cancer Therapies in Patients With Solid Tumors",
+      "sponsor": "Presage Biosciences",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04712877",
+      "title": "LEADER Neoadjuvant Screening Trial: LCMC4 Evaluation of Actionable Drivers in Early Stage Lung Cancers",
+      "sponsor": "Lung Cancer Mutation Consortium",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05463796",
+      "title": "InAdvance: Surveillance, Prevention, and Interception in a Population at Risk For Cancer",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06011785",
+      "title": "Using Silica 12CH to Mitigate the Effects and Symptoms of Silicosis in Brazil",
+      "sponsor": "HOHM Foundation",
+      "phase": "Early Phase 1",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06108479",
+      "title": "A Phase I/Ib, First-In-Human, Multi-Part, Open-Label Study to Investigate the Safety, Tolerability, Pharmacokinetics, Biological and Clinical Activity of DF6215 Monotherapy and in Combination Therapy in Patients with Advanced (Unresectable, Recurrent, or Metastatic) Solid Tumors",
+      "sponsor": "Dragonfly Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06331377",
+      "title": "Clinical and Molecular Characteristics of Histiocytic Disorders",
+      "sponsor": "Mayo Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06402201",
+      "title": "Phase 1, First-in-Human Study to Assess the Safety, Tolerability and Anti-tumor Activity of CDR404 in HLA-A*02:01 Participants With MAGE-A4 Expressing Solid Tumors",
+      "sponsor": "CDR-Life AG",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06439979",
+      "title": "Rural Adult and Youth Sun Protection Study - Rural Baseball R01",
+      "sponsor": "University of Utah",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 45 is above maximum age 7"
+    },
+    {
+      "nct_id": "NCT03050268",
+      "title": "Familial Investigations of Childhood Cancer Predisposition",
+      "sponsor": "St. Jude Children's Research Hospital",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma; trial does not study melanoma.",
+        "Patient has a history of prior therapies; trial does not specify inclusion of previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the conditions studied in the trial, as the trial focuses on familial cancer syndromes and not on melanoma.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04693377",
+      "title": "Cryoablation Combined With Stereotactic Body Radiation Therapy for the Treatment of Painful Bone Metastases",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "This trial requires patients with radiographic evidence of bone metastases. The patient profile does not indicate the presence of bone metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial condition of metastatic melanoma, but the patient does not have evidence of bone metastases, which is a critical eligibility requirement for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05059444",
+      "title": "ORACLE: Observation of ResiduAl Cancer With Liquid Biopsy Evaluation",
+      "sponsor": "Guardant Health, Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has cutaneous melanoma, which is a relevant condition studied in the trial."
+      ],
+      "conflicts": [
+        "Patient has a history of multiple prior systemic therapies, which does not meet the trial's requirement of being treatment-naive."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's history of multiple prior treatments for metastatic melanoma excludes her from the trial, which appears to target treatment-naive patients. Therefore, she does not meet the necessary eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06610682",
+      "title": "Feasibility of CSF (Cerebrospinal Fluid) and Plasma ctDNA (Circulating Tumor Deoxyribonucleic) in BRAF (V-raf Murine Sarcoma Viral Oncogene Homolog B1)-Altered Glioma During Treatment With Plixorafenib",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma, but the trial is for BRAF V600E mutated glioma.",
+        "Patient has prior systemic therapy (dabrafenib, trametinib, nivolumab, ipilimumab), while the trial appears to be focused on a population that may be refractory to previous therapies but has a specific requirement for a CNS tumor."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is melanoma, while the trial is focused on BRAF V600E mutated glioma. Additionally, the patient is not a treatment-naive candidate, which is another critical conflict.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06902376",
+      "title": "NEO-COMBAT XL: Neoadjuvant and Maintenance XL092 and Cemiplimab in BRAF V600E-wildtype Anaplastic Thyroid Cancer: a Phase 1B Study",
+      "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has melanoma with BRAF V600E mutation while the trial requires BRAF V600E wild-type tumor."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is melanoma with a BRAF V600E mutation, whereas the trial specifically studies BRAF mutation-negative tumors, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06626516",
+      "title": "A Phase I/II Study of Tebentafusp-tebn in Combination With Liver-Directed Therapies for the Treatment of Metastatic Uveal Melanoma",
+      "sponsor": "Thomas Jefferson University",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 200000, Requested 2907. Please try again in 872ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 200000, Requested 2907. Please try again in 872ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06683755",
+      "title": "Phase I/IIa Dose Finding Study of Triplet Regimen of Relatlimab Ipilimumab and NIvolumab in First Line Therapy of Metastatic Melanoma (TRINITY)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198097, Requested 3686. Please try again in 534ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198097, Requested 3686. Please try again in 534ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06326411",
+      "title": "A Phase I, Open Label Single-arm Two-part Study to Investigate Safety, Pharmacokinetics, and Preliminary Efficacy of Pan-RAF/MEK Glue NST-628 Oral Tablets in Subject With Solid Tumors Harboring Genetic Alterations in the MAPK Pathway and With Other Solid Tumors",
+      "sponsor": "Nested Therapeutics, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "UNKNOWN",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [
+        "LLM scoring failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198662, Requested 1969. Please try again in 189ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+      ],
+      "confidence": 0.0,
+      "reasoning": "Error during LLM scoring: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-2AQY7oAOVKuJuviJODO7QKqr on tokens per min (TPM): Limit 200000, Used 198662, Requested 1969. Please try again in 189ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+      "excluded_reason": null
+    }
+  ]
+}

@@ -297,12 +297,16 @@ def main(
     ))
     
     # Create output directory
-    # Use biomarker or cancer type for folder name
-    folder_name = sanitize_filename(
-        patient.biomarkers[0] if patient.biomarkers 
-        else patient.cancer_type if patient.cancer_type 
-        else "patient_search"
-    )
+    # If profile file provided, use profile filename; otherwise use biomarker/cancer type
+    if profile_file:
+        # Use profile filename (without extension) as folder name
+        folder_name = Path(profile_file).stem
+    else:
+        folder_name = sanitize_filename(
+            patient.biomarkers[0] if patient.biomarkers 
+            else patient.cancer_type if patient.cancer_type 
+            else "patient_search"
+        )
     output_dir = Path(output) / folder_name
     output_dir.mkdir(parents=True, exist_ok=True)
     

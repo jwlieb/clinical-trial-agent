@@ -1,0 +1,15 @@
+{
+  "age": 42,
+  "sex": "male",
+  "cancer_type": "NSCLC",
+  "biomarkers": ["ALK rearrangement"],
+  "description": "42-year-old male with ALK-rearranged metastatic NSCLC (EML4-ALK variant 1). CNS-dominant disease with multiple brain metastases (>10 lesions, largest 2.1cm) and leptomeningeal enhancement on MRI. Systemic disease stable on alectinib x18 months but clear CNS progression. Prior crizotinib x8 months. No WBRT yet - oncology preference to avoid if possible. Mild headaches, no focal neurological deficits. CSF cytology positive for malignant cells. Seeking trials with enhanced CNS penetration or leptomeningeal disease focus. Otherwise healthy, never smoker.",
+  "ecog_status": 1,
+  "pd_l1_status": "TPS 10%",
+  "prior_therapies": ["crizotinib", "alectinib"],
+  "brain_mets_status": "active",
+  "co_mutations": [],
+  "country": "United States",
+  "location_preference": ["United States"]
+}
+
