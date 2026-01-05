@@ -148,14 +148,7 @@ def fast_filter(patient: PatientProfile, trial: Trial) -> FilterResult:
                 excluded_reason=f"Patient age {patient.age} is above maximum age {max_age}"
             )
     
-    # 4. Healthy volunteers filter
-    # Note: accepts_healthy_volunteers=True means the trial ALSO accepts healthy
-    # volunteers, not that it's exclusively for them. We only exclude if the trial
-    # is explicitly marked as healthy volunteers only (accepts_healthy_volunteers=True
-    # AND no conditions listed, which would be handled by LLM stage).
-    # For now, we skip this filter and let LLM stage assess eligibility.
-    
-    # 5. Phase preference filter (if specified)
+    # 4. Phase preference filter (if specified)
     if patient.phase_preference and trial.phase:
         if trial.phase not in patient.phase_preference:
             return FilterResult(
@@ -163,7 +156,7 @@ def fast_filter(patient: PatientProfile, trial: Trial) -> FilterResult:
                 excluded_reason=f"Trial phase '{trial.phase}' not in patient preference: {patient.phase_preference}"
             )
     
-    # 6. Location preference filter (if specified)
+    # 5. Location preference filter (if specified)
     if patient.location_preference and trial.locations:
         # Check if any preferred location is in trial locations
         preferred_set = {loc.lower() for loc in patient.location_preference}
