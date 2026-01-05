@@ -10,14 +10,22 @@ from src.seed_expansion import generate_variant_notations
 
 console = Console()
 
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-8b-instant")
 MAX_LLM_TOKENS = 500
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
 
+# Try to import LLM clients
+LLM_CLIENT = None
 try:
-    from openai import OpenAI
-    OPENAI_AVAILABLE = True
+    if LLM_PROVIDER == "groq":
+        from groq import Groq
+        LLM_CLIENT = Groq
+    else:
+        from openai import OpenAI
+        LLM_CLIENT = OpenAI
+    LLM_AVAILABLE = True
 except ImportError:
-    OPENAI_AVAILABLE = False
+    LLM_AVAILABLE = False
 
 
 TERM_EXTRACTION_PROMPT = """You are extracting clinical trial search terms from a patient profile.
@@ -62,11 +70,16 @@ def extract_terms_with_llm(patient: PatientProfile) -> dict:
     Returns:
         Dictionary with extracted terms
     """
-    if not OPENAI_AVAILABLE:
-        console.print("[yellow]OpenAI not available, using fallback term extraction[/yellow]")
+    if not LLM_AVAILABLE:
+        console.print("[yellow]LLM client not available, using fallback term extraction[/yellow]")
         return _fallback_extraction(patient)
     
-    client = OpenAI()
+    api_key = os.environ.get("GROQ_API_KEY" if LLM_PROVIDER == "groq" else "OPENAI_API_KEY")
+    if not api_key:
+        console.print(f"[yellow]{'GROQ_API_KEY' if LLM_PROVIDER == 'groq' else 'OPENAI_API_KEY'} not set, using fallback[/yellow]")
+        return _fallback_extraction(patient)
+    
+    client = LLM_CLIENT(api_key=api_key)
     
     prompt = TERM_EXTRACTION_PROMPT.format(
         cancer_type=patient.cancer_type or "Not specified",
@@ -78,14 +91,20 @@ def extract_terms_with_llm(patient: PatientProfile) -> dict:
         response = client.chat.completions.create(
             model=DEFAULT_LLM_MODEL,
             messages=[
+                {"role": "system", "content": "You are a helpful assistant. Respond only with valid JSON."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0,
             max_tokens=MAX_LLM_TOKENS,
-            response_format={"type": "json_object"}
         )
         
-        result = json.loads(response.choices[0].message.content)
+        content = response.choices[0].message.content
+        # Handle potential markdown code blocks
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0]
+        elif "```" in content:
+            content = content.split("```")[1].split("```")[0]
+        result = json.loads(content.strip())
         # Validate expected keys exist with defaults
         return {
             "primary_terms": result.get("primary_terms", []),

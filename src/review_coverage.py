@@ -19,7 +19,7 @@ from src.validate_trials import validate_trials
 console = Console()
 
 # Configuration constants
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-8b-instant")
 MAX_SUGGESTED_TERMS = 3
 MAX_SAMPLE_TITLES = 10
 MAX_TOP_ITEMS = 10
@@ -27,13 +27,20 @@ MAX_LLM_TOKENS = 500
 LLM_SUGGESTED_CONFIDENCE = 0.7
 ADDITIONAL_TRIALS_MAX_RESULTS = 50
 REASONING_TRUNCATE_LENGTH = 100
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
 
-# Check if OpenAI is available
+# Try to import LLM clients
+LLM_CLIENT = None
 try:
-    from openai import OpenAI
-    OPENAI_AVAILABLE = True
+    if LLM_PROVIDER == "groq":
+        from groq import Groq
+        LLM_CLIENT = Groq
+    else:
+        from openai import OpenAI
+        LLM_CLIENT = OpenAI
+    LLM_AVAILABLE = True
 except ImportError:
-    OPENAI_AVAILABLE = False
+    LLM_AVAILABLE = False
 
 
 GAP_REVIEW_PROMPT = """You are reviewing clinical trial search results for {target} inhibitors/modulators.
@@ -134,21 +141,22 @@ def call_llm_for_review(
     Returns:
         GapReviewResult or None if LLM unavailable
     """
-    if not OPENAI_AVAILABLE:
-        console.print("  [yellow]OpenAI not installed, skipping LLM review[/yellow]")
+    if not LLM_AVAILABLE:
+        console.print("  [yellow]LLM client not installed, skipping LLM review[/yellow]")
         return GapReviewResult(
             coverage_assessment="Unknown",
             suggested_terms=[],
-            reasoning="OpenAI library not installed"
+            reasoning="LLM library not installed"
         )
     
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key_var = "GROQ_API_KEY" if LLM_PROVIDER == "groq" else "OPENAI_API_KEY"
+    api_key = os.environ.get(api_key_var)
     if not api_key:
-        console.print("  [yellow]OPENAI_API_KEY not set, skipping LLM review[/yellow]")
+        console.print(f"  [yellow]{api_key_var} not set, skipping LLM review[/yellow]")
         return GapReviewResult(
             coverage_assessment="Unknown",
             suggested_terms=[],
-            reasoning="OPENAI_API_KEY environment variable not set"
+            reasoning=f"{api_key_var} environment variable not set"
         )
     
     prompt = GAP_REVIEW_PROMPT.format(
@@ -162,7 +170,7 @@ def call_llm_for_review(
     )
     
     try:
-        client = OpenAI(api_key=api_key)
+        client = LLM_CLIENT(api_key=api_key)
         response = client.chat.completions.create(
             model=DEFAULT_LLM_MODEL,
             messages=[

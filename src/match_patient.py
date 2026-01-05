@@ -19,10 +19,11 @@ from src.schemas import (
 console = Console()
 
 # Configuration
-DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+DEFAULT_LLM_MODEL = os.environ.get("LLM_MODEL", "llama-3.1-8b-instant")
 MAX_LLM_TOKENS = 800
 MAX_PARALLEL_LLM_CALLS = 5
-OPENAI_TIMEOUT_SECONDS = 30.0
+LLM_TIMEOUT_SECONDS = 30.0
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")  # "openai" or "groq"
 
 # Recruiting statuses that indicate trial is open for enrollment
 RECRUITING_STATUSES = {
@@ -31,12 +32,18 @@ RECRUITING_STATUSES = {
     "Enrolling by invitation",
 }
 
-# Check if OpenAI is available
+# Try to import LLM clients
+LLM_CLIENT = None
 try:
-    from openai import OpenAI
-    OPENAI_AVAILABLE = True
+    if LLM_PROVIDER == "groq":
+        from groq import Groq
+        LLM_CLIENT = Groq
+    else:
+        from openai import OpenAI
+        LLM_CLIENT = OpenAI
+    LLM_AVAILABLE = True
 except ImportError:
-    OPENAI_AVAILABLE = False
+    LLM_AVAILABLE = False
 
 
 ELIGIBILITY_SCORING_PROMPT = """You are evaluating whether a patient is likely eligible for a clinical trial.
@@ -187,17 +194,18 @@ def score_eligibility_with_llm(
     Returns:
         Dictionary with match assessment
     """
-    if not OPENAI_AVAILABLE:
+    if not LLM_AVAILABLE:
         return {
             "match_likelihood": "UNKNOWN",
             "supporting_factors": [],
             "conflicts": [],
             "uncertainties": ["LLM not available for eligibility assessment"],
             "confidence": 0.0,
-            "reasoning": "OpenAI library not installed"
+            "reasoning": "LLM library not installed"
         }
     
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key_var = "GROQ_API_KEY" if LLM_PROVIDER == "groq" else "OPENAI_API_KEY"
+    api_key = os.environ.get(api_key_var)
     if not api_key:
         return {
             "match_likelihood": "UNKNOWN",
@@ -205,7 +213,7 @@ def score_eligibility_with_llm(
             "conflicts": [],
             "uncertainties": ["LLM API key not configured"],
             "confidence": 0.0,
-            "reasoning": "OPENAI_API_KEY environment variable not set"
+            "reasoning": f"{api_key_var} environment variable not set"
         }
     
     eligibility_text = trial.eligibility.raw_text
@@ -239,7 +247,7 @@ def score_eligibility_with_llm(
     )
     
     try:
-        client = OpenAI(api_key=api_key, timeout=OPENAI_TIMEOUT_SECONDS)
+        client = LLM_CLIENT(api_key=api_key, timeout=LLM_TIMEOUT_SECONDS)
         response = client.chat.completions.create(
             model=DEFAULT_LLM_MODEL,
             messages=[
@@ -248,10 +256,15 @@ def score_eligibility_with_llm(
             ],
             temperature=0,
             max_tokens=MAX_LLM_TOKENS,
-            response_format={"type": "json_object"}
         )
         
-        result = json.loads(response.choices[0].message.content)
+        content = response.choices[0].message.content
+        # Handle potential markdown code blocks
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0]
+        elif "```" in content:
+            content = content.split("```")[1].split("```")[0]
+        result = json.loads(content.strip())
         
         # Validate and normalize response structure
         validated_result = {
