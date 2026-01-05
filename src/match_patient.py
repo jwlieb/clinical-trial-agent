@@ -139,11 +139,16 @@ ELIGIBILITY_SCORING_PROMPT = """You are evaluating whether a patient is likely e
 ## Task
 Evaluate each key criterion and determine overall match likelihood.
 
+## Critical Rules About Assumptions
+- NEVER assume facts not explicitly stated in the patient profile
+- If patient location/country is NOT provided, treat geographic requirements (e.g., "Canadian resident", "US citizen") as UNCERTAINTIES, not supporting factors
+- If organ function labs are not provided, list them as uncertainties
+- Only list criteria as "supporting factors" if the patient profile explicitly confirms them
+
 ## Misconceptions to Avoid
 - Age 65 is NOT "above typical age range" - most oncology trials accept adults 18+ with no upper limit
 - ECOG 0-1 is acceptable for most trials; many trials allow ECOG 0-2
 - Prior standard-of-care treatments (platinum chemotherapy, immunotherapy) are typically REQUIRED for later-line trials, not exclusionary
-- Do NOT assume patient location, citizenship, or any facts not explicitly stated
 
 ## Confidence Calibration Guide
 - 0.85-1.0: Patient clearly meets all stated criteria with documentation
@@ -156,7 +161,7 @@ Evaluate each key criterion and determine overall match likelihood.
 ## Response Format
 {{
     "match_likelihood": "HIGH" | "MEDIUM" | "LOW" | "EXCLUDED",
-    "supporting_factors": ["specific criteria patient meets"],
+    "supporting_factors": ["specific criteria patient meets - ONLY from explicit patient data"],
     "conflicts": ["specific criteria patient fails - must be based on stated facts only"],
     "uncertainties": ["criteria where patient information is missing or unclear"],
     "confidence": 0.0 to 1.0,
@@ -544,6 +549,7 @@ def match_trials(
             console.print(f"  [dim]{trial.nct_id}: {result.match_likelihood.value}[/dim]")
     
     # Sort by likelihood (HIGH > MEDIUM > LOW > EXCLUDED > UNKNOWN)
+    # Secondary sort: confidence, then clinical relevance factors
     likelihood_order = {
         MatchLikelihood.HIGH: 0,
         MatchLikelihood.MEDIUM: 1,
@@ -552,10 +558,30 @@ def match_trials(
         MatchLikelihood.UNKNOWN: 4,
     }
     
-    results.sort(key=lambda r: (
-        likelihood_order.get(r.match_likelihood, 5),
-        -r.confidence  # Higher confidence first within same likelihood
-    ))
+    def _sort_key(r: MatchResult) -> tuple:
+        """Multi-factor sort key for clinical relevance."""
+        # Check if trial title contains patient's cancer type (indication-specific)
+        cancer_match = 0
+        if patient.cancer_type:
+            cancer_lower = patient.cancer_type.lower()
+            title_lower = r.title.lower()
+            if cancer_lower in title_lower or (cancer_lower == "nsclc" and "lung" in title_lower):
+                cancer_match = 1
+        
+        # Prefer Phase 2+ over Phase 1 when options exist (less dose-finding risk)
+        phase_score = 0
+        if r.phase:
+            if "Phase 2" in r.phase or "Phase 3" in r.phase:
+                phase_score = 1
+        
+        return (
+            likelihood_order.get(r.match_likelihood, 5),
+            -r.confidence,  # Higher confidence first
+            -cancer_match,  # Indication-specific trials first
+            -phase_score,   # Later-phase trials first when tied
+        )
+    
+    results.sort(key=_sort_key)
     
     # Summary
     counts = {}
