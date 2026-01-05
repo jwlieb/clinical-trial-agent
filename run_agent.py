@@ -58,6 +58,12 @@ def build_patient_profile(
     description: str | None,
     phase_preference: tuple[str, ...] | None,
     location_preference: tuple[str, ...] | None,
+    ecog: int | None,
+    pd_l1_status: str | None,
+    prior_therapies: tuple[str, ...],
+    brain_mets_status: str | None,
+    co_mutations: tuple[str, ...],
+    country: str | None,
 ) -> PatientProfile:
     """Build PatientProfile from CLI options or JSON file.
     
@@ -70,6 +76,12 @@ def build_patient_profile(
         description: Free-text description
         phase_preference: Preferred trial phases
         location_preference: Preferred locations
+        ecog: ECOG performance status (0-5)
+        pd_l1_status: PD-L1 expression level
+        prior_therapies: Prior treatment regimens
+        brain_mets_status: Brain metastases status
+        co_mutations: Co-mutations
+        country: Patient country
         
     Returns:
         PatientProfile object
@@ -101,6 +113,12 @@ def build_patient_profile(
         description=description,
         phase_preference=list(phase_preference) if phase_preference else None,
         location_preference=list(location_preference) if location_preference else None,
+        ecog_status=ecog,
+        pd_l1_status=pd_l1_status,
+        prior_therapies=list(prior_therapies) if prior_therapies else [],
+        brain_mets_status=brain_mets_status,
+        co_mutations=list(co_mutations) if co_mutations else [],
+        country=country,
     )
 
 
@@ -148,6 +166,38 @@ def build_patient_profile(
     help="Preferred trial locations/countries (can be specified multiple times)"
 )
 @click.option(
+    "--ecog",
+    type=int,
+    help="ECOG performance status (0-5)"
+)
+@click.option(
+    "--pd-l1",
+    "pd_l1_status",
+    help="PD-L1 status (e.g., 'TPS <1%%', 'TPS >=50%%')"
+)
+@click.option(
+    "--prior-therapy",
+    "prior_therapies",
+    multiple=True,
+    help="Prior therapy (can be specified multiple times)"
+)
+@click.option(
+    "--brain-mets",
+    "brain_mets_status",
+    type=click.Choice(["none", "stable", "active"], case_sensitive=False),
+    help="Brain metastases status"
+)
+@click.option(
+    "--co-mutation",
+    "co_mutations",
+    multiple=True,
+    help="Co-mutation (can be specified multiple times, e.g., --co-mutation 'STK11')"
+)
+@click.option(
+    "--country",
+    help="Patient country for location matching"
+)
+@click.option(
     "--output",
     default="outputs/",
     type=click.Path(),
@@ -173,6 +223,12 @@ def main(
     description: str | None,
     phase_preference: tuple[str, ...],
     location_preference: tuple[str, ...],
+    ecog: int | None,
+    pd_l1_status: str | None,
+    prior_therapies: tuple[str, ...],
+    brain_mets_status: str | None,
+    co_mutations: tuple[str, ...],
+    country: str | None,
     output: str,
     max_trials: int,
     no_parallel: bool,
@@ -207,6 +263,12 @@ def main(
             description=description,
             phase_preference=phase_preference,
             location_preference=location_preference,
+            ecog=ecog,
+            pd_l1_status=pd_l1_status,
+            prior_therapies=prior_therapies,
+            brain_mets_status=brain_mets_status,
+            co_mutations=co_mutations,
+            country=country,
         )
     except click.BadParameter as e:
         console.print(f"[red]Error: {e}[/red]")

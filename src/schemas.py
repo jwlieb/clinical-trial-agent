@@ -118,6 +118,14 @@ class PatientProfile(BaseModel):
     # Optional preferences
     phase_preference: list[str] | None = Field(None, description="Preferred trial phases")
     location_preference: list[str] | None = Field(None, description="Preferred trial locations/countries")
+    
+    # Enhanced clinical fields
+    ecog_status: int | None = Field(None, ge=0, le=5, description="ECOG performance status (0-5)")
+    pd_l1_status: str | None = Field(None, description="PD-L1 expression level")
+    prior_therapies: list[str] = Field(default_factory=list, description="Prior treatment regimens")
+    brain_mets_status: str | None = Field(None, description="Brain metastases: 'none', 'stable', 'active'")
+    co_mutations: list[str] = Field(default_factory=list, description="Co-mutations (STK11, KEAP1, etc.)")
+    country: str | None = Field(None, description="Patient country for location matching")
 
 
 class FilterResult(BaseModel):

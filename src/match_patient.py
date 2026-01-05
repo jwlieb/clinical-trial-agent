@@ -139,21 +139,35 @@ ELIGIBILITY_SCORING_PROMPT = """You are evaluating whether a patient is likely e
 ## Task
 Evaluate each key criterion and determine overall match likelihood.
 
-Respond with a JSON object:
+## Misconceptions to Avoid
+- Age 65 is NOT "above typical age range" - most oncology trials accept adults 18+ with no upper limit
+- ECOG 0-1 is acceptable for most trials; many trials allow ECOG 0-2
+- Prior standard-of-care treatments (platinum chemotherapy, immunotherapy) are typically REQUIRED for later-line trials, not exclusionary
+- Do NOT assume patient location, citizenship, or any facts not explicitly stated
+
+## Confidence Calibration Guide
+- 0.85-1.0: Patient clearly meets all stated criteria with documentation
+- 0.70-0.84: Patient likely qualifies, only 1-2 minor uncertainties
+- 0.50-0.69: Several uncertainties or missing information that needs verification
+- 0.30-0.49: Significant doubts exist but patient is not definitely excluded
+- 0.10-0.29: Likely excluded but technical edge cases may apply
+- 0.0-0.09: Clear exclusion based on stated criteria
+
+## Response Format
 {{
     "match_likelihood": "HIGH" | "MEDIUM" | "LOW" | "EXCLUDED",
-    "supporting_factors": ["reasons patient likely qualifies"],
-    "conflicts": ["reasons patient may not qualify"],
-    "uncertainties": ["criteria that are unclear or need verification"],
+    "supporting_factors": ["specific criteria patient meets"],
+    "conflicts": ["specific criteria patient fails - must be based on stated facts only"],
+    "uncertainties": ["criteria where patient information is missing or unclear"],
     "confidence": 0.0 to 1.0,
-    "reasoning": "brief explanation of assessment"
+    "reasoning": "brief explanation"
 }}
 
 ## Scoring Guidelines
-- HIGH: Patient clearly meets the stated criteria based on available information
-- MEDIUM: Patient likely qualifies but some criteria are unclear or need verification
-- LOW: Patient may qualify but there are significant uncertainties
-- EXCLUDED: Patient clearly fails one or more hard exclusion criteria
+- HIGH (confidence >= 0.70): Patient clearly meets criteria
+- MEDIUM (confidence 0.50-0.69): Patient likely qualifies but needs verification
+- LOW (confidence 0.30-0.49): Significant uncertainties
+- EXCLUDED (confidence < 0.30): Patient fails hard exclusion criteria
 
 ## Rules
 - Be conservative — flag uncertainties rather than assuming
@@ -317,7 +331,7 @@ def score_eligibility_with_llm(
             "reasoning": "Trial has no eligibility criteria text"
         }
     
-    # Build patient description
+    # Build comprehensive patient description
     patient_parts = []
     if patient.age:
         patient_parts.append(f"Age: {patient.age}")
@@ -327,6 +341,18 @@ def score_eligibility_with_llm(
         patient_parts.append(f"Cancer type: {patient.cancer_type}")
     if patient.biomarkers:
         patient_parts.append(f"Biomarkers: {', '.join(patient.biomarkers)}")
+    if patient.ecog_status is not None:
+        patient_parts.append(f"ECOG status: {patient.ecog_status}")
+    if patient.pd_l1_status:
+        patient_parts.append(f"PD-L1: {patient.pd_l1_status}")
+    if patient.prior_therapies:
+        patient_parts.append(f"Prior therapies: {', '.join(patient.prior_therapies)}")
+    if patient.brain_mets_status:
+        patient_parts.append(f"Brain metastases: {patient.brain_mets_status}")
+    if patient.co_mutations:
+        patient_parts.append(f"Co-mutations: {', '.join(patient.co_mutations)}")
+    if patient.country:
+        patient_parts.append(f"Country: {patient.country}")
     patient_parts.append(f"Clinical details: {patient.description}")
     
     patient_description = "\n".join(patient_parts)
