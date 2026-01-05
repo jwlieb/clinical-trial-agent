@@ -223,6 +223,10 @@ def main(
     if patient.biomarkers:
         profile_summary.append(f"Biomarkers: {', '.join(patient.biomarkers)}")
     
+    # Add location to summary if specified
+    if patient.location_preference:
+        profile_summary.append(f"Location: {', '.join(patient.location_preference)}")
+    
     console.print(Panel.fit(
         f"[bold blue]Patient-Trial Matching Agent[/bold blue]\n"
         f"{chr(10).join(profile_summary) if profile_summary else 'Profile from description'}\n"
@@ -259,9 +263,14 @@ def main(
             TextColumn("[progress.description]{task.description}"),
             console=console,
         ) as progress:
-            # Step 2: Trial Discovery
+            # Step 2: Trial Discovery (recruiting trials only, filtered by location)
             task = progress.add_task("[cyan]Discovering trials...", total=None)
-            raw_trials = discover_trials(search_terms, max_results=max_trials)
+            raw_trials = discover_trials(
+                search_terms,
+                max_results=max_trials,
+                recruiting_only=True,
+                locations=patient.location_preference,
+            )
             progress.stop_task(task)
             progress.update(task, description="[green]✓ Discovered trials")
             console.print(f"  Discovered [green]{len(raw_trials)}[/green] unique trials")

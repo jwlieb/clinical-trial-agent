@@ -12,16 +12,27 @@ console = Console()
 
 CLINICALTRIALS_API = "https://clinicaltrials.gov/api/v2/studies"
 
+# Recruiting statuses to filter for patient matching
+RECRUITING_STATUSES = [
+    "RECRUITING",
+    "NOT_YET_RECRUITING",
+    "ENROLLING_BY_INVITATION",
+]
+
 
 def search_clinicaltrials(
     query: str,
-    max_results: int = 50
+    max_results: int = 50,
+    recruiting_only: bool = False,
+    locations: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     """Search ClinicalTrials.gov for trials matching a query.
     
     Args:
         query: Search term
         max_results: Maximum number of results to return
+        recruiting_only: If True, only return recruiting trials
+        locations: List of countries to filter by (e.g., ["United States", "Canada"])
         
     Returns:
         List of full trial records
@@ -33,8 +44,18 @@ def search_clinicaltrials(
         "query.term": query,
         "pageSize": page_size,
         "format": "json",
-        # No fields restriction - get full records
     }
+    
+    # Add recruiting status filter
+    if recruiting_only:
+        params["filter.overallStatus"] = ",".join(RECRUITING_STATUSES)
+    
+    # Add location filter (country-level)
+    if locations:
+        # ClinicalTrials.gov uses query.locn for location search
+        # Format: "SEARCH[Location](country1 OR country2)"
+        location_query = " OR ".join(locations)
+        params["query.locn"] = location_query
     
     try:
         response = requests.get(
@@ -68,13 +89,17 @@ def get_nct_id(trial: dict[str, Any]) -> str | None:
 
 def discover_trials(
     search_terms: list[SearchTerm],
-    max_results: int = 100
+    max_results: int = 100,
+    recruiting_only: bool = False,
+    locations: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     """Discover trials for all search terms.
     
     Args:
         search_terms: List of search terms with provenance
         max_results: Maximum total trials to return
+        recruiting_only: If True, only return recruiting trials
+        locations: List of countries to filter by
         
     Returns:
         Deduplicated list of full trial records
@@ -82,9 +107,20 @@ def discover_trials(
     all_trials: dict[str, dict[str, Any]] = {}  # NCT ID -> trial record
     term_to_trials: dict[str, list[str]] = {}
     
+    # Log filters if applied
+    if recruiting_only:
+        console.print(f"  [dim]Filtering: recruiting trials only[/dim]")
+    if locations:
+        console.print(f"  [dim]Filtering: locations = {', '.join(locations)}[/dim]")
+    
     for term in search_terms:
         
-        trials = search_clinicaltrials(term.term, max_results=50)
+        trials = search_clinicaltrials(
+            term.term,
+            max_results=50,
+            recruiting_only=recruiting_only,
+            locations=locations,
+        )
         
         # Track NCT IDs for this term
         nct_ids = []
