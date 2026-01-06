@@ -25,6 +25,8 @@ def search_clinicaltrials(
     max_results: int = 50,
     recruiting_only: bool = False,
     locations: list[str] | None = None,
+    patient_age: int | None = None,
+    patient_sex: str | None = None,
 ) -> list[dict[str, Any]]:
     """Search ClinicalTrials.gov for trials matching a query.
     
@@ -33,6 +35,8 @@ def search_clinicaltrials(
         max_results: Maximum number of results to return
         recruiting_only: If True, only return recruiting trials
         locations: List of countries to filter by (e.g., ["United States", "Canada"])
+        patient_age: Patient age in years (for age bucket filtering)
+        patient_sex: Patient sex ("male" or "female") for sex filtering
         
     Returns:
         List of full trial records
@@ -56,6 +60,27 @@ def search_clinicaltrials(
         # Format: "SEARCH[Location](country1 OR country2)"
         location_query = " OR ".join(locations)
         params["query.locn"] = location_query
+    
+    # Build aggregation filters for demographic filtering
+    agg_filters = []
+    
+    # Sex filter
+    if patient_sex:
+        sex_code = "f" if patient_sex.lower() == "female" else "m"
+        agg_filters.append(f"sex:{sex_code}")
+    
+    # Age bucket filter (API uses coarse buckets, not exact ages)
+    if patient_age is not None:
+        if patient_age < 18:
+            agg_filters.append("ages:child")
+        elif patient_age >= 65:
+            agg_filters.append("ages:older")
+        else:
+            agg_filters.append("ages:adult")
+    
+    # Add aggregation filters to params if any were built
+    if agg_filters:
+        params["aggFilters"] = ",".join(agg_filters)
     
     try:
         response = requests.get(
@@ -92,6 +117,8 @@ def discover_trials(
     max_results: int = 100,
     recruiting_only: bool = False,
     locations: list[str] | None = None,
+    patient_age: int | None = None,
+    patient_sex: str | None = None,
 ) -> list[dict[str, Any]]:
     """Discover trials for all search terms.
     
@@ -100,6 +127,8 @@ def discover_trials(
         max_results: Maximum total trials to return
         recruiting_only: If True, only return recruiting trials
         locations: List of countries to filter by
+        patient_age: Patient age in years (for age bucket filtering at API level)
+        patient_sex: Patient sex ("male" or "female") for sex filtering at API level
         
     Returns:
         Deduplicated list of full trial records
@@ -112,6 +141,11 @@ def discover_trials(
         console.print(f"  [dim]Filtering: recruiting trials only[/dim]")
     if locations:
         console.print(f"  [dim]Filtering: locations = {', '.join(locations)}[/dim]")
+    if patient_age is not None:
+        age_bucket = "child" if patient_age < 18 else ("older" if patient_age >= 65 else "adult")
+        console.print(f"  [dim]Filtering: age bucket = {age_bucket} (patient age {patient_age})[/dim]")
+    if patient_sex:
+        console.print(f"  [dim]Filtering: sex = {patient_sex}[/dim]")
     
     for term in search_terms:
         
@@ -120,6 +154,8 @@ def discover_trials(
             max_results=50,
             recruiting_only=recruiting_only,
             locations=locations,
+            patient_age=patient_age,
+            patient_sex=patient_sex,
         )
         
         # Track NCT IDs for this term

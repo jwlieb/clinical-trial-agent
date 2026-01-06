@@ -52,15 +52,36 @@ I chose patient matching because it's the harder problem and demonstrates more i
 - Detailed eligibility parsing
 
 **Why two stages:**
-- Fast filter is instant and free — eliminates 60-80% of trials
-- LLM scoring is expensive — only run on viable candidates
+- Fast filter is instant and free — eliminates 30-45% of trials (varies by patient profile)
+- LLM scoring eliminates additional trials — combined two-stage system eliminates 60-85% total
+- LLM scoring is expensive — only run on viable candidates that pass fast filter
 - Each stage has clear failure modes and is testable independently
+
+---
+
+## 2a. Two-Tier Demographic Filtering
+
+**API-Level Filtering (Coarse)** — applied during trial discovery:
+- Age bucket: `ages:child` (0-17), `ages:adult` (18-64), or `ages:older` (65+)
+- Sex: `sex:m` or `sex:f` based on patient sex
+- Implemented via ClinicalTrials.gov API `aggFilters` parameter
+
+**Fast Filter (Exact)** — applied after fetching trials:
+- Exact age range checks (e.g., patient age 65 vs. trial max age 30)
+- Sex requirement validation (handles "ALL" vs. specific sex)
+- Phase preference, location, relevance score
+
+**Why two tiers:**
+- API-level filtering reduces data fetched — eliminates obviously ineligible trials (e.g., female-only trials for male patients, pediatric trials for adults)
+- API age buckets are coarse and inclusive — a trial accepting ages 18-75 appears in both "adult" and "older" searches, preventing false negatives
+- Fast filter provides precision — API buckets don't capture exact min/max ages (e.g., "max age 30" requires post-fetch filtering)
+- Efficiency gain: ~1-2 trials per search excluded at API level, reducing API response size and processing time
 
 ---
 
 ## 3. LLM Choice
 
-Used Groq (Llama 3.3 70B) because it's free and fast. OpenAI is configurable via environment variable for comparison. This is a prototype — cost optimization wasn't the goal, but free API access made iteration faster.
+Used Groq (Llama 3.3 70B) for development because it's free and fast. OpenAI (GPT-4o) is configurable via environment variable and was used for the final 15-profile validation. This is a prototype — cost optimization wasn't the goal, but free API access made iteration faster. Results should improve further with larger models (GPT-4.5, Claude Opus).
 
 ---
 
@@ -195,7 +216,7 @@ ClinicalTrials.gov has the best structured eligibility criteria. EU registry wou
 
 ## 14. What I Learned
 
-1. **Two-stage filtering works** — fast filter reduces LLM calls by 60-80%
+1. **Two-stage filtering works** — fast filter eliminates 30-45% of trials before expensive LLM scoring; combined system eliminates 60-85% total
 2. **LLM prompts need guardrails** — explicit misconception corrections improved results significantly
 3. **Provenance tracking is essential** — when results look wrong, you need to trace back to source
 4. **Patient-centric framing is more actionable** — ranked recommendations beat raw landscape data
@@ -213,8 +234,8 @@ Per the project brief:
 | **Molecular targets** | ✓ Biomarkers from patient profile drive search |
 | **AI tools used thoughtfully** | ✓ LLM for term extraction + eligibility scoring, not for data retrieval |
 | **Explain design choices** | ✓ This document |
-| **Working prototype** | ✓ End-to-end pipeline, tested on KRAS G12C NSCLC patient |
-| **Non-trivial examples** | ✓ 20+ trials evaluated, 12 medium/high matches |
+| **Working prototype** | ✓ End-to-end pipeline, tested on 15 patient profiles across 12 tumor types |
+| **Non-trivial examples** | ✓ ~1,280 unique trials evaluated across 15 profiles, 0 hallucinated trials |
 
 **Where AI adds value vs. where it doesn't:**
 - **Term extraction**: LLM helps with synonyms (NSCLC ↔ "non-small cell lung cancer"), but programmatic variant generation handles notation (KRAS G12C → KRASG12C)
@@ -222,7 +243,7 @@ Per the project brief:
 - **Data retrieval**: No LLM — ClinicalTrials.gov API is structured and reliable
 - **Validation**: No LLM — deterministic checks on schema, date ordering, NCT ID format
 
-**Scope choice:** Deep on one use case (KRAS G12C NSCLC patient matching) rather than broad/shallow coverage of many targets. This let me iterate on the matching logic and prompt calibration.
+**Scope choice:** Deep on patient matching across 12 tumor types (15 validation profiles) rather than broad/shallow coverage of many features. This let me iterate on the matching logic and prompt calibration.
 
 ---
 
@@ -235,10 +256,10 @@ Initial testing revealed issues. Each was diagnosed, fixed, and verified:
 | 30% rate limit failures | Groq TPM limits, parallel calls | Retry with backoff, reduce workers to 2, add inter-request delay | 0% failures |
 | BRAF terms for KRAS patient | LLM hallucinating related biomarkers | Prompt: "ONLY include biomarkers EXPLICITLY listed" | Clean search terms |
 | Colorectal trials for NSCLC | No cancer type pre-filter | Relevance score filter (biomarker + cancer type in title/conditions) | Wrong-indication trials excluded |
-| All confidence scores = 0.60 | No calibration guidance | Added confidence calibration scale (0.0-1.0 with examples) | Range: 0.05-0.80 |
+| All confidence scores = 0.60 | No calibration guidance | Added confidence calibration scale (0.0-1.0 with examples) | Range: 0.10-0.85 (HIGH: 0.85, MEDIUM: 0.65, EXCLUDED: 0.10) |
 | Age 65 "above typical range" | LLM misconception | Prompt: "Age 65 is NOT above typical" | Accurate age assessment |
 | Location assumption | LLM assumed "Canadian resident" | Prompt: "NEVER assume location; treat as uncertainty" | No hallucinated facts |
 | Arbitrary trial order | Only sorted by likelihood | Multi-factor sort: confidence → indication-match → phase | Clinically relevant order |
 | Missing info unclear | Uncertainties scattered | Aggregate uncertainties → "Information That Would Improve Matches" section | Actionable guidance |
 
-**Result:** 0 HIGH matches → 1 HIGH, 6 UNKNOWN → 0, colorectal/vascular trials correctly excluded.
+**Result:** Initial single-patient test: 0 HIGH matches → 26 HIGH (after fixes). Final validation across 15 profiles: ~1,280 unique trials, 0 hallucinated NCT IDs, edge cases correctly excluded (e.g., ECOG 3 patient: 0/65 matches).

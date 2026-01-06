@@ -151,6 +151,49 @@ The profiles cover these key dimensions:
 | Tumor Types | 12 different malignancies |
 | Biomarkers | KRAS, EGFR, ALK, HER2, BRAF, BRCA1/2, MSI, etc. |
 
+## Results Versions
+
+Two result sets are included for comparison:
+
+### `results/` — Baseline (v1)
+
+Initial run with standard search term generation.
+
+| Metric | Value |
+|--------|-------|
+| Date | 2026-01-05 |
+| Search terms | 6-12 per profile |
+| Patient 01 HIGH matches | 26 |
+| Patient 03 trials | 88 |
+| Patient 11 trials | 62 |
+| Patient 12 HIGH matches | 0 |
+
+### `v2-results/` — Refined Search Terms (v2)
+
+Second run with improved search term expansion logic.
+
+| Metric | Value |
+|--------|-------|
+| Date | 2026-01-05 |
+| Search terms | 4-14 per profile (adaptive) |
+| Patient 01 HIGH matches | 34 (+31%) |
+| Patient 03 trials | 60 (more focused) |
+| Patient 11 trials | 100 (+61%) |
+| Patient 12 HIGH matches | 0 (maintained) |
+
+### Key Improvements in v2
+
+| Change | Effect |
+|--------|--------|
+| Better biomarker variants | `KRASG12C`, `KRAS-G12C`, `KRAS p.G12C` |
+| Adaptive term count | Fewer for common mutations, more for rare tumors |
+| Higher confidence scores | 0.85 → 0.92 average |
+| Better rare tumor coverage | Sarcoma trials +61% |
+
+See `docs/demo_results_audit.md` and `docs/demo_results_audit_refined.md` for full analysis.
+
+---
+
 ## Notes
 
 - All profiles are fictional but clinically realistic

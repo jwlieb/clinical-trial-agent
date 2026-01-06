@@ -1,0 +1,2036 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T18:27:49.067548",
+    "patient_profile": {
+      "age": 58,
+      "sex": "female",
+      "cancer_type": "NSCLC",
+      "biomarkers": [
+        "KRAS G12C"
+      ],
+      "description": "58-year-old female with metastatic NSCLC (adenocarcinoma), KRAS G12C positive. Treated brain metastases with stereotactic radiosurgery (SRS) 6 months ago - currently radiographically stable and off steroids x3 months. Failed first-line docetaxel/ramucirumab (PD-L1 negative). Now with progressive lung and adrenal lesions. Performance status has declined slightly over past month. Cardiac history: well-controlled hypertension on lisinopril. Never smoker. Labs: mild anemia (Hgb 10.2), otherwise WNL."
+    },
+    "total_trials": 100,
+    "high_likelihood": 18,
+    "medium_likelihood": 7
+  },
+  "results": [
+    {
+      "nct_id": "NCT03851445",
+      "title": "LUNGMAP: A Master Protocol To Evaluate Biomarker-Driven Therapies And Immunotherapies In Previously-Treated Non-Small Cell Lung Cancer (Lung-Map Screening Study)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC, which matches the trial's indication.",
+        "Patient is previously treated, meeting the trial's criteria.",
+        "Patient is KRAS G12C positive, relevant for biomarker-driven therapies.",
+        "ECOG status is 1, meeting eligibility.",
+        "Patient is 58 years old, meeting the age requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of metastatic NSCLC aligns with the trial's conditions. The patient is previously treated and exhibits the KRAS G12C mutation, which fits within the trial's scope of evaluating biomarker-driven therapies. All primary eligibility criteria related to age and performance status are satisfied, leading to a high confidence that the patient is eligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06248606",
+      "title": "Phase II Study of Adagrasib + Stereotactic Radiosurgery (SRS) for Patients With Metastatic KRAS G12C-mutated NSCLC With Untreated Brain Metastases",
+      "sponsor": "Ryan Gentzler, MD",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years",
+        "ECOG Performance Status of 1",
+        "Confirmed stage IV NSCLC (metastatic)",
+        "Known KRAS G12C mutation",
+        "Stable brain metastases",
+        "No seizure history within past 14 days",
+        "Mild anemia (Hgb 10.2) which meets the threshold of \u2265 8.0 g/dL"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (docetaxel, ramucirumab)"
+      ],
+      "uncertainties": [
+        "Details on organ function labs (creatinine clearance, bilirubin, AST, ALT)",
+        "Information on any potential contraindications to SRS"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has metastatic NSCLC with a KRAS G12C mutation, matching the trial's focus. While the patient has received prior systemic therapy, the trial does allow up to 2 prior therapies; the patient may still qualify. Supportive factors are present, but uncertainties related to organ function and contraindications remain, leading to a high confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06343402",
+      "title": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-8520 in Subjects With Advanced KRASG12C Mutant Non-Small Cell Lung Cancer - The ONKORAS-101 Study",
+      "sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically documented metastatic non-small cell lung cancer with KRAS G12C mutation",
+        "ECOG performance status of 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on KRAS G12C mutant non-small cell lung cancer. The patient is previously treated, which aligns with the trial's parameters, and meets the ECOG status requirement.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06249282",
+      "title": "A Phase I Clinical Trial of Carfilzomib in Combination With Sotorasib in Patients With KRASG12C Mutated Advanced Non-Small Cell Lung Cancer",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female, age 58",
+        "Histologically confirmed NSCLC metastatic with KRAS G12C mutation",
+        "ECOG status 1",
+        "Stable brain metastases treated with SRS",
+        "Failed prior therapy with docetaxel/ramucirumab"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Absolute neutrophil count (ANC) within 14 days prior to therapy",
+        "Hemoglobin (Hb) level (currently at 10.2) specific threshold not provided",
+        "Platelet count within 14 days prior to therapy",
+        "Total bilirubin level within 14 days prior to therapy",
+        "AST and ALT levels within 14 days prior to therapy",
+        "Creatinine clearance within 14 days prior to therapy"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has a confirmed diagnosis of metastatic NSCLC which matches the trial focus. She has the required KRAS G12C mutation and has previously failed therapy. Her ECOG status is acceptable. However, some lab results essential for assessing organ function and other health metrics within the last 14 days are missing, leading to a high confidence in her eligibility but with some minor uncertainties.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06562192",
+      "title": "Phase I Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Dosimetry, and Preliminary Activity of [177Lu]Lu-NNS309 in Patients With Pancreatic, Lung, Breast and Colorectal Cancers",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 58 years old, meets age requirement (\u2265 18 years old)",
+        "Patient has non-small cell lung cancer (NSCLC), which is an eligible condition",
+        "Patient has progression of disease after prior treatments (docetaxel, ramucirumab)",
+        "Patient has an actionable genomic alteration (KRAS G12C)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Need to verify whether patient has lesions showing 68Ga-NNS309 uptake (not provided in profile)",
+        "Patient's organ function labs (e.g., creatinine clearance) are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has an eligible cancer type (NSCLC) with a relevant actionable mutation (KRAS G12C) and has previously been treated, which aligns with the trial's inclusion criteria. However, there's an uncertainty regarding the uptake status of lesions for study participation and some missing lab values.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05410145",
+      "title": "A Phase 1/2, Open Label, Dose-escalation, and Dose-expansion Study Evaluating the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of D3S-001 Monotherapy or Combination Therapy in Subjects With Advanced Solid Tumors With a KRAS p.G12C Mutation",
+      "sponsor": "D3 Bio (Wuxi) Co., Ltd",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed metastatic NSCLC (adenocarcinoma)",
+        "KRAS G12C positive",
+        "ECOG status 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function labs are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's NSCLC diagnosis and KRAS G12C mutation match the trial's target indication. The patient has an ECOG status of 1, which is acceptable. The patient's prior treatments align with the trial's requirement for previously treated patients, and there are no significant exclusions based on available data.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06244771",
+      "title": "An Open-Label, Phase 1/2 Dose Escalation, Dose Expansion and Cohort Expansion Study Evaluating the Safety, PK and Clinical Activity of FMC-376 in Participants With KRAS G12C Mutated Locally Advanced Unresectable or Metastatic Solid Tumors",
+      "sponsor": "Frontier Medicines Corporation",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "NSCLC (Non Small Cell Lung Cancer) is a confirmed cancer type",
+        "Patient has a KRAS G12C mutation",
+        "ECOG performance status is 1",
+        "Patient has received prior therapy (docetaxel, ramucirumab) and progressed"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate hematological, renal, and hepatic function not explicitly confirmed",
+        "No specific lab results provided, only mild anemia is noted"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) aligns with the trial's indication for KRAS G12C mutations. The patient has previously received treatment and has a suitable ECOG status. There are uncertainties regarding lab results but overall the patient is likely eligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06975293",
+      "title": "Open-label, Non-randomized, Multi-cohort, Phase 1b/2 Trial Investigating the Safety, Tolerability, and Antitumor Activity of STC-15 (a METTL3 Inhibitor) as a Part of Combination Therapy With Toripalimab in Participants With Selected Advanced Cancers",
+      "sponsor": "STORM Therapeutics LTD",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 58",
+        "ECOG status is 1",
+        "Cancer type is NSCLC",
+        "Biomarker KRAS G12C is present",
+        "Prior therapies include anti-PD-1/L1 treatment (ramucirumab) and disease has progressed",
+        "Stable brain metastases managed with SRS 6 months ago"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "No specific organ function lab results provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic NSCLC. They have a relevant tumor biomarker (KRAS G12C) and have progressed on prior therapies as required. Their ECOG status is acceptable, indicating adequate performance for trial eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04314401",
+      "title": "Cancer Moonshot Biobank Research Protocol",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic non-small cell lung cancer (NSCLC), which is included in the trial conditions.",
+        "Patient is currently progressing on a regimen of standard of care therapy (docetaxel/ramucirumab), which fits within the trial's inclusion criteria.",
+        "ECOG status is 1, which meets the trial requirement.",
+        "Age is 58, which is above the minimum age of 13."
+      ],
+      "conflicts": [
+        "N/A"
+      ],
+      "uncertainties": [
+        "No details provided on whether the patient can provide fresh tumor tissue or blood samples."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches those studied in the trial, and they are experiencing disease progression after standard therapy, aligning with the treatment line criteria. The ECOG status and age are appropriate as well. There are uncertainties regarding the ability to provide the required biospecimens.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06128551",
+      "title": "Phase 1b, Multicenter, Open-Label, Dose Escalation and Dose Expansion Study of RMC-6291 in Combination with RMC-6236 in Participants with Advanced KRAS G12C Mutant Solid Tumors",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: KRAS G12C",
+        "ECOG status: 1",
+        "Prior therapies: treated with docetaxel and ramucirumab",
+        "Brain metastases: stable"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function: labs not provided",
+        "Specific details of organ function may be necessary to confirm eligibility"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is Non-Small Cell Lung Cancer (NSCLC), which matches the trial's conditions. The patient is previously treated, as required by the trial. The patient has the necessary biomarker (KRAS G12C) and is within the acceptable ECOG performance status range. There are uncertainties regarding adequate organ function but they do not hinder overall eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06026410",
+      "title": "Phase 1, First-in-Human, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Antitumor Activity of KO-2806 When Administered as Monotherapy and in Combination Therapy in Adult Patients With Advanced Solid Tumors",
+      "sponsor": "Kura Oncology, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 58, which is above the minimum age of 18.",
+        "Cancer type is NSCLC, which matches the conditions studied in the trial.",
+        "Biomarker is KRAS G12C positive, which qualifies for Arm #7 focused on KRAS G12C-mutant NSCLC.",
+        "ECOG status is 1, which is acceptable for trial participation.",
+        "Patient has received prior systemic therapy (docetaxel/ramucirumab) and is therefore eligible for this trial."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Measurable disease status by RECIST v1.1 is not explicitly confirmed.",
+        "Liver, renal, endocrine, and hematologic function details are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's disease type (NSCLC), prior therapy status, and biomarker (KRAS G12C) are aligned with the trial eligibility requirements. Minor uncertainties exist regarding measurable disease and organ function details.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06403436",
+      "title": "A Phase 1, First-in-Human, Open-label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of TT125-802 in Subjects With Advanced Solid Tumors",
+      "sponsor": "TOLREMO therapeutics AG",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: KRAS G12C",
+        "ECOG status: 1",
+        "Prior therapies: docetaxel, ramucirumab",
+        "Brain metastases: stable"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate hematological function for labs not provided",
+        "Adequate hepatic function for labs not provided",
+        "Adequate renal function for labs not provided",
+        "Adequate coagulation laboratory assessments not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC with KRAS G12C mutation) matches the trial criteria. The patient has received prior therapies and is considered to have resistant disease, supporting eligibility for a trial focused on previously treated patients. Other eligibility criteria are mostly met, but some organ function labs are unspecified.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06607185",
+      "title": "A Phase 1a/1b Study of the Pan-KRAS Inhibitor LY4066434 in Participants With KRAS Mutant Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type matches the trial: Non-small Cell Lung Cancer (NSCLC)",
+        "Biomarker matches trial requirement: KRAS G12C positive",
+        "ECOG performance status is 1, which is acceptable",
+        "Patient has measurable disease as progressive lung and adrenal lesions",
+        "Patient is in the United States and eligible geographic location"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) aligns with the trial conditions, and they have the required KRAS G12C mutation. The patient is also a previously treated patient, which is acceptable for this trial. ECOG status is within acceptable limits, and the trial location is appropriate.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06917079",
+      "title": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-11818 in Subjects With Advanced KRAS Mutant Cancers",
+      "sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically documented metastatic NSCLC with KRAS G12C mutation",
+        "ECOG performance status of 1"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (metastatic NSCLC) matches the trial indication, she has a qualifying KRAS mutation, and her ECOG status is acceptable. There are no significant conflicts or uncertainties regarding her eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07090499",
+      "title": "A Phase 1 Open-label Study to Investigate PF-08046876 in Adult Participants With Advanced Solid Tumors.",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58 (meets the age requirement of 18 years or older)",
+        "ECOG Performance status: 1 (meets the ECOG requirement of 0-1)",
+        "Cancer type: NSCLC (matches the advanced non-small cell lung cancer criteria of the trial)",
+        "Prior therapies: Docetaxel and ramucirumab (meets the requirement for progression or relapse following standard treatments)",
+        "Brain metastases: stable (meets the requirement for stability following treatment)"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Resolution of acute effects of prior anticancer therapy not specified",
+        "No specific results provided for organ function tests"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has advanced non-small cell lung cancer, which matches the trial's target indication. She has also received prior treatment. Her ECOG status and age meet the trial's criteria, which supports high eligibility likelihood despite some uncertainties regarding lab results and prior therapy effects.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07094204",
+      "title": "A Phase 1 Study of ASP5834 in Participants With Locally Advanced (Unresectable) or Metastatic Solid Tumor Malignancies With KRAS Mutations or KRAS Amplifications",
+      "sponsor": "Astellas Pharma Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed metastatic NSCLC.",
+        "Patient has a documented KRAS G12C mutation.",
+        "Patient has an ECOG status of 1.",
+        "Patient has stable brain metastases.",
+        "Patient has received prior standard therapy in the advanced setting."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "The specific organ function laboratory values are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial indication, and they have the required KRAS G12C mutation. The patient has prior therapies consistent with the trial criteria, and their ECOG status is acceptable. While there are some uncertainties regarding organ function labs, overall eligibility appears strong.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06162221",
+      "title": "A Platform Study of RAS(ON) Inhibitors in Patients With RAS-Mutated Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC (adenocarcinoma) which matches trial conditions.",
+        "Patient is 58 years old, which meets the age requirement of >= 18 years.",
+        "Patient's ECOG status is 1, which is acceptable per trial criteria.",
+        "Patient has a KRAS G12C mutation, specifically required for the trial's Subprotocol A."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ function is not explicitly confirmed; specific lab results are not provided.",
+        "Prior therapy specifics are appropriate but the trial's explicit requirement for treatment line could require clarification."
+      ],
+      "confidence": 0.8,
+      "reasoning": "The patient's cancer type and mutation match the trial's target indication for KRAS G12C. The patient is of appropriate age and ECOG status. While the patient has received prior treatments, this trial appears to include previously treated patients; however, confirmation of all organ functions is a minor uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05815173",
+      "title": "Phase I/II Study of Ladarixin and Sotorasib in Advanced KRAS G12C Mutant Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "NYU Langone Health",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: KRAS G12C",
+        "ECOG status: 1",
+        "Prior therapies: docetaxel, ramucirumab",
+        "Brain metastases: stable",
+        "Country: United States"
+      ],
+      "conflicts": [
+        "Patient has PD-L1 TPS <1%, but trial requires documented progression of disease following treatment with anti-PD (L)-1.",
+        "Mild anemia (Hgb 10.2) may not meet the hemoglobin eligibility criteria of \u22658 g/dL without transfusion."
+      ],
+      "uncertainties": [
+        "Absolute neutrophil count",
+        "Platelets",
+        "Albumin",
+        "Lymphocyte count",
+        "Serum bilirubin",
+        "AST and ALT",
+        "International normalization ratio (INR)",
+        "Renal clearance (eGFR)"
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type (NSCLC with KRAS G12C mutation) matches the trial's focus. The patient is 58 years old and has an ECOG status of 1, fitting into the inclusion criteria. There are uncertainties regarding laboratory values, but the primary reasons for exclusion relate to her prior treatments and PD-L1 status, which may disqualify her despite matching the other criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05074810",
+      "title": "A Phase 1/2 Study of Avutometinib (VS-6766) in Combination With Sotorasib With or Without Defactinib in Patients With KRAS G12C Mutant Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Verastem, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age >= 18",
+        "Histologic evidence of NSCLC (adenocarcinoma)",
+        "Known KRAS G12C mutation",
+        "ECOG performance status 1",
+        "Received prior systemic regimen (docetaxel/ramucirumab)"
+      ],
+      "conflicts": [
+        "Patient has received prior therapy but trial requires either untreated patients or those exposed to a KRAS inhibitor, which isn't specified as applicable in their case."
+      ],
+      "uncertainties": [
+        "Measurable disease status according to RECIST 1.1",
+        "Adequate organ function and recovery from previous treatments (labs not provided)"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient's cancer type matches the trial's indication, and they have the required KRAS G12C biomarker. However, there's uncertainty regarding the specifics of their treatment history in relation to eligibility criteria for prior therapy exposure and measurable disease status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04956640",
+      "title": "A Phase 1/2 Study of LY3537982 in Patients With KRAS G12C-Mutant Advanced Solid Tumors",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC (adenocarcinoma) which is included in the trial conditions.",
+        "Patient has KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "Patient has previously received systemic treatments (docetaxel and ramucirumab), which may conflict with trial's requirement for treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Adequate organ function not explicitly stated in lab results.",
+        "Specific criteria regarding the resolution of adverse events from prior therapies not confirmed."
+      ],
+      "confidence": 0.65,
+      "reasoning": "Patient's cancer type (NSCLC) and biomarker (KRAS G12C) match the trial requirements. However, the patient's prior systemic treatment raises concerns about eligibility, necessitating further validation of treatment line requirements and organ function status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05799274",
+      "title": "Characterizing the Radiochemical and Radiation Safety of RAD301 in Healthy Human Volunteers and Patients With Pancreatic Ductal Adenocarcinoma or Other Solid Tumors",
+      "sponsor": "Radiopharm Theranostics, Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age \u2265 18 years",
+        "ECOG status 1",
+        "Histologically confirmed NSCLC",
+        "Stable brain metastases off steroids for 3 months"
+      ],
+      "conflicts": [
+        "Prior therapies (docetaxel, ramucirumab) imply that the patient is not treatment-naive, which could be a conflict depending on the trial's intent for treatment line"
+      ],
+      "uncertainties": [
+        "Specific screening laboratory values (WBC, ANC, Platelets, Hemoglobin, Creatinine, AST/ALT, Bilirubin) are not provided",
+        "Life expectancy assessment by the investigator is not provided",
+        "Baseline pulse oximetry is not provided",
+        "ECG results are not provided"
+      ],
+      "confidence": 0.65,
+      "reasoning": "The patient has a confirmed diagnosis of NSCLC, but they are not treatment-naive, as they have previously received docetaxel and ramucirumab, which raises questions about eligibility given the potential treatment line requirements of the trial. There are also several uncertainties regarding lab values and other eligibility criteria that need clarification.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05985655",
+      "title": "A Phase 1/2 Open-label Multicenter Study to Assess the Safety, Pharmacokinetics, and Anti-tumor Activity of GTAEXS617 in Patients With Advanced Solid Tumors",
+      "sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Biomarker: PD-L1 TPS <1% does not meet required levels for some trials",
+        "Prior therapies: Has prior treatments which may conflict with eligibility criteria depending on the trial's specification of treatment line."
+      ],
+      "uncertainties": [
+        "Adequate hematological function - no lab results stated for liver and renal function"
+      ],
+      "confidence": 0.62,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial's conditions, and the ECOG status is acceptable. However, there are conflicts regarding biomarker status (PD-L1 TPS) and prior therapies potentially influencing eligibility. There are uncertainties regarding organ function lab results.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06907615",
+      "title": "An Open-label, Multi-center, Global Phase II Clinical Study to Evaluate the Efficacy and Safety of HLX43 (Anti-PD-L1 ADC) in Subjects With Advanced Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Shanghai Henlius Biotech",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Metastatic non-small cell lung cancer (NSCLC)",
+        "ECOG status of 1",
+        "Prior treatment failure with docetaxel and ramucirumab"
+      ],
+      "conflicts": [
+        "PD-L1 TPS <1% does not meet the requirement for PD-L1 expression",
+        "Presence of STK11 co-mutation may be an actionable genomic alteration"
+      ],
+      "uncertainties": [
+        "Specific requirements for organ function and lab results",
+        "Possible need for additional testing for EGFR and ALK alterations"
+      ],
+      "confidence": 0.55,
+      "reasoning": "The patient's cancer type of NSCLC matches the trial's indication. However, key criteria concerning PD-L1 expression and possible actionable genomic alterations introduce uncertainties in eligibility. While the patient has failed first-line therapies, the PD-L1 status being below the required threshold presents a significant conflict.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06720987",
+      "title": "A Phase 1/1b, Open-label, Multicenter, Dose Escalation and Dose Optimization Study Evaluating the Safety, Tolerability, Pharmacokinetics and Efficacy of KQB365 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Malignancies With KRAS G12S or G12C Mutations",
+      "sponsor": "Kumquat Biosciences Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC, which is a solid tumor malignancy.",
+        "Patient has KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "Patient is not treatment-naive, having previously been treated with docetaxel and ramucirumab."
+      ],
+      "uncertainties": [
+        "Details about patient organ function labs are not provided."
+      ],
+      "confidence": 0.5,
+      "reasoning": "The patient's cancer type (NSCLC) matches the indication for solid tumor malignancies, and she has the required KRAS G12C mutation. However, she has previous treatments, which may conflict with the trial's inclusion criteria regarding treatment lines.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06262321",
+      "title": "Phase II Trial of Thoracic Radiotherapy for Patients With Metastatic (Stage IV) Non-Small Cell Lung Cancer at High Risk of Symptomatic Progression Within the Thorax",
+      "sponsor": "University of Rochester",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "MEDIUM",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic Non-Small Cell Lung Cancer (NSCLC)",
+        "Patient has stable brain metastases after SRS treatment",
+        "Patient has received prior systemic therapy",
+        "Patient's ECOG status is 1"
+      ],
+      "conflicts": [
+        "Patient has a KRAS G12C mutation, which is a targetable/oncogene driven mutation and conflicts with inclusion criteria stating no targetable mutations."
+      ],
+      "uncertainties": [],
+      "confidence": 0.4,
+      "reasoning": "The patient has the correct cancer type (NSCLC) but is excluded due to having a targetable mutation (KRAS G12C), conflicting with trial eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05501665",
+      "title": "SiCARIO (Split Course Adaptive Radioimmunotherapy) for the Treatment of Oligometastatic Non-Small Cell Lung Cancer (NSCLC) Using Biologically-Adaptive Radiotherapy - A Phase I/II Study",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age is 58 years, which meets the age requirement (>= 18 years)",
+        "ECOG status is 1, which is within the acceptable range (0-2)",
+        "Patient has a confirmed diagnosis of NSCLC, which aligns with the trial conditions"
+      ],
+      "conflicts": [
+        "Patient has received prior treatments (docetaxel and ramucirumab) while trial is for previously treated patients but not specified otherwise",
+        "Patient's PD-L1 expression is <1%, which does not meet the trial's requirements for PD-L1 expression confirmation"
+      ],
+      "uncertainties": [],
+      "confidence": 0.25,
+      "reasoning": "The patient's cancer type matches, but they have previously received treatment and have a PD-L1 expression of <1%, leading to significant doubts about eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05800587",
+      "title": "Phase II Study of Dose Attenuated Chemotherapy in Patients With Lung Cancer and Age > 70 and/or Comorbidities",
+      "sponsor": "Fox Chase Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC (adenocarcinoma), which is included in the study conditions."
+      ],
+      "conflicts": [
+        "Patient is not treatment-naive; failed first-line therapies (docetaxel, ramucirumab).",
+        "PD-L1 TPS <1%, which may be a concern if the study has specific PD-L1 requirements."
+      ],
+      "uncertainties": [
+        "No information on specific cytotoxic chemotherapy regimens planned for the patient.",
+        "No specific details on other comorbidities or their severity in relation to trial eligibility."
+      ],
+      "confidence": 0.25,
+      "reasoning": "The patient's cancer type (NSCLC) aligns with the trial's conditions. However, the patient is not treatment-naive due to prior therapies, which conflicts with the requirement for previously treated patients. Additionally, the low PD-L1 status adds an element of uncertainty regarding eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06881784",
+      "title": "RASolve 301: Phase 3 Multicenter, Open Label, Randomized Study of RMC-6236 Versus Docetaxel in Patients With Previously Treated Locally Advanced or Metastatic RAS[MUT] NSCLC",
+      "sponsor": "Revolution Medicines, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 1",
+        "Pathologically confirmed NSCLC",
+        "Documented RAS mutation status (KRAS G12C)"
+      ],
+      "conflicts": [
+        "Prior therapy with docetaxel, which is excluded by the trial",
+        "Prior therapy with ramucirumab, which is excluded by the trial"
+      ],
+      "uncertainties": [
+        "Adequate organ function is not explicitly confirmed",
+        "Co-morbidities or significant cardiovascular issues are not fully detailed"
+      ],
+      "confidence": 0.2,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial criteria, but she has prior therapy with docetaxel and ramucirumab, which excludes her from the trial. There are further uncertainties regarding her organ function and comorbidities.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05254184",
+      "title": "Pooled Mutant KRAS-Targeted Long Peptide Vaccine Combined With Nivolumab and Ipilimumab for Patients With Advanced KRAS Mutated Non-Small Cell Lung Cancer",
+      "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC (adenocarcinoma) which is a targeted condition for the trial.",
+        "Patient has KRAS G12C mutation which is required for the trial.",
+        "ECOG status of 1 is acceptable for trial eligibility."
+      ],
+      "conflicts": [
+        "Patient is not treatment-naive as they have received prior therapies: docetaxel and ramucirumab which contradicts the trial's requirement for no prior therapy for the same stage of disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.2,
+      "reasoning": "The patient's cancer type aligns with the trial's focus on KRAS mutated NSCLC. However, the patient has previously received treatment which conflicts with the trial's requirement for treatment-naive participants, leading to a likely exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06131840",
+      "title": "An Open-label Phase 1 Study to Investigate PF-08046050 (SGN-CEACAM5C) in Adults With Advanced Solid Tumors",
+      "sponsor": "Seagen, a wholly owned subsidiary of Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC which is a target tumor type in the trial.",
+        "ECOG status is 1."
+      ],
+      "conflicts": [
+        "Patient has already received prior systemic therapy (docetaxel/ramucirumab). This trial requires no appropriate standard therapy available.",
+        "PD-L1 TPS <1% does not meet the requirement for receiving PD-1/PD-L1 inhibitors."
+      ],
+      "uncertainties": [
+        "Molecular requirements related to additional biomarkers if mentioned in trial specifics.",
+        "Details on organ function or standard lab results are not provided."
+      ],
+      "confidence": 0.2,
+      "reasoning": "The patient's cancer type (NSCLC) fits the trial's criteria. However, the patient has previously been treated, which disqualifies them given the trial's requirement for having no appropriate standard therapy available. This leads to a clear exclusion based on treatment history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05118854",
+      "title": "A Phase II Study of Neoadjuvant Sotorasib in Combination With Cisplatin or Carboplatin and Pemetrexed for Surgically Resectable Stage IIA-IIIB Non-Squamous Non-Small Cell Lung Cancer With a KRAS p.G12C Mutation",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a KRAS G12C mutation"
+      ],
+      "conflicts": [
+        "Patient has previously treated NSCLC (docetaxel and ramucirumab), while trial is for untreated or treatment-naive patients.",
+        "Patient has stage IV disease due to progressive lung and adrenal lesions, which is excluded as per the trial criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a diagnosis of NSCLC with KRAS G12C mutation, but they have been previously treated, which conflicts with the trial's requirement for treatment-naive patients. Additionally, the presence of progressive disease (stage IV) makes the patient ineligible for this trial targeted at resectable stages IIA to IIIB.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05853575",
+      "title": "A Randomized Study of Two Dosing Regimens of Adagrasib in Patients With Previously Treated Non-Small Cell Lung Cancer With KRAS G12C Mutation",
+      "sponsor": "Mirati Therapeutics Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC with KRAS G12C mutation.",
+        "Patient is aged 58 and has an ECOG status of 1.",
+        "Patient has previously received systemic therapy."
+      ],
+      "conflicts": [
+        "Patient has not received treatment with cisplatin or carboplatin as required by the trial criteria.",
+        "Patient has not received a type of drug called an immune checkpoint inhibitor as required by the trial criteria.",
+        "Patient has prior treatment with docetaxel and ramucirumab, which may disqualify them if the trial explicitly excludes this type of prior therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has NSCLC with the correct biomarker but is excluded due to not meeting the chemotherapy requirement and not having received an immune checkpoint inhibitor, as well as potentially being excluded by prior treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05920356",
+      "title": "A Phase 3, Multicenter, Randomized, Open-label Study Evaluating Efficacy of Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet Combination as a Front-Line Therapy in Subjects With Stage IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers, Negative for PD-L1, and Positive for KRAS p.G12C (CodeBreaK 202)",
+      "sponsor": "Amgen",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed diagnosis of nonsquamous NSCLC",
+        "KRAS G12C positive",
+        "ECOG status 1",
+        "Age 58"
+      ],
+      "conflicts": [
+        "Patient has prior systemic therapy (docetaxel and ramucirumab) despite the trial requiring no history of systemic anticancer therapy in metastatic settings."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a confirmed diagnosis of nonsquamous NSCLC and is KRAS G12C positive, which aligns with the trial's inclusion criteria. However, the patient has previously received systemic therapy for metastatic disease, which is explicitly excluded by the trial eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06345729",
+      "title": "A Phase 3, Randomized, Double-blind, Multicenter Study of MK-1084 in Combination With Pembrolizumab Compared With Pembrolizumab Plus Placebo as Firstline Treatment of Participants With KRAS G12C-Mutant, Locally Advanced or Metastatic NSCLC With PD-L1 TPS \u226550% (KANDLELIT-004)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Has histologically confirmed diagnosis of non-small cell lung cancer (NSCLC)",
+        "Has KRAS G12C mutation"
+      ],
+      "conflicts": [
+        "Trial requires treatment-naive patients, but patient has received prior systemic therapy (docetaxel, ramucirumab)"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has non-small cell lung cancer, which matches the trial's disease indication. However, the trial is for treatment-naive patients, while this patient has already undergone prior systemic therapy, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06452277",
+      "title": "A Phase 3 Open-label, Randomized, Active-controlled, Multicenter Trial to Evaluate the Efficacy and Safety of Orally Administered BAY 2927088 Compared With Standard of Care as a First-line Therapy in Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With HER2-activating Mutations",
+      "sponsor": "Bayer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with KRAS G12C mutation; trial targets NSCLC with HER2 mutations."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC) with a KRAS G12C mutation, while the trial is specifically focused on advanced NSCLC cases with HER2 mutations. This clear mismatch excludes the patient from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06582771",
+      "title": "A Phase 2 Study of First-line Sotorasib for Patients With Advanced KRAS G12C-mutant Non-small Cell Lung Cancer",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior therapies (docetaxel and ramucirumab) whereas the trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, NSCLC with KRAS G12C mutation, matches the trial's focus. However, the patient has received prior systemic therapy, which conflicts with the trial requirement for treatment-naive patients. Therefore, the patient is excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06644768",
+      "title": "A Multicenter, Randomized, Open-Label, Phase 1b/2 Trial Of Valemetostat Tosylate Plus Pembrolizumab Vs Pembrolizumab Alone in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer Whose Tumors Express PD-L1 With Tumor Proportion Score \u226550% Without Actionable Genomic Alterations",
+      "sponsor": "Daiichi Sankyo",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (docetaxel and ramucirumab) for advanced disease, while the trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which matches the trial focus, but the patient has already received systemic therapy for advanced disease, conflicting with the trial's requirement for treatment-naive participants.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06667076",
+      "title": "A Phase 2b, Open-Label, Two-cohort Study of Subcutaneous Amivantamab in Combination With Lazertinib as First-Line Treatment, or Subcutaneous Amivantamab in Combination With Platinum-Based Chemotherapy as Second-line Treatment, for Common EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has KRAS G12C mutation; trial requires EGFRm which must be Ex19del or Ex21 L858R substitution."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer, which aligns with the trial; however, the required biomarker for eligibility is specific to EGFR mutations, and the patient has a KRAS mutation instead, which leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06660407",
+      "title": "Grid Radiotherapy for Advanced Non-Small Cell Lung Cancer at the Time of Progression on Immune Checkpoint Inhibition",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has progressed after previous treatments (docetaxel and ramucirumab), whereas the trial is looking for patients progressing on standard of care immunotherapy or chemoimmunotherapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which matches the trial's focus on lung cancer. However, the patient has previously received systemic therapy (docetaxel and ramucirumab), whereas this trial specifically requires patients who are progressing on standard of care immunotherapy or chemoimmunotherapy, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06875310",
+      "title": "A Randomized, Double-Blind, Phase 3 Trial of Adagrasib Plus Pembrolizumab Plus Chemotherapy vs. Placebo Plus Pembrolizumab Plus Chemotherapy in Participants With Previously Untreated, Locally Advanced or Metastatic Non-squamous Non-small Cell Lung Cancer With KRAS G12C Mutation (KRYSTAL-4)",
+      "sponsor": "Mirati Therapeutics Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (docetaxel, ramucirumab) for advanced disease, but the trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-squamous NSCLC with the required KRAS G12C mutation, but the trial specifically requires treatment-naive participants and the patient has already received prior systemic therapy.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06712316",
+      "title": "A Phase II/III, Multisite, Randomized Master Protocol for a Global Trial of BNT327 in Combination With Chemotherapy and Other Investigational Agents in First-line Non-small Cell Lung Cancer",
+      "sponsor": "BioNTech SE",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of metastatic NSCLC (adenocarcinoma)",
+        "ECOG status 1"
+      ],
+      "conflicts": [
+        "Patient has received prior therapies (docetaxel, ramucirumab), while the trial is for first-line NSCLC"
+      ],
+      "uncertainties": [
+        "Adequate organ function not explicitly confirmed",
+        "Specifics on measurable lesions and their status are not detailed"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient has a confirmed diagnosis of NSCLC, but they have already received prior treatment, which conflicts with the trial's requirement for treatment-naive patients. Hence, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06890598",
+      "title": "A Phase 3, Multicenter, Double-Blind, Placebo-controlled Study Assessing the Efficacy and Safety of Olomorasib in Combination With Standard of Care Immunotherapy in Participants With Resected or Unresectable KRAS G12C-Mutant, Non-Small Cell Lung Cancer - SUNRAY-02",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapies (docetaxel, ramucirumab), while the trial's part A requires treatment-naive or first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC with KRAS G12C mutation. However, the patient has received prior systemic therapy, specifically docetaxel and ramucirumab, making her ineligible for this trial, which requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06793215",
+      "title": "A Phase III, Randomized, Open-Label Study Evaluating the Efficacy and Safety of Divarasib and Pembrolizumab Versus Pembrolizumab and Pemetrexed and Carboplatin or Cisplatin in Patients With Previously Untreated, KRAS G12C-Mutated, Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status is 1",
+        "Histologically confirmed diagnosis of advanced or metastatic non squamous NSCLC",
+        "KRAS G12C mutation is present"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic treatment (docetaxel and ramucirumab), whereas trial requires treatment-naive status",
+        "Trial requires no prior systemic treatment for advanced or metastatic NSCLC"
+      ],
+      "uncertainties": [
+        "Adequate end-organ function details are not provided",
+        "Details on the availability of a representative tumor specimen are not provided"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on KRAS G12C-positive NSCLC, and the ECOG status is acceptable. However, the patient has received prior systemic therapy, which excludes her from eligibility as the trial requires treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07063745",
+      "title": "A Randomized Phase 2/3 Study of BMS-986504 in Combination With Pembrolizumab and Chemotherapy Versus Placebo Plus Pembrolizumab and Chemotherapy in First-line Metastatic Non-small Cell Lung Cancer Participants With Homozygous MTAP Deletion",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (docetaxel, ramucirumab) for metastatic NSCLC, but trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which matches the trial's indication, but the patient has received prior systemic therapy, whereas the trial specifically requires treatment-naive individuals. This leads to a clear exclusion criteria failure.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07012031",
+      "title": "A Phase I/II Study Evaluating the Safety, Tolerability, and Efficacy of Sotorasib Plus Trastuzumab Deruxtecan in Patients With Advanced Non-Small Cell Lung Cancer With a KRASG12C Mutation",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has KRAS G12C mutation.",
+        "Patient is female, age 58 years.",
+        "Stable brain metastases treated with SRS 6 months ago."
+      ],
+      "conflicts": [
+        "Trial requires prior treatment with a KRAS G12C inhibitor, but patient has not received one.",
+        "Trial requires treatment with an immune checkpoint inhibitor (ICI), but patient has received only chemotherapy.",
+        "Patient's ECOG status has declined slightly, but maintained at 1, which is acceptable. No requirement to support current health was specified."
+      ],
+      "uncertainties": [
+        "Details of prior KRAS G12C inhibitor treatment are necessary, but the patient has not been treated with one.",
+        "Information regarding HER2 immunohistochemistry (IHC) status is missing."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type and biomarker match the trial criteria; however, the patient does not meet the essential requirement of prior treatment with a KRAS G12C inhibitor and ICI, leading to an exclusion status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07190248",
+      "title": "A Phase 3, Randomized, Open-label, Multicenter Clinical Study to Evaluate the Safety and Efficacy of MK-1084 in Combination With Subcutaneous Pembrolizumab and Berahyaluronidase Alfa (MK-3475A) Versus MK-3475A in Combination With Pemetrexed/Platinum (Carboplatin or Cisplatin) Chemotherapy as First-line Treatment of Participants With KRAS G12C-Mutant, Advanced or Metastatic Nonsquamous NSCLC (KANDLELIT-007)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has nonsquamous NSCLC (adenocarcinoma)",
+        "Patient is KRAS G12C positive"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic anticancer therapy for their advanced or metastatic NSCLC"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial, but she has received prior systemic therapy, which excludes her from this first-line treatment trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00897117",
+      "title": "Molecular Fingerprinting of Lung Cancer",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of non-small cell lung cancer"
+      ],
+      "conflicts": [
+        "Patient has previously treated metastatic NSCLC; trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC. However, she is not treatment-naive, having received prior therapies including docetaxel and ramucirumab, which is a clear conflict with the trial's eligibility criteria. Therefore, she is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03551951",
+      "title": "Tumor Cell and DNA Detection in the Blood, Urine and Bone Marrow of Patients With Solid Cancers and Subjects Undergoing Lung Cancer Screening",
+      "sponsor": "University of Missouri-Columbia",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has previously received systemic therapy (docetaxel and ramucirumab), while the trial eligibility is presumed for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer, which matches the trial's focus. However, the patient has previously been treated with docetaxel and ramucirumab, suggesting that they are not treatment-naive, which likely excludes them from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02570815",
+      "title": "Near-Infrared Fluorescence Guided Robotic Pulmonary Segmentectomy for Early Stage Lung Cancer: Analysis of Accuracy and Added Value",
+      "sponsor": "St. Joseph's Healthcare Hamilton",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, but trial is for early stage (Clinical Stage 1) NSCLC.",
+        "Patient has undergone prior systemic therapy (docetaxel, ramucirumab), while the trial seems to be for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's indication, as she has metastatic NSCLC whereas the trial requires early-stage disease. Additionally, the patient has been previously treated, conflicting with any treatment-naive requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03260491",
+      "title": "A Multicenter, Open-Label Phase 1 Study of U3-1402 in Subjects With Metastatic or Unresectable Non-small Cell Lung Cancer",
+      "sponsor": "Daiichi Sankyo",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has metastatic NSCLC (adenocarcinoma), which aligns with trial conditions.",
+        "ECOG status of 1 is acceptable.",
+        "Patient has KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "Patient has a history of prior treatments (docetaxel, ramucirumab) whereas the trial enrollment for Dose Escalation specifically requires acquired resistance to EGFR TKI, and the trial does not state universal eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC, but the patient is previously treated and does not meet the specific enrollment criteria for treatment-naive patients or those with acquired resistance to EGFR TKI, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04235114",
+      "title": "Evaluation of 89Zr-DFO-nimotuzumab for Non-invasive Imaging of EGFR Positive Cancers by Positron Emission Tomography (PET)",
+      "sponsor": "University of Saskatchewan",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (adenocarcinoma), but trial requires EGFR-positive cancer and does not specify if NSCLC is included.",
+        "Patient is previously treated with docetaxel and ramucirumab, but trial requires treatment-naive patients."
+      ],
+      "uncertainties": [
+        "EGFR status is not verified in patient profile, which is critical since the trial targets EGFR expression."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient has NSCLC, but the trial focuses on EGFR-positive cancer and explicitly requires treatment-naive patients. This leads to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04871412",
+      "title": "Pioneering Pre- and Post-Operative Integrative Care to Improve Thoracic Cancer Quality of Care - The Thoracic Peri-Operative Integrative Surgical Care Evaluation (POISE) Trial - Stage III",
+      "sponsor": "Ottawa Hospital Research Institute",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (non-small cell lung cancer), but trial is for patients eligible for complete resection of lung cancer, indicating a curative intent surgery focus which does not align with metastatic disease.",
+        "Patient has had prior systemic therapy (docetaxel, ramucirumab), conflicting with inclusion criteria that may require treatment-naive or first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic NSCLC, while the trial is focused on patients eligible for curative resection of lung cancer. This misalignment with disease eligibility leads to an exclusion due to not matching the required treatment line and disease indication.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05443126",
+      "title": "A Modular, Open-label, Phase I/II Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of EP0031 in Patients With Advanced RET-altered Malignancies",
+      "sponsor": "Ellipses Pharma",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status = 1",
+        "Patient has stable brain metastases"
+      ],
+      "conflicts": [
+        "Patient's cancer type is NSCLC but the trial studies RET-altered malignancies, excluding NSCLC patients without RET alterations."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, but the clinical trial is studying RET-altered malignancies, which do not include patients with NSCLC without this specific alteration. Therefore, the patient is excluded based on disease mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06252649",
+      "title": "Phase 3 Multicenter, Randomized, Open-label, Active-controlled Study of Sotorasib, Panitumumab and FOLFIRI Versus FOLFIRI With or Without Bevacizumab-awwb for Treatment-na\u00efve Subjects With Metastatic Colorectal Cancer With KRAS p.G12C Mutation (CodeBreaK 301)",
+      "sponsor": "Amgen",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (lung cancer), but trial is for metastatic colorectal cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the trial's indication (metastatic colorectal cancer), leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07023731",
+      "title": "A Phase 1/2 Clinical Trial to Evaluate the Safety, Tolerability, and Pharmacokinetics of ARV-806 in Participants With KRAS G12D Mutated Advanced Solid Tumors",
+      "sponsor": "Arvinas Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a KRAS G12C mutation, but trial requires KRAS G12D mutation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has NSCLC with a KRAS G12C mutation, while the trial specifically targets KRAS G12D mutations. This is a clear mismatch resulting in exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04151342",
+      "title": "CAnadian CAncers With Rare Molecular Alterations (CARMA) - Basket Real-world Observational Study (BROS)",
+      "sponsor": "University Health Network, Toronto",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 58 years old",
+        "Patient has NSCLC",
+        "Patient has KRAS G12C mutation",
+        "Patient has ECOG status of 1",
+        "Patient has stable brain metastases"
+      ],
+      "conflicts": [
+        "Trial is for Canadian residents, patient is from the United States",
+        "Trial includes only patients with rare molecular alterations, while KRAS G12C is not considered a rare alteration in this context",
+        "Patient does not meet inclusion criteria as they are not residing in Canada"
+      ],
+      "uncertainties": [
+        "No uncertainty regarding biomarkers as KRAS G12C is present but its eligibility is dependent on trial definitions"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus; however, the patient does not meet several critical eligibility requirements including residency in Canada and the nature of the KRAS G12C mutation in terms of being classified as a rare alteration.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05067283",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess Safety, Tolerability, PK, and Efficacy of MK-1084 as Monotherapy and as Part of Various Combination Therapies in Participants With KRAS G12C Mutant Advanced Solid Tumors",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a KRAS G12C mutation",
+        "Patient has a diagnosis of NSCLC"
+      ],
+      "conflicts": [
+        "Patient has PD-L1 TPS <1%, which does not meet the criteria for Arm 2 or Arm 4",
+        "Patient has prior systemic therapy (docetaxel, ramucirumab), while the trial requires treatment-naive for some arms or prior therapy only for others"
+      ],
+      "uncertainties": [
+        "Organ function details are not provided",
+        "ECOG 1 is acceptable but may need verification against specific organ function criteria"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) aligns with the trial. However, she is excluded due to her PD-L1 status being <1% and having received prior systemic therapy. These conflicts significantly lower her eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06150664",
+      "title": "A Phase 1, Open-Label, Multiple-Ascending Dose Study of the Safety and Tolerability of CTX-8371 in Patients With Advanced Malignancies",
+      "sponsor": "Compass Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has less than 2 doses of PD-1/PD-L1 treatment prior to enrollment, which is required for NSCLC in the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type, NSCLC, aligns with the trial but fails the treatment line check as she has not received the required prior PD-1/PD-L1 treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06602661",
+      "title": "A Prospective Randomized Study of Reinforced Vs Non-reinforced Staple Lines in Fissureless Lobectomy",
+      "sponsor": "Surrey Thoracic Surgery Group",
+      "phase": "Phase 1",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, but trial is for patients undergoing fissureless lobectomy which may not be indicated for metastatic disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (metastatic NSCLC) does not match the eligibility requirements for the trial focused on fissureless lobectomy, which typically applies to localized disease rather than metastatic cases.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06945484",
+      "title": "PILOT for The Precision Exercise Regimen for Cancer Care (PERCC) Study",
+      "sponsor": "University of Utah",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, while the trial is studying stage II and III NSCLC only.",
+        "Patient has prior therapies (docetaxel and ramucirumab), while this trial appears to be for treatment-naive or first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has metastatic NSCLC, which does not match the trial's eligibility for stage II-III cancers. Additionally, the patient has received prior systemic therapies, conflicting with the treatment line requirement for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04712877",
+      "title": "LEADER Neoadjuvant Screening Trial: LCMC4 Evaluation of Actionable Drivers in Early Stage Lung Cancers",
+      "sponsor": "Lung Cancer Mutation Consortium",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has metastatic NSCLC, but the trial only includes clinical stage IA2-III lung cancers which are potentially resectable.",
+        "Trial explicitly excludes patients with prior lung cancer within the last 2 years; patient has been treated for NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.09,
+      "reasoning": "The patient's metastatic NSCLC does not match the clinical stage requirements of the trial, and the patient has previously received therapy for NSCLC.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05715229",
+      "title": "A Multicenter Phase II Randomized Trial Of Immunotherapy Versus Chemotherapy Guided By Circulating Tumor DNA-Based Molecular Response On Patients With Metastatic NSCLC",
+      "sponsor": "Hackensack Meridian Health",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial requires newly diagnosed, previously untreated histologically documented Stage IV NSCLC, while the patient has previously been treated.",
+        "The trial requires positive PD-L1 expression \u22651% by IHC, while the patient has PD-L1 TPS <1%."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's NSCLC has been previously treated, failing first-line therapy, and her PD-L1 expression is below the required threshold. Therefore, the patient does not meet the essential eligibility criteria for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05789082",
+      "title": "A Phase Ib/II, Open-Label, Multicenter Study Evaluating the Safety, Activity, and Pharmacokinetics of Divarasib as a Single Agent or in Combination With Other Anti-Cancer Therapies in Patients With Previously Untreated Advanced Or Metastatic Non-Small Cell Lung Cancer With a KRAS G12C Mutation",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: KRAS G12C",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic treatment for advanced unresectable metastatic NSCLC (docetaxel and ramucirumab). Trial requires no prior systemic treatment."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient has metastatic NSCLC with a KRAS G12C mutation; however, they have received prior systemic treatment, which is a critical exclusion criterion for the trial that only accepts treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06119581",
+      "title": "SUNRAY-01, A Global Pivotal Study in Participants With KRAS G12C-Mutant, Locally Advanced or Metastatic Non-Small Cell Lung Cancer Comparing First-Line Treatment of LY3537982 and Pembrolizumab vs Placebo and Pembrolizumab in Those With PD-L1 Expression \u226550% or LY3537982 and Pembrolizumab, Pemetrexed, Platinum vs Placebo and Pembrolizumab, Pemetrexed, Platinum Regardless of PD-L1 Expression",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC and KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "The trial requires treatment-naive patients, whereas the patient has prior systemic therapy (docetaxel and ramucirumab).",
+        "The trial requires PD-L1 expression of \u226550%, while the patient has PD-L1 TPS <1%."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The disease type matches as the patient has NSCLC and the required KRAS G12C mutation. However, the patient does not qualify due to having received prior systemic therapy and having a PD-L1 expression level below the required threshold of \u226550%.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06788912",
+      "title": "KEYMAKER-U01 Substudy 01E: A Phase 2 Umbrella Study With Rolling Arms of Investigational Agents With or Without Chemotherapy in Combination With Pembrolizumab in Treatment of Participants With Newly Diagnosed Resectable Stages II-IIIB (N2) Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Eastern Cooperative Oncology Group (ECOG) performance status of 1"
+      ],
+      "conflicts": [
+        "Patient has previously treated metastatic NSCLC but the trial is for treatment-naive patients.",
+        "Patient has metastatic NSCLC (adenocarcinoma) while the trial is for resectable stages II-IIIB non-small cell lung cancer (NSCLC)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type (metastatic NSCLC) does not match the trial's requirement for resectable stage II, IIIA, or IIIB NSCLC. Furthermore, the patient has already been treated with systemic therapy, which conflicts with the trial's requirement for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06130254",
+      "title": "Phase Ib Trial of the KRAS G12C Inhibitor Adagrasib (MRTX849) in Combination With the PARP Inhibitor Olaparib in Patients With KRAS G12C Mutated Advanced Solid Tumors, With a Focus on Gynecological, Breast, Pancreatic and KEAP1 Mutated Non-small Cell Lung Cancers",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a confirmed diagnosis of NSCLC with KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "Patient does not have the required KEAP1 co-mutation, which is needed for eligibility in the trial's NSCLC cohort."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is NSCLC with a KRAS G12C mutation, which matches the trial's focus on NSCLC. However, the trial specifically requires patients to have both KRAS G12C and KEAP1 co-mutations for the relevant cohort, which the patient does not have, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06447662",
+      "title": "A Phase 1 Open-Label Study of PF-07934040 as a Single Agent and in Combination With Other Targeted Agents in Participants With Advanced Solid Tumors Harboring Mutations in the KRAS Gene",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "NSCLC diagnosed as adenocarcinoma with KRAS G12C mutation",
+        "ECOG PS is 1",
+        "Progressive disease after prior therapies"
+      ],
+      "conflicts": [
+        "Patient has a KRAS G12C mutation which is excluded in this trial for NSCLC if previously treated with G12C",
+        "Patient has received prior systemic treatments (docetaxel and ramucirumab) which does not fit the trial's inclusion for G12C patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient has KRAS G12C mutation which is excluded as they have previously been treated for NSCLC, leading to a clear exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04155034",
+      "title": "MRI Brain Surveillance Alone Versus MRI Surveillance and Prophylactic Cranial Irradiation (PCI): A Randomized Phase III Trial in Small-Cell Lung Cancer (MAVERICK)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (non-small cell lung cancer), trial is for SCLC (small cell lung cancer)"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), while the trial is studying small cell lung cancer (SCLC). This is a clear mismatch, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04165070",
+      "title": "KEYMAKER-U01 Substudy 01A: A Phase 1/2, Umbrella Study With Rolling Arms of Investigational Agents With Pembrolizumab With or Without Chemotherapy in Treatment-Naive Participants With Stage IV Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior systemic treatment for metastatic NSCLC (docetaxel and ramucirumab), whereas the trial requires treatment-naive participants."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's diagnosis of metastatic NSCLC aligns with the trial's target indication. However, the patient has received prior systemic treatment, which is a critical exclusion criterion for this trial that is intended for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04302025",
+      "title": "NAUTIKA1: A Multicenter, Phase II, Neoadjuvant and Adjuvant Study of Multiple Therapies in Biomarker-selected Patients With Resectable Stages IB-III Non-small Cell Lung Cancer",
+      "sponsor": "Genentech, Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has previously treated metastatic NSCLC, whereas trial focuses on treatment-naive or first-line patients.",
+        "Trial does not allow any prior therapies for lung cancer within 2 years, while the patient has prior treatments."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient is excluded due to prior treatments for lung cancer, which disqualifies her as the trial focuses on treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04613596",
+      "title": "A Phase 2 Trial of Adagrasib Monotherapy and in Combination With Pembrolizumab and a Phase 3 Trial of Adagrasib in Combination With Pembrolizumab Versus Pembrolizumab in Patients With Advanced Non-Small Cell Lung Cancer With KRAS G12C Mutation",
+      "sponsor": "Mirati Therapeutics Inc.",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has KRAS G12C mutation which is required for trial participation."
+      ],
+      "conflicts": [
+        "Patient is previously treated with docetaxel and ramucirumab; this trial requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has previously received systemic therapies for metastatic NSCLC, which excludes them from the trial that is intended for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05394831",
+      "title": "A Phase 1/2, Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Anti-tumor Activity of JIN-A02 in Patients With EGFR Mutant Advanced Non-small Cell Lung Cancer",
+      "sponsor": "J Ints Bio",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with KRAS mutation, but the trial is for EGFR mutant advanced NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC with a KRAS G12C mutation, while the trial specifically targets advanced NSCLC with active EGFR mutations. Since the cancer types do not match, the patient is excluded from eligibility for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05519293",
+      "title": "A Phase I/IIa, Open-label, Dose-escalation and Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetic and Preliminary Anti-tumor Activity of H002 in Patients With Active EGFR Mutation Locally Advanced or Metastatic NSCLC",
+      "sponsor": "RedCloud Bio",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with KRAS G12C mutation, but trial requires active EGFR mutations (e.g., Del19, L858R)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC) but the required biomarker is an active EGFR mutation. The patient has KRAS G12C, which does not match the trial's requirement for EGFR mutations. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05671510",
+      "title": "Phase 3, Two-stage, Randomized Study of ONC-392 Versus Docetaxel in Metastatic Non-Small Cell Lung Cancers That Progressed on PD-1/PD-L1 Inhibitors",
+      "sponsor": "OncoC4, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial excludes patients with any documented actionable mutations; patient has a STK11 mutation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), which matches the trial. However, the patient has a documented co-mutation (STK11), which is listed as an exclusion criterion. This leads to a clear exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05609578",
+      "title": "A Phase 2 Trial of Combination Therapies With Adagrasib in Patients With Advanced Non-Small Cell Lung Cancer With KRAS G12C Mutation",
+      "sponsor": "Mirati Therapeutics Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Non-Small Cell Lung Cancer (NSCLC)",
+        "KRAS G12C mutation",
+        "PD-L1 TPS <1%"
+      ],
+      "conflicts": [
+        "The trial requires PD-L1 TPS \u22651%. The patient has PD-L1 TPS <1%.",
+        "Prior systemic therapy includes docetaxel and ramucirumab, which is excluded for Cohort A & E."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has NSCLC with a KRAS G12C mutation; however, they are excluded due to having a PD-L1 TPS <1%. Furthermore, prior systemic treatment disqualifies them from being eligible under relevant cohorts.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06162572",
+      "title": "A Phase 1b/2, Multicenter, Open-label Platform Study of Select Immunotherapy Combinations in Adult Participants With Previously Untreated Advanced Non-small Cell Lung Cancer (NSCLC) With High PD-L1 Expression",
+      "sponsor": "Servier Bio-Innovation LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status of 1"
+      ],
+      "conflicts": [
+        "Patient has prior systemic treatment for metastatic NSCLC (docetaxel and ramucirumab), while trial requires no prior systemic treatment."
+      ],
+      "uncertainties": [
+        "Patient's organ function labs are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial. However, the patient has received prior systemic treatment, which conflicts with the trial's eligibility criteria requiring treatment-naive patients. This results in clear exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06246110",
+      "title": "A Phase 2 Study of EIK1001 in Combination With Pembrolizumab and Chemotherapy in Patients With Stage 4 Non-Small Cell Lung Cancer",
+      "sponsor": "Eikon Therapeutics",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1",
+        "Confirmed Stage 4 NSCLC",
+        "Biomarker KRAS G12C positive"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy for advanced/metastatic NSCLC (docetaxel/ramucirumab) which is contrary to trial requirement of no prior systemic treatment for advanced disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches NSCLC but they have received prior systemic treatment for advanced/metastatic NSCLC, which directly contradicts the trial's requirement for treatment-naive patients. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05430009",
+      "title": "Phase I Trial of Feasibility and Safety of Liver SBRT in Combination With Immune Checkpoint Inhibition in Patients With Metastatic Non-small Cell Lung Cancer",
+      "sponsor": "VA Ann Arbor Healthcare System",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, but the trial focuses on patients with liver metastases specifically, and the patient profile does not indicate the presence of liver metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The trial requires patients with liver metastases, while the patient has stable brain metastases without any mention of liver involvement. Therefore, the patient is excluded based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05415358",
+      "title": "A Prospective Study Of Immune Signatures In Metastatic Non-Small Cell Lung Cancer (mNSCLC) Patients At Completion Of Immune Checkpoint Inhibitor Treatment Either As Monotherapy Or In Combination With Chemotherapy In The First Line Setting",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (docetaxel and ramucirumab) but trial is for patients who have completed first-line immunotherapy.",
+        "Patient's PD-L1 TPS is <1%, while the trial requires prior knowledge of PD-L1 status before first-line treatment."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial's indication. However, the patient has previous systemic therapy and the trial specifically requires completion of a first-line immunotherapy, leading to exclusion. Additionally, the patient's PD-L1 status does not meet any thresholds for consideration.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05866302",
+      "title": "Parametric Response Mapping (PRM) for the Detection of Chronic Lung Injury in Hematopoietic Cell Transplant Recipients. A Multi-center, Observational Trial.",
+      "sponsor": "University of Michigan Rogel Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC which does not match the trial conditions focused on Chronic Lung Disease and Hematopoietic Cell Transplantation.",
+        "Trial is not applicable for patients with primary malignancies outside of GVHD or CLD."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC, which does not align with the conditions studied in the trial, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02143830",
+      "title": "A Phase II Trial of HSCT for the Treatment of Patients With Fanconi Anemia Lacking a Genotypically Identical Donor, Using a Risk-Adjusted Chemotherapy Only Cytoreduction With Busulfan, Cyclophosphamide and Fludarabine",
+      "sponsor": "Children's Hospital Medical Center, Cincinnati",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04589845",
+      "title": "Tumor-agnostic Precision Immuno-oncology and Somatic Targeting Rational for You (TAPISTRY) Phase II Platform Trial",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05058651",
+      "title": "Randomized Phase II/III Trial of First Line Platinum/Etoposide With or Without Atezolizumab (NSC#783608) in Patients With Poorly Differentiated Extrapulmonary Small Cell Neuroendocrine Carcinomas (NEC)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05638295",
+      "title": "A Randomized Phase II Study of AMG 510 (Sotorasib) With or Without Panitumumab in Advanced Solid Tumors: A ComboMATCH Treatment Trial",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05684965",
+      "title": "A First-in-Human, Multicenter, Phase 1/2, Open-Label Study of XTX301 in Patients With Advanced Solid Tumors",
+      "sponsor": "Xilio Development, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06730750",
+      "title": "A Phase 1/2a, Multicenter, Open-label, First in Human Study of BMS-986490 With or Without Bevacizumab in Advanced Solid Tumors",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04665206",
+      "title": "Phase I/II, Multi-Center, Open-Label Study of VT3989, Alone or in Combination, in Patients With Locally Advanced or Metastatic Solid Tumors",
+      "sponsor": "Vivace Therapeutics, Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC but trial excludes all patients who have had prior systemic therapy; patient has received docetaxel and ramucirumab."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has metastatic non-small cell lung cancer (NSCLC) but has received prior systemic therapy, which directly conflicts with the trial's criteria for patient eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05786924",
+      "title": "A Phase 1/2, Open-label Study of Oral S241656 (BDTX-4933) as Monotherapy and in Combination With Other Anti-Cancer Therapies in Patients With KRAS, BRAF and Other Selected RAS/MAPK Mutation-Positive Malignancies",
+      "sponsor": "Institut de Recherches Internationales Servier",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 58",
+        "Sex: female",
+        "Cancer type: NSCLC",
+        "Biomarkers: KRAS G12C",
+        "ECOG status: 1",
+        "PD-L1: TPS <1%",
+        "Prior therapies: docetaxel, ramucirumab, SRS brain",
+        "Brain metastases: stable",
+        "Co-mutations: STK11",
+        "Country: United States"
+      ],
+      "conflicts": [
+        "Patient has KRAS G12C mutation, but trial's Part 1A excludes KRAS G12C and Part 2 requires KRAS non-G12C.",
+        "Patient has prior therapy (docetaxel, ramucirumab), while trial requires certain cohorts to be treatment-naive."
+      ],
+      "uncertainties": [
+        "No specific details on overall organ function, lab results for bone marrow function are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches being NSCLC; however, the specific biomarker (KRAS G12C) does not align with the trial's requirements as it specifically excludes KRAS G12C mutations. Additionally, the patient has received prior therapies, which does not match the trial's needs for treatment-naive populations in the relevant cohorts.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06412198",
+      "title": "A Multicenter Phase 1b/2 Study of Adagrasib, Cetuximab, and Cemiplimab for Metastatic Colorectal Cancer Harboring KRAS G12C Mutations",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a female over 18 years old",
+        "Patient has KRAS G12C mutation"
+      ],
+      "conflicts": [
+        "Patient has NSCLC, while the trial targets metastatic colorectal cancer",
+        "Patient is not treatment-naive, having failed first-line docetaxel/ramucirumab"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the trial's target condition (metastatic colorectal cancer), which is a clear exclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06997497",
+      "title": "A Phase 3, Randomized, Open-label, Multicenter Clinical Study to Evaluate the Safety and Efficacy of MK-1084, Cetuximab, and mFOLFOX6 Versus mFOLFOX6 With or Without Bevacizumab as First-line Treatment of Participants With KRAS G12C-mutant, Locally Advanced Unresectable or Metastatic Colorectal Cancer (KANDLELIT-012)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a KRAS G12C mutation"
+      ],
+      "conflicts": [
+        "Patient has NSCLC while the trial studies colorectal adenocarcinoma"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), whereas the trial is designed for colorectal adenocarcinoma. This is a critical mismatch leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03420963",
+      "title": "Ex-Vivo Expanded Allogeneic NK Cells for the Treatment of Solid Tumors of Pediatric Origin in Children and Young Adults",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 58 is above maximum age 40"
+    },
+    {
+      "nct_id": "NCT04423029",
+      "title": "A Phase 1/1b, First-In-Human, Multi-Part, Open-Label, Multiple-Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics, Biological, and Clinical Activity of DF6002 as a Monotherapy and in Combination With Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumors, and Expansion in Selected Indications",
+      "sponsor": "Dragonfly Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04929223",
+      "title": "A Phase I/Ib Global, Multicenter, Open-label Umbrella Study Evaluating the Safety and Efficacy of Targeted Therapies in Subpopulations of Patients With Metastatic Colorectal Cancer (INTRINSIC)",
+      "sponsor": "Hoffmann-La Roche",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05738252",
+      "title": "Frailty Assessments for Risk Assessment in Gynecologic Oncology Patients Undergoing Surgery and Chemotherapy",
+      "sponsor": "Population Health Research Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06475807",
+      "title": "Cancer Nutrition Study: CaNS - A Pilot Study of Dietary Interventions in Cancer Patients Treated With Immune Checkpoint Inhibitors",
+      "sponsor": "University of Pittsburgh",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06555744",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of Ascending Doses of a Folate Receptor Alpha Antibody Drug Conjugate, ZW191, in Participants With Advanced Solid Tumors",
+      "sponsor": "Zymeworks BC Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06804824",
+      "title": "A Phase 1/1b, Open-Label, Multicenter, First-in-Human Dose Escalation and Dose Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Anti-Tumor Activity of VVD-159642, a RAS-PI3K\u03b1 Inhibitor, as a Single Agent and in Combination in Participants With Advanced Solid Tumors",
+      "sponsor": "Vividion Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06807619",
+      "title": "BrainMet ADePPT (Anticancer Drug Penetration Platform Trial)",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05736029",
+      "title": "PROPHETIC Extended - Predicting Responsiveness in Oncology Patients Based on Host Response Evaluation During Anti Cancer Treatments, Extended Study.",
+      "sponsor": "OncoHost Ltd.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic treatment for NSCLC (docetaxel, ramucirumab) which conflicts with possible treatment-naive requirement of the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has a diagnosed case of NSCLC and their cancer type matches the trial's indication. However, they have previously been treated with systemic therapies, thus potentially contradicting any requirement for treatment-naive patients which renders them ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06333951",
+      "title": "A Phase 1b Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of AMG 193 Alone or in Combination With Other Therapies in Subjects With Advanced Thoracic Tumors With Homozygous MTAP-deletion (Master Protocol)",
+      "sponsor": "Amgen",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has histologically confirmed diagnosis of NSCLC.",
+        "Patient has KRAS G12C mutation."
+      ],
+      "conflicts": [
+        "Trial requires homozygous MTAP-deletion, which the patient does not have."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC, and they have the KRAS G12C mutation. However, they do not meet the critical requirement for homozygous MTAP-deletion, leading to clear exclusion from the trial.",
+      "excluded_reason": null
+    }
+  ]
+}

@@ -312,7 +312,6 @@ def main(
     
     data_dir = Path("data")
     (data_dir / "raw").mkdir(parents=True, exist_ok=True)
-    (data_dir / "processed").mkdir(parents=True, exist_ok=True)
     
     try:
         # Step 1: Extract search terms from patient profile
@@ -329,13 +328,15 @@ def main(
             TextColumn("[progress.description]{task.description}"),
             console=console,
         ) as progress:
-            # Step 2: Trial Discovery (recruiting trials only, filtered by location)
+            # Step 2: Trial Discovery (recruiting trials only, filtered by location, age, sex)
             task = progress.add_task("[cyan]Discovering trials...", total=None)
             raw_trials = discover_trials(
                 search_terms,
                 max_results=max_trials,
                 recruiting_only=True,
                 locations=patient.location_preference,
+                patient_age=patient.age,
+                patient_sex=patient.sex,
             )
             progress.stop_task(task)
             progress.update(task, description="[green]✓ Discovered trials")

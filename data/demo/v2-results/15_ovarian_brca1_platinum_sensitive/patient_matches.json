@@ -1,0 +1,1921 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T18:34:44.968173",
+    "patient_profile": {
+      "age": 54,
+      "sex": "female",
+      "cancer_type": "ovarian cancer",
+      "biomarkers": [
+        "BRCA1 germline mutation"
+      ],
+      "description": "54-year-old female with high-grade serous ovarian cancer, germline BRCA1 pathogenic variant. Initial diagnosis Stage IIIC, underwent optimal debulking followed by carboplatin/paclitaxel x6 + niraparib maintenance. First recurrence at 18 months (platinum-sensitive), re-challenged with carboplatin/gemcitabine with PR, continued niraparib. Second recurrence now at 14 months - again platinum-sensitive interval. CA-125 rising (85 -> 340). Considering platinum rechallenge vs clinical trial. No significant residual neuropathy. Interested in novel PARP combinations or antibody-drug conjugates. Excellent performance status."
+    },
+    "total_trials": 100,
+    "high_likelihood": 27,
+    "medium_likelihood": 0
+  },
+  "results": [
+    {
+      "nct_id": "NCT03564340",
+      "title": "A Phase 1/2 Study of REGN4018 (Ubamatamab), a MUC16\u00d7CD3 Bispecific Antibody, Administered Alone or in Combination With Cemiplimab in Patients With Recurrent Ovarian Cancer or Other Recurrent MUC16+ Cancers",
+      "sponsor": "Regeneron Pharmaceuticals",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed diagnosis of advanced, epithelial ovarian cancer",
+        "Received multiple lines of platinum-containing therapy",
+        "Documented relapse on or after the most recent line of therapy",
+        "ECOG status of 0",
+        "No brain metastases",
+        "Patient has expressed interest in novel therapies"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific organ and bone marrow function details are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient has advanced epithelial ovarian cancer, which matches the trial's inclusion criteria. She has received multiple lines of platinum therapy and has documented relapse, fitting the treatment line condition. The patient's ECOG status is acceptable, and there are no known brain metastases or disqualifying factors. Minor uncertainty exists regarding the details of organ function.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05065021",
+      "title": "Re-VOLVE: A Phase II Clinical Trial in Women With Ovarian Cancer Progressing Post-PARP Inhibitor With Treatment Adapted to Real-time Assessment of Evolving Genomic Resistance",
+      "sponsor": "University Health Network, Toronto",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 54",
+        "Sex: female",
+        "Cancer type: ovarian cancer",
+        "Biomarkers: BRCA1 germline mutation",
+        "ECOG status: 0",
+        "Prior therapies: carboplatin, paclitaxel, niraparib, gemcitabine",
+        "Brain metastases: none",
+        "Relapsed disease is platinum-sensitive",
+        "No limit to number of lines of prior systemic therapy"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate bone marrow, renal and hepatic function - details not provided",
+        "Left ventricular ejection fraction (LVEF) > 50% - details not provided",
+        "Measurable disease as per RECIST 1.1 - details not provided",
+        "Archival tissue availability - details not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type and histology match the trial criteria, and she is a previously treated patient which aligns with the inclusion requirements. There are minor uncertainties regarding organ function and measurable disease, but the central criteria are fulfilled.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05920798",
+      "title": "MC220601, Folate Receptor Alpha Dendritic Cells (FR\u03b1DCs) Plus Pembrolizumab for Patients With Advanced Stage Ovarian Cancer (FRAPPE)",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 54",
+        "Sex: female",
+        "Cancer type: ovarian cancer",
+        "Biomarkers: BRCA1 germline mutation",
+        "ECOG status: 0",
+        "Prior therapies: carboplatin, paclitaxel, niraparib, gemcitabine (platinum-sensitive recurrence)",
+        "No brain metastases",
+        "CA-125 rising (85 -> 340), indicating measurable disease"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function lab values (e.g., hemoglobin, ANC, platelet count, bilirubin, AST, creatinine clearance) needed for full assessment"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is high-grade serous ovarian cancer, which matches the trial's indication. The patient's recurrence is platinum-sensitive and they have the required ECOG status. They have prior systemic therapy, which aligns with the trial's inclusion of previously treated patients, as any number of prior therapies is allowed. The only uncertainties involve organ function lab values that are not provided.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06580314",
+      "title": "A Phase III Trial of One vs. Two Years of Maintenance Olaparib, With or Without Bevacizumab, in Patients With BRCA1/2 Mutated or Homologous Recombination Deficient (HRD+) Ovarian Cancer Following Response to First Line Platinum-Based Chemotherapy",
+      "sponsor": "NRG Oncology",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer",
+        "Patient has BRCA1 germline mutation",
+        "ECOG performance status is 0",
+        "Patient completed first line platinum-based therapy with at least 6 cycles",
+        "Patient has no brain metastases"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Absolute neutrophil count (ANC)",
+        "Platelets",
+        "Hemoglobin",
+        "Creatinine clearance (CrCL)",
+        "Total bilirubin",
+        "AST and ALT levels",
+        "Cardiac function assessment"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial criteria for ovarian cancer, and the patient meets most of the standard eligibility criteria. There are several organ function values missing, but overall, the trial eligibility is likely met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03419689",
+      "title": "Biomarker Discovery Project in High Grade Serous Ovarian Cancer",
+      "sponsor": "University Health Network, Toronto",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histological diagnosis of high-grade serous ovarian cancer",
+        "Age is 54 which is above 18 years",
+        "ECOG status is 0",
+        "Life expectancy greater than 6 months implied by prior therapy response",
+        "No brain metastases",
+        "Willing to undergo blood or fluid collection and tumour biopsy"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Archival tissue availability information not provided",
+        "Adequate informed consent capability not explicitly stated"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type aligns with the trial's focus on high-grade serous ovarian cancer. The patient is within the specified age range and has a suitable ECOG performance status, and there are no indications of brain metastases. While there is uncertainty about the availability of archival tissue and the capability to provide informed consent, the patient mostly meets the essential eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT01174121",
+      "title": "A Phase II Study Using Short-Term Cultured, Autologous Tumor-Infiltrating Lymphocytes Following a Lymphodepleting Regimen in Metastatic Cancers Plus the Administration of Pembrolizumab",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is included in the trial conditions.",
+        "Patient is ECOG 0, which meets the performance status criteria.",
+        "Patient is age 54, which falls within the age eligibility (18-72 years).",
+        "Patient has measurable disease as indicated by rising CA-125 levels."
+      ],
+      "conflicts": [
+        "Patient has received multiple lines of prior therapy, but the trial excludes those who are not refractory to at least second-line treatments."
+      ],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's ovarian cancer diagnosis matches the trial's target indication. Although they've had prior therapies, they are likely refractory after multiple lines, which aligns with the trial's eligibility for previously treated patients. The patient meets the ECOG status and age criteria, indicating good overall health.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03428802",
+      "title": "A Basket Trial of Pembrolizumab in Patients With Advanced Solid Tumors and Genomic Instability",
+      "sponsor": "Rutgers, The State University of New Jersey",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of ovarian cancer",
+        "Has a BRCA1 germline mutation",
+        "ECOG status is 0",
+        "No brain metastases",
+        "Prior therapies include chemotherapy for ovarian cancer"
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Laboratory values for absolute neutrophil count, platelets, hemoglobin, serum creatinine, total bilirubin, AST, ALT, albumin, INR, aPTT are not provided"
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of high-grade serous ovarian cancer with a BRCA1 germline mutation aligns well with the trial conditions. The patient's ECOG status of 0 also meets the performance status requirement. Although treatment history suggests the patient is not treatment-naive, this trial is designed for previously treated patients, which is appropriate. Further verification is needed regarding specific lab values to ensure all eligibility criteria are met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04657068",
+      "title": "A Phase I/IIa, Open-label, Multi-center Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of the ATR Kinase Inhibitor ART0380 Administered Orally as Monotherapy and in Combination to Patients With Advanced or Metastatic Solid Tumors",
+      "sponsor": "Artios Pharma Ltd",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer",
+        "Patient has a germline BRCA1 mutation",
+        "ECOG status is 0",
+        "Patient is female with advanced ovarian cancer and has previously received PARP inhibitors"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on ovarian cancer and she possesses the required BRCA1 mutation. She has previous systemic therapies, aligning with dose expansion criteria for previously treated patients. The ECOG performance status is within the acceptable range.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05579366",
+      "title": "Phase 1/2 Study of Rina-S in Patients With Locally Advanced and/or Metastatic Solid Tumors",
+      "sponsor": "Genmab",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed high-grade serous ovarian cancer",
+        "Patient has received prior therapies including carboplatin and paclitaxel",
+        "Patient has ECOG status 0 and excellent performance status",
+        "Patient has a germline BRCA1 mutation"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, high-grade serous ovarian cancer, is included in the trial's indication, and she has received prior therapies as required. Her excellent ECOG status supports eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06188520",
+      "title": "A Phase I/IIa, First-in-human, Open-label, Dose Escalation and Expansion Study to Evaluate the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of AZD8421 Alone or in Combination in Participants With Selected Advanced or Metastatic Solid Tumors",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female participant",
+        "ECOG status 0",
+        "History of prior adequate therapies including platinum agents",
+        "Diagnosis of high-grade serous ovarian cancer"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient has high-grade serous ovarian cancer, which matches the conditions studied by the trial. The treatment history indicates she is a previously treated patient, which aligns with the trial\u2019s inclusion criteria for advanced or metastatic solid tumors requiring prior therapy. The ECOG status is acceptable, and there are no indicated brain metastases that would disqualify her. Overall, the patient meets the critical inclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06395519",
+      "title": "A Study of PARG Inhibitor ETX-19477 in Patients With Advanced Solid Malignancies",
+      "sponsor": "858 Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has ovarian cancer, which is among the conditions studied in the trial.",
+        "Patient has a germline BRCA1 mutation, which is relevant for this trial.",
+        "Patient's ECOG status is 0, indicating excellent performance status."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's ovarian cancer aligns with the trial's studied conditions, and her germline BRCA1 mutation is relevant for preferential enrollment. The patient is previously treated but fits the criteria as the trial includes advanced solid tumors that have progressed after systemic therapy. No conflicting information was found in her profile.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06630325",
+      "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART): Adaptive Clinical Treatment (ACT)",
+      "sponsor": "OHSU Knight Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which matches the trial's inclusion criteria for advanced ovarian carcinoma.",
+        "ECOG status of 0 indicates excellent performance status.",
+        "Patient has prior therapies and solid disease history, confirming they are previously treated, which aligns with trial's requirement for documented progression after prior therapy."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific organ function lab data (e.g., ANC, platelet count, hemoglobin, creatinine, bilirubin, AST/ALT, INR/aPTT) is not provided.",
+        "Details on potential toxicity recovery from prior therapies.",
+        "SMMART-ACT therapy regimen recommendation based on pre-screening biopsy results is not available."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on advanced ovarian carcinoma, and the patient is previously treated with documented progression, satisfying the treatment line criteria. While there are some uncertainties regarding lab values and other specific eligibility details, the primary eligibility criteria are met, leading to a high likelihood of eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06843447",
+      "title": "A Phase 1b/2 Open-label, Multicenter Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan With or Without Other Anticancer Investigational Agents in Participants With High-grade Serous Epithelial Ovarian, Primary Peritoneal, or Fallopian Tube Cancer Who Have Relapsed After Prior Platinum-based Chemotherapy",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Pathologically documented diagnosis of high-grade serous ovarian cancer",
+        "ECOG status of 0",
+        "Platinum-sensitive disease with radiographic evidence of disease progression occurring \u22656 months after the last dose of platinum-based therapy"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on high-grade serous ovarian cancer. The patient has received prior therapies but falls within the criteria for relapsed disease, having platinum-sensitive disease with significant interval after platinum therapy and meets the ECOG status requirement.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02012699",
+      "title": "Integrated Cancer Repository for Cancer Research",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosis of ovarian cancer",
+        "Age is 54 (above 19 years)",
+        "ECOG status is 0",
+        "No brain metastases",
+        "Able to provide informed consent",
+        "Speaks English"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's conditions, and the patient meets the age, ECOG status, and language criteria, suggesting high eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02732860",
+      "title": "Prospective Evaluation of Freshly Implanted Cancers in Mice to Test Drug Response in Matching Host",
+      "sponsor": "University Health Network, Toronto",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced High Grade Serous Ovarian Cancer (recurrent disease with a life expectancy of at least 12 months)",
+        "ECOG performance status 0"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is High Grade Serous Ovarian Cancer which is included in the trial conditions. The patient is also previously treated, which aligns with the eligibility for recurrent disease. The ECOG status of 0 meets the performance status requirement, thereby confirming high eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03702309",
+      "title": "Liquid Biopsy Evaluation and Repository Development at Princess Margaret",
+      "sponsor": "University Health Network, Toronto",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has ovarian cancer, which is a condition studied in the trial.",
+        "Patient is 54 years old, which is above the minimum of 18 years.",
+        "Patient has signed and dated an informed consent form for participation in clinical trials.",
+        "Patient has an ECOG status of 0.",
+        "Patient has no brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the indication studied in the trial and they meet the age and ECOG status requirements. There are no conflicts or uncertainties regarding the eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05039801",
+      "title": "A Phase 1 Open-Label, Dose-Escalation and Dose-Expansion Study to Investigate the Safety, Pharmacokinetics, and Anti-Tumor Activity of IACS-6274 as Monotherapy and in Combination in Patients With Advanced Solid Tumors",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is confirmed as eligible for the trial.",
+        "Patient is a 54-year-old female, meeting the age criteria.",
+        "ECOG status is 0, which meets the performance status requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Detailed organ function lab values are not provided, so organ function cannot be fully assessed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type, treatment history, and ECOG performance status align well with the trial requirements. There is a high likelihood of eligibility, although organ function details are missing, which introduces a minor uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05005403",
+      "title": "A Global First-in-Human Study in NSCLC, HNSCC and Solid Tumors With Azirkitug (ABBV-514) as a Single Agent and in Combination With Budigalimab or Bevacizumab",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 54",
+        "Sex: female",
+        "Cancer type: ovarian cancer",
+        "Biomarkers: BRCA1 germline mutation",
+        "ECOG status: 0",
+        "Prior therapies: carboplatin, paclitaxel, niraparib, gemcitabine",
+        "Brain metastases: none",
+        "Patient interested in novel PARP combinations or antibody-drug conjugates",
+        "patient has high-grade serous ovarian cancer which matches the trial conditions"
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type of high-grade serous ovarian cancer matches the trial's focus on this condition. The patient has an ECOG status of 0 and is interested in novel treatments, consistent with the trial's objective. Given the patient's extensive prior therapy history, they are likely eligible as the trial does not explicitly demand treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05227326",
+      "title": "First in Human Phase 1 Study of AOH1996 in Patients With Refractory Solid Tumors",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type: ovarian cancer matches the trial conditions studied.",
+        "Age: 54 (\u2265 18 years).",
+        "ECOG performance status: 0 (\u2264 2).",
+        "Life expectancy of > 3 months.",
+        "No brain metastases reported.",
+        "Prior therapies include those indicated for platinum-sensitive recurrent ovarian cancer."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Laboratory criteria such as ANC, platelets, bilirubin, AST, ALT, and creatinine clearance are unknown.",
+        "Patient's willingness to provide archival tissue is unconfirmed."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is ovarian cancer, which aligns with the trial's focus. She has already undergone prior therapies, which is acceptable for this trial as it is for patients with refractory solid tumors. Despite some uncertainties regarding laboratory criteria and willingness to provide archival tissue, the primary requirements are met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05787587",
+      "title": "A Study of PARG Inhibitor IDE161 in Participants With Advanced Solid Tumors",
+      "sponsor": "IDEAYA Biosciences",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer.",
+        "Patient has documented BRCA1 germline mutation.",
+        "Patient is 54 years old, meeting the adult age requirement.",
+        "Patient is ECOG 0, indicating excellent performance status.",
+        "Patient has progressed on prior therapies, satisfying treatment line requirements."
+      ],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's focus on ovarian cancer, the patient has the required BRCA1 mutation, and she is previously treated, all of which align with the study's eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05694715",
+      "title": "Combination Therapy of Niraparib and Irinotecan in Cancers With Mutations in DNA Repair Genes",
+      "sponsor": "University of California, San Francisco",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is included in the trial conditions studied.",
+        "Patient has a BRCA1 germline mutation, which is included in the trial conditions studied.",
+        "Patient is 54 years old, which is above the minimum required age of 18.",
+        "ECOG Performance Status is 0, which meets the requirement of <=1.",
+        "Patient has no brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Organ function labs (ANC, Hgb, platelets, AST, ALT, total bilirubin, creatinine) are not provided.",
+        "Confirmation of no grade 2 or higher toxicity from prior treatments (except for neuropathy) is not explicitly stated."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type is directly aligned with the trial focus, and she meets the necessary age and ECOG performance status criteria. The main uncertainties lie in organ function assessments and toxicity recovery which, if confirmed, could further solidify her eligibility. Overall, she appears to fit well with the trial's requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05799274",
+      "title": "Characterizing the Radiochemical and Radiation Safety of RAD301 in Healthy Human Volunteers and Patients With Pancreatic Ductal Adenocarcinoma or Other Solid Tumors",
+      "sponsor": "Radiopharm Theranostics, Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is included in the trial conditions studied.",
+        "Patient is 54 years old, which meets the age requirement (\u2265 18 years).",
+        "Patient has ECOG status of 0, which is acceptable.",
+        "Patient has a life expectancy of \u2265 12 weeks.",
+        "Patient has no brain metastases."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Screening laboratory values are not provided (WBC, ANC, Platelets, Hemoglobin, Creatinine, AST/ALT, Bilirubin).",
+        "Baseline pulse oximetry value is not provided.",
+        "ECG results are not provided.",
+        "Confirmation of no history of anaphylactic reaction or other specific medical conditions that could affect eligibility."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's inclusion criteria for ovarian cancer, and their treatment history suggests they are not treatment-naive but have undergone several lines of therapy. There are some uncertainties around screening values and other criteria that are not explicitly provided, but overall criteria are likely met.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06177171",
+      "title": "A Phase I/Ib Study of Olaparib and ASTX727 in BRCA1/2- and HRD-mutated Tumors",
+      "sponsor": "Pamela Munster",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced solid tumors with a germline BRCA1 mutation.",
+        "Patient has ECOG status of 0.",
+        "Patient demonstrates interest in novel PARP combinations which aligns with the trial's focus."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Specific lab values for organ function (e.g., hemoglobin, neutrophil count, liver function tests, creatinine) are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's diagnosis of high-grade serous ovarian cancer with a germline BRCA1 mutation aligns with the trial's inclusion criteria, and her ECOG status meets the requirements. However, organ function lab values are not explicitly provided, which introduces some uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06910657",
+      "title": "A First-in-human, Phase I, Multi-center, Open-label, Dose-escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Evidence of Antitumor Activity of IDOV-Immune in Adult Participants With Advanced Solid Tumors",
+      "sponsor": "ViroMissile, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has advanced ovarian cancer, which is included in the trial conditions studied.",
+        "Patient is 54 years old, meeting the age criterion of \u2265 18 years.",
+        "Patient's ECOG status is 0, which is acceptable as it is \u2264 1."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Adequate organ and bone marrow function is not specified in patient data.",
+        "Specific details about measurable disease per RECIST v1.1 are not provided."
+      ],
+      "confidence": 0.85,
+      "reasoning": "The patient's cancer type matches the trial's indication, and the patient meets the age and ECOG performance status criteria. The treatment line appears appropriate as the trial does not specifically require treatment-naive patients. However, details regarding organ function and measurable disease are not confirmed, leading to a high confidence score without exclusions.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04314401",
+      "title": "Cancer Moonshot Biobank Research Protocol",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high grade serous ovarian cancer which matches the conditions studied.",
+        "ECOG status is 0, which is acceptable.",
+        "Patient is 54 years old, meeting the age requirement."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Patient's ability to provide fresh biospecimens at enrollment is not specified.",
+        "Confirmation on archival tissue availability not provided.",
+        "No details on blood collection timing or feasibility."
+      ],
+      "confidence": 0.8,
+      "reasoning": "The patient's condition of high grade serous ovarian cancer aligns with the trial's focus on ovarian carcinoma. The patient has previously received treatment, aligning with the trial's inclusion of treatment-experienced patients. Age and ECOG status meet the trial's eligibility criteria, ensuring a solid match despite some uncertainties regarding biospecimen collection.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05512208",
+      "title": "A Phase 2 Study of VS-6766 (Dual RAF/MEK Inhibitor) Plus Defactinib (FAK Inhibitor) in Recurrent Gynecological Cancers (DURAFAK)",
+      "sponsor": "University of Oklahoma",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is one of the conditions studied in the trial.",
+        "Patient is female and over 18 years old.",
+        "Patient has a performance status of 0 (ECOG status \u2264 2).",
+        "Patient has measurable disease with a rising CA-125 (indicative of recurrent disease).",
+        "Patient has received prior systemic therapies for metastatic disease, satisfying the requirement for at least one prior systemic therapy."
+      ],
+      "conflicts": [],
+      "uncertainties": [
+        "Biomarker status for RAS or BRAF mutations is not provided; it is required for eligibility.",
+        "Laboratory parameters for adequate organ function are not provided."
+      ],
+      "confidence": 0.75,
+      "reasoning": "The patient's cancer type matches the trial criteria as she has high-grade serous ovarian cancer. She has a history of prior systemic therapies, which is consistent with eligibility for this study targeting previously treated patients. However, key information regarding biomarker mutations and specific laboratory parameters are missing, which creates some uncertainty about eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06971744",
+      "title": "Autophagy Maintenance (AUTOMAIN) Therapy in High-Grade Serous Ovarian Cancer: A Phase II Trial",
+      "sponsor": "Medical University of South Carolina",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "HIGH",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has platinum-sensitive first recurrent high-grade serous ovarian cancer.",
+        "Patient has undergone genetic testing with known germline BRCA1 mutation.",
+        "Patient has excellent ECOG performance status (0).",
+        "Patient does not have brain metastases."
+      ],
+      "conflicts": [
+        "Patient has not received at least 3-courses of bevacizumab during chemotherapy."
+      ],
+      "uncertainties": [
+        "Bilirubin and liver function tests (AST/ALT) results are not provided.",
+        "Creatinine clearance (CrCl) results are not provided.",
+        "Absolute neutrophil count (ANC) is not provided.",
+        "Platelet count is not provided.",
+        "Hemoglobin level is not provided."
+      ],
+      "confidence": 0.7,
+      "reasoning": "The patient's cancer type matches the trial's focus on high-grade serous ovarian cancer, and she meets the requirement of being platinum-sensitive and having a known BRCA1 mutation. However, she has not received enough courses of bevacizumab as required, which may impact eligibility. Other lab values necessary for complete assessment are not provided, contributing to the medium confidence level.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06365853",
+      "title": "A Randomized Phase 2 Study of Ocular Toxicity Evaluation and Mitigation During Treatment With Mirvetuximab Soravtansine in Patients With Recurrent Ovarian Cancer With High Folate Receptor-Alpha Expression",
+      "sponsor": "AbbVie",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a confirmed diagnosis of ovarian cancer.",
+        "Patient has a BRCA1 mutation and has received prior treatment with PARP inhibitors."
+      ],
+      "conflicts": [
+        "The trial requires participants to have high folate receptor alpha (FR\u03b1) expression, which is not confirmed in the patient's profile.",
+        "Patient has previously received carboplatin and other therapies, which may conflict with trial's treatment requirements."
+      ],
+      "uncertainties": [
+        "Patient's folate receptor alpha (FR\u03b1) expression status is unknown.",
+        "Ocular health or history is not provided, which may affect eligibility."
+      ],
+      "confidence": 0.25,
+      "reasoning": "The patient has ovarian cancer and a BRCA1 mutation but lacks confirmation on the required FR\u03b1 expression for trial eligibility. Additionally, their treatment history raises questions about the treatment line requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05300711",
+      "title": "Preventing Ovarian Cancer Through the Expansion of Opportunistic Salpingectomy: Uptake, Safety and Cost-effectiveness at the Time of Colorectal Surgery",
+      "sponsor": "University of British Columbia",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a BRCA1 germline mutation which is an exclusion criterion for the trial."
+      ],
+      "uncertainties": [
+        "None"
+      ],
+      "confidence": 0.9,
+      "reasoning": "The trial is focused on opportunistic salpingectomy for colorectal surgery and specifically excludes individuals with BRCA1 or BRCA2 mutations. The patient's profile indicates she has a germline BRCA1 mutation, which leads to her exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06297525",
+      "title": "An Open-Label, Phase 1 Study to Evaluate Safety, Tolerability and Pharmacokinetics of the CTPS1 Inhibitor STP938 in Adult Subjects With Advanced Solid Tumors, With a Safety Expansion in Advanced CTPS2 Null Ovarian Cancer",
+      "sponsor": "Step Pharma, SAS",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer which is a type of solid tumor.",
+        "ECOG status is 0."
+      ],
+      "conflicts": [
+        "The trial requires advanced disease not curable by available therapies; patient has prior systemic therapy which may lead to questionability on current disease status.",
+        "Patient has prior cancer treatments which may violate the exclusion criteria regarding prior systemic cancer treatments."
+      ],
+      "uncertainties": [
+        "Specifics on the adequacy of organ function are not provided.",
+        "Tumor tissue availability for biomarker testing is not explicitly confirmed."
+      ],
+      "confidence": 0.2,
+      "reasoning": "The patient's cancer type matches the trial indication; however, the patient is not a treatment-naive individual and has received multiple prior systemic therapies, which likely disqualifies them based on trial criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04918186",
+      "title": "An Immunotherapy Platform Study in Platinum Resistant High Grade Serous Ovarian Cancer",
+      "sponsor": "Canadian Cancer Trials Group",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 54",
+        "Sex: female",
+        "Cancer type: ovarian cancer",
+        "Biomarkers: BRCA1 germline mutation",
+        "ECOG status: 0"
+      ],
+      "conflicts": [
+        "Patient has platinum-sensitive ovarian cancer, while trial requires platinum-resistant high-grade serous ovarian cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer is platinum-sensitive, which directly conflicts with the trial's requirement for platinum-resistant disease. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05281471",
+      "title": "A Randomized Phase 3 Study Assessing the Efficacy and Safety of Olvi-Vec Followed by Platinum-doublet Chemotherapy and Bevacizumab Compared With Physician's Choice of Chemotherapy and Bevacizumab in Women With Platinum-Resistant/Refractory Ovarian Cancer (PRROC) (OnPrime, GOG-3076)",
+      "sponsor": "Genelux Corporation",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type is high-grade serous ovarian cancer which is included in the trial."
+      ],
+      "conflicts": [
+        "Patient has had prior treatments which indicates she is not treatment-naive, while trial is focused on platinum-resistant/refractory ovarian cancer."
+      ],
+      "uncertainties": [
+        "No specific information about prior bevacizumab treatment provided.",
+        "No detailed information about renal, hepatic, or bone marrow function provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's diagnosis of high-grade serous ovarian cancer aligns with the trial's criteria; however, the patient has already undergone multiple lines of treatment, making her ineligible given the trial's focus on patients with platinum-resistant/refractory disease rather than initially treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05610735",
+      "title": "Combination Therapy With Liposomal Doxorubicin and Withaferin A (Ashwagandha, ASWD) in Recurrent Ovarian Cancer",
+      "sponsor": "Sham Sunder Kakar",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "54 years old, female",
+        "Pathological confirmed high-grade serous ovarian cancer",
+        "ECOG performance status 0",
+        "Prior therapies include platinum-containing regimens (carboplatin, paclitaxel)"
+      ],
+      "conflicts": [
+        "Patient is platinum-sensitive with multiple recurrences; trial requires patients that have become platinum resistant or have refractory disease.",
+        "Patient has received prior therapy; this trial does not specify inclusion of previously treated patients who are not platinum resistant."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's condition does not match the eligibility criteria as they are not deemed platinum resistant but rather platinum sensitive, which is a critical requirement for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05998135",
+      "title": "Phase II Clinical Trial Repurposing Atovaquone for the Treatment of Platinum-Resistant Ovarian Cancer",
+      "sponsor": "Emory University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has platinum-sensitive ovarian cancer but the trial is for platinum-resistant ovarian cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's indication as she has platinum-sensitive disease, which is a clear exclusion criterion for this trial focusing on platinum-resistant cases.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05961124",
+      "title": "A Phase II, Single-Arm Trial Assessing Alternative Dosing Of Niraparib To Decrease Dose Interruption In First Line Maintenance Treatment For Ovarian Cancer: Dose Escalation",
+      "sponsor": "Sunnybrook Health Sciences Centre",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is female",
+        "Patient is 54 years old (>= 18 years)",
+        "Patient has high-grade serous ovarian cancer"
+      ],
+      "conflicts": [
+        "Patient has received multiple previous lines of treatment (carboplatin, paclitaxel, niraparib, gemcitabine), whereas trial includes only treatment-naive patients"
+      ],
+      "uncertainties": [
+        "Patient's organ function (lab values not provided)",
+        "Patient's menopausal status (not explicitly mentioned)"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is correct, but she has had prior treatments, which conflicts directly with the trial's requirement for treatment-naive patients. Therefore, she is excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06290193",
+      "title": "A Prospective Randomized Trial of Acute Normovolemic Hemodilution (ANH) in Patients Undergoing Cytoreductive Surgery for Ovarian Cancer",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has had prior systemic therapy (carboplatin, paclitaxel, niraparib, gemcitabine) whereas the trial does not specify eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ovarian cancer matches the trial's conditions; however, the trial's inclusion criteria do not clarify if previously treated patients can participate. Given the patient's treatment history, this creates a conflict that likely results in exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06639074",
+      "title": "MC1963 Folate Receptor Alpha Dendritic Cells (FR\u03b1DCs) or Placebo for Patients With Advanced Stage Ovarian Cancer: A Phase II Double-Blind Randomized Clinical Trial (FAROUT)",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "54-year-old female",
+        "ECOG status 0",
+        "High-grade serous ovarian cancer",
+        "Germline BRCA1 pathogenic variant"
+      ],
+      "conflicts": [
+        "The trial's exclusion criteria states that no pathogenic mutations of BRCA1/BRCA2 are allowed. The patient has a BRCA1 germline mutation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has high-grade serous ovarian cancer and meets the ECOG status requirement; however, she is excluded due to the presence of a BRCA1 pathogenic mutation, which disqualifies her from the trial based on specified exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00005095",
+      "title": "Northwestern Ovarian Cancer Early Detection & Prevention Program: A Specimen and Data Study",
+      "sponsor": "Northwestern University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial studies HEREDITARY Breast/Ovarian CANCER, patient has OVARIAN CANCER without indication of increased risk for familial history."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is ovarian cancer, but the trial is focused on hereditary breast/ovarian cancer prevention and early detection. The patient's profile does not indicate an increased risk through familial history as described in the eligibility criteria, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03943316",
+      "title": "Single Institution (UNM) Prospective Laboratory Study of Cancer and Immune Cells in the Ascites Fluid of Ovarian Cancer Patients to Test Alternative Therapies",
+      "sponsor": "New Mexico Cancer Research Alliance",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is female",
+        "Patient is 54 years old"
+      ],
+      "conflicts": [
+        "Patient has high-grade serous ovarian cancer, but trial requires pathological diagnosis or clinical suspicion and specifically states it is for women undergoing cytoreductive surgery, which the patient is not currently scheduled for."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is ovarian cancer, but the trial specifies that participants must be scheduled for cytoreductive surgery, which is not indicated in the patient's profile. As such, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04794322",
+      "title": "Ovarian Cancer Detection by Uterine Lavage DNA and Serum Proteins: a Phase 2 Biomarker Study",
+      "sponsor": "Massachusetts General Hospital",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female",
+        "Age 54",
+        "ECOG status 0",
+        "Known BRCA1 mutation"
+      ],
+      "conflicts": [
+        "Patient has a history of advanced ovarian cancer (Stage IIIC) and multiple prior therapies, while the trial includes only patients who are treatment-naive or undergoing a risk-reducing surgery."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's history of advanced ovarian cancer and multiple prior treatments conflicts with the trial's requirement for treatment-naive patients. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05636111",
+      "title": "Phase 1b of Lurbinectedin in Combination With Weekly Paclitaxel and Bevacizumab in Platinum-resistant Ovarian Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Gender: female",
+        "ECOG status: 0",
+        "Prior therapies: carboplatin, paclitaxel, niraparib, gemcitabine"
+      ],
+      "conflicts": [
+        "The trial targets platinum-resistant ovarian cancer, while the patient has platinum-sensitive ovarian cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ovarian cancer is platinum-sensitive, while the trial is specifically for patients with platinum-resistant disease, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06799065",
+      "title": "A Phase 1/2, Open-Label, Dose-Escalation and Expansion First-In-Human Study of ATX-295, an Oral Inhibitor of the Kinesin Motor Protein KIF18A, in Patients With Locally Advanced or Metastatic Solid Tumors, Including High-Grade Serous Ovarian Cancer",
+      "sponsor": "Accent Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer, which is a target indication for the trial",
+        "Patient has ECOG status of 0"
+      ],
+      "conflicts": [
+        "Patient is not platinum-resistant, platinum-refractory, or platinum-intolerant as required by the trial for expansion cohorts"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has high-grade serous ovarian cancer, aligning with the trial's target indication. However, the trial requires patients to be platinum-resistant, platinum-refractory, or platinum-intolerant, and the patient's profile does not meet this specific criterion, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06677190",
+      "title": "A Phase II Trial of Belzutifan in Patients With Recurrent or Persistent Clear Cell Carcinoma of the Ovary or Clear Cell Carcinoma of Other Gynecologic Origin",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has high-grade serous ovarian cancer, while trial targets clear cell carcinoma of the ovary."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (high-grade serous ovarian cancer) does not match the trial's target indication (clear cell carcinoma). Therefore, the patient is excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02288676",
+      "title": "DOvEEgene/WISE Genomics: Diagnosing Ovarian and Endometrial Cancer Early Using Genomics",
+      "sponsor": "McGill University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has previously treated ovarian cancer, while the trial conditions require subjects to have suspected or confirmed cancer of the upper genital tract and does not specify eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ovarian cancer history and treatment status conflict with the eligibility requirements for subjects who are expected to be undergoing surgery for tumor removal without prior treatment specifically stated for the trial. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04431024",
+      "title": "Prospective Evaluation of High Resolution Dual Energy Computed Tomographic Imaging, Noninvasive (Liquid) Biopsies, and Minimally Invasive Surgical Surveillance for Early Detection of Mesotheliomas in Patients With BAP1 Tumor Predisposition Syndrome",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer while trial focuses on BAP1 mutation and related syndromes which do not include ovarian cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (ovarian cancer) does not match the trial's focus on BAP1 mutations and related syndromes, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04847063",
+      "title": "Individualized Response Assessment to Heated Intraperitoneal Chemotherapy (HIPEC) for the Treatment of Peritoneal Carcinomatosis From Ovarian, Colorectal, Appendiceal, or Peritoneal Mesothelioma Histologies",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a history of prior systemic therapy, while the trial likely requires treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ovarian cancer does match the trial conditions, but the patient's treatment history indicates they are not treatment-naive, which conflicts with the likely trial requirements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04890613",
+      "title": "Phase Ib Expansion Study of CX-5461 in Patients With Solid Tumours and BRCA2 and/or PALB2 Mutation",
+      "sponsor": "Senhwa Biosciences, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a BRCA1 germline mutation",
+        "Patient has high-grade serous ovarian cancer",
+        "Patient is 54 years old"
+      ],
+      "conflicts": [
+        "Trial requires BRCA2 and/or PALB2 mutation, the patient has a BRCA1 mutation only.",
+        "Trial exploratory cohort requires patients to be platinum sensitive, patient has a second recurrence but does not specify that it is within 6 months of last platinum-based therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is consistent with the trial focus on ovarian cancer, but the required biomarker mutations and specific treatment response criteria do not align, excluding eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05287451",
+      "title": "Risk Reducing Salpingectomy With Delayed Oophorectomy as an Alternative to Risk- Reducing Salpingo-oophorectomy in High Risk-Women to Assess the Safety of Prevention - US Cohort Study",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is postmenopausal due to cancer treatment, while trial requires premenopausal status."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ovarian cancer type matches the trial's condition; however, the patient is postmenopausal, which directly conflicts with the trial's inclusion criteria requiring premenopausal status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05366881",
+      "title": "cfDNA Assay Multicenter Prospective Observational Validation for Early Cancer Detection, Minimal Residual Disease, and Relapse",
+      "sponsor": "Adela, Inc",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is currently receiving treatment (niraparib) for cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on ovarian cancer, however, she is currently receiving treatment for cancer, which conflicts with the eligibility criteria that excludes patients currently receiving any treatment for cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05225428",
+      "title": "Video Education With Result Dependent dIsclosure",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Current diagnosis of ovarian cancer"
+      ],
+      "conflicts": [
+        "Trial includes conditions studied are primarily for educational purposes and does not include therapeutic interventions, which is required for this patient's interest in novel PARP combinations or antibody-drug conjugates.",
+        "Patient has prior germline genetic testing (BRCA1 mutation) which is likely disqualifying under exclusion criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a diagnosis of ovarian cancer, which is included in the trial conditions; however, the trial's purpose is primarily educational and does not consider active treatment, which does not align with the patient's current needs for treatment options. Additionally, the patient has a prior germline genetic testing, which likely disqualifies her from this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06583395",
+      "title": "Effects Of Meditation On The Gut Microbiome And Human Health and Disease",
+      "sponsor": "Tobias Moeller-Bertram",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 54",
+        "Sex: female",
+        "ECOG status: 0",
+        "Brain metastases: none"
+      ],
+      "conflicts": [
+        "Patient has cancer type (ovarian cancer) that does not match the primary focus of the trial which is not explicitly indicated to include advanced cancer treatments.",
+        "Patient has prior systemic therapy that does not qualify under the treatment-naive criteria."
+      ],
+      "uncertainties": [
+        "Specific biomarker requirements for the trial are not stated in the eligibility criteria."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The trial does not specifically target advanced cancer treatments, and the patient has a history of multiple prior therapies, which leads to clear exclusion from the eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06760507",
+      "title": "Evaluating an Evidence-Based Family History Screening Program Adapted to Increase Reach and Uptake of Screening for BRCA-Associated Cancers in Rural Public Health Clinics",
+      "sponsor": "Emory University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial eligibility criteria require patients to be seen in participating public health clinics in Southwest district, while the patient is in the United States but no specific indication of being seen in the required location."
+      ],
+      "uncertainties": [
+        "No details on the patient's previous treatment line being within the requirements of this trial, which is adapted for a specific population in rural areas."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (ovarian cancer) matches the conditions studied in the trial. However, the location requirement in the eligibility criteria creates a significant conflict, as the patient has not been confirmed to be part of the specified Southwest district clinics. Thus, the confidence in eligibility is low.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03675893",
+      "title": "RESOLVE: letRozole abEmaciclib combinationS in endOmetriaL and oVarian cancEr: A Multi-Cohort Phase 2 Study of Letrozole/Abemaciclib Alone and in Combination With Metformin, Zotatifin and Gedatolisib",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has high-grade serous ovarian cancer, but the trial is focused on low-grade serous ovarian cancer or endometrial cancer.",
+        "Patient does not have ER-positive disease, which is required for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type does not match the conditions studied in the trial, and they also do not meet the required biomarker criteria for eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04858334",
+      "title": "APOLLO: A Randomized Phase II Double-Blind Study of Olaparib Versus Placebo Following Curative Intent Therapy in Patients With Resected Pancreatic Cancer and a Pathogenic BRCA1, BRCA2 or PALB2 Mutation",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 54 years old, which meets age criteria",
+        "Patient has an ECOG status of 0"
+      ],
+      "conflicts": [
+        "Patient has ovarian cancer, but trial studies pancreatic cancer only",
+        "Patient has received prior therapies, while trial includes only treatment-naive patients"
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is ovarian cancer, which does not match the trial's focus on pancreatic cancer. Additionally, the patient has received prior therapy, while the trial seeks treatment-naive patients. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06504147",
+      "title": "A Phase 2, Randomised, Open Label, Multicentre Study of an Intraperitoneal \u0391-emitting Radionuclide Therapy (Radspherin\u00ae) in Patients with Primary Advanced High-grade Serous or High-grade Endometrioid Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer, with Peritoneal Metastasis That Are Homologous Recombination Proficient and Scheduled to Undergo Neoadjuvant Chemotherapy and Interval Debulking Surgery",
+      "sponsor": "Oncoinvent AS",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female of age 54",
+        "ECOG status 0"
+      ],
+      "conflicts": [
+        "Patient has a known germline BRCA1 mutation, which is an exclusion criterion for the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.01,
+      "reasoning": "The patient has a confirmed germline BRCA1 mutation, which directly conflicts with the trial's exclusion criteria for known somatic or germline BRCA mutations. Therefore, the patient is excluded from participation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06619236",
+      "title": "A Phase 3 Randomized, Open-label Study of Rinatabart Sesutecan (Rina-S) Versus Treatment of Investigator's Choice (IC) in Patients With Platinum Resistant Ovarian Cancer",
+      "sponsor": "Genmab",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has high-grade serous ovarian cancer",
+        "Patient has received 4 prior lines of therapy"
+      ],
+      "conflicts": [
+        "Trial is for platinum-resistant ovarian cancer but patient has platinum-sensitive disease"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's diagnosis of platinum-sensitive ovarian cancer conflicts with the trial focusing on platinum-resistant ovarian cancer, leading to clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04251052",
+      "title": "A Non-Randomized Prospective Clinical Trial Comparing the Non-Inferiority of Salpingectomy to Salpingo-oophorectomy to Reduce the Risk of Ovarian Cancer Among BRCA1 Carriers [SOROCk]",
+      "sponsor": "NRG Oncology",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 50"
+    },
+    {
+      "nct_id": "NCT04633239",
+      "title": "A Phase 1/1b Dose Escalation Study of Abemaciclib and Olaparib for Recurrent Platinum-Resistant Ovarian Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has recurrent platinum-sensitive ovarian cancer, whereas the trial targets recurrent platinum-resistant ovarian cancer.",
+        "Patient's prior therapies include platinum-based chemotherapy, indicating they are not qualified for the trial due to requirement of platinum resistance."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has ovarian cancer but it is currently classified as recurrent platinum-sensitive, which does not align with the trial's objective of recruiting patients with recurrent platinum-resistant ovarian cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06234423",
+      "title": "A Phase 1, First-in-Human Study of CUSP06, a Cadherin-6 (CDH6)-Directed Antibody-Drug Conjugate, in Patients With Platinum-Refractory/Resistant Ovarian Cancer and Other Advanced Solid Tumors",
+      "sponsor": "OnCusp Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is a 54-year-old female with ovarian cancer.",
+        "Patient has ECOG status of 0."
+      ],
+      "conflicts": [
+        "Trial specifies patients with platinum-refractory/resistant ovarian cancer, but the patient is currently platinum-sensitive.",
+        "Trial exclusion criteria state no prior treatment with an antibody-drug conjugate (ADC) with a topoisomerase I (TOP1) payload; the patient's history of treatments does not specify it but could apply."
+      ],
+      "uncertainties": [
+        "Previous treatments and their relation to eligibility regarding ADCs with TOP1 payloads.",
+        "Organ function lab results (e.g., ANC, platelets, hemoglobin, creatinine clearance) are required but not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's condition is currently classified as platinum-sensitive while the trial is for platinum-refractory/resistant patients, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02693535",
+      "title": "Targeted Agent and Profiling Utilization Registry (TAPUR) Study",
+      "sponsor": "American Society of Clinical Oncology",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04065269",
+      "title": "ATARI: ATr Inhibitor in Combination With Olaparib/Durvalumab (MEDI4736) in Gynaecological Cancers With ARId1A Loss or no Loss",
+      "sponsor": "Institute of Cancer Research, United Kingdom",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05128825",
+      "title": "A Phase 2 Open-Label, Multicenter Study To Evaluate Efficacy And Safety Of ZN-c3 In Subjects With High-Grade Serous Ovarian, Fallopian Tube, Or Primary Peritoneal Cancer (DENALI / ZN-c3-005 / GOG-3066)",
+      "sponsor": "K-Group, Beta, Inc., a wholly owned subsidiary of Zentalis Pharmaceuticals, Inc",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05327010",
+      "title": "Phase 2 Trial of the Combination of the BET Inhibitor, ZEN003694 (ZEN-3694), and the PARP Inhibitor Talazoparib, in Patients With Molecularly-Selected Solid Tumors (ComBET)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05554328",
+      "title": "A Randomized Trial of Selumetinib and Olaparib or Selumetinib Alone in Patients With Recurrent or Persistent RAS Pathway Mutant Ovarian and Endometrial Cancers: A ComboMATCH Treatment Trial",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05684965",
+      "title": "A First-in-Human, Multicenter, Phase 1/2, Open-Label Study of XTX301 in Patients With Advanced Solid Tumors",
+      "sponsor": "Xilio Development, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05819853",
+      "title": "Role of Semaglutide in Restoring Ovulation in Youth and Adults With Polycystic Ovary Syndrome",
+      "sponsor": "University of Colorado, Denver",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 35"
+    },
+    {
+      "nct_id": "NCT05902988",
+      "title": "A Phase I/II Study of VLS-1488 (an Oral KIF18A Inhibitor) in Subjects With Advanced Cancer",
+      "sponsor": "Volastra Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05985655",
+      "title": "A Phase 1/2 Open-label Multicenter Study to Assess the Safety, Pharmacokinetics, and Anti-tumor Activity of GTAEXS617 in Patients With Advanced Solid Tumors",
+      "sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06660654",
+      "title": "REJOICE-PanTumor01: A Phase 2, Multicenter, Open-Label, Pan-Tumor Trial to Evaluate Efficacy and Safety of Raludotatug Deruxtecan (R-DXd) in Participants With Advanced/Metastatic Solid Tumors",
+      "sponsor": "Daiichi Sankyo",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06732336",
+      "title": "HER2-PET Imaging Using 89Zr-trastuzumab in Low HER2-expressing (HER2-low) Breast Cancers",
+      "sponsor": "Centre de recherche du Centre hospitalier universitaire de Sherbrooke",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02000089",
+      "title": "The Cancer of the Pancreas Screening-5 CAPS5)Study",
+      "sponsor": "Johns Hopkins University",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer; trial is studying pancreas cancer and related conditions.",
+        "Patient does not meet disease criteria as there is no inclusion for ovarian cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (ovarian cancer) does not match the trial's conditions (pancreas cancer), leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04090567",
+      "title": "Overcoming PARP Inhibitor Resistance in BRCA Germline Mutation Positive Advanced Breast Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer while the trial is for breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is ovarian cancer, which does not match the trial's focus on breast cancer. This leads to clear exclusion from the trial based on disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06268665",
+      "title": "A Randomized Trial of Tart Cherry Juice as a Dietary Supplement for the Prevention of Paclitaxel-Induced Neuropathy",
+      "sponsor": "Eve Rodler",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Histologically confirmed invasive ovarian cancer (Stage IIIC)",
+        "ECOG performance status of 0"
+      ],
+      "conflicts": [
+        "Patient has received prior chemotherapy with taxanes (paclitaxel), which is excluded by the trial eligibility criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has ovarian cancer, which is a condition studied in this trial. However, they have received prior therapy with taxanes, specifically paclitaxel, which disqualifies them under the exclusion criteria stating prior therapy with taxanes is not allowed.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06654050",
+      "title": "Phase II Study of Alrizomadlin (APG-115) in Subjects With BAP1 Cancer Syndrome and Early-Stage Mesothelioma",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer; trial focuses on mesothelioma, which is a different cancer type."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (ovarian cancer) does not match the conditions studied in the trial (mesothelioma), leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00823654",
+      "title": "Multi-Center Study of Serum Biomarkers to Characterize the Effects of Therapy on Ovarian Reserve in Premenopausal Women With Early-stage Breast Cancer BRCA Mutations",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 44"
+    },
+    {
+      "nct_id": "NCT01102569",
+      "title": "Molecular Genetics and Epidemiology of Pancreatic Cancer in Ashkenazi Jewish Patients",
+      "sponsor": "Columbia University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02296307",
+      "title": "Diagnosing Ovarian & Endometrial Cancer Early (DOvEE) by Targeting Symptomatic Women",
+      "sponsor": "McGill University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03568630",
+      "title": "A Longitudinal Cohort Study to Identify Clinical and Blood Markers of Early Pancreas Cancer",
+      "sponsor": "University of Nebraska",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03905941",
+      "title": "Relative Desirability of Metformin vs. Birth Control Pill in Treating PCOS in Women of Later Reproductive Age",
+      "sponsor": "University of Virginia",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 49"
+    },
+    {
+      "nct_id": "NCT04196595",
+      "title": "Apple Women's Health Study",
+      "sponsor": "Apple Inc.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04294927",
+      "title": "TUBectomy With Delayed Oophorectomy as Alternative for Risk-reducing Salpingo-oophorectomy in High Risk Women to Assess the Safety of Prevention: TUBA-WISP II Study.",
+      "sponsor": "University Medical Center Nijmegen",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 50"
+    },
+    {
+      "nct_id": "NCT04389632",
+      "title": "A Phase 1 Study of Sigvotatug Vedotin in Advanced Solid Tumors",
+      "sponsor": "Seagen, a wholly owned subsidiary of Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04585958",
+      "title": "A Phase I Study of DS-8201a in Combination With Olaparib in HER2-Expressing Malignancies",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04970056",
+      "title": "Pancreatic Cancer Early Detection Consortium",
+      "sponsor": "Arbor Research Collaborative for Health",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05440617",
+      "title": "Biorepository in Participants Who Undergo OTC for Gonadotoxic Therapy",
+      "sponsor": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 54 is above maximum age 35"
+    },
+    {
+      "nct_id": "NCT05527184",
+      "title": "A Phase 1, First-in-Human, Open-Label, Dose-Escalation and Expansion Study of IMGN151 (Anti-FR\u03b1 Antibody-drug Conjugate) in Adult Patients With Recurrent Gynaecological Cancers",
+      "sponsor": "AbbVie",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05625529",
+      "title": "Exoluminate Study: Observational Registry Study to Assess Exo-PDAC Assay Performance for Detection of Pancreatic Adenocarcinoma (PDAC) in High-Risk or Clinically Suspicious Patients",
+      "sponsor": "Biological Dynamics",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05827614",
+      "title": "An Open-Label, Multicenter, First-in-Human, Dose-Escalation and Dose-Expansion, Phase 1/2 Study of BBI-355 and BBI-355 in Combination With Select Targeted Therapies in Subjects With Locally Advanced or Metastatic Solid Tumors With Oncogene Amplifications",
+      "sponsor": "Boundless Bio",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05910294",
+      "title": "Randomized Pilot Prevention Trial to Improve Sexual and Vulvovaginal Health Concerns in Premenopausal Female Breast Cancer Patients Receiving Ovarian Suppression",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05950464",
+      "title": "A Phase 1B Study of Combination ATR (M1774) and BET Inhibition (ZEN003694) to Exploit ARID1A Loss in Recurrent Ovarian and Endometrial Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06151223",
+      "title": "A Prospective Registry for Patients at High-Risk for Pancreatic Cancer",
+      "sponsor": "Mayo Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06376604",
+      "title": "Use of a Fasting Mimicking Diet in Patients Undergoing Chemotherapy for Gynecologic Malignancies",
+      "sponsor": "L-Nutra Inc",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06451497",
+      "title": "Phase 1 Dose Escalation Trial of ZM008, an Anti-LLT1 Antibody, as Single Agent Followed by Combination With Pembrolizumab in Patients With Advanced Solid Tumors",
+      "sponsor": "Zumutor Biologics Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06476808",
+      "title": "A Phase 1/1b First-in-human Study of BMS-986463 in Advanced Malignant Tumors",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06555744",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of Ascending Doses of a Folate Receptor Alpha Antibody Drug Conjugate, ZW191, in Participants With Advanced Solid Tumors",
+      "sponsor": "Zymeworks BC Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT02775461",
+      "title": "Pancreas Disease and High Risk Registry",
+      "sponsor": "Icahn School of Medicine at Mount Sinai",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Trial focuses on pancreatic diseases; patient has ovarian cancer, a completely different disease type."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is ovarian cancer, while the trial is studying conditions related to pancreatic diseases. This clear misalignment in disease type leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02302742",
+      "title": "PROspective Evaluation of GErmline Mutations, Cancer Outcome and Tissue Biomarkers: A Registry for Patients With Triple Negative Breast Cancer and Germline Mutations",
+      "sponsor": "University of Kansas Medical Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Female, 54 years old",
+        "Germline BRCA1 mutation"
+      ],
+      "conflicts": [
+        "Patient has ovarian cancer, but trial is for Triple Negative Breast Cancer or Hereditary Breast and Ovarian Cancer.",
+        "Patient is not within the target disease area, which is specifically for breast cancer."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is ovarian cancer, which does not match the trial's focus on breast cancer. Therefore, the patient is excluded based on the disease/indication assessment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03544983",
+      "title": "A Randomized Trial of Proactive Outreach and Streamlined Genetic Education in BRCA Families",
+      "sponsor": "Georgetown University",
+      "phase": "Not Applicable",
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a personal diagnosis of metastatic cancer which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has a personal diagnosis of metastatic ovarian cancer, which directly conflicts with the trial's exclusion criteria. Therefore, the patient is excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05649072",
+      "title": "Identifying Underserved Individuals inTexas With Hereditary Cancer Risk Using Mobile Mammography Units and Telegenetics.",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer, but trial is not specifically focused on treatment for ovarian cancer; it's aimed at risk assessment and detection for underserved individuals."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has ovarian cancer, but the trial is focused on identifying individuals at risk for hereditary cancer using mobile mammography services, which does not align directly with treatment for ovarian cancer.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06892275",
+      "title": "The FYI on MRI: A Multilevel Decision Support Intervention for Screening Breast MRI",
+      "sponsor": "Georgetown University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ovarian cancer while the trial is for breast cancer.",
+        "Patient does not self-identify as Black and/or Latina, which is required for participation."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is ovarian cancer, which does not match the trial's focus on breast cancer. Additionally, the patient does not meet the required demographic criteria for participation.",
+      "excluded_reason": null
+    }
+  ]
+}

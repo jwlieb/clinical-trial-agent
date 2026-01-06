@@ -1,0 +1,1648 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T18:33:41.616900",
+    "patient_profile": {
+      "age": 42,
+      "sex": "male",
+      "cancer_type": "NSCLC",
+      "biomarkers": [
+        "ALK rearrangement"
+      ],
+      "description": "42-year-old male with ALK-rearranged metastatic NSCLC (EML4-ALK variant 1). CNS-dominant disease with multiple brain metastases (>10 lesions, largest 2.1cm) and leptomeningeal enhancement on MRI. Systemic disease stable on alectinib x18 months but clear CNS progression. Prior crizotinib x8 months. No WBRT yet - oncology preference to avoid if possible. Mild headaches, no focal neurological deficits. CSF cytology positive for malignant cells. Seeking trials with enhanced CNS penetration or leptomeningeal disease focus. Otherwise healthy, never smoker."
+    },
+    "total_trials": 90,
+    "high_likelihood": 0,
+    "medium_likelihood": 0
+  },
+  "results": [
+    {
+      "nct_id": "NCT03851445",
+      "title": "LUNGMAP: A Master Protocol To Evaluate Biomarker-Driven Therapies And Immunotherapies In Previously-Treated Non-Small Cell Lung Cancer (Lung-Map Screening Study)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male",
+        "Age: 42",
+        "Cancer type: NSCLC (non-small cell lung cancer)",
+        "Biomarkers: ALK rearrangement",
+        "ECOG status: 1",
+        "Prior therapies: crizotinib, alectinib"
+      ],
+      "conflicts": [
+        "Brain metastases: active - trial criteria may exclude patients with significant brain metastases."
+      ],
+      "uncertainties": [
+        "Must confirm adequacy of tumor tissue and whether a fresh biopsy is needed.",
+        "CSF cytology positive for malignant cells may complicate eligibility depending on trial interpretation of CNS disease."
+      ],
+      "confidence": 0.3,
+      "reasoning": "The patient's cancer type matches the trial's focus on NSCLC, but significant uncertainties exist regarding eligibility, particularly concerning active brain metastases, which may lead to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05384626",
+      "title": "A Phase 1/2 Study of the Selective Anaplastic Lymphoma Kinase (ALK) Inhibitor NVL-655 in Patients With Advanced NSCLC and Other Solid Tumors (ALKOVE-1)",
+      "sponsor": "Nuvalent Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age >= 18 years",
+        "Histologically or cytologically confirmed metastatic NSCLC with documented ALK rearrangement"
+      ],
+      "conflicts": [
+        "Active brain metastases could be a concern regarding eligibility based on organ function/therapy criteria",
+        "Patient is currently experiencing CNS progression with multiple brain metastases which may not qualify for trials focused on CNS penetration",
+        "Prior therapies including crizotinib and alectinib conflicts with the trial's treatment line requirements if marked as first-line or treatment-naive"
+      ],
+      "uncertainties": [
+        "Adequate organ function and bone marrow reserve specifics are not provided",
+        "The implications of the current treatment preference by the oncology team (avoiding WBRT and ongoing CNS complications) need further clarity"
+      ],
+      "confidence": 0.25,
+      "reasoning": "The patient's cancer type matches the trial, but significant concerns about current disease status (active brain metastases) and prior treatment history suggest substantial barriers to eligibility, leading to a low likelihood of matching.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04899908",
+      "title": "A Double-blind, Phase II Randomized Study of Brain-directed Stereotactic Radiation With or Without AGuIX Gadolinium-based Nanoparticles in the Management of Brain Metastases at Higher Risk of Local Recurrence With Radiation Alone",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "LOW",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: NSCLC",
+        "Biomarkers: ALK rearrangement",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases and widespread definitive leptomeningeal disease, which is an exclusion criterion."
+      ],
+      "uncertainties": [
+        "Estimated glomerular filtration rate is not provided.",
+        "Estimated survival based on extracranial disease is not provided.",
+        "Ability to understand and willingness to sign informed consent is not provided."
+      ],
+      "confidence": 0.2,
+      "reasoning": "The patient's condition is NSCLC, which matches the trial's focus on lung cancer, but the active brain metastases with widespread definitive leptomeningeal disease conflict with the exclusion criteria. This significantly affects eligibility. Uncertainties regarding organ function and estimated survival further lower the confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05501665",
+      "title": "SiCARIO (Split Course Adaptive Radioimmunotherapy) for the Treatment of Oligometastatic Non-Small Cell Lung Cancer (NSCLC) Using Biologically-Adaptive Radiotherapy - A Phase I/II Study",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases that cannot be managed with surgery or stereotactic radiosurgery prior to initiation of treatment, as required for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's criteria for NSCLC, however, he has active brain metastases that do not meet the trial's eligibility criteria regarding management of brain metastases, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05715229",
+      "title": "A Multicenter Phase II Randomized Trial Of Immunotherapy Versus Chemotherapy Guided By Circulating Tumor DNA-Based Molecular Response On Patients With Metastatic NSCLC",
+      "sponsor": "Hackensack Meridian Health",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior systemic therapy (crizotinib and alectinib) while trial is for treatment-naive patients.",
+        "Patient has active CNS metastases, which excludes them from eligibility as the trial requires CNS metastases to be adequately treated."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication of NSCLC, but the patient is not treatment-naive and has untreated active CNS metastases, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05853575",
+      "title": "A Randomized Study of Two Dosing Regimens of Adagrasib in Patients With Previously Treated Non-Small Cell Lung Cancer With KRAS G12C Mutation",
+      "sponsor": "Mirati Therapeutics Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with ALK rearrangement, while trial requires KRAS G12C mutation.",
+        "Patient has active brain metastases with lesions larger than 2.0 cm."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has a different biomarker (ALK rearrangement) than required for the trial (KRAS G12C mutation), leading to a clear exclusion based on mismatch of cancer type. Additionally, the presence of active brain metastases exceeding the size limit further excludes the patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06074588",
+      "title": "A Randomized, Open-label, Phase 3 Study of MK-2870 vs Chemotherapy (Docetaxel or Pemetrexed) in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Male patient aged 42 with ALK-rearranged metastatic NSCLC",
+        "ECOG status of 1"
+      ],
+      "conflicts": [
+        "Has known active central nervous system metastases and/or carcinomatous meningitis, which is an exclusion criteria"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial indication of NSCLC, and he is a previously treated patient, but he is excluded due to having known active central nervous system metastases. This is a critical exclusion criterion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06246110",
+      "title": "A Phase 2 Study of EIK1001 in Combination With Pembrolizumab and Chemotherapy in Patients With Stage 4 Non-Small Cell Lung Cancer",
+      "sponsor": "Eikon Therapeutics",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has received prior systemic therapies (crizotinib, alectinib), whereas trial criteria exclude patients who have received prior systemic treatment for advanced/metastatic NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial, but he has received prior systemic therapies, which directly conflicts with the trial's requirement for treatment-naive patients. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06712316",
+      "title": "A Phase II/III, Multisite, Randomized Master Protocol for a Global Trial of BNT327 in Combination With Chemotherapy and Other Investigational Agents in First-line Non-small Cell Lung Cancer",
+      "sponsor": "BioNTech SE",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1"
+      ],
+      "conflicts": [
+        "Patient has ALK rearrangement; trial excludes NSCLC with ALK rearrangement."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has non-small cell lung cancer (NSCLC) with an ALK rearrangement, which is specifically excluded in the trial eligibility criteria that require not having actionable ALK rearrangements.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06788912",
+      "title": "KEYMAKER-U01 Substudy 01E: A Phase 2 Umbrella Study With Rolling Arms of Investigational Agents With or Without Chemotherapy in Combination With Pembrolizumab in Treatment of Participants With Newly Diagnosed Resectable Stages II-IIIB (N2) Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases which conflict with inclusion criteria of having resectable NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient presents with active brain metastases which categorically excludes them from this trial focused on resectable Stage II-IIIB NSCLC, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07216404",
+      "title": "Exploring the Safety, Acceptability, and Efficacy of Psilocybin Among Non-Small Cell Lung Cancer Patients With Major Depressive Disorder: A Proof-of-Concept Trial (DREAM LUNG STUDY)",
+      "sponsor": "Alan Davis",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has NSCLC (non-small cell lung carcinoma)."
+      ],
+      "conflicts": [
+        "Patient has active brain metastases, which is significant CNS pathology excluding criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial is focused on patients with NSCLC and major depressive disorder. However, the presence of significant CNS pathology (active brain metastases) indicates exclusion from the trial, resulting in a confidence level of 0.1.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07063745",
+      "title": "A Randomized Phase 2/3 Study of BMS-986504 in Combination With Pembrolizumab and Chemotherapy Versus Placebo Plus Pembrolizumab and Chemotherapy in First-line Metastatic Non-small Cell Lung Cancer Participants With Homozygous MTAP Deletion",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Prior systemic therapy for metastatic disease (crizotinib and alectinib) conflicts with the requirement for no prior systemic anti-cancer therapy for metastatic disease.",
+        "Active brain metastases make the patient ineligible as the trial excludes participants with symptomatic brain metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which matches the trial's focus. However, the patient has previously received systemic therapies for metastatic disease, which directly conflicts with the trial's requirement for treatment-naive patients. Additionally, the presence of active brain metastases excludes the patient from eligibility. Thus, the patient is definitely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00897117",
+      "title": "Molecular Fingerprinting of Lung Cancer",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial requires clinical stage I and II disease, but the patient has metastatic NSCLC.",
+        "The trial requires resectable disease and complete surgical resection planned, but the patient has CNS-dominant disease with active brain metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's disease requirement as he has metastatic NSCLC, while the trial only includes stage I and II. Additionally, the patient has active brain metastases, which disqualifies him based on the requirement for resectable disease.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03551951",
+      "title": "Tumor Cell and DNA Detection in the Blood, Urine and Bone Marrow of Patients With Solid Cancers and Subjects Undergoing Lung Cancer Screening",
+      "sponsor": "University of Missouri-Columbia",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 42 years old.",
+        "Patient has a diagnosis of NSCLC (Non-Small Cell Lung Cancer)."
+      ],
+      "conflicts": [
+        "Trial requires patients with resectable solid cancers; patient has active brain metastases and CNS-dominant disease, which generally indicates unresectable status.",
+        "Patient has undergone prior systemic therapies (crizotinib, alectinib); trial does not specify eligibility for previously treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has NSCLC, which is included in the trial's conditions studied; however, the presence of active brain metastases likely indicates a status that does not align with the trial's focus on potentially curable, resectable cancers. Additionally, the patient has received prior therapies, which also likely disqualifies him from the trial's potential requirements for treatment-na\u00efve individuals.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05415358",
+      "title": "A Prospective Study Of Immune Signatures In Metastatic Non-Small Cell Lung Cancer (mNSCLC) Patients At Completion Of Immune Checkpoint Inhibitor Treatment Either As Monotherapy Or In Combination With Chemotherapy In The First Line Setting",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has prior therapies (crizotinib, alectinib) but this trial requires patients who have completed at least 20 months of first-line immunotherapy, which the patient has not received."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on metastatic NSCLC, but the patient has not completed the required immunotherapy treatment line, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05430009",
+      "title": "Phase I Trial of Feasibility and Safety of Liver SBRT in Combination With Immune Checkpoint Inhibition in Patients With Metastatic Non-small Cell Lung Cancer",
+      "sponsor": "VA Ann Arbor Healthcare System",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient's cancer type is NSCLC, but the trial specifically targets liver metastases, which the patient does not have as per the profile."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The trial is for patients with liver metastases, whereas the patient has brain metastases dominating their disease, thus excluded based on the indication mismatch.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05866302",
+      "title": "Parametric Response Mapping (PRM) for the Detection of Chronic Lung Injury in Hematopoietic Cell Transplant Recipients. A Multi-center, Observational Trial.",
+      "sponsor": "University of Michigan Rogel Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient has non-small cell lung cancer (NSCLC), while the trial is focused on chronic lung disease and hematopoietic cell transplantation, which does not match the patient's cancer type."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the conditions studied in the clinical trial, which focus on chronic lung disease and graft versus host disease. Therefore, the patient is clearly excluded based on disease indication criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06562192",
+      "title": "Phase I Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Dosimetry, and Preliminary Activity of [177Lu]Lu-NNS309 in Patients With Pancreatic, Lung, Breast and Colorectal Cancers",
+      "sponsor": "Novartis Pharmaceuticals",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases, which is typically an exclusion for trials unless specified otherwise.",
+        "Patient has ALK rearrangement, which is listed as an actionable genomic alteration; the trial requires disease progression after targeted therapy for eligibility."
+      ],
+      "uncertainties": [
+        "Patients must have lesions showing 68Ga-NNS309 uptake - this information is not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication for NSCLC, but the presence of active brain metastases and the ALK rearrangement puts the patient at high risk for exclusion. The lack of information on lesion uptake further solidifies the likely exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07176000",
+      "title": "Strengthening Awareness and Community Resources for Early Detection of Lung Cancer Through Navigation Guided Screening Trial (SACRED LUNGS Trial)",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, but the trial focuses on the lung cancer screening in specific communities, not specifically targeting treatment for cancer.",
+        "Patient is 42 years old, but the inclusion criteria specifies ages 50-77 for the AIM 1 randomized controlled trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's NSCLC type does not align with the focus of the trial, which is not intended for treating NSCLC. Additionally, the patient's age is below the required range for eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07220096",
+      "title": "Registry Trial and Needs Assessment of Patients With Young-onset Lung Cancer: Impact of a Dedicated Care Program on Patient Experience and Outcomes",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is male",
+        "Patient is aged 42",
+        "Patient has histologically confirmed NSCLC"
+      ],
+      "conflicts": [
+        "Patient has prior therapies (crizotinib and alectinib), indicating he is not treatment-naive"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer is NSCLC, which matches the study indication. However, the patient has prior treatments, which excludes him from the trial that seeks previously untreated patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07008664",
+      "title": "Signature Development and Validation Protocol for an Epigenetic Assay in Diagnosing Lung Cancer",
+      "sponsor": "University of Maryland, Baltimore",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (ALK-rearranged), but the trial is focused on diagnosing lung cancer and does not specify eligibility for particular lung cancer subtypes.",
+        "Trial does not target previously treated patients, while the patient has received prior therapies (crizotinib, alectinib)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not align with the trial's focus on lung cancer diagnosis and the patient has previously been treated, which is not compatible with the trial's exclusion for prior treatments.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04665206",
+      "title": "Phase I/II, Multi-Center, Open-Label Study of VT3989, Alone or in Combination, in Patients With Locally Advanced or Metastatic Solid Tumors",
+      "sponsor": "Vivace Therapeutics, Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases which are explicitly excluded from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which is studied in this trial. However, the presence of active brain metastases leads to exclusion, making the patient ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05443126",
+      "title": "A Modular, Open-label, Phase I/II Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of EP0031 in Patients With Advanced RET-altered Malignancies",
+      "sponsor": "Ellipses Pharma",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with ALK rearrangement which is not mentioned as eligible for this trial that focuses on RET-altered malignancies."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type of NSCLC with ALK rearrangement does not match the trial's focus on RET-altered malignancies, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05985655",
+      "title": "A Phase 1/2 Open-label Multicenter Study to Assess the Safety, Pharmacokinetics, and Anti-tumor Activity of GTAEXS617 in Patients With Advanced Solid Tumors",
+      "sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1",
+        "Age 42",
+        "Cancer type NSCLC"
+      ],
+      "conflicts": [
+        "Patient has active and symptomatic CNS metastases, which is an exclusion criterion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has non-small cell lung cancer (NSCLC) which matches the disease criteria for the trial. However, the presence of active and symptomatic CNS metastases directly conflicts with the eligibility criteria, leading to exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00034216",
+      "title": "Biospecimen Acquisition From Human Subjects",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases whereas the trial does not specify eligibility regarding brain metastases."
+      ],
+      "uncertainties": [
+        "Patient's lab values for hemoglobin, platelet count, prothrombin time, and partial thromboplastin time are missing.",
+        "Trial does not specify if patients with CNS-dominant disease are eligible."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial conditions (lung cancer), but there are critical conflicts regarding the patient's active brain metastases which may affect eligibility. Although the trial does not list specific exclusions, the uncertain nature of the brain involvement results in a low confidence in eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04314401",
+      "title": "Cancer Moonshot Biobank Research Protocol",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: NSCLC",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Brain metastases: active - the trial may have restrictions on patients with active brain metastases",
+        "Prior therapies: treated with crizotinib and alectinib - the trial appears to be aimed at treatment-naive patients or patients in specific scenarios which may not apply to someone who has already received these treatments"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's indication for NSCLC, but the active brain metastases and history of prior therapies conflict with the typical inclusion criteria, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05001009",
+      "title": "Improving Implementation of Outpatient Goals of Care Conversations for Veterans With Serious Illness",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Not Applicable",
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a diagnosis of NSCLC which is not one of the conditions studied in this trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the conditions studied in the trial, which focuses on various serious illnesses but excludes NSCLC specifically.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05544019",
+      "title": "A Phase 1, Open-Label, Multicenter, Dose Escalation Study of SGR-1505 as Monotherapy in Subjects With Mature B-Cell Malignancies",
+      "sponsor": "Schr\u00f6dinger, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active CNS involvement of disease which is excluded from trial criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is NSCLC, which does not match the mature B-cell malignancies studied in the trial. Additionally, the patient has active CNS involvement which is explicitly excluded by the trial criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05736029",
+      "title": "PROPHETIC Extended - Predicting Responsiveness in Oncology Patients Based on Host Response Evaluation During Anti Cancer Treatments, Extended Study.",
+      "sponsor": "OncoHost Ltd.",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "ECOG status: 1",
+        "Cancer type: NSCLC",
+        "Biomarkers: ALK rearrangement"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases which may not align with trial's inclusion criteria"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has active brain metastases which is a significant concern for eligibility in trials focusing on specific criteria for systemic treatment. Although the trial evaluates patients with NSCLC, the condition of having active brain metastases likely excludes the patient from consideration.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05799274",
+      "title": "Characterizing the Radiochemical and Radiation Safety of RAD301 in Healthy Human Volunteers and Patients With Pancreatic Ductal Adenocarcinoma or Other Solid Tumors",
+      "sponsor": "Radiopharm Theranostics, Ltd",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases and requires high doses of systemic corticosteroids, which is not allowed."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's disease type (NSCLC) aligns with the trial, but the requirement for no high doses of systemic corticosteroids due to brain metastases leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06131840",
+      "title": "An Open-label Phase 1 Study to Investigate PF-08046050 (SGN-CEACAM5C) in Adults With Advanced Solid Tumors",
+      "sponsor": "Seagen, a wholly owned subsidiary of Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a confirmed diagnosis of NSCLC, which is a target condition for the trial."
+      ],
+      "conflicts": [
+        "Patient has active brain metastases, which is listed as an exclusion criterion."
+      ],
+      "uncertainties": [
+        "Standard eligibility criteria regarding organ function are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "Despite the patient having NSCLC, the presence of active brain metastases directly conflicts with the trial's exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06945484",
+      "title": "PILOT for The Precision Exercise Regimen for Cancer Care (PERCC) Study",
+      "sponsor": "University of Utah",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has advanced metastatic NSCLC (Stage IV) which does not match the trial requirement for stage II or III NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the study conditions as they have advanced metastatic NSCLC (Stage IV), whereas the trial is only for Stage II and III NSCLC. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07217171",
+      "title": "A Phase 1 Dose-Escalation and Expansion Study Evaluating the Safety, Efficacy, and Pharmacokinetics of EVOLVE104 in Subjects With Advanced Urothelial and Squamous Cell Carcinomas",
+      "sponsor": "EvolveImmune United, Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC which is not included in the trial's target conditions (bladder cancer, various squamous cell carcinomas).",
+        "Patient has active brain metastases which is excluded unless previously treated and stable."
+      ],
+      "uncertainties": [
+        "Patient\u2019s organ function information is unavailable."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the conditions being studied in the trial, leading to exclusion due to the mismatch in disease indication and the presence of active brain metastases.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07090499",
+      "title": "A Phase 1 Open-label Study to Investigate PF-08046876 in Adult Participants With Advanced Solid Tumors.",
+      "sponsor": "Pfizer",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases which may not be acceptable as per protocol, and CNS-dominant disease likely conflicts with eligibility."
+      ],
+      "uncertainties": [
+        "No information provided on rejection criteria related to active metastases excluding participation."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (ALK-rearranged metastatic NSCLC) qualifies under the conditions studied; however, the presence of active brain metastases raises significant concerns regarding eligibility. Additionally, there are no clear criteria indicating acceptance or rejection of patients with CNS progression, leading to uncertainty.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05519293",
+      "title": "A Phase I/IIa, Open-label, Dose-escalation and Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetic and Preliminary Anti-tumor Activity of H002 in Patients With Active EGFR Mutation Locally Advanced or Metastatic NSCLC",
+      "sponsor": "RedCloud Bio",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with ALK rearrangement, whereas trial requires NSCLC with active EGFR mutations only.",
+        "Patient has active brain metastases which contradicts the exclusion criteria for symptomatic brain metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is NSCLC with ALK rearrangement. The trial specifically requires NSCLC with active EGFR mutations, leading to an exclusion. Additionally, the patient has active brain metastases, which also leads to an exclusion based on trial criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05671510",
+      "title": "Phase 3, Two-stage, Randomized Study of ONC-392 Versus Docetaxel in Metastatic Non-Small Cell Lung Cancers That Progressed on PD-1/PD-L1 Inhibitors",
+      "sponsor": "OncoC4, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ALK-rearranged NSCLC, trial specifically requires metastatic squamous NSCLC.",
+        "Patient has active brain metastases and is symptomatic, trial excludes patients with symptomatic brain metastasis."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type is ALK-rearranged NSCLC, which does not match the trial's focus on metastatic squamous NSCLC. Additionally, the patient has active brain metastases and is symptomatic, which also falls under exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06119581",
+      "title": "SUNRAY-01, A Global Pivotal Study in Participants With KRAS G12C-Mutant, Locally Advanced or Metastatic Non-Small Cell Lung Cancer Comparing First-Line Treatment of LY3537982 and Pembrolizumab vs Placebo and Pembrolizumab in Those With PD-L1 Expression \u226550% or LY3537982 and Pembrolizumab, Pemetrexed, Platinum vs Placebo and Pembrolizumab, Pemetrexed, Platinum Regardless of PD-L1 Expression",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ALK rearrangement, but trial requires KRAS G12C mutation.",
+        "Patient has known active central nervous system metastases and/or carcinomatous meningitis, which excludes them from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type does not match the trial's required biomarker mutation, and they also have active brain metastases, making them ineligible.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06706076",
+      "title": "A Phase 1/2 Open-Label, Multicenter, First-in-Human Study of the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of BH-30643 in Adult Subjects With Locally Advanced or Metastatic NSCLC Harboring EGFR and/or HER2 Mutations (SOLARA)",
+      "sponsor": "BlossomHill Therapeutics",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: NSCLC",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has ALK rearrangement, but trial requires EGFR and/or HER2 mutations.",
+        "Patient has active brain metastases, which may not meet trial criteria."
+      ],
+      "uncertainties": [
+        "No available information on organ function (hematologic, hepatic, renal)."
+      ],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type matches lung cancer but has an ALK rearrangement instead of the required EGFR or HER2 mutations, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06452277",
+      "title": "A Phase 3 Open-label, Randomized, Active-controlled, Multicenter Trial to Evaluate the Efficacy and Safety of Orally Administered BAY 2927088 Compared With Standard of Care as a First-line Therapy in Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) With HER2-activating Mutations",
+      "sponsor": "Bayer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is 42 years old.",
+        "ECOG status is 1.",
+        "Cancer type is NSCLC."
+      ],
+      "conflicts": [
+        "Trial requires documented activating HER2 mutation, but patient has ALK rearrangement.",
+        "Trial is for treatment-naive patients; patient has prior systemic therapies (crizotinib, alectinib)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type does not match the trial's focus on HER2 mutations, and the patient has prior systemic therapy, whereas the trial is for treatment-naive patients.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05968898",
+      "title": "Assessment of a Radiomics-based Computer-Aided Diagnosis Tool for Cancer Risk Stratification of Pulmonary Nodules",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, while the trial focuses on pulmonary nodules and does not accommodate specific lung cancer histologies.",
+        "The trial does not align with the conditions of prior active cancer (NSCLC) within the last five years since the patient has ongoing NSCLC with active brain metastases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.01,
+      "reasoning": "The patient's NSCLC diagnosis is not compatible with the trial's focus on pulmonary nodules, leading to an exclusion based on disease type. Additionally, the patient's history of active lung cancer further disqualifies them from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04155034",
+      "title": "MRI Brain Surveillance Alone Versus MRI Surveillance and Prophylactic Cranial Irradiation (PCI): A Randomized Phase III Trial in Small-Cell Lung Cancer (MAVERICK)",
+      "sponsor": "SWOG Cancer Research Network",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (non-small cell lung cancer), but the trial is for SCLC (small cell lung cancer)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) is not compatible with the trial's focus on small cell lung cancer (SCLC), leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04165070",
+      "title": "KEYMAKER-U01 Substudy 01A: A Phase 1/2, Umbrella Study With Rolling Arms of Investigational Agents With Pembrolizumab With or Without Chemotherapy in Treatment-Naive Participants With Stage IV Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has a diagnosis of active CNS metastases which excludes them from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type, non-small cell lung cancer (NSCLC), matches the trial's target indication. However, the trial excludes patients with known active central nervous system (CNS) metastases, and the patient has multiple active brain metastases, leading to clear exclusion from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05394831",
+      "title": "A Phase 1/2, Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Anti-tumor Activity of JIN-A02 in Patients With EGFR Mutant Advanced Non-small Cell Lung Cancer",
+      "sponsor": "J Ints Bio",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with ALK rearrangement but the trial is for EGFR mutant NSCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC with ALK rearrangement) does not match the trial's indication for EGFR mutant NSCLC, which leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05061550",
+      "title": "A Phase II, Open-label, Multicentre, Randomised Study of Neoadjuvant and Adjuvant Treatment in Patients With Resectable, Early-stage (II to IIIB) Non-small Cell Lung Cancer (NeoCOAST-2)",
+      "sponsor": "AstraZeneca",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG status 1"
+      ],
+      "conflicts": [
+        "Patient has ALK rearrangement, which is an exclusion criterion for this trial as it is for patients with resectable NSCLC without ALK translocations.",
+        "Patient has active brain metastases, which is likely to be considered uncontrolled intercurrent illness."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's indication for resectable NSCLC as the patient has ALK rearrangement and active brain metastases, both of which lead to exclusion from this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05800587",
+      "title": "Phase II Study of Dose Attenuated Chemotherapy in Patients With Lung Cancer and Age > 70 and/or Comorbidities",
+      "sponsor": "Fox Chase Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient is male, 42 years old, with confirmed stage IV non-small cell lung cancer (NSCLC)."
+      ],
+      "conflicts": [
+        "Patient has active brain metastases and leptomeningeal disease, which are explicitly excluded from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has active brain metastases and leptomeningeal disease, which are not eligible conditions for the trial, leading to a clear exclusion from participation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05903092",
+      "title": "A Phase II Trial of MOnaliZumab in Combination With durvAlumab (MEDI4736) Plus Platinum-based chemotheRapy for First-line Treatment of Extensive Stage Small Cell Lung Cancer (MOZART)",
+      "sponsor": "Hirva Mamdani",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, while the trial is for SCLC; thus, the cancer type does not match.",
+        "Patient has received prior systemic therapy for NSCLC, while the trial excludes prior systemic therapy for SCLC."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type of NSCLC does not match the trial indication for SCLC, leading to a clear exclusion based on disease type. Additionally, the patient has received prior treatments, which is prohibited for this trial focused on first-line treatment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06262321",
+      "title": "Phase II Trial of Thoracic Radiotherapy for Patients With Metastatic (Stage IV) Non-Small Cell Lung Cancer at High Risk of Symptomatic Progression Within the Thorax",
+      "sponsor": "University of Rochester",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ALK rearrangement, while the trial requires pathologic diagnosis of NSCLC without targetable/oncogene driven mutations."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (ALK-rearranged NSCLC) does not match the trial's inclusion criteria which require NSCLC without targetable/oncogene driven mutations, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06162572",
+      "title": "A Phase 1b/2, Multicenter, Open-label Platform Study of Select Immunotherapy Combinations in Adult Participants With Previously Untreated Advanced Non-small Cell Lung Cancer (NSCLC) With High PD-L1 Expression",
+      "sponsor": "Servier Bio-Innovation LLC",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases, which is an exclusion criterion.",
+        "Patient has prior systemic therapy (crizotinib and alectinib), while the trial requires treatment-naive patients.",
+        "Patient has an ALK rearrangement, which is a driver mutation that is excluded from eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has active brain metastases, prior systemic therapies, and an ALK rearrangement, all of which lead to exclusion from eligibility for this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06667076",
+      "title": "A Phase 2b, Open-Label, Two-cohort Study of Subcutaneous Amivantamab in Combination With Lazertinib as First-Line Treatment, or Subcutaneous Amivantamab in Combination With Platinum-Based Chemotherapy as Second-line Treatment, for Common EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ALK-rearrangement, whereas trial requires EGFRm (Ex19del or Ex21 L858R)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is ALK-rearranged NSCLC, while the trial is specifically for EGFR-mutated NSCLC. This mismatch in disease type leads to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06660407",
+      "title": "Grid Radiotherapy for Advanced Non-Small Cell Lung Cancer at the Time of Progression on Immune Checkpoint Inhibition",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases with evidence of CNS progression within the last 30 days, which is not allowed according to inclusion criteria.",
+        "Patient is not stable; requires evidence of stability without progression by imaging \u2264 30 days prior to enrollment."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's active brain metastases and recent CNS progression do not meet the stability requirement for inclusion, leading to exclusion from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06644768",
+      "title": "A Multicenter, Randomized, Open-Label, Phase 1b/2 Trial Of Valemetostat Tosylate Plus Pembrolizumab Vs Pembrolizumab Alone in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer Whose Tumors Express PD-L1 With Tumor Proportion Score \u226550% Without Actionable Genomic Alterations",
+      "sponsor": "Daiichi Sankyo",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: NSCLC",
+        "Biomarkers: ALK rearrangement",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Prior therapies: crizotinib and alectinib; trial requires no prior systemic therapy for advanced or metastatic disease.",
+        "Biomarker requirement: trial requires no actionable genomic alterations (patient has ALK rearrangement); excludes patients with actionable genomic alterations."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial. However, the patient is not eligible because they have received prior treatments (crizotinib and alectinib) for advanced or metastatic disease and also has an actionable genomic alteration (ALK rearrangement), which the trial excludes.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06907615",
+      "title": "An Open-label, Multi-center, Global Phase II Clinical Study to Evaluate the Efficacy and Safety of HLX43 (Anti-PD-L1 ADC) in Subjects With Advanced Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Shanghai Henlius Biotech",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: Metastatic NSCLC",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases which disqualifies them based on trial exclusion criteria.",
+        "Patient has ALK rearrangement which does not match trial eligibility for subjects with actionable genomic alterations who must have negative test results for ALK."
+      ],
+      "uncertainties": [
+        "Organ function tests are not provided.",
+        "Prior therapies detailed but the response mechanism isn't clear if they meet inclusion criteria."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC; however, they have active brain metastases and ALK rearrangement, both of which exclude them from eligibility based on the criteria outlined in the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06717334",
+      "title": "Enrichment of Lung Cancer Screening Through Unexplained Weight Loss (UWL) to Stage Shift and Improve Survival",
+      "sponsor": "Memorial Sloan Kettering Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 42 is below minimum age 50"
+    },
+    {
+      "nct_id": "NCT04712877",
+      "title": "LEADER Neoadjuvant Screening Trial: LCMC4 Evaluation of Actionable Drivers in Early Stage Lung Cancers",
+      "sponsor": "Lung Cancer Mutation Consortium",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has stage IV metastatic NSCLC which does not match the inclusion criteria for clinical stage IA2-III lung cancers."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is non-small cell lung cancer (NSCLC), but it is stage IV with brain metastases, which is outside the specified inclusion criteria of clinical stage IA2-III lung cancers. Therefore, the patient is excluded from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06343402",
+      "title": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-8520 in Subjects With Advanced KRASG12C Mutant Non-Small Cell Lung Cancer - The ONKORAS-101 Study",
+      "sponsor": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC with ALK rearrangement, while trial focuses on KRAS G12C mutation.",
+        "Patient has active brain metastases, which are excluded from the trial."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the trial's target indication, as the trial focuses specifically on patients with KRAS G12C mutations, and the patient has active brain metastases, which are excluded based on the trial criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06593106",
+      "title": "The CRYSTAL Study: Cryodevitalization Study for the Treatment of Early-Stage Lung Cancer",
+      "sponsor": "Vanderbilt-Ingram Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (non-small cell lung cancer) while trial is for early-stage lung cancer (Stage I or Stage II)."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the trial condition which focuses on early-stage lung cancer (Stage I or Stage II). Therefore, the patient is excluded due to a clear mismatch in disease type.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07140016",
+      "title": "A Phase 1b Study of Gilteritinib in Participants With Locally Advanced or Metastatic NSCLC With ALK Rearrangement After Prior Treatment With an ALK Inhibitor",
+      "sponsor": "Astellas Pharma Global Development, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has ALK-rearranged metastatic NSCLC",
+        "ECOG status is 1",
+        "Patient has received alectinib and crizotinib as prior therapies"
+      ],
+      "conflicts": [
+        "Patient has symptomatic CNS metastases or has leptomeningeal metastasis, which is an exclusion criterion"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has symptomatic CNS metastases, which directly conflicts with the trial's exclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT02143830",
+      "title": "A Phase II Trial of HSCT for the Treatment of Patients With Fanconi Anemia Lacking a Genotypically Identical Donor, Using a Risk-Adjusted Chemotherapy Only Cytoreduction With Busulfan, Cyclophosphamide and Fludarabine",
+      "sponsor": "Children's Hospital Medical Center, Cincinnati",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05058651",
+      "title": "Randomized Phase II/III Trial of First Line Platinum/Etoposide With or Without Atezolizumab (NSC#783608) in Patients With Poorly Differentiated Extrapulmonary Small Cell Neuroendocrine Carcinomas (NEC)",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Phase 2/Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05313243",
+      "title": "Phase 2 Study of Pembrolizumab and Brentuximab Vedotin in Subjects With Relapsed/Refractory CD30 Positive T-cell Lymphoma",
+      "sponsor": "Yale University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05684965",
+      "title": "A First-in-Human, Multicenter, Phase 1/2, Open-Label Study of XTX301 in Patients With Advanced Solid Tumors",
+      "sponsor": "Xilio Development, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06388564",
+      "title": "A Phase 2, Open-Label, Randomized, Multicenter Study to Evaluate the Safety and Efficacy of Axatilimab in Combination With Ruxolitinib in Participants With Newly Diagnosed Chronic Graft-Versus-Host Disease",
+      "sponsor": "Incyte Corporation",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06404086",
+      "title": "RECOVER-SLEEP: A Platform Protocol for Evaluation of Interventions for Sleep Disturbances in Post-Acute Sequelae of SARS-CoV-2 Infection (PASC)",
+      "sponsor": "Duke University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06582745",
+      "title": "Targeted Approach to Langerhans Cell Histiocytosis (LCH) Using MEK Inhibitor, Trametinib",
+      "sponsor": "Cook Children's Health Care System",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 42 is above maximum age 30"
+    },
+    {
+      "nct_id": "NCT06730750",
+      "title": "A Phase 1/2a, Multicenter, Open-label, First in Human Study of BMS-986490 With or Without Bevacizumab in Advanced Solid Tumors",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07013474",
+      "title": "AN INTERVENTIONAL EFFICACY AND SAFETY, PHASE 3, RANDOMIZED, DOUBLE-BLIND, 3-ARM STUDY TO INVESTIGATE IBUZATRELVIR IN ADULTS WITH SYMPTOMATIC COVID-19 WHO ARE SEVERELY IMMUNOCOMPROMISED",
+      "sponsor": "Pfizer",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07023731",
+      "title": "A Phase 1/2 Clinical Trial to Evaluate the Safety, Tolerability, and Pharmacokinetics of ARV-806 in Participants With KRAS G12D Mutated Advanced Solid Tumors",
+      "sponsor": "Arvinas Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07275216",
+      "title": "Phase 2 Study of Pembrolizumab With Chemotherapy in Frail Patients With Newly Diagnosed Classical Hodgkin Lymphoma",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03093116",
+      "title": "A Phase 1/2, Open-Label, Multi-Center, First-in-Human Study of the Safety, Tolerability, Pharmacokinetics, and Anti-Tumor Activity of TPX-0005 in Patients With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements (TRIDENT-1)",
+      "sponsor": "Turning Point Therapeutics, Inc.",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Age: 42",
+        "Sex: male",
+        "Cancer type: NSCLC",
+        "Biomarkers: ALK rearrangement",
+        "ECOG status: 1"
+      ],
+      "conflicts": [
+        "Patient has active brain metastases, while the trial excludes symptomatic brain metastases or leptomeningeal involvement."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial requirements, and he has the required biomarker (ALK rearrangement). However, he is excluded due to the presence of active brain metastases, which contradicts eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05235165",
+      "title": "A Phase 3 Randomized Controlled Trial Comparing Open vs Thoracoscopic Management of Pulmonary Metastases in Patients With Osteosarcoma",
+      "sponsor": "Children's Oncology Group",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC, but trial is for metastatic osteosarcoma.",
+        "Patient has active brain metastases, while trial requires resectable pulmonary metastatic lesions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's diagnosis of non-small cell lung cancer (NSCLC) does not match the trial's focus on metastatic osteosarcoma, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06834373",
+      "title": "Phase 2 Study of Golcadomide With Rituximab as a Bridging Therapy Prior to CAR-T for Patients With Relapsed or Primary Refractory Aggressive B-Cell Non-Hodgkin Lymphoma (NHL)",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has NSCLC (non-small cell lung cancer) but the trial is focused on aggressive B-cell non-Hodgkin lymphoma, specifically large B-cell lymphoma.",
+        "Patient has brain metastases which typically would lead to exclusion in trials specifically targeting hematological malignancies."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) does not match the trial's focus on aggressive B-cell non-Hodgkin lymphoma. This exclusion is critical as it indicates a completely different disease category.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06975293",
+      "title": "Open-label, Non-randomized, Multi-cohort, Phase 1b/2 Trial Investigating the Safety, Tolerability, and Antitumor Activity of STC-15 (a METTL3 Inhibitor) as a Part of Combination Therapy With Toripalimab in Participants With Selected Advanced Cancers",
+      "sponsor": "STORM Therapeutics LTD",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "ECOG performance status 1",
+        "Documented radiologic assessment of progression on the prior therapy before study entry"
+      ],
+      "conflicts": [
+        "Known active CNS metastases and/or leptomeningeal disease",
+        "Patient has received more than three previous lines of systemic treatment (crizotinib and alectinib)"
+      ],
+      "uncertainties": [
+        "Organ function labs"
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) matches the trial indication, but he has active CNS metastases, which is a key exclusion criterion. Additionally, he has received prior treatments that exceed the acceptable limit specified in the trial's eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07223047",
+      "title": "A Phase 1/2a, Open-Label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of BMS-986523 As Monotherapy and in Combination With Anti-Cancer Agents in Participants With Advanced Solid Malignancies",
+      "sponsor": "Bristol-Myers Squibb",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a histologically confirmed diagnosis of NSCLC",
+        "Patient has previously received crizotinib and alectinib"
+      ],
+      "conflicts": [
+        "Trial requires participants to have a known KRAS alteration, patient has ALK rearrangement",
+        "Trial requires CNS metastases to be untreated, patient has active brain metastases"
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has nsclc, but the trial specifically requires a mutation in KRAS. Additionally, the trial excludes patients with active CNS metastases, which applies to this patient.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07223424",
+      "title": "Patient Preference for Subcutaneous vs. Intravenous Immune Therapy (PSI-Immune)",
+      "sponsor": "Diwakar Davar",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases, which may conflict with eligibility as per standard criteria",
+        "Patient has received prior systemic therapies (crizotinib and alectinib) but trial requires treatment-naive or currently receiving PD-(L)1 therapy."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (NSCLC) is included in the trial, but he is not treatment-naive and has received prior therapies. Additionally, the presence of active brain metastases creates a conflict with eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00001352",
+      "title": "Cryptococcosis in Previously Healthy Adults",
+      "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03420963",
+      "title": "Ex-Vivo Expanded Allogeneic NK Cells for the Treatment of Solid Tumors of Pediatric Origin in Children and Young Adults",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 42 is above maximum age 40"
+    },
+    {
+      "nct_id": "NCT04245397",
+      "title": "A Phase 1, Open-Label, Dose-Escalation With Expansion Study of SX-682 Alone and in Combination With Oral or Intravenous Decitabine in Subjects With Myelodysplastic Syndrome",
+      "sponsor": "Syntrix Biosystems, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04423029",
+      "title": "A Phase 1/1b, First-In-Human, Multi-Part, Open-Label, Multiple-Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics, Biological, and Clinical Activity of DF6002 as a Monotherapy and in Combination With Nivolumab in Patients With Locally Advanced or Metastatic Solid Tumors, and Expansion in Selected Indications",
+      "sponsor": "Dragonfly Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04474301",
+      "title": "Well-Being and Quality of Life in Melanoma Patients During COVID-19 Pandemic",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05022446",
+      "title": "The Impact of COVID-19 on Pulmonary Procedures: A Nationwide Survey",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05701657",
+      "title": "Nutrition for Precision Health, Powered by the All of Us Research Program",
+      "sponsor": "RTI International",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06145763",
+      "title": "Digital Smoking Cessation Intervention for Nationally-Recruited American Indians and Alaska Natives: A Full-Scale Randomized Controlled Trial",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06270706",
+      "title": "A Phase 1a/1b Multicenter, Open-label Dose Escalation/Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Evidence of Antitumor Activity of PLN-101095 as Monotherapy and in Combination With Pembrolizumab in Adult Participants With Advanced or Metastatic Solid Tumors Who Have Disease Progression While on Pembrolizumab",
+      "sponsor": "Pliant Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06475807",
+      "title": "Cancer Nutrition Study: CaNS - A Pilot Study of Dietary Interventions in Cancer Patients Treated With Immune Checkpoint Inhibitors",
+      "sponsor": "University of Pittsburgh",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06538636",
+      "title": "Prediction Augmented Screening Initiative",
+      "sponsor": "VA Office of Research and Development",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 42 is below minimum age 50"
+    },
+    {
+      "nct_id": "NCT06555744",
+      "title": "A Phase 1, Open-label, Multicenter Study to Assess the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of Ascending Doses of a Folate Receptor Alpha Antibody Drug Conjugate, ZW191, in Participants With Advanced Solid Tumors",
+      "sponsor": "Zymeworks BC Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06763536",
+      "title": "Testing Oral Nicotine Pouches to Reduce Smoking-Related Cancer in Rural Appalachia",
+      "sponsor": "Ohio State University Comprehensive Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06995898",
+      "title": "The Vanguard Study: Testing a New Way to Screen for Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 42 is below minimum age 45"
+    },
+    {
+      "nct_id": "NCT07058064",
+      "title": "WATCH (Wearable Artificial inTelligence for Cardiac Function and Health Monitoring)",
+      "sponsor": "Mayo Clinic",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06150664",
+      "title": "A Phase 1, Open-Label, Multiple-Ascending Dose Study of the Safety and Tolerability of CTX-8371 in Patients With Advanced Malignancies",
+      "sponsor": "Compass Therapeutics",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has active brain metastases which is explicitly excluded due to known CNS and brain metastasis, including asymptomatic cases."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is NSCLC, which is eligible for the trial, but the presence of active brain metastases leads to exclusion based on the trial's criteria.",
+      "excluded_reason": null
+    }
+  ]
+}

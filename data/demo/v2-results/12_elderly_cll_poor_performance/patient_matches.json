@@ -1,0 +1,1126 @@
+{
+  "metadata": {
+    "export_date": "2026-01-05T18:33:06.691507",
+    "patient_profile": {
+      "age": 82,
+      "sex": "male",
+      "cancer_type": "chronic lymphocytic leukemia",
+      "biomarkers": [
+        "TP53 deletion",
+        "IGHV unmutated"
+      ],
+      "description": "82-year-old male with relapsed/refractory CLL, high-risk features including del(17p)/TP53 and unmutated IGHV. Previously treated with BR (bendamustine/rituximab) x6 cycles, then ibrutinib x3 years with eventual progression. Venetoclax initiated but discontinued after 4 months due to tumor lysis syndrome requiring hospitalization. Now with progressive lymphadenopathy and cytopenias (ANC 0.8, Hgb 8.9, Plt 67k). Limited by fatigue and reduced mobility - uses walker, needs assistance with ADLs. Multiple comorbidities: CHF (EF 35%), afib on anticoagulation, T2DM, CKD stage 3b."
+    },
+    "total_trials": 64,
+    "high_likelihood": 0,
+    "medium_likelihood": 0
+  },
+  "results": [
+    {
+      "nct_id": "NCT03331198",
+      "title": "An Open-Label, Phase 1/2 Study of JCAR017 in Subjects With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma (017004)",
+      "sponsor": "Juno Therapeutics, a Subsidiary of Celgene",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ECOG status of 3, while trial requires ECOG status of \u2264 1.",
+        "Patient is not eligible for the ibrutinib + JCAR017 combination therapy cohort as he does not meet the requirement of being on ibrutinib and progressing or having high-risk features as defined.",
+        "Patient has multiple comorbidities (CHF, AFib, T2DM, CKD) that may affect eligibility and are not verified against trial criteria."
+      ],
+      "uncertainties": [
+        "The patient's organ function lab results are not provided, therefore their adequacy cannot be verified against trial eligibility."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient does not meet the ECOG performance status requirement, thus leading to a clear exclusion from the trial. Additionally, the patient's clinical condition with multiple comorbidities raises significant concerns regarding eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04169737",
+      "title": "A Randomized Phase II Study of Acalabrutinib (ACA) + Venetoclax (VEN) +/- Early Obinutuzumab (OBIN) for Patients With Chronic Lymphocytic Leukemia (CLL)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has ECOG status of 3, but trial requires ECOG status \u2264 2.",
+        "Patient is 82 years old, while the trial includes patients aged 18 and older but has specific requirements for treatment-naive patients.",
+        "Patient has relapsed/refractory CLL, while trial is focused on either untreated patients with high-risk features or treated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ECOG status of 3 does not meet the trial's requirement of ECOG \u2264 2, leading to exclusion. Additionally, the relapsed/refractory status conflicts with the trial's focus on either treatment-naive patients with high-risk features or those who have been previously treated and meet specific criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05645107",
+      "title": "A Randomized, Multi-Center, Parallel, Double-Blinded, Placebo-Controlled Clinical Trial to Evaluate Efficacy, Safety, and Pharmacokinetics of XEMBIFY\u00ae Plus Standard Medical Treatment Compared to Placebo Plus Standard Medical Treatment to Prevent Infections in Patients With Hypogammaglobulinemia and Recurrent or Severe Infections Associated With B-cell Chronic Lymphocytic Leukemia, Multiple Myeloma, and Non-Hodgkin Lymphoma",
+      "sponsor": "Grifols Therapeutics LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia (CLL), but the trial specifies a focus on hypogammaglobulinemia, which is not confirmed in the patient's data.",
+        "Patient's ECOG status is 3, which is likely to conflict with the trial's eligibility criteria for complete participation."
+      ],
+      "uncertainties": [
+        "Information on patient's IgG levels or history of severe bacterial infections is not provided, which are important for eligibility."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's diagnosis of chronic lymphocytic leukemia does not align with the primary focus on hypogammaglobulinemia in the trial. Additionally, the patient's ECOG status of 3 is likely to lead to exclusion based on the study's standard eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06136559",
+      "title": "A Phase 3, Randomized Study to Compare Nemtabrutinib Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in Participants With Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BELLWAVE-011)",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has previously treated CLL; trial requires treatment-naive individuals."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type is chronic lymphocytic leukemia, which matches the trial. However, the patient has received multiple prior therapies for CLL, while this trial is for treatment-naive patients only, resulting in exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06588478",
+      "title": "A Phase 2, Open-Label, Randomized Study Evaluating the Efficacy and Safety of 3 Doses of Pirtobrutinib in Participants With Relapsed or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Who Previously Received Treatment With a Covalent Bruton Tyrosine Kinase Inhibitor",
+      "sponsor": "Loxo Oncology, Inc.",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed diagnosis of CLL/SLL",
+        "Received treatment with a covalent BTK inhibitor (ibrutinib)",
+        "Known 17p deletion status (TP53 deletion is positive)",
+        "Prior treatments: bendamustine, rituximab, ibrutinib, venetoclax"
+      ],
+      "conflicts": [
+        "ECOG status is 3, which is outside the acceptable range of 0-2"
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus, and they have received the required previous treatments with a covalent BTK inhibitor. However, the ECOG status of 3 exceeds the trial's requirements, leading to an exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06839053",
+      "title": "Escalated Inpatient Ramp-Up of Sonrotoclax in Patients With Chronic Lymphocytic Leukemia (CLL), Small Lymphocytic Lymphoma (SLL), and Mantle Cell Lymphoma (MCL) (SONIC Study)",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status is 3, while the trial requires ECOG of 0-2."
+      ],
+      "uncertainties": [
+        "Exact laboratory values for organ function criteria are not explicitly provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial indications for chronic lymphocytic leukemia (CLL). However, his ECOG status of 3 disqualifies him per the trial eligibility criteria, leading to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06846671",
+      "title": "A Phase 3, Open-Label, Randomized Study of BGB-16673 Compared to Investigator's Choice (Idelalisib Plus Rituximab or Bendamustine Plus Rituximab or Venetoclax Plus Rituximab Retreatment) in Patients With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma Previously Exposed to Both BTK and BCL2 Inhibitors",
+      "sponsor": "BeOne Medicines",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status is 3, whereas the trial requires an ECOG score of 0, 1, or 2."
+      ],
+      "uncertainties": [
+        "Adequate liver function",
+        "Adequate blood clotting function",
+        "Criteria may apply to support status of cardiovascular disease given existing comorbidities."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type (CLL) matches the trial, and they have prior exposure to both BTK and BCL2 inhibitors, fulfilling the treatment line criteria. However, the patient has an ECOG status of 3, which directly conflicts with the trial's eligibility requirements. Therefore, the patient is excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03219450",
+      "title": "A Pilot Study of a Personalized Neoantigen Cancer Vaccine With and Without Low-Dose Cyclophosphamide or Pembrolizumab in Treatment Na\u00efve, Asymptomatic Patients With IGHV Unmutated Chronic Lymphocytic Leukemia.",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Cancer type: chronic lymphocytic leukemia is relevant for the trial"
+      ],
+      "conflicts": [
+        "Patient's ECOG status (3) exceeds the acceptable range (0 or 1).",
+        "Patient has prior treatment (refractory to bendamustine, rituximab, ibrutinib, venetoclax), while trial requires treatment-naive patients."
+      ],
+      "uncertainties": [
+        "Organ function labs (total bilirubin, AST/ALT, absolute neutrophil count) are not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial indication, but the patient is not treatment-naive and has an ECOG status of 3 which is outside of the trial's inclusion criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05602363",
+      "title": "A Phase 1b Study of Oral AS-1763 in Patients With Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma or Non-Hodgkin Lymphoma",
+      "sponsor": "Carna Biosciences, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG Performance Status is 3, while the trial requires 0 to 2."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ECOG status does not meet the trial's eligibility criteria, which excludes them from participation. Additionally, while the patient's cancer type aligns with the trial's indications, the critical failure in ECOG status leads to exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05879133",
+      "title": "HEALTH4CLL2: A Randomized Waitlist Control Trial of Behavioral Interventions in Patients With Chronic Lymphocytic Leukemia",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Diagnosed with chronic lymphocytic leukemia"
+      ],
+      "conflicts": [
+        "Patient is 82 years old (exceeds age limit of 85 years)",
+        "Patient is considered ECOG 3, which is likely beyond acceptable limits for trial participation"
+      ],
+      "uncertainties": [
+        "Physical activity level is not provided, cannot assess eligibility based on physical activity criteria"
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient has a confirmed diagnosis of CLL, but exceeds the age limit for eligibility and has a high ECOG status of 3, which likely precludes participation in this trial. Therefore, the patient is excluded based on these critical criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05899543",
+      "title": "Exploring Patient Experiences of Individuals Joining Chronic Lymphocytic Leukemia Clinical Trials",
+      "sponsor": "Power Life Sciences Inc.",
+      "phase": null,
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has been diagnosed with chronic lymphocytic leukemia",
+        "Patient is a minimum of 18 years or older"
+      ],
+      "conflicts": [
+        "Patient has received prior systemic therapy (bendamustine, rituximab, ibrutinib, venetoclax) whereas the trial may specifically target treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial's focus on chronic lymphocytic leukemia. However, the patient is previously treated, which likely excludes them from eligibility based on the probable requirement for treatment-naive status. This leads to a clear exclusion based on treatment line criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06676033",
+      "title": "Correlative Study of Epcoritamab in Chronic Lymphocytic Leukemia and Richter Syndrome",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is 82 years old, and cannot meet the inclusion criteria of understanding and willingness to sign informed consent due to ECOG status of 3."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's ECOG status of 3 suggests significant impairment, making it likely that he cannot meet the criteria for understanding and willingness to sign the informed consent required for the trial. Therefore, the patient is likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04679012",
+      "title": "Phase II Study of Polatuzumab Vedotin in Combination With Chemotherapy in Subjects With Richter's Transformation",
+      "sponsor": "Weill Medical College of Cornell University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia and not Richter's Transformation to DLBCL subtype, which is required for inclusion."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type does not match the trial's requirement for a diagnosis of Richter's Transformation to a DLBCL subtype, which is critical for eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04195633",
+      "title": "Hematopoietic Stem Cell Transplantation From Haploidentical Donors in Patients With Hematological Malignancies Using a Treosulfan-Based Preparative Regimen",
+      "sponsor": "Fred Hutchinson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia (CLL) and the trial is focused on hematological malignancies including refractory CLL but does not specify inclusion for patients with high-risk features like those with del(17p)/TP53.",
+        "Patient's ECOG status is 3 which does not meet the requirement of ECOG 0-1."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has chronic lymphocytic leukemia, which is a form of low-grade lymphoma and does relate to the study, but there are conflicts regarding the patient's high-risk features and elevated ECOG status. Therefore, the patient is likely excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06466122",
+      "title": "Phase 2 Study of Combination Pirtobrutinib (LOXO-305) and Venetoclax in CLL Patients With Resistance to Covalent BTKi",
+      "sponsor": "Kerry Rogers",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has chronic lymphocytic leukemia (CLL), which matches the trial indication."
+      ],
+      "conflicts": [
+        "ECOG status is 3, which does not meet the trial requirement of ECOG 0-2.",
+        "Patient has not been on a covalent BTK inhibitor for the required 4 weeks.",
+        "Patient has prior exposure to venetoclax, which exceeds the 13 months limit."
+      ],
+      "uncertainties": [
+        "Individual lab values for AST, ALT, bilirubin, and creatinine were not provided."
+      ],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type matches the trial, but they are excluded based on ECOG status and prior treatment history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06863402",
+      "title": "Nemtabrutinib and Pembrolizumab in Patients With Richter Transformation: A Phase II Study",
+      "sponsor": "Roswell Park Cancer Institute",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status of 3 does not meet the trial eligibility which requires an ECOG performance status of 0-2."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has chronic lymphocytic leukemia (CLL), which is one of the conditions studied in the trial. However, the patient has an ECOG status of 3, which is above the maximum allowed ECOG status of 2 for inclusion in the trial, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04830137",
+      "title": "A Phase 1, Dose Escalation, Safety and Tolerability Study of NX-2127, a Bruton's Tyrosine Kinase (BTK) Degrader, in Adults With Relapsed/Refractory B-cell Malignancies",
+      "sponsor": "Nurix Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG performance status of 3 does not meet the requirement of 0-1 for non-PCNSL indications."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has chronic lymphocytic leukemia (CLL), which aligns with the trial focus. However, the ECOG status of 3 does not meet the trial's inclusion criteria of 0-1, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05724121",
+      "title": "Observational Study of Cardiac Arrhythmias During Treatment With BTK Inhibitors or Venetoclax",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient's ECOG status is 3, which may exclude him based on standard eligibility criteria.",
+        "Patient has multiple comorbidities that may further complicate eligibility.",
+        "The trial requires currently receiving or planning to receive BTK inhibitors or venetoclax; while the patient has used venetoclax in the past, it has been discontinued."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's chronic lymphocytic leukemia aligns with the conditions studied in the trial, but the critical factors such as his ECOG status of 3 and the fact that he does not currently meet the treatment requirement for BTK inhibitors or venetoclax due to discontinuation lead to a likelihood of exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06636175",
+      "title": "Early Phase I Evaluation of 64Cu-LLP2A for Imaging Hematologic Malignancies Part B",
+      "sponsor": "Washington University School of Medicine",
+      "phase": "Early Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has chronic lymphocytic leukemia, which is a condition studied in the trial."
+      ],
+      "conflicts": [
+        "Patient is not treatment-naive; he has multiple prior lines of therapy, which does not align with the trial's requirement for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient has chronic lymphocytic leukemia, which matches the conditions studied in the trial. However, he is not treatment-naive, having undergone multiple therapies, leading to exclusion based on treatment line criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06712810",
+      "title": "MC220806: Phase I Study Evaluating the Efficacy of CSF1R and TAM Receptor or Inhibition in Hematologic Malignancies With Q702, a Small Molecular Inhibitor",
+      "sponsor": "Mayo Clinic",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia (CLL) while the trial is for hematologic malignancies including refractory CLL, but patient does not meet the treatment line requirement of failing \u2265 2 lines of therapy after being treated with a BTK inhibitor and/or a B-cell lymphoma 2 (BCL2) inhibitor, as the prior treatment with venetoclax does not qualify here due to the discontinuation after 4 months."
+      ],
+      "uncertainties": [],
+      "confidence": 0.1,
+      "reasoning": "The patient's cancer type of chronic lymphocytic leukemia does not align well with the specific eligibility of this trial, especially given the treatment line and previous therapy requirements. The patient is also ECOG status 3, failing to meet the necessary criteria for participation.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05336812",
+      "title": "Prospective Randomized Phase II Study of Acalabrutinib + Obinutuzumab or Venetoclax in Previously Untreated CLL",
+      "sponsor": "Ohio State University Comprehensive Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia but is not treatment-naive as he has received prior therapies including bendamustine, rituximab, ibrutinib, and venetoclax.",
+        "Patient has presence of TP53 deletion which is exclusionary for high-risk disease."
+      ],
+      "uncertainties": [],
+      "confidence": 0.08,
+      "reasoning": "The patient has chronic lymphocytic leukemia, but he is not treatment-naive and also has a known TP53 deletion, which are both exclusionary criteria for the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06788639",
+      "title": "Non-interventional Cohort Study of Patients Treated With Liso-cel (Lisocabtagene Maraleucel) for Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma in the Post-Marketing Setting",
+      "sponsor": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has not been treated with lisocabtagene maraleucel (liso-cel), which is required for eligibility."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's cancer type, chronic lymphocytic leukemia (CLL), aligns with the trial's focus on CLL, but the patient has not been treated with lisocabtagene maraleucel, which is a critical eligibility requirement. Therefore, the patient is excluded from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05131022",
+      "title": "A Phase 1, Dose Escalation, and Cohort Expansion Study Evaluating NX-5948, a Bruton's Tyrosine Kinase (BTK) Degrader, in Adults With Relapsed/Refractory B-cell Malignancies",
+      "sponsor": "Nurix Therapeutics, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient's ECOG status is 3, while the trial requires ECOG score of 0 or 1.",
+        "Patient has received more than 2 lines of prior therapy, conflicting with the requirement for treatment-naive or specific prior therapy conditions."
+      ],
+      "uncertainties": [],
+      "confidence": 0.05,
+      "reasoning": "The patient's ECOG status of 3 disqualifies him from eligibility as the trial requires an ECOG status of 0 or 1. Additionally, the patient's extensive history of prior therapies (bendamustine, rituximab, ibrutinib, venetoclax) suggests he does not meet the treatment line eligibility criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT04844528",
+      "title": "Randomized Phase 2 Studying the Effects of Nicotinamide in Patients With Chronic Lymphocytic Leukemia (CLL) With History of Non-melanoma Skin Cancers (NMSC)",
+      "sponsor": "University of Utah",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The trial is for patients with a history of non-melanoma skin cancer (NMSC), which the patient does not have."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is chronic lymphocytic leukemia (CLL) and does not meet the inclusion criterion of having a history of non-melanoma skin cancer (NMSC). As a result, the patient is excluded from the trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05254743",
+      "title": "A Phase 3 Open-Label, Randomized Study of Pirtobrutinib (LOXO-305) Versus Ibrutinib in Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (BRUIN-CLL-314)",
+      "sponsor": "Loxo Oncology, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Confirmed diagnosis of CLL requiring therapy",
+        "Known 17p deletion status"
+      ],
+      "conflicts": [
+        "ECOG Performance Status is 3 which exceeds the allowed range of 0-2.",
+        "Patient is previously treated (relapsed/refractory), which conflicts with treatment-na\u00efve eligibility for Part 2."
+      ],
+      "uncertainties": [
+        "Kidney function metrics are not provided.",
+        "Age and comorbidities might raise additional concerns, but are not explicitly mentioned in criteria."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient's ECOG status is 3, which exceeds the maximum limit for eligibility. Additionally, the patient is not treatment-naive, which removes the possibility of qualifying for Part 2 of the study. Therefore, the patient is clearly excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05672355",
+      "title": "Randomized Observer-Blinded Phase 2 Trial of COVID-19 Booster With GEO-CM04S1 or mRNA Vaccine in Patients With Chronic Lymphocytic Leukemia",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status is 3, but trial requires ECOG <= 1.",
+        "WBC count is 0.8 (ANC), but trial requires WBC >= 1,000/mm^3.",
+        "Platelet count is 67k, but trial requires Platelets >= 50,000/mm^3."
+      ],
+      "uncertainties": [
+        "Total bilirubin, AST, ALT, and creatinine clearance values are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient has an ECOG status of 3, which exceeds the trial's maximum requirement of ECOG <= 1. Additionally, the patient's ANC and platelet counts do not meet the necessary thresholds for trial eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05702853",
+      "title": "A Phase 1b Dose Escalation Study of Metabolically Fit CD19 Chimeric Antigen Receptor (CAR) T Cells With CD34 Selection Markers in Adult Patients With Relapsed or Refractory CD19 B-Cell Non-Hodgkin Lymphoma and Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+      "sponsor": "Medical University of South Carolina",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status is 3 (required ECOG 0-2)",
+        "ANC is 0.8 (required ANC \u2265 750 cells/mm3)",
+        "Platelet count is 67k (required platelets \u2265 50,000 cells/mm3)",
+        "Hemoglobin is 8.9 (significantly low and may indicate inadequate organ function)"
+      ],
+      "uncertainties": [
+        "Bone marrow function details are not explicitly provided.",
+        "Organ function tests for renal function are not provided."
+      ],
+      "confidence": 0.0,
+      "reasoning": "The patient does not meet multiple critical eligibility criteria, including performance status (ECOG 3) and hematologic parameters (ANC, platelet count, hemoglobin). Given these failures, the patient cannot be included in this trial.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05963074",
+      "title": "Multicohort Study to Customize Ibrutinib Treatment Regimens for Patients With Previously Untreated Chronic Lymphocytic Leukemia",
+      "sponsor": "Janssen Research & Development, LLC",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "ECOG status is 3, which does not meet the inclusion criteria for ibruinib + venetoclax cohorts (ECOG 0-1) or for ibrutinib monotherapy cohorts (ECOG 0-2).",
+        "Patient has been previously treated with multiple lines of therapy, while the trial is for previously untreated patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial, but the patient is excluded due to ECOG status and prior treatment history.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06211413",
+      "title": "A Prospective Longitudinal Cohort Study of the Incidence of Hypertension and Arrhythmias in Patients Treated with Bruton's Tyrosine Kinase Inhibitors for Chronic Lymphocytic Leukemia Using Wearable Technology",
+      "sponsor": "Abramson Cancer Center at Penn Medicine",
+      "phase": null,
+      "status": "Enrolling by invitation",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia but has been previously treated (relapsed/refractory) while trial's inclusion criteria requires initiation of BTK inhibitor as front-line or relapsed/refractory therapy.",
+        "Patient has Atrial Fibrillation (AF) at the time of consent, conflicting with exclusion criteria."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does align with the trial study, however, the patient has a history of prior therapies and currently has Atrial Fibrillation, which clearly excludes them from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06536452",
+      "title": "Hematopoiesis in Monoclonal B Cell Lymphocytosis (MBL) and B-Chronic Lymphocytic Leukemia (CLL) Versus Healthy Age-Matched Control Subjects",
+      "sponsor": "Mayo Clinic",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has a clinically established diagnosis of Chronic Lymphocytic Leukemia (CLL)"
+      ],
+      "conflicts": [
+        "Patient is previously treated with multiple therapies, including ibrutinib and venetoclax, which does not match the inclusion criteria for treatment-naive patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has a diagnosis of Chronic Lymphocytic Leukemia (CLL), which matches the trial's study condition; however, the trial includes options for untreated or previously treated patients, which the patient does not meet as he has been previously treated. Therefore, the patient is excluded based on prior treatment.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06876662",
+      "title": "Long-Term Safety of Pirtobrutinib in Participants From Study LOXO-BTK-18001 With Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma or Non-Hodgkin Lymphoma",
+      "sponsor": "Eli Lilly and Company",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is not currently enrolled or active in the originator study, LOXO-BTK-18001."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type matches the trial's focus on chronic lymphocytic leukemia, but he is not currently enrolled in the required originator study, LOXO-BTK-18001, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT07030400",
+      "title": "Predictors of Health-Related Quality of Life in Adults With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient is relapsed/refractory CLL, while the trial requires patients within seven days of starting treatment with a BTKi +/- an anti-CD 20 monoclonal antibody or BCL2i with Obinutuzumab treatment."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (chronic lymphocytic leukemia) matches the trial's indication. However, the patient is relapsed/refractory and did not start treatment with the required agents, leading to clear exclusion based on treatment line criteria.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT03263572",
+      "title": "Phase II Study of the Combination of Blinatumomab and Ponatinib in Patients With Philadelphia Chromosome (Ph)-Positive and/or BCR-ABL Positive Acute Lymphoblastic Leukemia (ALL)",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04329728",
+      "title": "An Open Label, Phase 1/2 Study Evaluating Immunomodulatory AVM0703 in Patients With Lymphoid Malignancies (OPAL Study)",
+      "sponsor": "AVM Biotechnology Inc",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04747912",
+      "title": "A Phase II Study of a Chemotherapy-Free Induction Regimen for Ph+ Acute Lymphoblastic Leukemia (ALL) Incorporating Inotuzumab Ozogamicin (InO)",
+      "sponsor": "University of Chicago",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05805605",
+      "title": "Allogeneic Hematopoietic Stem Cell Transplantation Using Reduced Intensity Conditioning (RIC) With Post-Transplant Cytoxan (PTCy) for the Treatment of Hematological Diseases",
+      "sponsor": "Masonic Cancer Center, University of Minnesota",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 75"
+    },
+    {
+      "nct_id": "NCT05959434",
+      "title": "Integration of Cognitive Processing Therapy and Relapse Prevention for Alcohol Use Disorder and Co-Occurring PTSD: A Randomized Clinical Trial",
+      "sponsor": "Texas A&M University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 70"
+    },
+    {
+      "nct_id": "NCT06059391",
+      "title": "Placebo-Controlled and Randomized Phase 2 Trial of CMV-MVA Triplex Vaccination in HLA-Matched Related Stem Cell Donors to Enhance CMV-Specific Immunity and Prevent CMV Viremia in Recipients After Hematopoietic Stem Cell Transplant",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 75"
+    },
+    {
+      "nct_id": "NCT06207123",
+      "title": "A Phase I/II Study to Investigate the Combination of LP-118, Ponatinib, Vincristine and Dexamethasone in Relapsed/Refractory T-ALL/LBL",
+      "sponsor": "University of Chicago",
+      "phase": "Phase 1/Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06680661",
+      "title": "ABBA CORD: Double Umbilical Cord Blood Transplants With Abatacept for Graft Versus Host Disease Prophylaxis",
+      "sponsor": "Leland Metheny",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 65"
+    },
+    {
+      "nct_id": "NCT06972264",
+      "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Multi-dose Study to Evaluate the Efficacy and Safety of VDPHL01 in Male Subjects With Androgenetic Alopecia",
+      "sponsor": "Veradermics, Inc.",
+      "phase": "Phase 3",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 65"
+    },
+    {
+      "nct_id": "NCT05031897",
+      "title": "A 2 Step Approach to Haploidentical Transplant Using Radiation-Based Reduced Intensity Conditioning",
+      "sponsor": "Thomas Jefferson University",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia (CLL) with significant lymph node involvement (progressive lymphadenopathy), while trial includes CLL with no or minimal lymph node involvement."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type is chronic lymphocytic leukemia, but the trial specifically excludes patients with significant lymph node involvement. Therefore, they are clearly excluded.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05873712",
+      "title": "A Phase II Study Evaluating the Safety and Efficacy of the Combination of Zanubrutinib Plus Lisocabtagene Maraleucel for Richter's Syndrome",
+      "sponsor": "Aseel Alsouqi",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "The patient has chronic lymphocytic leukemia (CLL), but the trial specifically studies Richter's syndrome (RS), which requires a diagnosis of diffuse large B-cell lymphoma (DLBCL) in conjunction with CLL/SLL."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type (chronic lymphocytic leukemia) does not match the target indication of the trial, which is focused on Richter's syndrome associated with DLBCL, leading to a clear exclusion.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT00131014",
+      "title": "Establishing a Tumor Bank and Initial Analysis of Germline and Tumor-Related Genetic Alterations in Families With Multiple Lymphoproliferative Malignancies",
+      "sponsor": "Dana-Farber Cancer Institute",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT01137643",
+      "title": "Tissue Procurement For Hematolymphoid Conditions",
+      "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03072927",
+      "title": "MILD\u00ae Percutaneous Image-Guided Lumbar Decompression: A Medicare Claims Study",
+      "sponsor": "Stryker Instruments",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03494569",
+      "title": "Phase I Study of Escalating Doses of Total Marrow and Lymphoid Irradiation (TMLI) Combined With Fludarabine and Melphalan as Conditioning for Allogeneic Hematopoietic Cell Transplantation in Patients With High-Risk Acute Leukemia or Myelodysplastic Syndrome",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT03802695",
+      "title": "A Phase 1 Dose Escalation and Expansion Study of Orca-Q, an Engineered Donor Graft Derived From Mobilized Peripheral Blood, in Recipients Undergoing Allogeneic Hematopoietic Cell Transplantation for Hematologic Malignancies",
+      "sponsor": "Orca Biosystems, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 78"
+    },
+    {
+      "nct_id": "NCT04260022",
+      "title": "A Phase Ib Study of the Pharmacokinetics, Safety and Efficacy of Orally Administered HQP1351 in Subjects With Refractory Chronic Myeloid Leukemia (CML) and Ph+ Acute Lymphoblastic Leukemia (Ph+ ALL)",
+      "sponsor": "Ascentage Pharma Group Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT04690595",
+      "title": "A Phase 1 Study Evaluating BAFFR-targeting CAR T Cells for Patients With Relapsed or Refractory B-cell Acute Lymphoblastic Leukemia",
+      "sponsor": "PeproMene Bio, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05170399",
+      "title": "Vaccine Responses in Patients With B Cell Malignancies",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "phase": "Phase 4",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05240885",
+      "title": "Metabolic and Functional Consequences of Aging in Health and Disease",
+      "sponsor": "Texas A&M University",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05279300",
+      "title": "A Phase I, Dose-Escalation and Dose-Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Anti-tumor Activities of CS5001, an Anti-ROR1 Antibody-Drug Conjugate, Used as A Single Agent and in Combination With Systemic Therapies in Patients With Advanced Solid Tumors and Lymphomas",
+      "sponsor": "CStone Pharmaceuticals",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT05400733",
+      "title": "Prandial Metabolic Phenotype in Adults",
+      "sponsor": "Texas A&M University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 80"
+    },
+    {
+      "nct_id": "NCT05780034",
+      "title": "A Phase I Clinical Study to Evaluate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Anti-Malignancy Activity of AC676 in Patients With Relapsed/Refractory B-cell Malignancies",
+      "sponsor": "Accutar Biotechnology Inc",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06102330",
+      "title": "Multicenter HomeVENT: Home Values and Experiences Navigation Track",
+      "sponsor": "Johns Hopkins University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06227026",
+      "title": "Pilot Study of Anti-CD19 Chimeric Antigen Receptor T Cells (CAR-T Cells) for the Treatment of Relapsed/Refractory CD19+ Malignancies",
+      "sponsor": "University of Utah",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06575296",
+      "title": "A Phase I Study of SNDX 5613 (Revumenib) as Post-Transplant Maintenance After Allogeneic Hematopoietic Cell Transplant in Patients With KMT2A-Rearranged or NPM1-Mutated Acute Leukemia",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06628349",
+      "title": "Prandial Metabolic Phenotyping in Sarcopenic Older Adults Comparing Plant Based and Whey Based Protein",
+      "sponsor": "Texas A&M University",
+      "phase": "Not Applicable",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT06823167",
+      "title": "A Phase 1 Study of IM-1021 in Participants With Advanced Malignancies",
+      "sponsor": "Immunome, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Low relevance score (0.00) - trial doesn't appear to target patient's condition/biomarkers"
+    },
+    {
+      "nct_id": "NCT07285668",
+      "title": "Phase I Study of Prophylactic TCR\u03b1\u03b2+ and CD19+ Depleted Donor Lymphocyte Infusion After Allogeneic Stem Cell Transplant in High-Risk Patients With Hematologic Malignancies",
+      "sponsor": "University of Wisconsin, Madison",
+      "phase": "Not Applicable",
+      "status": "Not yet recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "fast_filter",
+      "supporting_factors": [],
+      "conflicts": [],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "",
+      "excluded_reason": "Patient age 82 is above maximum age 75"
+    },
+    {
+      "nct_id": "NCT01890486",
+      "title": "The Prospective Collection, Storage and Reporting of Data on Patients",
+      "sponsor": "Wake Forest University Health Sciences",
+      "phase": null,
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia, but trial is for patients undergoing hematopoietic stem cell transplant for various hematologic malignancies.",
+        "Patient is relapsed/refractory, while the trial appears to require either treatment-naive or first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient's cancer type does not match the general requirements of the trial, which focuses on patients preparing for hematopoietic stem cell transplant. Furthermore, the patient is not treatment-naive and is classified as relapsed/refractory, leading to a confident exclusion from eligibility.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT05544019",
+      "title": "A Phase 1, Open-Label, Multicenter, Dose Escalation Study of SGR-1505 as Monotherapy in Subjects With Mature B-Cell Malignancies",
+      "sponsor": "Schr\u00f6dinger, Inc.",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [
+        "Patient has chronic lymphocytic leukemia, which is included in the trial conditions."
+      ],
+      "conflicts": [
+        "ECOG status is 3, but trial requires ECOG status of 0 or 1.",
+        "Patient has relapsed/refractory CLL, but trial is unclear if it's for treatment-naive/first-line patients."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has chronic lymphocytic leukemia, which matches the trial's conditions. However, the patient's ECOG status of 3 is a clear exclusion factor, and the nature of prior treatments suggests the trial may be for previously treated patients, which does not match the likely needs for immediate treatment or eligibility based on performance status.",
+      "excluded_reason": null
+    },
+    {
+      "nct_id": "NCT06735664",
+      "title": "A Phase I Study of Covalent BTK Inhibitor Zanubrutinib in Combination With a CD3-CD20 Bispecific Antibody Odronextamab in Patients With Richter's Transformation",
+      "sponsor": "City of Hope Medical Center",
+      "phase": "Phase 1",
+      "status": "Recruiting",
+      "match_likelihood": "EXCLUDED",
+      "filter_stage": "llm_scored",
+      "supporting_factors": [],
+      "conflicts": [
+        "Patient has chronic lymphocytic leukemia (CLL), but trial is exclusively for Richter's transformation (RT) which involves transformation to diffuse large B-cell lymphoma.",
+        "ECOG status is 3, while trial requires ECOG status of 2 or lower."
+      ],
+      "uncertainties": [],
+      "confidence": 0.0,
+      "reasoning": "The patient has chronic lymphocytic leukemia (CLL), while the trial specifically targets patients with Richter's transformation which is distinctly different. Additionally, the patient's ECOG performance status (3) does not meet the trial requirement of ECOG \u2264 2.",
+      "excluded_reason": null
+    }
+  ]
+}
