@@ -8,7 +8,7 @@ Clinical trial matching is hard. ClinicalTrials.gov can answer "what trials exis
 
 This prototype automates that interpretation using a multi-stage approach: fast deterministic filtering on structured fields, then LLM-based scoring of eligibility criteria for candidates that pass.
 
-**For the full project rationale and design philosophy, see [docs/project_summary.md](docs/project_summary.md).**
+**For the full project rationale and design philosophy, see [writeup.pdf](writeup.pdf).**
 
 ## How It Works
 
@@ -172,6 +172,7 @@ See `data/demo/` for example patient profiles and results.
 ```
 clinical-trial-tool/
 ├── README.md
+├── writeup.pdf                  # Project summary (goals, approach, validation)
 ├── requirements.txt
 ├── run_agent.py                 # CLI entry point
 ├── src/
@@ -189,8 +190,7 @@ clinical-trial-tool/
 ├── outputs/                     # Generated match reports
 ├── tests/                       # Unit tests
 └── docs/
-    ├── project_summary.md       # Project rationale and overview
-    └── design_decisions.md      # Technical tradeoffs
+    └── design_decisions.md      # Technical tradeoffs and rationale
 ```
 
 ## Key Design Decisions
@@ -223,7 +223,7 @@ For the full design rationale, see [docs/design_decisions.md](docs/design_decisi
 
 ## Documentation
 
-- **[Project Summary](docs/project_summary.md)** — Goals, approach, validation, and lessons learned
+- **[Project Summary](writeup.pdf)** — Goals, approach, validation, and lessons learned
 - **[Design Decisions](docs/design_decisions.md)** — Technical tradeoffs and rationale
 
 ## License
