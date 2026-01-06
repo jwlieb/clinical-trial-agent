@@ -1,19 +1,24 @@
 # Patient-Trial Matching Agent
 
-An AI-assisted system that helps match patients with relevant clinical trials based on their clinical profile, biomarkers, and eligibility criteria.
+An AI-assisted system that matches cancer patients with relevant clinical trials based on their clinical profile, biomarkers, and eligibility criteria.
 
 ## Overview
 
-This agent takes a patient profile (biomarkers, cancer type, treatment history, ECOG status, etc.) and:
+Clinical trial matching is hard. ClinicalTrials.gov can answer "what trials exist for KRAS G12C?" but the harder question is "which of these trials might my patient actually qualify for?" That requires interpreting free-text eligibility criteria against a patient's full clinical history—prior treatments, performance status, comorbidities, brain metastases policies, and more.
 
-1. **Extracts** search terms from the patient profile using LLM + programmatic expansion
-2. **Discovers** relevant clinical trials from ClinicalTrials.gov (recruiting only)
-3. **Normalizes** trial data into a structured schema with eligibility criteria
-4. **Fast Filters** trials using deterministic rules (age, sex, location, phase preference)
-5. **LLM Scores** candidate trials against detailed eligibility criteria
-6. **Exports** results as ranked match reports (JSON, Markdown) with explanations
+This prototype automates that interpretation using a multi-stage approach: fast deterministic filtering on structured fields, then LLM-based scoring of eligibility criteria for candidates that pass.
 
-## Architecture
+**For the full project rationale and design philosophy, see [docs/project_summary.md](docs/project_summary.md).**
+
+## How It Works
+
+Starting from a patient profile, the system:
+
+1. **Extracts search terms** from biomarkers and cancer type (LLM + programmatic expansion)
+2. **Discovers trials** from ClinicalTrials.gov (recruiting only, with demographic pre-filtering)
+3. **Fast filters** using deterministic rules (age, sex, location, relevance score)
+4. **LLM scores** candidates against raw eligibility text
+5. **Exports** ranked matches with supporting factors, conflicts, and uncertainties
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -21,197 +26,146 @@ This agent takes a patient profile (biomarkers, cancer type, treatment history, 
 │  --biomarker "KRAS G12C" --cancer-type "NSCLC" --age 65 --ecog 1           │
 │  --description "Failed carboplatin/pemetrexed and pembrolizumab..."        │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
+                                   │
+                                   ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         TERM EXTRACTION                                      │
 │              LLM + programmatic variant generation                          │
 │   "KRAS G12C" → ["KRAS G12C", "KRASG12C", "KRAS-G12C", "KRAS G12C NSCLC"]  │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
+                                   │
+                                   ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         TRIAL DISCOVERY                                      │
 │                    ClinicalTrials.gov API                                   │
 │          Recruiting-only filter • Location filter • Deduplicate            │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
+                                   │
+                                   ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                      NORMALIZE & VALIDATE                                    │
-│         Extract eligibility criteria • Parse age ranges                     │
-│              Store raw responses for auditability                           │
-└─────────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     TWO-STAGE MATCHING                                       │
+│                        TWO-STAGE MATCHING                                    │
 │                                                                              │
-│   ┌──────────────────────┐     ┌──────────────────────────────────────┐    │
-│   │  STAGE 1: Fast Filter │     │  STAGE 2: LLM Eligibility Scoring   │    │
-│   │  • Age range check    │────▶│  • Prior treatment analysis         │    │
-│   │  • Sex requirement    │     │  • Brain met policy evaluation      │    │
-│   │  • Location match     │     │  • ECOG requirement check           │    │
-│   │  • Phase preference   │     │  • Detailed eligibility parsing     │    │
-│   │  • Relevance score    │     │  • Confidence scoring               │    │
-│   └──────────────────────┘     └──────────────────────────────────────┘    │
-│          │                              │                                   │
-│          ▼                              ▼                                   │
-│      EXCLUDED                    HIGH / MEDIUM / LOW                        │
+│   ┌───────────────────────┐     ┌───────────────────────────────────────┐  │
+│   │  STAGE 1: Fast Filter  │     │  STAGE 2: LLM Eligibility Scoring    │  │
+│   │  • Age/sex/location    │────▶│  • Treatment line analysis           │  │
+│   │  • Relevance score     │     │  • Brain mets policy                 │  │
+│   │  • Recruiting status   │     │  • ECOG/comorbidity check            │  │
+│   └───────────────────────┘     └───────────────────────────────────────┘  │
+│          │                               │                                  │
+│          ▼                               ▼                                  │
+│      EXCLUDED                     HIGH / MEDIUM / LOW                       │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                    │
-                                    ▼
+                                   │
+                                   ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                            OUTPUTS                                           │
-│  patient_matches.json  │  patient_matches.md  │  trials.json  │  trials.csv│
+│                              OUTPUTS                                         │
+│   patient_matches.md  │  patient_matches.json  │  trials.json  │  trials.csv│
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Installation
+## Quick Start
 
 ```bash
-# Clone the repository
+# Clone and set up
 git clone <repository-url>
 cd clinical-trial-tool
-
-# Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
+source venv/bin/activate
 pip install -r requirements.txt
 
-# Set up environment variables
-export GROQ_API_KEY="your-groq-api-key"
+# Configure LLM provider (choose one)
+export GROQ_API_KEY="your-groq-api-key"      # Free, fast (default)
 # OR
 export OPENAI_API_KEY="your-openai-api-key"
-export LLM_PROVIDER="openai"  # default is "groq"
-```
+export LLM_PROVIDER="openai"
 
-## Usage
-
-```bash
-# Match trials for a specific patient profile
+# Run a match
 python run_agent.py \
   --age 65 --sex male \
   --cancer-type "NSCLC" \
   --biomarker "KRAS G12C" \
   --ecog 1 \
-  --description "Failed carboplatin/pemetrexed and pembrolizumab, stable brain mets"
+  --description "Stage IV adenocarcinoma, failed carboplatin/pemetrexed and pembrolizumab"
+```
 
-# Using a JSON profile file
-python run_agent.py --profile patient.json
+## Usage Examples
 
-# With location preference (filters to trials in specific countries)
+```bash
+# From a JSON patient profile
+python run_agent.py --profile data/demo/patient_profiles/01_nsclc_kras_g12c_standard.json
+
+# With location filtering
 python run_agent.py \
   --biomarker "KRAS G12C" \
   --cancer-type "NSCLC" \
   --location "United States" \
   --description "65yo male with KRAS G12C NSCLC, ECOG 1"
 
-# Debugging mode (sequential LLM calls)
+# Debug mode (sequential LLM calls, verbose output)
 python run_agent.py --profile patient.json --no-parallel
 ```
 
-### Patient Profile Options
+### CLI Options
 
 | Option | Description |
 |--------|-------------|
-| `--profile` | Path to JSON file with patient profile |
+| `--profile` | Path to JSON patient profile |
 | `--age` | Patient age in years |
-| `--sex` | Patient sex: male or female |
+| `--sex` | `male` or `female` |
 | `--cancer-type` | Cancer type (e.g., "NSCLC", "colorectal cancer") |
-| `--biomarker` | Biomarker/mutation (can specify multiple times) |
-| `--description` | Free-text patient description (required) |
+| `--biomarker` | Biomarker/mutation (repeatable) |
+| `--description` | Free-text clinical history (**required**) |
 | `--ecog` | ECOG performance status (0-5) |
 | `--pd-l1` | PD-L1 expression level |
-| `--prior-therapy` | Prior therapy (can specify multiple times) |
-| `--brain-mets` | Brain metastases: none, stable, or active |
-| `--co-mutation` | Co-mutation (can specify multiple times) |
-| `--phase` | Preferred trial phases (can specify multiple) |
-| `--location` | Preferred trial locations/countries |
-| `--country` | Patient country for location matching |
+| `--prior-therapy` | Prior therapy (repeatable) |
+| `--brain-mets` | `none`, `stable`, or `active` |
+| `--co-mutation` | Co-mutation (repeatable) |
+| `--phase` | Preferred trial phases (repeatable) |
+| `--location` | Preferred countries (repeatable) |
 
 ## Output Files
 
-| File | Description |
-|------|-------------|
-| `patient_matches.md` | Human-readable match report with HIGH/MEDIUM/LOW rankings |
-| `patient_matches.json` | Machine-readable match results with confidence scores |
-| `trials.json` | Full structured trial data with eligibility criteria |
-| `trials.csv` | Flat view for spreadsheet analysis |
-| `landscape.md` | Summary of trial landscape (phase distribution, sponsors) |
-| `data/raw/*.json` | Raw API responses for auditability |
+| File | Purpose |
+|------|---------|
+| `patient_matches.md` | Human-readable ranked report |
+| `patient_matches.json` | Machine-readable results with confidence scores |
+| `trials.json` | Full trial data with raw eligibility text |
+| `trials.csv` | Spreadsheet-friendly flat export |
+| `landscape.md` | Trial landscape summary (phases, sponsors) |
+| `data/raw/*.json` | Raw API responses for audit |
 
-## Match Report Format
-
-Each matched trial includes:
-- **Match Likelihood**: HIGH, MEDIUM, LOW, or EXCLUDED
-- **Confidence Score**: 0-100% confidence in the assessment
-- **Supporting Factors**: Criteria the patient clearly meets
-- **Conflicts**: Criteria the patient may fail
-- **Uncertainties**: Criteria that need verification
+### Example Match Output
 
 ```markdown
-## 🟢 HIGH Likelihood (3 trials)
+## 🟢 HIGH Likelihood
 
-### NCT05067283
-**Phase 1 Study of MK-1084 in KRAS G12C Solid Tumors**
+### NCT06881784
+**RASolve 301: Phase 3 Study of RMC-6236 vs Docetaxel in RAS-Mutant NSCLC**
 
-- **Sponsor**: Merck Sharp & Dohme LLC
-- **Phase**: Phase 1
-- **Confidence**: 85%
+- **Sponsor**: Revolution Medicines, Inc.
+- **Phase**: Phase 3
+- **Confidence**: 95%
 
 ✓ Supporting Factors:
-- Patient has confirmed KRAS G12C mutation
-- ECOG 1 meets trial requirement of ECOG 0-1
-- Prior platinum-based chemotherapy is allowed
+- ECOG 1 meets requirement
+- Prior platinum + anti-PD-1 therapy (required for this trial)
+- Documented KRAS G12C mutation
 
-✗ Potential Conflicts:
-- None identified
+✗ Conflicts: None
 
-? Uncertainties:
-- Stable brain metastases may require verification
+? Uncertainties: None
 ```
 
-## Trial Schema
+## Validation
 
-```python
-Trial:
-  nct_id: str                      # e.g., "NCT04303780"
-  title: str                       # Official trial title
-  phase: str | None                # "Phase 1", "Phase 2", etc.
-  status: str                      # "Recruiting", "Not yet recruiting"
-  conditions: list[str]            # Target diseases/indications
-  interventions: list[str]         # Drugs/treatments being tested
-  sponsor: str                     # Lead sponsor organization
-  locations: list[str]             # Study site countries
-  eligibility:
-    raw_text: str                  # Full eligibility criteria text
-    minimum_age: str               # e.g., "18 Years"
-    maximum_age: str               # e.g., "75 Years"
-    sex: str                       # ALL, MALE, FEMALE
-  confidence_flags:
-    needs_review: bool             # Flag for uncertain data
-```
+The system was validated on 15 patient profiles spanning 12 tumor types:
 
-## Patient Profile Schema
+- **Standard cases**: KRAS G12C, EGFR, ALK, BRAF, HER2, BRCA1/2
+- **Edge cases**: ECOG 3 with comorbidities, rare sarcoma, active CNS disease
+- **Results**: ~1,349 unique trials evaluated, zero hallucinated NCT IDs
+- **Negative control**: Elderly CLL patient (ECOG 3, CHF, CKD) correctly matched 0/64 trials
 
-```python
-PatientProfile:
-  age: int | None                  # Patient age in years
-  sex: str | None                  # "male" or "female"
-  cancer_type: str | None          # e.g., "NSCLC"
-  biomarkers: list[str]            # e.g., ["KRAS G12C"]
-  description: str                 # Free-text clinical history (required)
-  ecog_status: int | None          # 0-5
-  pd_l1_status: str | None         # PD-L1 expression
-  prior_therapies: list[str]       # Prior treatment regimens
-  brain_mets_status: str | None    # "none", "stable", "active"
-  co_mutations: list[str]          # e.g., ["STK11", "KEAP1"]
-  phase_preference: list[str]      # Preferred trial phases
-  location_preference: list[str]   # Preferred locations/countries
-```
+See `data/demo/` for example patient profiles and results.
 
 ## Repository Structure
 
@@ -219,62 +173,59 @@ PatientProfile:
 clinical-trial-tool/
 ├── README.md
 ├── requirements.txt
-├── run_agent.py                    # CLI entry point
+├── run_agent.py                 # CLI entry point
 ├── src/
-│   ├── schemas.py                  # Pydantic models (Trial, PatientProfile, MatchResult)
-│   ├── extract_terms.py            # LLM-based search term extraction
-│   ├── seed_expansion.py           # Notation variant generation
-│   ├── discover_trials.py          # ClinicalTrials.gov search & retrieval
-│   ├── normalize_trials.py         # Schema normalization
-│   ├── validate_trials.py          # Data validation rules
-│   ├── match_patient.py            # Two-stage patient-trial matching
-│   └── export_results.py           # Output generation
+│   ├── schemas.py               # Pydantic models
+│   ├── extract_terms.py         # Search term extraction
+│   ├── seed_expansion.py        # Notation variant generation
+│   ├── discover_trials.py       # ClinicalTrials.gov API
+│   ├── normalize_trials.py      # Schema normalization
+│   ├── validate_trials.py       # Data validation
+│   ├── match_patient.py         # Two-stage matching
+│   └── export_results.py        # Output generation
 ├── data/
-│   ├── raw/                        # Raw API responses
-│   └── processed/                  # Intermediate data
-├── outputs/
-│   └── kras_g12c/                  # Example output directory
-│       ├── patient_matches.md
-│       ├── patient_matches.json
-│       ├── trials.json
-│       ├── trials.csv
-│       └── landscape.md
-├── docs/
-│   └── design_decisions.md         # Tradeoffs and rationale
-└── report/
-    └── presentation_outline.md
+│   ├── demo/                    # Example patient profiles & results
+│   └── raw/                     # Raw API responses
+├── outputs/                     # Generated match reports
+├── tests/                       # Unit tests
+└── docs/
+    ├── project_summary.md       # Project rationale and overview
+    └── design_decisions.md      # Technical tradeoffs
 ```
 
-## Key Features
+## Key Design Decisions
 
-- **Patient-centric**: Input is a patient profile, not just a molecular target
-- **Two-stage matching**: Fast deterministic filter + nuanced LLM scoring
-- **Recruiting-only**: Only returns trials currently enrolling patients
-- **Location filtering**: Filter trials by country/region
-- **Explained decisions**: Every match includes supporting factors, conflicts, and uncertainties
-- **Provenance tracking**: Search terms tracked by source (manual, LLM-extracted)
-- **Parallel scoring**: Concurrent LLM calls with rate limiting for throughput
-- **Auditable**: Raw data snapshots preserved
+| Decision | Rationale |
+|----------|-----------|
+| **Two-stage filtering** | Fast filter eliminates 30-45% of trials before expensive LLM scoring |
+| **ClinicalTrials.gov only** | Best structured eligibility text; EU registry deferred due to schema differences |
+| **Raw text preserved** | Eligibility criteria stored verbatim for auditability |
+| **Explicit uncertainties** | LLM surfaces what it doesn't know instead of guessing |
+
+For the full design rationale, see [docs/design_decisions.md](docs/design_decisions.md).
 
 ## Limitations
 
-- **ClinicalTrials.gov only**: No EU registry, company pipelines, etc.
-- **LLM confidence**: Eligibility assessment depends on LLM quality
-- **Eligibility criteria parsing**: Free-text criteria can be ambiguous
-- **No real-time verification**: Results should be verified with trial coordinators
-- **CLI only**: No web interface
-
-See [docs/design_decisions.md](docs/design_decisions.md) for detailed rationale on these tradeoffs.
+- **ClinicalTrials.gov only** — EU Clinical Trials Register not yet supported
+- **LLM-dependent** — Eligibility scoring quality depends on the underlying model
+- **Snapshot data** — Results reflect trials at query time; no update monitoring
+- **CLI only** — No web interface
+- **Advisory only** — Results should be verified with trial coordinators
 
 ## Environment Variables
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `GROQ_API_KEY` | (required) | Groq API key for LLM inference |
-| `OPENAI_API_KEY` | (optional) | OpenAI API key (if using OpenAI) |
-| `LLM_PROVIDER` | `groq` | LLM provider: "groq" or "openai" |
-| `LLM_MODEL` | `llama-3.3-70b-versatile` | LLM model to use |
+| `GROQ_API_KEY` | — | Groq API key (required if using Groq) |
+| `OPENAI_API_KEY` | — | OpenAI API key (required if using OpenAI) |
+| `LLM_PROVIDER` | `groq` | `"groq"` or `"openai"` |
+| `LLM_MODEL` | `llama-3.3-70b-versatile` | Model identifier |
+
+## Documentation
+
+- **[Project Summary](docs/project_summary.md)** — Goals, approach, validation, and lessons learned
+- **[Design Decisions](docs/design_decisions.md)** — Technical tradeoffs and rationale
 
 ## License
 
-MIT License - see LICENSE file for details.
+MIT License — see [LICENSE](LICENSE) for details.
